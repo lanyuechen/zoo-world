@@ -16,15 +16,27 @@ const SECTION_PREFIX: Record<string, string[]> = {
 
 function splitCells(line: string): string[] {
   const t = line.replace(/^\s+/, '').replace(/\s+$/, '')
+  if (!t) return []
   if (t.includes('\t')) return t.split(/\t+/).map((c) => c.trim()).filter(Boolean)
-  return t.split(/\s{2,}|\s+/).map((c) => c.trim()).filter(Boolean)
+  // 优先按 2+ 空格分列，避免把「♂♂ (5)」拆成两列
+  const wide = t.split(/\s{2,}/).map((c) => c.trim()).filter(Boolean)
+  if (wide.length >= 2) return wide.map(compactZhLabel)
+  return t.split(/\s+/).map((c) => c.trim()).filter(Boolean).map(compactZhLabel)
+}
+
+/** 「性  别」「全  长」等字间空格压回 */
+function compactZhLabel(s: string): string {
+  return s.replace(/(?<=[\u4e00-\u9fff])\s+(?=[\u4e00-\u9fff])/g, '')
 }
 
 function isMeasureHeader(cells: string[]): boolean {
   const joined = cells.join('')
   return (
-    cells.includes('性别') &&
-    (cells.includes('体重') || cells.includes('全长') || cells.includes('体长') || /嘴峰|翅|尾|跗/.test(joined))
+    (cells.includes('性别') || joined.includes('性别')) &&
+    (cells.includes('体重') ||
+      cells.includes('全长') ||
+      cells.includes('体长') ||
+      /嘴峰|翅|尾|跗/.test(joined))
   )
 }
 
@@ -51,7 +63,7 @@ export function convertMeasureTables(text: string): string {
   let i = 0
   while (i < lines.length) {
     const line = lines[i]
-    const labelMatch = line.match(/^(量衡度|量度)[：:．.\s]*(.*)$/)
+    const labelMatch = line.match(/^(量衡度|量度)\s*[：:；;．.]?\s*(.*)$/)
     if (!labelMatch) {
       out.push(line)
       i += 1
@@ -59,24 +71,37 @@ export function convertMeasureTables(text: string): string {
     }
 
     const label = labelMatch[1]
-    const rest = labelMatch[2].trim()
+    let rest = labelMatch[2].trim()
     const startIdx = i
-    i += 1
-    while (i < lines.length && !lines[i].trim()) i += 1
 
-    let headerCells = i < lines.length ? splitCells(lines[i]) : []
-    if (headerCells.length === 1 && headerCells[0] === '性别' && i + 1 < lines.length) {
+    // 表头跟在同一行：量衡度：性别 … / 量衡度：性  别 …
+    let headerCells: string[] = []
+    if (rest) {
+      headerCells = splitCells(rest)
+      if (isMeasureHeader(headerCells)) {
+        rest = ''
+        i += 1
+      } else {
+        // 脚注等挤在同行且无标准表头：保留加粗 + 原文
+        out.push(`**${label}**${rest ? ` ${rest}` : ''}`)
+        i += 1
+        continue
+      }
+    } else {
       i += 1
-      headerCells = ['性别', ...splitCells(lines[i])]
+      while (i < lines.length && !lines[i].trim()) i += 1
+      headerCells = i < lines.length ? splitCells(lines[i]) : []
+      if (headerCells.length === 1 && headerCells[0] === '性别' && i + 1 < lines.length) {
+        i += 1
+        headerCells = ['性别', ...splitCells(lines[i])]
+      }
+      if (!isMeasureHeader(headerCells)) {
+        out.push(`**${label}**`)
+        i = startIdx + 1
+        continue
+      }
+      i += 1
     }
-
-    if (!isMeasureHeader(headerCells)) {
-      out.push(line)
-      i = startIdx + 1
-      continue
-    }
-
-    i += 1
     const rows: string[][] = []
     while (i < lines.length) {
       const raw = lines[i]

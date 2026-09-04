@@ -33,25 +33,25 @@ slug: "Aerodramus_fuciphagus"
 
 ## 形态描述
 
-形态    (依据 de Schauensee，1984)
-成鸟    与短嘴金丝燕十分相似，但在野外极易区别。大金丝燕的尾很少分叉，几乎平尾；翼较宽；跗蹠具稠密的羽毛，而短嘴金丝燕则为稀疏的羽毛。
-量衡度(mm，g)
-   性别       体重       全长       嘴峰       翅       尾       跗蹠
-                        140                     122—136
+(依据 de Schauensee，1984)成鸟    与短嘴金丝燕十分相似，但在野外极易区别。大金丝燕的尾很少分叉，几乎平尾；翼较宽；跗蹠具稠密的羽毛，而短嘴金丝燕则为稀疏的羽毛。
+
+**量衡度** (mm，g)
+
+140                     122—136
 
 ## 鉴别特征
 
-鉴别特征    尾很少分叉，几乎平尾；跗蹠具稠密的羽毛。
+尾很少分叉，几乎平尾；跗蹠具稠密的羽毛。
 
 ## 大小
 
-量衡度(mm，g)
-   性别       体重       全长       嘴峰       翅       尾       跗蹠
-                            140               122—136
+**量衡度** (mm，g)
+
+140               122—136
 
 ## 生境信息
 
-生态    在西藏，曾在2150 m和3000 m的山坡上获得记录。在国外分布区南部，它们则栖息于海岸岛屿上。
+在西藏，曾在2150 m和3000 m的山坡上获得记录。在国外分布区南部，它们则栖息于海岸岛屿上。
 
 ## 国外分布
 
@@ -63,19 +63,15 @@ slug: "Aerodramus_fuciphagus"
 
 ## 经济意义
 
-经济意义    此种鸟在国内太稀少，无什么经济价值，但具有较大的学术意义。
+此种鸟在国内太稀少，无什么经济价值，但具有较大的学术意义。
 
 ## 分类讨论
 
-亚种分化    本种没有亚种分化。
-分类讨论    此种曾叫 Collocalia lowi robinsoni；Aerodramus 属是最近从 Collocalia 属分离出来的。
+亚种分化    本种没有亚种分化。分类讨论    此种曾叫 Collocalia lowi robinsoni；Aerodramus 属是最近从 Collocalia 属分离出来的。
 
 ## 引证信息
 
-Collacalia maxima Hartert，1892，Cat．Bds．Brit．Mus．，16：503．
-Collacaslia lowi robinsoni Siresemann，1931，Bull．Raffles Mus．，6：83，98；Pe-
-ters，1940，222．
-    Aerodramus maximus de Schauensee，1984，277．
+Collacalia maxima Hartert，1892，Cat．Bds．Brit．Mus．，16：503．Collacaslia lowi robinsoni Siresemann，1931，Bull．Raffles Mus．，6：83，98；Pe-ters，1940，222．Aerodramus maximus de Schauensee，1984，277．
 
 ## 参考文献
 

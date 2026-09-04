@@ -169,20 +169,6 @@ export default function SpeciesPage() {
         )}
       </header>
 
-      <section className="lineage">
-        <h2>分类位置</h2>
-        <ol>
-          {lineage.map((t) => (
-            <li key={t.latin}>
-              <span className="lin-rank">{t.rank}</span>
-              <Link to={`/browse/${t.path.map(encodeURIComponent).join('/')}`}>
-                {t.chinese || t.latin} <em>{t.latin}</em>
-              </Link>
-            </li>
-          ))}
-        </ol>
-      </section>
-
       <section className="intro-block">
         <h2>介绍</h2>
         {intro === undefined ? (

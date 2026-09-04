@@ -1,0 +1,63 @@
+---
+scientificName: "Euconocephalus nasutus"
+chineseName: "鼻优草螽"
+synonyms: []
+kingdom:
+  latin: "Animalia"
+  chinese: "动物界"
+phylum:
+  latin: "Arthropoda"
+  chinese: "节肢动物门"
+class:
+  latin: "Insecta"
+  chinese: "昆虫纲"
+order:
+  latin: "Orthoptera"
+  chinese: "直翅目"
+family:
+  latin: "Tettigoniidae"
+  chinese: "螽斯科"
+genus:
+  latin: "Euconocephalus"
+  chinese: "优草螽属"
+distribution: []
+status: null
+sanyou: false
+tags: []
+redListCategory: null
+redList: null
+reviewedBy: "刘宪伟"
+slug: "Euconocephalus_nasutus"
+---
+
+<!-- fauna-sinica:start -->
+# 鼻优草螽
+
+**Euconocephalus nasutus**
+
+## 形态描述
+
+背鳍条Ⅰ-6；臀鳍条ii-28；胸鳍条Ⅰ-12；腹鳍条i-5。体长为体高的4．7倍，为头长的5．2倍，为尾柄长的7．7倍。头长为吻长的3．5倍，为眼径的7．8倍，为眼间距的1．8倍，为头高的1．4倍，为头宽的1．5倍，为口裂宽的2．4倍，为颌须长的1．9倍，为颏须长的4．7倍。尾柄长为尾柄高的2．1倍。体延长，稍侧扁，背鳍起点以后背部较平直，起点以前背部向吻端下斜。
+
+腹部圆。头小，吻部较平扁。眼侧下位，位于口角水平线，眼缘游离。眼间隔宽阔。鼻孔2对，前对位于吻端，后对位于口角前上方，二者相隔一段距离。口下位，横裂。须2对，颌须位于口角上侧，略小于头长的1／2，后伸超过眼后缘；颏须小。上颌齿带连续，呈弧形；下颌齿带不连续，有中缝；犁骨齿带整块，呈横向长方形；腭骨齿带靠近犁骨齿带两侧，但不相连。
+
+鳃盖膜不与鳃峡相连。背鳍短，硬刺后缘具弱锯齿；背鳍起点位于胸鳍末端垂直上方。脂鳍短小，略前于臀鳍基后端的垂直上方。臀鳍外缘浅凹，起点距尾鳍基约等于距胸鳍起点。胸鳍刺后缘有强锯齿。腹鳍起点略后于背鳍基后端的垂直下方。尾鳍深分叉，上、下叶等长，末端尖。体被光滑皮肤。侧线完全而明显，具向上和向下的小分枝。背部褐色，腹部银白色；除腹鳍、臀鳍色浅外，其余各鳍均为褐色。
+
+## 生物学
+
+为中型肉食性鱼类，栖息较大的主河道。
+
+## 国内分布
+
+澜沧江下游水系
+
+## 其它信息
+
+测量标本   1尾；体长688 mm；采自云南省勐腊县勐仑。
+
+## 参考文献
+
+- 褚新洛、郑葆珊、戴定远等, 1999. 中国动物志 硬骨鱼纲  鲇形目. 北京: 科学出版社. pp230
+
+> 来源：中国动物志数据库（《中国动物志》）。中国动物主题数据库：http://www.zoology.csdb.cn/taxon/{C69C54F5-7D82-4386-9CB3-0346F8708CAD}
+<!-- fauna-sinica:end -->

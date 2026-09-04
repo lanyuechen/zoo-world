@@ -1,0 +1,71 @@
+---
+scientificName: "Entomobrya polychaeta"
+chineseName: ""
+synonyms: []
+kingdom:
+  latin: "Animalia"
+  chinese: "动物界"
+phylum:
+  latin: "Arthropoda"
+  chinese: "节肢动物门"
+class:
+  latin: "Collembola"
+  chinese: "弹尾纲"
+order:
+  latin: "Entomobryomorpha"
+  chinese: "长角䖴目"
+family:
+  latin: "Entomobryidae"
+  chinese: "长角䖴科"
+genus:
+  latin: "Entomobrya"
+  chinese: "长角䖴属"
+distribution: []
+status: null
+sanyou: false
+tags: []
+redListCategory: null
+redList: null
+reviewedBy: "Maolin Ye,Chengwang Huang,Daoyuan Yu,Xin Sun,Nerivania Nunes Godeiro,Jigang Jiang,Zhaohui Li,Yunxia Luan,Donghui Wu,Feng Zhang"
+slug: "Entomobrya_polychaeta"
+---
+
+<!-- fauna-sinica:start -->
+# Entomobrya polychaeta
+
+**Entomobrya polychaeta**
+
+## 形态描述
+
+有翅性母蚜 ：体椭圆形，长2．20，宽1．33 mm。玻片标本头、胸部黑色，腹部淡色，有斑纹，腹部背片Ⅰ—Ⅷ中侧斑呈横带，Ⅰ、Ⅱ、Ⅶ及Ⅷ者宽而明显，触角、喙、足、腹管、尾片、尾板、生殖突和生殖板黑色。体表光滑，中胸两盾片有大小三角形黑斑纹。蜡片由深色环状圆蜡胞，头顶1对小圆蜡片，头部腹面有1对大圆蜡片；背片Ⅰ—Ⅶ各有小圆形蜡片1对，各缘域有1对大圆蜡片。
+
+气门圆形开放，气门片淡色。体背毛尖锐，腹面毛长于背毛，头部有背毛56根；腹部背片Ⅰ—Ⅴ各约有毛120，140，100，110，80根，Ⅵ腹管间有毛16根，围绕腹管各有毛18—20根，Ⅶ背中长毛1对，缘毛3对，Ⅷ有长毛1对。头顶毛长0．084mm，为触角节Ⅲ直径最宽的1．40倍，背片Ⅰ缘毛长0．063mm，Ⅰ—Ⅵ背长毛0．076，短毛0．025mm，Ⅷ毛长0．143mm，额平圆，有粗黑头盖缝。
+
+触角粗光滑，节Ⅵ有小刺突组成横纹，全长0．85mm，为体长的0．38，节Ⅲ长0．27mm，Ⅰ—Ⅵ长度比例：18，22，100，38，103，20+11，触角有细尖锐毛，Ⅰ—Ⅵ毛数：2，6—8，14—16，6或7，27—29，4+4根，节Ⅲ毛长为该节直径的0．56；触角节Ⅲ—Ⅴ开环状次生感觉圈数：16—18，4或5，18—20个。
+
+喙短，不达中足基节，节Ⅳ+Ⅴ长楔状，长0．143mm，为基宽的1．90倍，为后跗节Ⅱ的0．92，有毛10对，其中次生刚毛7对。足有皱褶纹，跗节有小刺突组成横纹，后股节长0．60mm，为触角节Ⅲ的2．20倍；后胫节长0．92mm，为体长的0．42，毛长为该节最宽直径的1．10倍；跗节Ⅰ毛序：3，2，2。翅脉正常。腹管截断状，有明显缘突，端径0．052mm，为基宽的0．69。
+
+尾片短宽舌形，端部平圆形，长0．055mm，为基宽的0．46，有长毛1对。尾板半球形，有粗长毛10根。生殖突末端平圆，有粗长毛19根；生殖板有小刺突组成瓦纹，有长毛42根。
+
+## 生物学
+
+寄主 ：第一寄主为榆 Ulmus pumlla，在巴基斯坦为 Ulmus villosa；第二寄主未明。
+
+## 国外分布
+
+巴基斯坦，朝鲜
+
+## 国内分布
+
+北京(三堡600m，1977-Ⅹ-14，No．6632，钟铁森)
+
+## 其它信息
+
+本种腹部背片Ⅶ中毛2根，缺侧毛，缘毛10根，Ⅷ有毛2根；尾片毛2根。喙节Ⅳ+Ⅴ次生毛14根以及背片Ⅰ—Ⅴ与触角各节毛数均与Hille Ris Lambers (1970) 的原始记述大致相符。
+
+## 参考文献
+
+- 张广学 等.1999.中国动物志 昆虫纲  第十四卷  同  翅  目    纩蚜科  瘿绵蚜科.北京:科学出版社.380
+
+> 来源：中国动物志数据库（《中国动物志》）。中国动物主题数据库：http://www.zoology.csdb.cn/taxon/{2AF1C06A-9B62-405A-AFB4-2B1A61565AC9}
+<!-- fauna-sinica:end -->
