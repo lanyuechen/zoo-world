@@ -17,7 +17,7 @@ import { applySanyouTags, loadSanyouLookup } from './apply-sanyou'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.resolve(__dirname, '..')
 const RAW_DIR = path.join(ROOT, 'data', 'raw')
-const CONTENT_SPECIES = path.join(ROOT, 'content', 'species')
+const CONTENT_SPECIES = path.join(ROOT, 'public', 'species')
 const PUBLIC_DATA = path.join(ROOT, 'public', 'data')
 const SPECIES_DIR = path.join(PUBLIC_DATA, 'species')
 
@@ -254,7 +254,7 @@ function writeRuntimeIndexes(
 }
 
 function main() {
-  const writeMd = !process.argv.includes('--no-md')
+  const writeMdStubs = process.argv.includes('--write-md-stubs')
   const files = fs
     .readdirSync(RAW_DIR)
     .filter((f) => f.endsWith('.xlsx') && !f.startsWith('~$'))
@@ -266,8 +266,8 @@ function main() {
   }
 
   console.log(`读取 ${files.length} 个 Excel…`)
-  if (writeMd) {
-    fs.rmSync(CONTENT_SPECIES, { recursive: true, force: true })
+  if (writeMdStubs) {
+    console.warn('警告：--write-md-stubs 会写入空壳 Markdown，一般不需要')
     ensureDir(CONTENT_SPECIES)
   }
 
@@ -356,12 +356,12 @@ function main() {
         n.speciesCount += 1
       }
 
-      if (writeMd) {
-        const abs = path.join(ROOT, 'content', mdPath)
+      if (writeMdStubs) {
+        const abs = path.join(ROOT, 'public', mdPath)
         ensureDir(path.dirname(abs))
         fs.writeFileSync(abs, toMarkdown(record), 'utf8')
         mdWritten += 1
-        if (mdWritten % 5000 === 0) console.log(`    已写 Markdown ${mdWritten}…`)
+        if (mdWritten % 5000 === 0) console.log(`    已写 Markdown 空壳 ${mdWritten}…`)
       }
     }
   }
@@ -490,7 +490,7 @@ function main() {
       '植物保护等级依据《国家重点保护野生植物名录》（2021）匹配写入',
       '动物「三有」标签依据《有重要生态、科学、社会价值的陆生野生动物名录》（2023）匹配',
       '动植物红色名录等级依据《中国生物多样性红色名录》（2020）匹配写入',
-      '科普介绍与图片后续在 Markdown 中补充，再运行 npm run sync:content',
+      '科普介绍写在 public/species/**/*.md，物种页按需加载（勿再 merge:intro）',
     ],
   })
 
@@ -502,7 +502,7 @@ function main() {
   console.log(`  三有名录（已匹配）: ${sanyouCount}`)
   console.log(`  红色名录动物（已匹配）: ${animalRed}`)
   console.log(`  红色名录植物（已匹配）: ${plantRed}`)
-  console.log(`  Markdown: ${writeMd ? mdWritten : '跳过 (--no-md)'}`)
+  console.log(`  Markdown 空壳: ${writeMdStubs ? mdWritten : '跳过（默认不写；需 --write-md-stubs）'}`)
   console.log(`  索引目录: ${PUBLIC_DATA}`)
 }
 

@@ -3,15 +3,18 @@ import { Link, useParams } from 'react-router-dom'
 import SpeciesDistributionMap from '../components/SpeciesDistributionMap'
 import IntroMarkdown from '../components/IntroMarkdown'
 import { findSpeciesBySlug } from '../lib/catalogue'
+import { fetchSpeciesIntro } from '../lib/intro-md'
 import type { SpeciesRecord } from '../types/species'
 
 export default function SpeciesPage() {
   const { slug = '' } = useParams()
   const [species, setSpecies] = useState<SpeciesRecord | null | undefined>(undefined)
+  const [intro, setIntro] = useState<string | null | undefined>(undefined)
 
   useEffect(() => {
     let cancelled = false
     setSpecies(undefined)
+    setIntro(undefined)
     findSpeciesBySlug(decodeURIComponent(slug)).then((s) => {
       if (!cancelled) setSpecies(s ?? null)
     })
@@ -19,6 +22,21 @@ export default function SpeciesPage() {
       cancelled = true
     }
   }, [slug])
+
+  useEffect(() => {
+    if (!species) {
+      setIntro(undefined)
+      return
+    }
+    let cancelled = false
+    setIntro(undefined)
+    fetchSpeciesIntro(species).then((text) => {
+      if (!cancelled) setIntro(text)
+    })
+    return () => {
+      cancelled = true
+    }
+  }, [species])
 
   if (species === undefined) {
     return <p className="loading">载入物种…</p>
@@ -112,20 +130,6 @@ export default function SpeciesPage() {
       : null,
   ].filter(Boolean) as { key: string; label: string; className: string }[]
 
-  const mdDisplayPath = (() => {
-    const seg = (s: string) => s.replace(/[\\/:*?"<>|]/g, '_').replace(/\s+/g, '_')
-    // 与磁盘一致：content/species/{门}/{纲}/{目}/{科}/{属}/{slug}.md
-    return [
-      'content/species',
-      seg(species.phylum.latin),
-      seg(species.class.latin),
-      seg(species.order.latin),
-      seg(species.family.latin),
-      seg(species.genus.latin),
-      `${species.slug}.md`,
-    ].join('/')
-  })()
-
   return (
     <div className="page species-page">
       <header className="species-head">
@@ -148,20 +152,6 @@ export default function SpeciesPage() {
         )}
       </header>
 
-      <dl className="meta-grid">
-        <div>
-          <dt>Markdown</dt>
-          <dd>
-            <code>{mdDisplayPath}</code>
-          </dd>
-        </div>
-      </dl>
-
-      <SpeciesDistributionMap
-        scientificName={species.scientificName}
-        knownProvinces={species.distribution}
-      />
-
       <section className="lineage">
         <h2>分类位置</h2>
         <ol>
@@ -178,14 +168,19 @@ export default function SpeciesPage() {
 
       <section className="intro-block">
         <h2>介绍</h2>
-        {species.intro ? (
-          <IntroMarkdown source={species.intro} />
+        {intro === undefined ? (
+          <p className="loading">载入介绍…</p>
+        ) : intro ? (
+          <IntroMarkdown source={intro} />
         ) : (
-          <p className="empty">
-            科普文本待补充。编辑对应 Markdown 正文后运行 npm run merge:intro。
-          </p>
+          <p className="empty">科普文本待补充。</p>
         )}
       </section>
+
+      <SpeciesDistributionMap
+        scientificName={species.scientificName}
+        knownProvinces={species.distribution}
+      />
 
       <section className="media-block">
         <h2>影像</h2>

@@ -12,7 +12,7 @@ import { normalizeFaunaMarkdownFile } from './lib/normalize-fauna-md'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.resolve(__dirname, '..')
-const CONTENT_DIR = path.join(ROOT, 'content', 'species')
+const CONTENT_DIR = path.join(ROOT, 'public', 'species')
 
 const args = process.argv.slice(2)
 const ONLY = args.find((a) => a.startsWith('--name='))?.slice('--name='.length)
@@ -60,7 +60,6 @@ function main() {
     }
   }
   console.log(`完成：更新 ${n} / ${files.length}`)
-  console.log('请运行：npm run merge:intro')
 }
 
 main()

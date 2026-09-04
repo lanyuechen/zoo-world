@@ -27,13 +27,14 @@ jobs:
 
       - run: npm ci
 
-      # 运行时索引已入库（含 merge:intro 后的介绍），勿再 import 覆盖
+      # 运行时索引 + 有介绍的 Markdown 已入库，勿再 import 覆盖
       - name: Check public data
         run: |
           test -f public/data/meta.json
           test -f public/data/taxonomy.json
           test -d public/data/species
           test "$(find public/data/species -name '*.json' | wc -l)" -gt 0
+          test -d public/species
 
       - run: npm run build
         env:

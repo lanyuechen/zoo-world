@@ -43,11 +43,14 @@ export interface SpeciesRecord {
   redList: string | null
   /** 审核专家 / 数据源 */
   reviewedBy: string
-  /** 相对 content/ 的 Markdown 路径 */
+  /** 相对 public/ 的 Markdown 路径（有介绍时才存在对应文件） */
   mdPath: string
   /** 路由用 slug */
   slug: string
-  /** 科普正文，后续补充 */
+  /**
+   * 历史字段：介绍已改为按需加载 public/species 下 Markdown，分片中保持空串。
+   * @deprecated
+   */
   intro: string
 }
 

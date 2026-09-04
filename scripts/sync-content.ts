@@ -1,5 +1,6 @@
 /**
- * 从 content/species 下全部 Markdown 重建 public/data 分片索引
+ * 从 public/species 下 Markdown 重建 public/data 分片索引。
+ * 注意：仅有介绍的物种才有 md；全量名录请用 import:excel（--no-md / 默认不写空壳）。
  */
 import fs from 'node:fs'
 import path from 'node:path'
@@ -11,7 +12,7 @@ import { applySanyouTags, loadSanyouLookup } from './apply-sanyou'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.resolve(__dirname, '..')
-const CONTENT_DIR = path.join(ROOT, 'content', 'species')
+const CONTENT_DIR = path.join(ROOT, 'public', 'species')
 const PUBLIC_DATA = path.join(ROOT, 'public', 'data')
 const SPECIES_DIR = path.join(PUBLIC_DATA, 'species')
 
@@ -82,7 +83,7 @@ function parseMarkdown(filePath: string): SpeciesRecord | null {
   const end = text.indexOf('\n---', 3)
   if (end < 0) return null
   const fm = text.slice(4, end)
-  const body = text.slice(end + 4).trim()
+  void text.slice(end + 4) // body 由前端按需加载，不写入分片
 
   const lines = fm.split('\n')
   const data: Record<string, unknown> = {}
@@ -142,12 +143,7 @@ function parseMarkdown(filePath: string): SpeciesRecord | null {
   const scientificName = String(data.scientificName || '')
   if (!scientificName) return null
 
-  const rel = path.relative(path.join(ROOT, 'content'), filePath).split(path.sep).join('/')
-  const intro = body
-    .replace(/^# [^#\n].*$/m, '')
-    .replace(/^\*\*[^*]+\*\*\s*$/m, '')
-    .replace(/^>\s*科普介绍待补充。\s*$/m, '')
-    .trim()
+  const rel = path.relative(path.join(ROOT, 'public'), filePath).split(path.sep).join('/')
 
   return {
     scientificName,
@@ -176,7 +172,7 @@ function parseMarkdown(filePath: string): SpeciesRecord | null {
     reviewedBy: String(data.reviewedBy || ''),
     mdPath: rel,
     slug: String(data.slug || scientificName.replace(/\s+/g, '_')),
-    intro,
+    intro: '',
   }
 }
 
@@ -383,7 +379,7 @@ function main() {
     },
     notes: [
       '主干分类索引唯一来源：《中国生物物种名录》',
-      '收录动物界、植物界、真菌界；由 content/species Markdown 同步生成运行时索引',
+      '收录动物界、植物界、真菌界；介绍 Markdown 在 public/species（有正文才入库）',
       '动物保护等级依据《国家重点保护野生动物名录》（2021）匹配写入',
       '植物保护等级依据《国家重点保护野生植物名录》（2021）匹配写入',
       '动物「三有」标签依据《有重要生态、科学、社会价值的陆生野生动物名录》（2023）匹配',

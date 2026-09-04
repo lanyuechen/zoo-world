@@ -42,7 +42,7 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,svg,ico,woff2}'],
         globIgnores: ['**/data/**'],
         navigateFallback: 'index.html',
-        navigateFallbackDenylist: [/^\/api\//, /\/data\//],
+        navigateFallbackDenylist: [/^\/api\//, /\/data\//, /\/species\//],
         runtimeCaching: [
           {
             urlPattern: ({ url }) =>
@@ -52,6 +52,21 @@ export default defineConfig({
               cacheName: 'catalogue-data',
               expiration: {
                 maxEntries: 80,
+                maxAgeSeconds: 60 * 60 * 24 * 30,
+              },
+              cacheableResponse: {
+                statuses: [0, 200],
+              },
+            },
+          },
+          {
+            urlPattern: ({ url }) =>
+              url.pathname.includes('/species/') && url.pathname.endsWith('.md'),
+            handler: 'StaleWhileRevalidate',
+            options: {
+              cacheName: 'species-intro-md',
+              expiration: {
+                maxEntries: 200,
                 maxAgeSeconds: 60 * 60 * 24 * 30,
               },
               cacheableResponse: {

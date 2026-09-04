@@ -1,8 +1,8 @@
 /**
- * 从中国动物主题数据库《中国动物志》抓取描述，写入动物界 Markdown 正文。
+ * 从中国动物主题数据库《中国动物志》抓取描述，写入 public/species Markdown。
  *
  * 无需 API Key（走站点公开检索 / 描述接口）。
- * 主分类仍以 Species 2000 为准；本脚本只补充 intro。
+ * 主分类仍以 Species 2000 为准；本脚本只补充介绍正文（按需加载，无需 merge）。
  *
  * 用法：
  *   npm run enrich:fauna -- --limit=20
@@ -16,10 +16,12 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { normalizeFaunaInner } from './lib/normalize-fauna-md'
+import { speciesMdRelPath } from './lib/species-md-path'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.resolve(__dirname, '..')
-const CONTENT_DIR = path.join(ROOT, 'content', 'species')
+const PUBLIC_ROOT = path.join(ROOT, 'public')
+const SPECIES_DATA = path.join(PUBLIC_ROOT, 'data', 'species')
 const STATE_DIR = path.join(ROOT, 'data', 'fauna')
 const BASE = 'http://www.zoology.csdb.cn'
 const FAUNA_SOURCE_LABEL = '中国动物志数据库'
@@ -248,27 +250,88 @@ function upsertBody(existingBody: string, faunaBlock: string, force: boolean): s
   return `${existingBody.trimEnd()}\n\n${faunaBlock}`
 }
 
-function walkAnimalMarkdown(dir: string): string[] {
-  const out: string[] = []
-  if (!fs.existsSync(dir)) return out
-  const walk = (d: string) => {
-    for (const name of fs.readdirSync(d)) {
-      const p = path.join(d, name)
-      const st = fs.statSync(p)
-      if (st.isDirectory()) walk(p)
-      else if (name.endsWith('.md')) out.push(p)
+interface AnimalTarget {
+  scientificName: string
+  chineseName: string
+  phylum: string
+  file: string
+  record: {
+    scientificName: string
+    chineseName: string
+    synonyms: string[]
+    kingdom: { latin: string; chinese: string }
+    phylum: { latin: string; chinese: string }
+    class: { latin: string; chinese: string }
+    order: { latin: string; chinese: string }
+    family: { latin: string; chinese: string }
+    genus: { latin: string; chinese: string }
+    distribution: string[]
+    status: string | null
+    sanyou: boolean | null
+    tags: string[]
+    redListCategory: string | null
+    redList: string | null
+    reviewedBy: string
+    slug: string
+  }
+}
+
+function loadAnimalTargets(): AnimalTarget[] {
+  const out: AnimalTarget[] = []
+  if (!fs.existsSync(SPECIES_DATA)) return out
+  for (const name of fs.readdirSync(SPECIES_DATA).filter((x) => x.endsWith('.json'))) {
+    const list = JSON.parse(fs.readFileSync(path.join(SPECIES_DATA, name), 'utf8')) as AnimalTarget['record'][]
+    for (const s of list) {
+      if (s.kingdom?.latin !== 'Animalia') continue
+      if (!s.scientificName || !s.slug) continue
+      const rel = speciesMdRelPath(s)
+      out.push({
+        scientificName: s.scientificName,
+        chineseName: s.chineseName || '',
+        phylum: s.phylum.latin,
+        file: path.join(PUBLIC_ROOT, rel),
+        record: s,
+      })
     }
   }
-  walk(dir)
   return out
 }
 
-function readScientificName(fm: string): { scientificName: string; chineseName: string; kingdom: string; phylum: string } {
-  const scientificName = fm.match(/scientificName:\s*"([^"]+)"/)?.[1] || ''
-  const chineseName = fm.match(/chineseName:\s*"([^"]*)"/)?.[1] || ''
-  const kingdom = fm.match(/kingdom:[\s\S]*?latin:\s*"([^"]+)"/)?.[1] || ''
-  const phylum = fm.match(/phylum:[\s\S]*?latin:\s*"([^"]+)"/)?.[1] || ''
-  return { scientificName, chineseName, kingdom, phylum }
+function frontmatterOnly(s: AnimalTarget['record']): string {
+  const yamlList = (arr: string[]) =>
+    arr.length === 0 ? '[]' : `\n${arr.map((x) => `  - ${JSON.stringify(x)}`).join('\n')}`
+  return `---
+scientificName: ${JSON.stringify(s.scientificName)}
+chineseName: ${JSON.stringify(s.chineseName)}
+synonyms: ${yamlList(s.synonyms || [])}
+kingdom:
+  latin: ${JSON.stringify(s.kingdom.latin)}
+  chinese: ${JSON.stringify(s.kingdom.chinese)}
+phylum:
+  latin: ${JSON.stringify(s.phylum.latin)}
+  chinese: ${JSON.stringify(s.phylum.chinese)}
+class:
+  latin: ${JSON.stringify(s.class.latin)}
+  chinese: ${JSON.stringify(s.class.chinese)}
+order:
+  latin: ${JSON.stringify(s.order.latin)}
+  chinese: ${JSON.stringify(s.order.chinese)}
+family:
+  latin: ${JSON.stringify(s.family.latin)}
+  chinese: ${JSON.stringify(s.family.chinese)}
+genus:
+  latin: ${JSON.stringify(s.genus.latin)}
+  chinese: ${JSON.stringify(s.genus.chinese)}
+distribution: ${yamlList(s.distribution || [])}
+status: ${s.status == null ? 'null' : JSON.stringify(s.status)}
+sanyou: ${s.sanyou == null ? 'null' : s.sanyou}
+tags: ${yamlList(s.tags || [])}
+redListCategory: ${s.redListCategory == null ? 'null' : JSON.stringify(s.redListCategory)}
+redList: ${s.redList == null ? 'null' : JSON.stringify(s.redList)}
+reviewedBy: ${JSON.stringify(s.reviewedBy || '')}
+slug: ${JSON.stringify(s.slug)}
+---
+`
 }
 
 function loadProgress(): Progress {
@@ -317,45 +380,48 @@ function saveProgress(p: Progress) {
   fs.writeFileSync(STATE_PATH, JSON.stringify(out, null, 2))
 }
 
+function readExistingParts(file: string, record: AnimalTarget['record']): { fm: string; body: string } {
+  if (fs.existsSync(file)) {
+    const parts = splitFrontmatter(fs.readFileSync(file, 'utf8'))
+    if (parts) return parts
+  }
+  return { fm: frontmatterOnly(record), body: '\n' }
+}
+
 async function processOne(
-  file: string,
+  target: AnimalTarget,
   indexLabel: string,
   progress: Progress,
 ): Promise<'ok' | 'miss' | 'skip' | 'err'> {
-  const raw = fs.readFileSync(file, 'utf8')
-  const parts = splitFrontmatter(raw)
-  if (!parts) return 'skip'
-  const meta = readScientificName(parts.fm)
-  const label = `${indexLabel} ${meta.scientificName}`
+  const label = `${indexLabel} ${target.scientificName}`
+  const parts = readExistingParts(target.file, target.record)
 
   try {
-    // 并发下再检查一次，避免他分片刚写完
     if (!FORCE && parts.body.includes(MARK_START)) {
       console.log(`· skip ${label}`)
       return 'skip'
     }
-    const taxonId = await findFaunaTaxonId(meta.scientificName)
+    const taxonId = await findFaunaTaxonId(target.scientificName)
     await sleep(DELAY_MS)
     if (!taxonId) {
-      progress.missed[meta.scientificName] = 'not_in_fauna'
+      progress.missed[target.scientificName] = 'not_in_fauna'
       console.log(`· miss ${label}`)
       return 'miss'
     }
     const sections = await fetchFaunaDescriptions(taxonId)
     await sleep(DELAY_MS)
     if (!sections.length) {
-      progress.missed[meta.scientificName] = `no_sections:${taxonId}`
+      progress.missed[target.scientificName] = `no_sections:${taxonId}`
       console.log(`· miss(no desc) ${label}`)
       return 'miss'
     }
     const block = buildFaunaMarkdown(
-      meta.chineseName,
-      meta.scientificName,
+      target.chineseName,
+      target.scientificName,
       taxonId,
       sections,
     )
-    const fresh = splitFrontmatter(fs.readFileSync(file, 'utf8'))
-    if (!fresh) return 'skip'
+    const fresh = readExistingParts(target.file, target.record)
     if (!FORCE && fresh.body.includes(MARK_START)) {
       console.log(`· skip ${label}`)
       return 'skip'
@@ -365,43 +431,44 @@ async function processOne(
       console.log(`· skip ${label}`)
       return 'skip'
     }
-    fs.writeFileSync(file, `${fresh.fm}${nextBody.startsWith('\n') ? nextBody : `\n${nextBody}`}`)
-    progress.done[meta.scientificName] = {
+    fs.mkdirSync(path.dirname(target.file), { recursive: true })
+    fs.writeFileSync(
+      target.file,
+      `${fresh.fm}${nextBody.startsWith('\n') ? nextBody : `\n${nextBody}`}`,
+    )
+    progress.done[target.scientificName] = {
       taxonId,
       at: new Date().toISOString(),
       sections: sections.length,
     }
-    delete progress.missed[meta.scientificName]
-    delete progress.errors[meta.scientificName]
+    delete progress.missed[target.scientificName]
+    delete progress.errors[target.scientificName]
     console.log(`✓ ${label} → ${sections.length} 节`)
     return 'ok'
   } catch (e) {
-    progress.errors[meta.scientificName] = e instanceof Error ? e.message : String(e)
+    progress.errors[target.scientificName] = e instanceof Error ? e.message : String(e)
     console.warn(`✗ ${label}`, e)
     return 'err'
   }
 }
 
 async function main() {
-  const files = walkAnimalMarkdown(CONTENT_DIR)
-  if (!files.length) {
-    console.error('未找到 Markdown。请先 npm run import:excel')
+  const animals = loadAnimalTargets()
+  if (!animals.length) {
+    console.error('未找到动物界物种分片。请先保证 public/data/species 已生成。')
     process.exit(1)
   }
 
   const progress = loadProgress()
-  let targets = files.filter((f) => {
-    const raw = fs.readFileSync(f, 'utf8')
-    const parts = splitFrontmatter(raw)
-    if (!parts) return false
-    const meta = readScientificName(parts.fm)
-    if (meta.kingdom && meta.kingdom !== 'Animalia') return false
-    if (PHYLUM && meta.phylum !== PHYLUM) return false
-    if (ONLY_NAME && binomialKey(meta.scientificName) !== binomialKey(ONLY_NAME)) return false
-    if (!meta.scientificName) return false
-    if (SHARD && hashMod(meta.scientificName, SHARD.n) !== SHARD.i) return false
-    if (RESUME && progress.done[meta.scientificName] && !FORCE) return false
-    if (!FORCE && parts.body.includes(MARK_START)) return false
+  let targets = animals.filter((t) => {
+    if (PHYLUM && t.phylum !== PHYLUM) return false
+    if (ONLY_NAME && binomialKey(t.scientificName) !== binomialKey(ONLY_NAME)) return false
+    if (SHARD && hashMod(t.scientificName, SHARD.n) !== SHARD.i) return false
+    if (RESUME && progress.done[t.scientificName] && !FORCE) return false
+    if (!FORCE && fs.existsSync(t.file)) {
+      const raw = fs.readFileSync(t.file, 'utf8')
+      if (raw.includes(MARK_START)) return false
+    }
     return true
   })
 
@@ -424,8 +491,8 @@ async function main() {
       const i = cursor
       cursor += 1
       if (i >= targets.length) return
-      const file = targets[i]
-      const result = await processOne(file, `${i + 1}/${targets.length}`, progress)
+      const target = targets[i]
+      const result = await processOne(target, `${i + 1}/${targets.length}`, progress)
       if (result === 'ok') ok += 1
       else if (result === 'miss') miss += 1
       else if (result === 'skip') skipped += 1
@@ -439,7 +506,7 @@ async function main() {
   saveProgress(progress)
   console.log(`完成：写入 ${ok}，未命中 ${miss}，跳过 ${skipped}，错误 ${err}`)
   console.log(`进度文件：${STATE_PATH}`)
-  console.log('写入后请运行：npm run merge:intro')
+  console.log('介绍已写入 public/species/，刷新物种页即可（无需 merge:intro）')
 }
 
 main().catch((e) => {

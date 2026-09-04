@@ -1,0 +1,82 @@
+---
+scientificName: "Columba oenas subsp. yarkandensis"
+chineseName: "欧鸽"
+synonyms: []
+kingdom:
+  latin: "Animalia"
+  chinese: "动物界"
+phylum:
+  latin: "Chordata"
+  chinese: "脊索动物门"
+class:
+  latin: "Aves"
+  chinese: "鸟纲"
+order:
+  latin: "COLUMBIFORMES"
+  chinese: "鸽形目"
+family:
+  latin: "Columbidae"
+  chinese: "鸠鸽科"
+genus:
+  latin: "Columba"
+  chinese: "鸽属"
+distribution: []
+status: null
+reviewedBy: "雷富民"
+slug: "Columba_oenas_subsp._yarkandensis"
+---
+
+<!-- fauna-sinica:start -->
+# 欧鸽
+
+**Columba oenas subsp. yarkandensis**
+
+## 形态描述
+
+（依阿尔巴尼亚地拉那地区的指名亚种）雄性成鸟  头部纯蓝灰色；后颈下部、颈侧及上背等，均闪耀着绿的真珠色；下背及两翅的内侧覆羽和飞羽等均为沾褐的暗灰色；翅上覆羽灰色，横贯以两道不完整的黑斑，飞羽以及初级覆羽与小翼羽均淡褐色；腰及尾上覆羽淡灰，尾羽灰色稍暗，而具宽阔的黑端；下体从胸以下悉灰色，尾下覆羽稍深些。雌性成鸟  与雄鸟相似，但羽色稍暗淡些。
+
+虹膜红褐；嘴的基部亦红，嘴端渐变黄色；脚粉红色。雌鸟的嘴和脚均带暗色。量衡度：（注：见图1）
+
+## 鉴别特征
+
+体羽大都暗灰；上背，后颈下部及颈侧闪耀着绿的真珠色，上胸呈带紫的粉红色；尾具黑色末端。
+
+## 大小
+
+**量衡度**
+
+| 性别 | 体重 | 全长 | 翅 |
+| --- | --- | --- | --- |
+| ♂(1) | 300 | 326 | 215 |
+| ♀ | (1) | 300 | 325 |
+
+## 生境信息
+
+据Goodwin (1970)，此鸟几乎全在地面上找食杂草种子、谷物及小型的无脊椎动物，如小螺等，有时还兼食幼芽、嫩枝和树叶等。巢常营于树洞、岩棚的隐蔽处、老旧的房屋或石坑中，以枯叶、细枝、嫩杈等作为巢料，量并不多，常是很少，甚或全无，求偶时，常频频发出“coo-coo”声，叫时还鞠躬点头，与其他鸽类相同。卵每窝2枚，孵卵期16天。
+
+## 国外分布
+
+遍布于欧洲，北抵芬兰及斯堪的纳维亚半岛南部；非洲北部；东抵小亚细亚，伊朗等。
+
+## 国内分布
+
+新疆西部喀什和天山。
+
+## 分类讨论
+
+亚种分化   本种有2个亚种的分化。我国只产1个亚种
+
+## 引证信息
+
+Columba oenas Linnaeus, 1758, Syst. Nat., ed. 10, 1: 162（模式产地：瑞典）；Salvadori, 1893, 261-264; Peters, 1961, 60-61; Vaurie, 1965, 540-542; Goodwin, 1970, 66-68；郑作新，1976, 266; deSchauensee, 1984, 249
+
+## 其它信息
+
+页码  45-46
+
+## 参考文献
+
+- 郑作新、冼耀华、关贯勋, 1991. 中国动物志 鸟纲 第六卷 鸽形目 鹦形目 鹃形目 鸮形目. 北京: 科学出版社. 240 页，64 图， 5 图版.
+
+> 来源：中国动物志数据库（《中国动物志》）。中国动物主题数据库：http://www.zoology.csdb.cn/taxon/{4C3E2BD3-0815-472C-928B-CB1274B364CB}
+<!-- fauna-sinica:end -->

@@ -6,44 +6,32 @@
 
 ```bash
 # 1. 将名录 Excel 放入 data/raw/
-# 2. 导入（生成 Markdown + 运行时索引）
+# 2. 导入运行时索引（默认不写空壳 Markdown）
 npm run import:excel
-
-# 仅生成索引、不写 Markdown（更快，用于调试）
-npm run import:excel:index-only
 
 # 3. 启动
 npm run dev
 ```
 
-手工补充 Markdown 中的介绍 / 分布 / 异名 / 保护等级后：
-
-```bash
-npm run sync:content
-```
-
 ### 《中国动物志》正文补充（中国动物主题数据库）
 
-从 [中国动物主题数据库](http://www.zoology.csdb.cn/) 公开页抓取《中国动物志》描述，写入动物界 Markdown 正文（`<!-- fauna-sinica -->` 标记块）。**不改分类主干**。
+从 [中国动物主题数据库](http://www.zoology.csdb.cn/) 公开页抓取《中国动物志》描述，写入 `public/species/**/*.md`（`<!-- fauna-sinica -->` 标记块）。**不改分类主干**。物种页按需加载 Markdown，**无需 merge:intro**。
 
 ```bash
-# 试跑单个 / 限额
 npm run enrich:fauna -- --name="Aix galericulata"
 npm run enrich:fauna -- --phylum=Chordata --limit=50
-# 断点续跑
 npm run enrich:fauna -- --resume
-# 将 Markdown 正文合并进运行时索引（推荐；不会冲掉植物/真菌分片）
-npm run merge:intro
-# 发布前把 public/data（分片 + meta/taxonomy/检索索引）提交入库
+# 发布前提交 public/data 与有正文的 public/species
 ```
 
-说明：当前 `content/species` 仍 gitignore（体量大）；**合并后的 `public/data/species/*.json` 等运行时索引已纳入版本库**，GitHub Pages 直接使用，不再在 CI 里 `import:excel`。本地更新介绍后请执行 `merge:intro` 并提交 `public/data`。
+说明：`public/data`（分片索引）与**有介绍的** `public/species/**/*.md` 均入库；空壳 Markdown 不保留。
+
 ## 数据约定
 
-物种文件路径：
+有介绍的物种 Markdown（入库）：
 
 ```text
-content/species/{门}/{纲}/{目}/{科}/{属}/{拉丁学名slug}.md
+public/species/{门}/{纲}/{目}/{科}/{属}/{拉丁学名slug}.md
 ```
 
 Frontmatter 字段：`scientificName`（主键）、`chineseName`、`synonyms`、界门纲目科属、`distribution`、`status`、`reviewedBy`、`slug`。
@@ -52,9 +40,7 @@ Frontmatter 字段：`scientificName`（主键）、`chineseName`、`synonyms`�
 
 - `public/data/meta.json` / `taxonomy.json`
 - `public/data/search-index.json` / `slug-index.json`
-- `public/data/species/{门}.json`（按门分片；含 `intro` 介绍）
-
-物种 Markdown 源文件仍在本地 `content/species/`（gitignore），不入库。
+- `public/data/species/{门}.json`（按门分片；介绍不在 JSON 内，见上）
 
 ### 当前 Excel 列
 
@@ -119,7 +105,7 @@ Vite + React + TypeScript。运行时读取 `public/data/*.json`（由导入脚�
 
 推送到 `master` 后，Actions 会：校验已入库的 `public/data` → 构建（`base=/zoo-world/`）→ 部署。
 
-（名录 Excel / 介绍 Markdown 不在 CI 重新生成；本地 `import` / `enrich` / `merge:intro` 后提交 `public/data`。）
+（名录 Excel 不在 CI 重新生成；本地 `import` / `enrich` 后提交 `public/data` 与 `public/species`。）
 
 首次需在仓库 **Settings → Pages → Build and deployment → Source** 选 **GitHub Actions**。
 
@@ -128,7 +114,6 @@ Vite + React + TypeScript。运行时读取 `public/data/*.json`（由导入脚�
 本地模拟 Pages 构建：
 
 ```bash
-npm run import:excel:index-only
 npm run build:pages
 npm run preview:pages
 ```
