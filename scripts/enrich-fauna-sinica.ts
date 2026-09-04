@@ -465,6 +465,8 @@ async function main() {
     if (ONLY_NAME && binomialKey(t.scientificName) !== binomialKey(ONLY_NAME)) return false
     if (SHARD && hashMod(t.scientificName, SHARD.n) !== SHARD.i) return false
     if (RESUME && progress.done[t.scientificName] && !FORCE) return false
+    if (RESUME && progress.missed[t.scientificName] && !FORCE && !args.includes('--retry-missed'))
+      return false
     if (!FORCE && fs.existsSync(t.file)) {
       const raw = fs.readFileSync(t.file, 'utf8')
       if (raw.includes(MARK_START)) return false

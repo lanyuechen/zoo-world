@@ -1,12 +1,14 @@
 import { useEffect, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useOutletContext, useParams } from 'react-router-dom'
 import SpeciesDistributionMap from '../components/SpeciesDistributionMap'
 import IntroMarkdown from '../components/IntroMarkdown'
-import { findSpeciesBySlug } from '../lib/catalogue'
+import TaxonCrumbs from '../components/TaxonCrumbs'
+import { findSpeciesBySlug, type AppCatalogue } from '../lib/catalogue'
 import { fetchSpeciesIntro } from '../lib/intro-md'
 import type { SpeciesRecord } from '../types/species'
 
 export default function SpeciesPage() {
+  const data = useOutletContext<AppCatalogue>()
   const { slug = '' } = useParams()
   const [species, setSpecies] = useState<SpeciesRecord | null | undefined>(undefined)
   const [intro, setIntro] = useState<string | null | undefined>(undefined)
@@ -102,6 +104,20 @@ export default function SpeciesPage() {
     },
   ]
 
+  const crumbs = [
+    { to: '/browse', chinese: data.taxonomy.chinese, latin: data.taxonomy.latin },
+    ...lineage.map((t) => ({
+      to: `/browse/${t.path.map(encodeURIComponent).join('/')}`,
+      chinese: t.chinese || t.latin,
+      latin: t.latin,
+    })),
+    {
+      to: `/species/${encodeURIComponent(species.slug)}`,
+      chinese: species.chineseName || '（中文名待补）',
+      latin: species.scientificName,
+    },
+  ]
+
   const statusTags = [
     species.status
       ? {
@@ -132,8 +148,9 @@ export default function SpeciesPage() {
 
   return (
     <div className="page species-page">
+      <TaxonCrumbs items={crumbs} />
+
       <header className="species-head">
-        <p className="taxon-rank">种</p>
         <h1>{species.chineseName || '（中文名待补）'}</h1>
         <p className="taxon-latin">
           {species.scientificName}

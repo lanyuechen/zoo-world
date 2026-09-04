@@ -1,0 +1,59 @@
+---
+scientificName: "Acerophagus clavatus"
+chineseName: "棒节抑虱跳小蜂"
+synonyms: []
+kingdom:
+  latin: "Animalia"
+  chinese: "动物界"
+phylum:
+  latin: "Arthropoda"
+  chinese: "节肢动物门"
+class:
+  latin: "Insecta"
+  chinese: "昆虫纲"
+order:
+  latin: "Hymenoptera"
+  chinese: "膜翅目"
+family:
+  latin: "Encyrtidae"
+  chinese: "跳小蜂科"
+genus:
+  latin: "Acerophagus"
+  chinese: "抑虱跳小蜂属"
+distribution: []
+status: null
+sanyou: false
+tags: []
+redListCategory: null
+redList: null
+reviewedBy: "张彦周"
+slug: "Acerophagus_clavatus"
+---
+
+<!-- fauna-sinica:start -->
+# 棒节抑虱跳小蜂
+
+**Acerophagus clavatus**
+
+## 形态描述
+
+与H.(H.)spinosus Distant接近，区别如下：体较小，体色较深，为淡褐或淡锈褐色。雌虫头部明显较短，雄虫则头部较长；唇基侧面观较饱满平整，不似spinosus之凹瘪不平。触角似spinosus，第Ⅲ节似较短。前胸背板似更为低平，相对较窄，后缘宽与领宽比例较小(10：4.3)；侧缘较直，后侧角扩展程度甚弱，角区范围小，末端仍尖黑，后缘成一黑横带，黑带后无淡色区域，后侧缘略成细棱边状，与后缘间成一角度折弯。
+
+色斑似spinosus，纵纹常为黑褐色或锈褐色，多只限于领部，或中纵纹单独延伸至盘域后缘，或盘域全无深色纵纹。侧方常只领部在眼后有一粗而明显的黑纹，与spinosus同；雄头侧方及胸下无纵纹，雌腹下侧面有一淡红色细纵纹。小盾片同spinosus，后端角区域的前方无成对的深色小斑。楔片及半鞘翅几无毛，此点同lineifer，不似spinosus此部位的毛较多。
+
+足与spinosus极似，后足毛及胫节刺色较淡。量度(mm)：体长8.2～10.3，体中段宽2.1。头长0.75，头宽1.33，头顶宽0.62。触角各节长l.30：4.7：1.33：1.0。前胸背板长l.45，后缘宽2.33。革片长l.75，楔片长0.98.观察标本：1♀，福建龙栖山，l991.X.9；1分，广西龙州大青山，l964.VIl.20，王良臣采；1♀，云南勐海城关，1979.X.5，邹环光采。
+
+## 国外分布
+
+马来西亚，孟加拉
+
+## 国内分布
+
+福建、广西、云南
+
+## 参考文献
+
+- 郑乐怡、吕楠、刘国卿、许兵红, 2004. 中国动物志 昆虫纲第三十三卷 半翅目 盲蝽科 盲蝽亚科. 北京: 科学出版社. 797 页， 228 图，8 图版
+
+> 来源：中国动物志数据库（《中国动物志》）。中国动物主题数据库：http://www.zoology.csdb.cn/taxon/{7934EF26-21EC-4CF3-A5E9-B18DE062211B}
+<!-- fauna-sinica:end -->

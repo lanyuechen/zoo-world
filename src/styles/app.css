@@ -331,7 +331,6 @@
 }
 
 .child-rank,
-.taxon-rank,
 .lin-rank {
   font-size: 0.8rem;
   letter-spacing: 0;
@@ -369,23 +368,65 @@
 .crumbs {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.35rem;
+  align-items: center;
+  gap: 0.35rem 0.45rem;
   margin-bottom: 1.25rem;
   font-size: 0.88rem;
   color: var(--muted);
+  row-gap: 0.65rem;
+}
+
+.crumb {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-width: 0;
+}
+
+.crumb-label {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 0.05rem;
+  line-height: 1.25;
+}
+
+.crumb-zh {
+  color: var(--ink);
+  font-size: 0.9rem;
+}
+
+.crumb-la {
+  font-size: 0.72rem;
+  font-style: italic;
+  color: var(--muted);
+  opacity: 0.85;
+  font-weight: 400;
 }
 
 .crumbs a {
   text-decoration: none;
 }
 
-.crumbs-sep {
-  opacity: 0.45;
-  margin: 0 0.15rem;
+.crumbs a:hover .crumb-zh {
+  color: var(--moss);
 }
 
-.crumbs-current {
+.crumbs-sep {
+  flex-shrink: 0;
+  width: 0.7rem;
+  height: 0.95rem;
+  opacity: 0.4;
+  color: var(--muted);
+  align-self: center;
+}
+
+.crumbs-current .crumb-zh {
   color: var(--ink);
+  font-weight: 600;
+}
+
+.crumbs-current .crumb-la {
+  opacity: 0.75;
 }
 
 .taxon-head,

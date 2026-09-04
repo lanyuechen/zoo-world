@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, useOutletContext, useParams } from 'react-router-dom'
+import TaxonCrumbs from '../components/TaxonCrumbs'
 import {
   filterSpecies,
   loadPhylumSpecies,
@@ -70,39 +71,28 @@ export default function BrowsePage() {
     )
   }
 
-  const crumbs: { to: string; label: string }[] = [
-    { to: '/browse', label: `${data.taxonomy.chinese} · ${data.taxonomy.latin}` },
+  const crumbs = [
+    { to: '/browse', chinese: data.taxonomy.chinese, latin: data.taxonomy.latin },
+    ...pathParts.map((latin, i) => {
+      const n = walkTaxonomy(data.taxonomy, pathParts.slice(0, i + 1))
+      return {
+        to: `/browse/${pathParts
+          .slice(0, i + 1)
+          .map(encodeURIComponent)
+          .join('/')}`,
+        chinese: n?.chinese || latin,
+        latin: n?.latin || latin,
+      }
+    }),
   ]
-  pathParts.forEach((latin, i) => {
-    const n = walkTaxonomy(data.taxonomy, pathParts.slice(0, i + 1))
-    crumbs.push({
-      to: `/browse/${pathParts
-        .slice(0, i + 1)
-        .map(encodeURIComponent)
-        .join('/')}`,
-      label: n ? `${n.chinese || latin} · ${n.latin}` : latin,
-    })
-  })
 
   const children = node.children ?? []
 
   return (
     <div className="page browse-page">
-      <nav className="crumbs" aria-label="分类路径">
-        {crumbs.map((c, i) => (
-          <span key={c.to}>
-            {i > 0 && <span className="crumbs-sep">/</span>}
-            {i === crumbs.length - 1 ? (
-              <span className="crumbs-current">{c.label}</span>
-            ) : (
-              <Link to={c.to}>{c.label}</Link>
-            )}
-          </span>
-        ))}
-      </nav>
+      <TaxonCrumbs items={crumbs} />
 
       <header className="taxon-head">
-        <p className="taxon-rank">{RANK_ZH[node.rank] || node.rank}</p>
         <h1>{node.chinese || node.latin}</h1>
         <p className="taxon-latin">{node.latin}</p>
         <p className="taxon-count">{node.speciesCount.toLocaleString()} 种</p>
