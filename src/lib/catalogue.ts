@@ -77,18 +77,51 @@ export function searchInIndex(rows: SearchRow[], query: string, limit = 80): Sea
 
 export function filterSpecies(
   list: SpeciesRecord[],
-  pathLatins: string[],
-  genusLatin?: string,
+  filters: {
+    kingdom?: string
+    phylum?: string
+    class?: string
+    order?: string
+    family?: string
+    genus?: string
+  },
 ): SpeciesRecord[] {
-  const [phylum, classLatin, order, family] = pathLatins
   return list.filter((s) => {
-    if (phylum && s.phylum.latin !== phylum) return false
-    if (classLatin && s.class.latin !== classLatin) return false
-    if (order && s.order.latin !== order) return false
-    if (family && s.family.latin !== family) return false
-    if (genusLatin && s.genus.latin !== genusLatin) return false
+    if (filters.kingdom && s.kingdom.latin !== filters.kingdom) return false
+    if (filters.phylum && s.phylum.latin !== filters.phylum) return false
+    if (filters.class && s.class.latin !== filters.class) return false
+    if (filters.order && s.order.latin !== filters.order) return false
+    if (filters.family && s.family.latin !== filters.family) return false
+    if (filters.genus && s.genus.latin !== filters.genus) return false
     return true
   })
+}
+
+/** 沿路径收集各阶元拉丁名 */
+export function pathRankFilters(
+  root: TaxonomyNode,
+  path: string[],
+): Partial<Record<'kingdom' | 'phylum' | 'class' | 'order' | 'family' | 'genus', string>> {
+  const filters: Partial<
+    Record<'kingdom' | 'phylum' | 'class' | 'order' | 'family' | 'genus', string>
+  > = {}
+  let node: TaxonomyNode = root
+  for (const latin of path) {
+    const next = node.children?.find((c) => c.latin === latin)
+    if (!next) break
+    if (
+      next.rank === 'kingdom' ||
+      next.rank === 'phylum' ||
+      next.rank === 'class' ||
+      next.rank === 'order' ||
+      next.rank === 'family' ||
+      next.rank === 'genus'
+    ) {
+      filters[next.rank] = next.latin
+    }
+    node = next
+  }
+  return filters
 }
 
 export function walkTaxonomy(root: TaxonomyNode, path: string[]): TaxonomyNode | null {

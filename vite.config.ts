@@ -19,10 +19,10 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'icons.svg'],
       manifest: {
-        name: '中国动物大百科',
-        short_name: '动物大百科',
+        name: '中国生物大百科',
+        short_name: '生物大百科',
         description:
-          '以《中国生物物种名录》为分类主干的本土动物物种检索（非商业）。',
+          '以《中国生物物种名录》为分类主干的本土动物、植物与真菌物种检索（非商业）。',
         theme_color: '#1f4d38',
         background_color: '#e8eee9',
         display: 'standalone',

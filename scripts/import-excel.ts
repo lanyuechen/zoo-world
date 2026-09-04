@@ -1,7 +1,7 @@
 /**
  * 从《中国生物物种名录》Excel 导入 → Markdown + 分片运行时索引
  *
- * Excel 列：物种拉丁名 / 物种中文名 / 界~属（拉丁+中文）/ 审核专家/数据源
+ * 收录动物界 / 植物界 / 真菌界。Excel 列：物种拉丁名 / 物种中文名 / 界~属 / 审核专家/数据源
  * 异名、国内分布、保护等级、科普正文：Excel 中暂无，写入空占位。
  */
 import fs from 'node:fs'
@@ -34,7 +34,7 @@ const COL = {
   reviewedBy: '审核专家/数据源',
 } as const
 
-type RankKey = 'kingdom' | 'phylum' | 'class' | 'order' | 'family' | 'genus'
+type RankKey = 'domain' | 'kingdom' | 'phylum' | 'class' | 'order' | 'family' | 'genus'
 
 interface TaxonLabel {
   latin: string
@@ -186,12 +186,14 @@ function writeRuntimeIndexes(
 
   const byPhylum = new Map<string, SpeciesRecord[]>()
   const slugIndex: Record<string, string> = {}
+  const kingdoms = new Set<string>()
 
   for (const s of species) {
     const key = s.phylum.latin
     if (!byPhylum.has(key)) byPhylum.set(key, [])
     byPhylum.get(key)!.push(s)
     slugIndex[s.slug] = key
+    if (s.kingdom.latin) kingdoms.add(s.kingdom.latin)
   }
 
   for (const [phylum, list] of byPhylum) {
@@ -203,7 +205,6 @@ function writeRuntimeIndexes(
     )
   }
 
-  // 紧凑检索索引：[学名, 中文名, slug, 门]
   const searchIndex = species.map((s) => [
     s.scientificName,
     s.chineseName,
@@ -212,10 +213,11 @@ function writeRuntimeIndexes(
   ])
 
   const meta = {
-    title: '中国动物大百科',
+    title: '中国生物大百科',
     source: '中国生物物种名录（Species 2000 中国节点）',
     sourceUrl: 'https://www.sp2000.org.cn',
     speciesCount: species.length,
+    kingdoms: [...kingdoms].sort(),
     phyla: [...byPhylum.keys()].sort(),
     ...metaExtra,
   }
@@ -225,7 +227,6 @@ function writeRuntimeIndexes(
   fs.writeFileSync(path.join(PUBLIC_DATA, 'search-index.json'), JSON.stringify(searchIndex), 'utf8')
   fs.writeFileSync(path.join(PUBLIC_DATA, 'slug-index.json'), JSON.stringify(slugIndex), 'utf8')
 
-  // 兼容旧路径提示
   fs.writeFileSync(
     path.join(PUBLIC_DATA, 'catalogue.json'),
     JSON.stringify({
@@ -259,9 +260,9 @@ function main() {
 
   const byKey = new Map<string, SpeciesRecord>()
   const root: TaxonomyNode = {
-    rank: 'kingdom',
-    latin: 'Animalia',
-    chinese: '动物界',
+    rank: 'domain',
+    latin: 'Biota',
+    chinese: '生物',
     speciesCount: 0,
     children: [],
   }
@@ -291,6 +292,7 @@ function main() {
 
       const mdPath = [
         'species',
+        safeSegment(kingdom.latin),
         safeSegment(phylum.latin),
         safeSegment(classTaxon.latin),
         safeSegment(order.latin),
@@ -326,23 +328,17 @@ function main() {
       }
       byKey.set(key, record)
 
-      let kingdomNode = root
-      if (kingdom.latin && kingdom.latin !== 'Animalia') {
-        kingdomNode = upsertChild(root, 'kingdom', kingdom)
-      } else if (kingdom.chinese) {
-        root.chinese = kingdom.chinese
-      }
-
+      const kingdomNode = upsertChild(root, 'kingdom', kingdom)
       const nPhylum = upsertChild(kingdomNode, 'phylum', phylum)
       const nClass = upsertChild(nPhylum, 'class', classTaxon)
       const nOrder = upsertChild(nClass, 'order', order)
       const nFamily = upsertChild(nOrder, 'family', family)
       const nGenus = upsertChild(nFamily, 'genus', genus)
 
-      const chain = [nPhylum, nClass, nOrder, nFamily, nGenus]
-      if (kingdomNode !== root) chain.unshift(kingdomNode)
       root.speciesCount += 1
-      for (const n of chain) n.speciesCount += 1
+      for (const n of [kingdomNode, nPhylum, nClass, nOrder, nFamily, nGenus]) {
+        n.speciesCount += 1
+      }
 
       if (writeMd) {
         const abs = path.join(ROOT, 'content', mdPath)
@@ -366,7 +362,7 @@ function main() {
     withDistribution: species.filter((s) => s.distribution.length > 0).length,
     notes: [
       '主干分类索引唯一来源：《中国生物物种名录》',
-      '仅收录名录中的动物界物种；拉丁学名为主键',
+      '收录动物界、植物界、真菌界本土物种；拉丁学名为主键',
       '当前 Excel 不含异名、国内分布省份、保护等级；相关字段留空待补',
       '科普介绍与图片后续在 Markdown 中补充，再运行 npm run sync:content',
     ],

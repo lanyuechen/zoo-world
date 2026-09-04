@@ -34,7 +34,7 @@ interface SpeciesRecord {
   intro: string
 }
 
-type RankKey = 'kingdom' | 'phylum' | 'class' | 'order' | 'family' | 'genus'
+type RankKey = 'domain' | 'kingdom' | 'phylum' | 'class' | 'order' | 'family' | 'genus'
 
 interface TaxonomyNode {
   rank: RankKey
@@ -195,9 +195,9 @@ function main() {
   console.log(`扫描 ${files.length} 个 Markdown…`)
   const byKey = new Map<string, SpeciesRecord>()
   const root: TaxonomyNode = {
-    rank: 'kingdom',
-    latin: 'Animalia',
-    chinese: '动物界',
+    rank: 'domain',
+    latin: 'Biota',
+    chinese: '生物',
     speciesCount: 0,
     children: [],
   }
@@ -207,22 +207,14 @@ function main() {
     if (!rec) continue
     byKey.set(rec.scientificName.toLowerCase(), rec)
 
-    let kingdomNode = root
-    if (rec.kingdom.latin && rec.kingdom.latin !== 'Animalia') {
-      kingdomNode = upsertChild(root, 'kingdom', rec.kingdom)
-    } else if (rec.kingdom.chinese) {
-      root.chinese = rec.kingdom.chinese
-    }
-
+    const kingdomNode = upsertChild(root, 'kingdom', rec.kingdom)
     const phylum = upsertChild(kingdomNode, 'phylum', rec.phylum)
     const cls = upsertChild(phylum, 'class', rec.class)
     const order = upsertChild(cls, 'order', rec.order)
     const family = upsertChild(order, 'family', rec.family)
     const genus = upsertChild(family, 'genus', rec.genus)
-    const chain = [phylum, cls, order, family, genus]
-    if (kingdomNode !== root) chain.unshift(kingdomNode)
     root.speciesCount += 1
-    for (const n of chain) n.speciesCount += 1
+    for (const n of [kingdomNode, phylum, cls, order, family, genus]) n.speciesCount += 1
   }
 
   sortTree(root)
@@ -236,12 +228,14 @@ function main() {
 
   const byPhylum = new Map<string, SpeciesRecord[]>()
   const slugIndex: Record<string, string> = {}
+  const kingdoms = new Set<string>()
   let withDistribution = 0
 
   for (const s of species) {
     if (!byPhylum.has(s.phylum.latin)) byPhylum.set(s.phylum.latin, [])
     byPhylum.get(s.phylum.latin)!.push(s)
     slugIndex[s.slug] = s.phylum.latin
+    if (s.kingdom.latin) kingdoms.add(s.kingdom.latin)
     if (s.distribution.length > 0) withDistribution += 1
   }
 
@@ -254,16 +248,17 @@ function main() {
   }
 
   const meta = {
-    title: '中国动物大百科',
+    title: '中国生物大百科',
     source: '中国生物物种名录（Species 2000 中国节点）',
     sourceUrl: 'https://www.sp2000.org.cn',
     syncedAt: new Date().toISOString(),
     speciesCount: species.length,
+    kingdoms: [...kingdoms].sort(),
     phyla: [...byPhylum.keys()].sort(),
     withDistribution,
     notes: [
       '主干分类索引唯一来源：《中国生物物种名录》',
-      '由 content/species Markdown 同步生成运行时索引',
+      '收录动物界、植物界、真菌界；由 content/species Markdown 同步生成运行时索引',
     ],
   }
 

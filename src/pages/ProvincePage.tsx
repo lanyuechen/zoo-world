@@ -10,7 +10,7 @@ export default function ProvincePage() {
   const [results, setResults] = useState<SpeciesRecord[]>([])
   const [loading, setLoading] = useState(false)
 
-  const phyla = data.meta.phyla ?? data.taxonomy.children?.map((c) => c.latin) ?? []
+  const phyla = data.meta.phyla ?? []
   const withDist = data.meta.withDistribution ?? 0
 
   useEffect(() => {

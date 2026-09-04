@@ -1,6 +1,6 @@
-# 中国动物大百科
+# 中国生物大百科
 
-非商业 Web 应用。分类主干唯一来源：[中国生物物种名录（Species 2000 中国节点）](https://www.sp2000.org.cn)。只收录名录中的动物界物种，**拉丁学名为主键**。
+非商业 Web 应用。分类主干唯一来源：[中国生物物种名录（Species 2000 中国节点）](https://www.sp2000.org.cn)。收录名录中的**动物界、植物界、真菌界**物种，**拉丁学名为主键**。
 
 ## 快速开始
 
@@ -27,7 +27,7 @@ npm run sync:content
 物种文件路径：
 
 ```text
-content/species/{门}/{纲}/{目}/{科}/{属}/{拉丁学名slug}.md
+content/species/{界}/{门}/{纲}/{目}/{科}/{属}/{拉丁学名slug}.md
 ```
 
 Frontmatter 字段：`scientificName`（主键）、`chineseName`、`synonyms`、界门纲目科属、`distribution`、`status`、`reviewedBy`、`slug`。
@@ -48,11 +48,11 @@ Frontmatter 字段：`scientificName`（主键）、`chineseName`、`synonyms`�
 
 **Excel 暂无**：异名、国内分布省份、保护等级、科普正文、图片 → 字段已预留，后续在 Markdown 中补充。
 
-已从 Downloads 三份表导入 **83,180** 种。
+`data/raw/` 应包含动物界、植物界、真菌界名录表。
 
 ## 功能
 
-- 界 → 门 → 纲 → 目 → 科 → 属 → 种 浏览
+- 生物 → 界 → 门 → 纲 → 目 → 科 → 属 → 种 浏览
 - 学名 / 中文名检索
 - 物种详情（名录字段 + 介绍占位）
 - 按省份筛选（待分布数据）

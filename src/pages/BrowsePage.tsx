@@ -1,14 +1,16 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link, useOutletContext, useParams } from 'react-router-dom'
 import {
   filterSpecies,
   loadPhylumSpecies,
+  pathRankFilters,
   walkTaxonomy,
   type AppCatalogue,
 } from '../lib/catalogue'
 import type { SpeciesRecord } from '../types/species'
 
 const RANK_ZH: Record<string, string> = {
+  domain: '域',
   kingdom: '界',
   phylum: '门',
   class: '纲',
@@ -32,7 +34,11 @@ export default function BrowsePage() {
   const [species, setSpecies] = useState<SpeciesRecord[] | null>(null)
   const [loadingSpecies, setLoadingSpecies] = useState(false)
 
-  const phylumLatin = pathParts[0]
+  const filters = useMemo(
+    () => pathRankFilters(data.taxonomy, pathParts),
+    [data.taxonomy, pathParts.join('/')],
+  )
+  const phylumLatin = filters.phylum
   const atGenus = node?.rank === 'genus'
 
   useEffect(() => {
@@ -45,8 +51,7 @@ export default function BrowsePage() {
     loadPhylumSpecies(phylumLatin)
       .then((list) => {
         if (cancelled) return
-        const genus = pathParts[pathParts.length - 1]
-        setSpecies(filterSpecies(list, pathParts.slice(0, -1), genus))
+        setSpecies(filterSpecies(list, filters))
       })
       .finally(() => {
         if (!cancelled) setLoadingSpecies(false)
@@ -54,13 +59,13 @@ export default function BrowsePage() {
     return () => {
       cancelled = true
     }
-  }, [node, phylumLatin, atGenus, pathParts.join('/')])
+  }, [node, phylumLatin, atGenus, filters])
 
   if (!node) {
     return (
       <div className="page">
         <p>未找到该分类阶元。</p>
-        <Link to="/browse">返回动物界</Link>
+        <Link to="/browse">返回分类浏览</Link>
       </div>
     )
   }

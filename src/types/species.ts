@@ -1,5 +1,6 @@
 /** 分类阶元（拉丁学名为主键体系） */
 export type TaxonRank =
+  | 'domain'
   | 'kingdom'
   | 'phylum'
   | 'class'
@@ -62,6 +63,7 @@ export interface CatalogueMeta {
   importedAt?: string
   syncedAt?: string
   speciesCount: number
+  kingdoms?: string[]
   phyla?: string[]
   files?: string[]
   notes?: string[]

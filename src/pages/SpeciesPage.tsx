@@ -32,21 +32,36 @@ export default function SpeciesPage() {
   }
 
   const lineage = [
-    { rank: '门', ...species.phylum, path: [species.phylum.latin] },
+    {
+      rank: '界',
+      ...species.kingdom,
+      path: [species.kingdom.latin],
+    },
+    {
+      rank: '门',
+      ...species.phylum,
+      path: [species.kingdom.latin, species.phylum.latin],
+    },
     {
       rank: '纲',
       ...species.class,
-      path: [species.phylum.latin, species.class.latin],
+      path: [species.kingdom.latin, species.phylum.latin, species.class.latin],
     },
     {
       rank: '目',
       ...species.order,
-      path: [species.phylum.latin, species.class.latin, species.order.latin],
+      path: [
+        species.kingdom.latin,
+        species.phylum.latin,
+        species.class.latin,
+        species.order.latin,
+      ],
     },
     {
       rank: '科',
       ...species.family,
       path: [
+        species.kingdom.latin,
         species.phylum.latin,
         species.class.latin,
         species.order.latin,
@@ -57,6 +72,7 @@ export default function SpeciesPage() {
       rank: '属',
       ...species.genus,
       path: [
+        species.kingdom.latin,
         species.phylum.latin,
         species.class.latin,
         species.order.latin,

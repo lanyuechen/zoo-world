@@ -17,8 +17,8 @@ export default function App() {
     <div className="app-shell">
       <header className="site-header">
         <Link to="/" className="brand">
-          <span className="brand-mark">虫鱼鸟兽</span>
-          <span className="brand-name">中国动物大百科</span>
+          <span className="brand-mark">草木虫鱼</span>
+          <span className="brand-name">中国生物大百科</span>
         </Link>
         <nav className="site-nav">
           <NavLink to="/browse">分类浏览</NavLink>
