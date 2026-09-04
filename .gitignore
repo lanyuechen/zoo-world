@@ -20,15 +20,12 @@ data/gbif/china-species-summary.json
 data/gbif/last-download-request.json
 public/data/gbif-points/
 data/fauna/progress.json
+data/fauna/progress-shard-*.json
 data/fauna/cache/
+data/fauna/*.log
+data/fauna/logs/
 
-# 生成的大体量数据（由 import / sync 产生）
-public/data/catalogue.json
-public/data/meta.json
-public/data/taxonomy.json
-public/data/search-index.json
-public/data/slug-index.json
-public/data/species/
+# Markdown 源文件体量大，仍本地生成；运行时分片入库供 Pages 使用
 content/species/
 
 # Editor directories and files

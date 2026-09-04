@@ -27,8 +27,13 @@ jobs:
 
       - run: npm ci
 
-      # public/data 未入库：从 Excel 生成运行时索引后再构建
-      - run: npm run import:excel:index-only
+      # 运行时索引已入库（含 merge:intro 后的介绍），勿再 import 覆盖
+      - name: Check public data
+        run: |
+          test -f public/data/meta.json
+          test -f public/data/taxonomy.json
+          test -d public/data/species
+          test "$(find public/data/species -name '*.json' | wc -l)" -gt 0
 
       - run: npm run build
         env:

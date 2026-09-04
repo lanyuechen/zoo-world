@@ -10,6 +10,7 @@
  *   npm run enrich:fauna -- --name="Aix galericulata"
  *   npm run enrich:fauna -- --resume
  *   npm run enrich:fauna -- --force   # 覆盖已有动物志块
+ *   npm run enrich:fauna -- --phylum=Chordata --resume --shard=0/4 --concurrency=2
  */
 import fs from 'node:fs'
 import path from 'node:path'
@@ -20,7 +21,6 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.resolve(__dirname, '..')
 const CONTENT_DIR = path.join(ROOT, 'content', 'species')
 const STATE_DIR = path.join(ROOT, 'data', 'fauna')
-const STATE_PATH = path.join(STATE_DIR, 'progress.json')
 const BASE = 'http://www.zoology.csdb.cn'
 const FAUNA_SOURCE_LABEL = '中国动物志数据库'
 const FAUNA_DESC_LABEL = '中国动物志'
@@ -37,7 +37,28 @@ const PHYLUM = argVal('phylum') || ''
 const ONLY_NAME = argVal('name') || ''
 const RESUME = args.includes('--resume')
 const FORCE = args.includes('--force')
-const DELAY_MS = Number(argVal('delay') || 350)
+const DELAY_MS = Number(argVal('delay') || 250)
+const CONCURRENCY = Math.max(1, Number(argVal('concurrency') || 1) || 1)
+const SHARD_RAW = argVal('shard') || ''
+const SHARD = (() => {
+  if (!SHARD_RAW) return null as null | { i: number; n: number }
+  const m = SHARD_RAW.match(/^(\d+)\/(\d+)$/)
+  if (!m) {
+    console.error('--shard 格式应为 i/n，例如 0/4')
+    process.exit(1)
+  }
+  const i = Number(m[1])
+  const n = Number(m[2])
+  if (!(n >= 2) || !(i >= 0 && i < n)) {
+    console.error('--shard 要求 0 <= i < n，且 n >= 2')
+    process.exit(1)
+  }
+  return { i, n }
+})()
+
+const STATE_PATH = SHARD
+  ? path.join(STATE_DIR, `progress-shard-${SHARD.i}-of-${SHARD.n}.json`)
+  : path.join(STATE_DIR, 'progress.json')
 
 interface Progress {
   done: Record<string, { taxonId: string; at: string; sections: number }>
@@ -47,6 +68,15 @@ interface Progress {
 
 function sleep(ms: number) {
   return new Promise((r) => setTimeout(r, ms))
+}
+
+function hashMod(s: string, n: number): number {
+  let h = 2166136261
+  for (let i = 0; i < s.length; i++) {
+    h ^= s.charCodeAt(i)
+    h = Math.imul(h, 16777619)
+  }
+  return (h >>> 0) % n
 }
 
 function normName(s: string): string {
@@ -242,15 +272,114 @@ function readScientificName(fm: string): { scientificName: string; chineseName: 
 }
 
 function loadProgress(): Progress {
-  if (RESUME && fs.existsSync(STATE_PATH)) {
-    return JSON.parse(fs.readFileSync(STATE_PATH, 'utf8')) as Progress
+  const empty: Progress = { done: {}, missed: {}, errors: {} }
+  const mergeFile = (p: string, into: Progress) => {
+    if (!fs.existsSync(p)) return
+    try {
+      const j = JSON.parse(fs.readFileSync(p, 'utf8')) as Progress
+      Object.assign(into.done, j.done || {})
+      Object.assign(into.missed, j.missed || {})
+      Object.assign(into.errors, j.errors || {})
+    } catch {
+      /* ignore broken progress */
+    }
   }
-  return { done: {}, missed: {}, errors: {} }
+  if (!RESUME) return empty
+  const all = { ...empty }
+  // 合并主进度与各分片，避免多进程重复抓已成功的
+  mergeFile(path.join(STATE_DIR, 'progress.json'), all)
+  if (fs.existsSync(STATE_DIR)) {
+    for (const f of fs.readdirSync(STATE_DIR)) {
+      if (/^progress-shard-\d+-of-\d+\.json$/.test(f)) {
+        mergeFile(path.join(STATE_DIR, f), all)
+      }
+    }
+  }
+  return all
 }
 
 function saveProgress(p: Progress) {
   fs.mkdirSync(STATE_DIR, { recursive: true })
-  fs.writeFileSync(STATE_PATH, JSON.stringify(p, null, 2))
+  // 分片只写本分片文件，减少互相覆盖
+  const out: Progress = SHARD
+    ? {
+        done: Object.fromEntries(
+          Object.entries(p.done).filter(([name]) => hashMod(name, SHARD.n) === SHARD.i),
+        ),
+        missed: Object.fromEntries(
+          Object.entries(p.missed).filter(([name]) => hashMod(name, SHARD.n) === SHARD.i),
+        ),
+        errors: Object.fromEntries(
+          Object.entries(p.errors).filter(([name]) => hashMod(name, SHARD.n) === SHARD.i),
+        ),
+      }
+    : p
+  fs.writeFileSync(STATE_PATH, JSON.stringify(out, null, 2))
+}
+
+async function processOne(
+  file: string,
+  indexLabel: string,
+  progress: Progress,
+): Promise<'ok' | 'miss' | 'skip' | 'err'> {
+  const raw = fs.readFileSync(file, 'utf8')
+  const parts = splitFrontmatter(raw)
+  if (!parts) return 'skip'
+  const meta = readScientificName(parts.fm)
+  const label = `${indexLabel} ${meta.scientificName}`
+
+  try {
+    // 并发下再检查一次，避免他分片刚写完
+    if (!FORCE && parts.body.includes(MARK_START)) {
+      console.log(`· skip ${label}`)
+      return 'skip'
+    }
+    const taxonId = await findFaunaTaxonId(meta.scientificName)
+    await sleep(DELAY_MS)
+    if (!taxonId) {
+      progress.missed[meta.scientificName] = 'not_in_fauna'
+      console.log(`· miss ${label}`)
+      return 'miss'
+    }
+    const sections = await fetchFaunaDescriptions(taxonId)
+    await sleep(DELAY_MS)
+    if (!sections.length) {
+      progress.missed[meta.scientificName] = `no_sections:${taxonId}`
+      console.log(`· miss(no desc) ${label}`)
+      return 'miss'
+    }
+    const block = buildFaunaMarkdown(
+      meta.chineseName,
+      meta.scientificName,
+      taxonId,
+      sections,
+    )
+    const fresh = splitFrontmatter(fs.readFileSync(file, 'utf8'))
+    if (!fresh) return 'skip'
+    if (!FORCE && fresh.body.includes(MARK_START)) {
+      console.log(`· skip ${label}`)
+      return 'skip'
+    }
+    const nextBody = upsertBody(fresh.body, block, FORCE)
+    if (nextBody == null) {
+      console.log(`· skip ${label}`)
+      return 'skip'
+    }
+    fs.writeFileSync(file, `${fresh.fm}${nextBody.startsWith('\n') ? nextBody : `\n${nextBody}`}`)
+    progress.done[meta.scientificName] = {
+      taxonId,
+      at: new Date().toISOString(),
+      sections: sections.length,
+    }
+    delete progress.missed[meta.scientificName]
+    delete progress.errors[meta.scientificName]
+    console.log(`✓ ${label} → ${sections.length} 节`)
+    return 'ok'
+  } catch (e) {
+    progress.errors[meta.scientificName] = e instanceof Error ? e.message : String(e)
+    console.warn(`✗ ${label}`, e)
+    return 'err'
+  }
 }
 
 async function main() {
@@ -270,6 +399,7 @@ async function main() {
     if (PHYLUM && meta.phylum !== PHYLUM) return false
     if (ONLY_NAME && binomialKey(meta.scientificName) !== binomialKey(ONLY_NAME)) return false
     if (!meta.scientificName) return false
+    if (SHARD && hashMod(meta.scientificName, SHARD.n) !== SHARD.i) return false
     if (RESUME && progress.done[meta.scientificName] && !FORCE) return false
     if (!FORCE && parts.body.includes(MARK_START)) return false
     return true
@@ -277,7 +407,8 @@ async function main() {
 
   if (LIMIT > 0) targets = targets.slice(0, LIMIT)
   console.log(
-    `待处理 ${targets.length} 个动物 Markdown（delay=${DELAY_MS}ms` +
+    `待处理 ${targets.length}（delay=${DELAY_MS}ms, concurrency=${CONCURRENCY}` +
+      `${SHARD ? `, shard=${SHARD.i}/${SHARD.n}` : ''}` +
       `${PHYLUM ? `, phylum=${PHYLUM}` : ''}` +
       `${ONLY_NAME ? `, name=${ONLY_NAME}` : ''}）`,
   )
@@ -286,67 +417,29 @@ async function main() {
   let miss = 0
   let err = 0
   let skipped = 0
+  let cursor = 0
 
-  for (let i = 0; i < targets.length; i++) {
-    const file = targets[i]
-    const raw = fs.readFileSync(file, 'utf8')
-    const parts = splitFrontmatter(raw)
-    if (!parts) continue
-    const meta = readScientificName(parts.fm)
-    const label = `${i + 1}/${targets.length} ${meta.scientificName}`
-
-    try {
-      const taxonId = await findFaunaTaxonId(meta.scientificName)
-      await sleep(DELAY_MS)
-      if (!taxonId) {
-        progress.missed[meta.scientificName] = 'not_in_fauna'
-        miss += 1
-        if ((i + 1) % 20 === 0) saveProgress(progress)
-        console.log(`· miss ${label}`)
-        continue
-      }
-      const sections = await fetchFaunaDescriptions(taxonId)
-      await sleep(DELAY_MS)
-      if (!sections.length) {
-        progress.missed[meta.scientificName] = `no_sections:${taxonId}`
-        miss += 1
-        console.log(`· miss(no desc) ${label}`)
-        continue
-      }
-      const block = buildFaunaMarkdown(
-        meta.chineseName,
-        meta.scientificName,
-        taxonId,
-        sections,
-      )
-      const nextBody = upsertBody(parts.body, block, FORCE)
-      if (nextBody == null) {
-        skipped += 1
-        console.log(`· skip ${label}`)
-        continue
-      }
-      fs.writeFileSync(file, `${parts.fm}${nextBody.startsWith('\n') ? nextBody : `\n${nextBody}`}`)
-      progress.done[meta.scientificName] = {
-        taxonId,
-        at: new Date().toISOString(),
-        sections: sections.length,
-      }
-      delete progress.missed[meta.scientificName]
-      delete progress.errors[meta.scientificName]
-      ok += 1
-      console.log(`✓ ${label} → ${sections.length} 节`)
-    } catch (e) {
-      err += 1
-      progress.errors[meta.scientificName] = e instanceof Error ? e.message : String(e)
-      console.warn(`✗ ${label}`, e)
+  async function worker() {
+    while (true) {
+      const i = cursor
+      cursor += 1
+      if (i >= targets.length) return
+      const file = targets[i]
+      const result = await processOne(file, `${i + 1}/${targets.length}`, progress)
+      if (result === 'ok') ok += 1
+      else if (result === 'miss') miss += 1
+      else if (result === 'skip') skipped += 1
+      else err += 1
+      if ((ok + miss + err + skipped) % 10 === 0) saveProgress(progress)
     }
-    if ((i + 1) % 10 === 0) saveProgress(progress)
   }
+
+  await Promise.all(Array.from({ length: CONCURRENCY }, () => worker()))
 
   saveProgress(progress)
   console.log(`完成：写入 ${ok}，未命中 ${miss}，跳过 ${skipped}，错误 ${err}`)
   console.log(`进度文件：${STATE_PATH}`)
-  console.log('写入后请运行：npm run sync:content')
+  console.log('写入后请运行：npm run merge:intro')
 }
 
 main().catch((e) => {

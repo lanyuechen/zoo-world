@@ -34,9 +34,10 @@ npm run enrich:fauna -- --phylum=Chordata --limit=50
 npm run enrich:fauna -- --resume
 # 将 Markdown 正文合并进运行时索引（推荐；不会冲掉植物/真菌分片）
 npm run merge:intro
+# 发布前把 public/data（分片 + meta/taxonomy/检索索引）提交入库
 ```
 
-说明：当前 `content/species` 若只有动物界 Markdown，勿用 `sync:content` 全量重建索引（会丢掉植物/真菌）；用 `merge:intro` 只回写 `intro`。
+说明：当前 `content/species` 仍 gitignore（体量大）；**合并后的 `public/data/species/*.json` 等运行时索引已纳入版本库**，GitHub Pages 直接使用，不再在 CI 里 `import:excel`。本地更新介绍后请执行 `merge:intro` 并提交 `public/data`。
 ## 数据约定
 
 物种文件路径：
@@ -47,11 +48,13 @@ content/species/{门}/{纲}/{目}/{科}/{属}/{拉丁学名slug}.md
 
 Frontmatter 字段：`scientificName`（主键）、`chineseName`、`synonyms`、界门纲目科属、`distribution`、`status`、`reviewedBy`、`slug`。
 
-运行时索引（由脚本生成，勿手改）：
+运行时索引（由脚本生成，**入库供 Pages 使用**；更新后请提交）：
 
 - `public/data/meta.json` / `taxonomy.json`
 - `public/data/search-index.json` / `slug-index.json`
-- `public/data/species/{门}.json`（按门分片加载）
+- `public/data/species/{门}.json`（按门分片；含 `intro` 介绍）
+
+物种 Markdown 源文件仍在本地 `content/species/`（gitignore），不入库。
 
 ### 当前 Excel 列
 
@@ -114,7 +117,9 @@ Vite + React + TypeScript。运行时读取 `public/data/*.json`（由导入脚�
 
 ## GitHub Pages
 
-推送到 `master` 后，Actions 会：从 Excel 生成索引 → 构建（`base=/zoo-world/`）→ 部署。
+推送到 `master` 后，Actions 会：校验已入库的 `public/data` → 构建（`base=/zoo-world/`）→ 部署。
+
+（名录 Excel / 介绍 Markdown 不在 CI 重新生成；本地 `import` / `enrich` / `merge:intro` 后提交 `public/data`。）
 
 首次需在仓库 **Settings → Pages → Build and deployment → Source** 选 **GitHub Actions**。
 
