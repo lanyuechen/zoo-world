@@ -82,12 +82,49 @@ export default function SpeciesPage() {
     },
   ]
 
+  const statusTags = [
+    species.status
+      ? {
+          key: 'status',
+          label: species.status,
+          className: species.status.includes('一级')
+            ? 'status-badge status-i'
+            : species.status.includes('二级')
+              ? 'status-badge status-ii'
+              : 'status-badge',
+        }
+      : null,
+    species.redList
+      ? {
+          key: 'redlist',
+          label: species.redList,
+          className: `status-badge status-redlist status-redlist-${(species.redListCategory || '').toLowerCase()}`,
+        }
+      : null,
+    species.sanyou
+      ? {
+          key: 'sanyou',
+          label: '三有',
+          className: 'status-badge status-sanyou',
+        }
+      : null,
+  ].filter(Boolean) as { key: string; label: string; className: string }[]
+
   return (
     <div className="page species-page">
       <header className="species-head">
         <p className="taxon-rank">种</p>
         <h1>{species.chineseName || '（中文名待补）'}</h1>
         <p className="taxon-latin">{species.scientificName}</p>
+        {statusTags.length > 0 && (
+          <ul className="species-status-tags">
+            {statusTags.map((tag) => (
+              <li key={tag.key}>
+                <span className={tag.className}>{tag.label}</span>
+              </li>
+            ))}
+          </ul>
+        )}
       </header>
 
       <dl className="meta-grid">
@@ -101,52 +138,6 @@ export default function SpeciesPage() {
           <dt>异名</dt>
           <dd>{species.synonyms.length ? species.synonyms.join('；') : '待补充'}</dd>
         </div>
-        <div>
-          <dt>保护等级</dt>
-          <dd>
-            {species.status ? (
-              <span
-                className={
-                  species.status.includes('一级')
-                    ? 'status-badge status-i'
-                    : species.status.includes('二级')
-                      ? 'status-badge status-ii'
-                      : 'status-badge'
-                }
-              >
-                {species.status}
-              </span>
-            ) : (
-              '待补充'
-            )}
-          </dd>
-        </div>
-        <div>
-          <dt>红色名录</dt>
-          <dd>
-            {species.redList ? (
-              <span
-                className={`status-badge status-redlist status-redlist-${(species.redListCategory || '').toLowerCase()}`}
-              >
-                {species.redList}
-              </span>
-            ) : (
-              '—'
-            )}
-          </dd>
-        </div>
-        {species.kingdom.latin === 'Animalia' && (
-          <div>
-            <dt>三有名录</dt>
-            <dd>
-              {species.sanyou ? (
-                <span className="status-badge status-sanyou">是 · 三有</span>
-              ) : (
-                '否'
-              )}
-            </dd>
-          </div>
-        )}
         <div>
           <dt>国内分布</dt>
           <dd>

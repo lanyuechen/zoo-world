@@ -442,11 +442,24 @@
   margin: 0.25rem 0 0;
 }
 
+.species-status-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0.55rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.species-status-tags .status-badge {
+  font-size: 12px;
+}
+
 .status-badge {
   display: inline-block;
   padding: 0.15rem 0.55rem;
   border: 1px solid var(--line);
-  font-size: 0.92rem;
+  font-size: 12px;
   line-height: 1.45;
   background: rgba(31, 77, 56, 0.06);
 }
