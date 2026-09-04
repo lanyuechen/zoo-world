@@ -19,6 +19,9 @@
     "build:plant-protection-list": "tsx scripts/build-plant-protection-list.ts",
     "build:sanyou-list": "tsx scripts/build-sanyou-list.ts",
     "build:redlist": "python3 scripts/build-redlist.py",
+    "gbif:request": "tsx scripts/gbif-request-cn-download.ts",
+    "gbif:process": "tsx scripts/gbif-process-cn.ts",
+    "apply:gbif": "tsx scripts/apply-gbif-distribution.ts",
     "sync:content": "tsx scripts/sync-content.ts"
   },
   "dependencies": {

@@ -126,6 +126,15 @@ export default function App() {
               中国生物多样性红色名录（2020）
             </a>
           </li>
+          <li>
+            <a
+              href={data?.meta.gbif?.sourceUrl || 'https://www.gbif.org'}
+              target="_blank"
+              rel="noreferrer"
+            >
+              GBIF 中国分布记录（occurrence，辅助地图）
+            </a>
+          </li>
         </ul>
       </footer>
     </div>

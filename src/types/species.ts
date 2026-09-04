@@ -139,6 +139,18 @@ export interface CatalogueMeta {
       kingdomSpecies: number
     }
   }
+  gbif?: {
+    list: string
+    filter: string
+    source: string
+    sourceUrl: string
+    appliedAt: string
+    summaryCompiledAt?: string
+    matchedSpecies: number
+    updatedSpecies: number
+    listSpecies: number
+    role: string
+  }
   split?: boolean
   message?: string
 }

@@ -46,7 +46,22 @@ Frontmatter 字段：`scientificName`（主键）、`chineseName`、`synonyms`�
 | 界~属（拉丁 + 中文） | 分类阶元 |
 | 审核专家/数据源 | 审定信息 |
 
-**Excel 暂无**：异名、国内分布省份、科普正文、图片 → 字段已预留，后续在 Markdown 中补充。
+**Excel 暂无**：异名、国内分布省份、科普正文、图片 → 字段已预留；分布可由 GBIF 中国子集补充。
+
+### GBIF 中国区域子集（辅助，非主分类）
+
+- **用途**：辅助学名校验、补充省级分布、物种详情页地图点位；**不要当主分类**。
+- **过滤**：`country=CN` + 有坐标 + 无地理问题。
+- **详情页**：默认实时请求 GBIF Occurrence API 画点；若已跑过离线处理，则优先读 `public/data/gbif-points/`。
+
+```bash
+# 1) 申请下载（需 GBIF 账号）
+GBIF_USER=... GBIF_PASSWORD=... GBIF_EMAIL=... npm run gbif:request
+# 2) 下载完成后将 SIMPLE_CSV 解压到 data/gbif/raw/
+npm run gbif:process
+# 3) 合并省级分布到物种索引
+npm run apply:gbif
+```
 
 **保护等级 / 标签 / 红色名录**：
 - 动物：现行《[国家重点保护野生动物名录](http://www.forestry.gov.cn/lyj/1/gkgfxwj/20210201/546057.html)》（2021）→ `data/protection/national-key-wildlife-2021.json`
@@ -73,7 +88,8 @@ npm run apply:protection
 - 生物 → 界 → 门 → 纲 → 目 → 科 → 属 → 种 浏览
 - 学名 / 中文名检索
 - 物种详情（名录字段 + 介绍占位）
-- 按省份筛选（待分布数据）
+- 物种分布地图（GBIF 中国 occurrence 点位）
+- 按省份筛选（依赖 distribution；可由 GBIF 子集填充）
 
 ## 技术
 

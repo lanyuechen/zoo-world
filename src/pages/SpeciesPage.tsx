@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
+import SpeciesDistributionMap from '../components/SpeciesDistributionMap'
 import { findSpeciesBySlug } from '../lib/catalogue'
 import type { SpeciesRecord } from '../types/species'
 
@@ -139,12 +140,6 @@ export default function SpeciesPage() {
           <dd>{species.synonyms.length ? species.synonyms.join('；') : '待补充'}</dd>
         </div>
         <div>
-          <dt>国内分布</dt>
-          <dd>
-            {species.distribution.length ? species.distribution.join('、') : '待补充'}
-          </dd>
-        </div>
-        <div>
           <dt>审核 / 数据源</dt>
           <dd>{species.reviewedBy || '—'}</dd>
         </div>
@@ -155,6 +150,11 @@ export default function SpeciesPage() {
           </dd>
         </div>
       </dl>
+
+      <SpeciesDistributionMap
+        scientificName={species.scientificName}
+        knownProvinces={species.distribution}
+      />
 
       <section className="lineage">
         <h2>分类位置</h2>

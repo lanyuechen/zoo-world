@@ -38,7 +38,7 @@ export default function ProvincePage() {
       <header className="page-head">
         <h1>按省份筛选</h1>
         <p>
-          国内分布字段待补充。当前名录 Excel 未含省份信息，已有分布数据的物种：
+          名录 Excel 不含省份；可由 GBIF 中国子集填充（npm run apply:gbif）。已有分布：
           <strong> {withDist.toLocaleString()} </strong>种。
         </p>
       </header>

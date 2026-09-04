@@ -545,8 +545,77 @@
 
 .intro-block,
 .media-block,
-.lineage {
+.lineage,
+.distribution-map-block {
   margin-top: 2rem;
+}
+
+.distribution-provinces {
+  margin: 0.35rem 0 0.85rem;
+  color: var(--ink);
+  line-height: 1.55;
+}
+
+.distribution-map-frame {
+  position: relative;
+  border: 1px solid var(--line);
+  background:
+    linear-gradient(180deg, rgba(255, 252, 245, 0.95), rgba(232, 240, 228, 0.7));
+  min-height: 280px;
+  overflow: hidden;
+}
+
+.distribution-map {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.map-bg {
+  fill: #e7eef2;
+}
+
+.map-province {
+  fill: #f4f1e8;
+  stroke: #8a9a86;
+  stroke-width: 0.8;
+  vector-effect: non-scaling-stroke;
+}
+
+.map-province-active {
+  fill: rgba(31, 77, 56, 0.22);
+  stroke: #1f4d38;
+  stroke-width: 1;
+}
+
+.map-point {
+  fill: rgba(139, 58, 42, 0.85);
+  stroke: rgba(255, 252, 245, 0.95);
+  stroke-width: 0.7;
+  pointer-events: none;
+}
+
+.map-status-overlay {
+  position: absolute;
+  left: 50%;
+  bottom: 0.85rem;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 0.35rem 0.7rem;
+  background: rgba(255, 252, 245, 0.9);
+  border: 1px solid var(--line);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.distribution-map-meta {
+  margin: 0.55rem 0 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.distribution-map-meta a {
+  color: var(--moss);
 }
 
 .intro-body {
