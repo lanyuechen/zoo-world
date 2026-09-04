@@ -2,12 +2,15 @@
  * 从《中国生物物种名录》Excel 导入 → Markdown + 分片运行时索引
  *
  * 收录动物界 / 植物界 / 真菌界。Excel 列：物种拉丁名 / 物种中文名 / 界~属 / 审核专家/数据源
- * 异名、国内分布、保护等级、科普正文：Excel 中暂无，写入空占位。
+ * 异名、国内分布、科普正文：Excel 中暂无，写入空占位。
+ * 动物保护等级：导入后按《国家重点保护野生动物名录》（2021）匹配写入。
  */
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import XLSX from 'xlsx'
+import { loadProtectionLookup, resolveAnimalStatus } from './apply-animal-protection'
+import { loadPlantProtectionLookup, resolvePlantStatus } from './apply-plant-protection'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.resolve(__dirname, '..')
@@ -121,7 +124,7 @@ genus:
   latin: ${JSON.stringify(s.genus.latin)}
   chinese: ${JSON.stringify(s.genus.chinese)}
 distribution: ${yamlList(s.distribution)}
-status: null
+status: ${s.status == null ? 'null' : JSON.stringify(s.status)}
 reviewedBy: ${JSON.stringify(s.reviewedBy)}
 slug: ${JSON.stringify(s.slug)}
 ---
@@ -355,15 +358,61 @@ function main() {
     a.scientificName.localeCompare(b.scientificName),
   )
 
+  console.log('匹配国家重点保护野生动植物名录…')
+  const { list: animalList, lookup: animalLookup } = loadProtectionLookup()
+  const { list: plantList, lookup: plantLookup } = loadPlantProtectionLookup()
+  let animalProtected = 0
+  let plantProtected = 0
+  for (const s of species) {
+    if (s.kingdom.latin === 'Animalia') {
+      const status = resolveAnimalStatus(s, animalLookup)
+      if (status) {
+        s.status = status
+        animalProtected += 1
+      }
+    } else if (s.kingdom.latin !== 'Animalia') {
+      const status = resolvePlantStatus(s, plantLookup)
+      if (status) {
+        s.status = status
+        plantProtected += 1
+      }
+    }
+  }
+
   console.log('写入分片索引…')
   writeRuntimeIndexes(root, species, {
     importedAt: new Date().toISOString(),
     files,
     withDistribution: species.filter((s) => s.distribution.length > 0).length,
+    withAnimalProtection: animalProtected,
+    withPlantProtection: plantProtected,
+    withProtection: animalProtected + plantProtected,
+    protection: {
+      wildlife: {
+        list: animalList.title,
+        version: animalList.version,
+        source: animalList.source,
+        sourceUrl: animalList.sourceUrl,
+        appliedAt: new Date().toISOString(),
+        matchedSpecies: animalProtected,
+        animalSpecies: species.filter((s) => s.kingdom.latin === 'Animalia').length,
+      },
+      plant: {
+        list: plantList.title,
+        version: plantList.version,
+        source: plantList.source,
+        sourceUrl: plantList.sourceUrl,
+        appliedAt: new Date().toISOString(),
+        matchedSpecies: plantProtected,
+        plantSpecies: species.filter((s) => s.kingdom.latin === 'Plantae').length,
+      },
+    },
     notes: [
       '主干分类索引唯一来源：《中国生物物种名录》',
       '收录动物界、植物界、真菌界本土物种；拉丁学名为主键',
-      '当前 Excel 不含异名、国内分布省份、保护等级；相关字段留空待补',
+      '当前 Excel 不含异名、国内分布省份；相关字段留空待补',
+      '动物保护等级依据《国家重点保护野生动物名录》（2021）匹配写入',
+      '植物保护等级依据《国家重点保护野生植物名录》（2021）匹配写入',
       '科普介绍与图片后续在 Markdown 中补充，再运行 npm run sync:content',
     ],
   })
@@ -371,6 +420,8 @@ function main() {
   console.log('\n完成')
   console.log(`  Excel 行数: ${rowCount}`)
   console.log(`  唯一物种: ${species.length}`)
+  console.log(`  国家重点保护动物（已匹配）: ${animalProtected}`)
+  console.log(`  国家重点保护植物（已匹配）: ${plantProtected}`)
   console.log(`  Markdown: ${writeMd ? mdWritten : '跳过 (--no-md)'}`)
   console.log(`  索引目录: ${PUBLIC_DATA}`)
 }

@@ -12,6 +12,9 @@
     "preview:pages": "BASE_PATH=/zoo-world/ vite preview",
     "import:excel": "tsx scripts/import-excel.ts",
     "import:excel:index-only": "tsx scripts/import-excel.ts --no-md",
+    "apply:protection": "tsx scripts/apply-animal-protection.ts && tsx scripts/apply-plant-protection.ts",
+    "build:protection-list": "tsx scripts/build-protection-list.ts",
+    "build:plant-protection-list": "tsx scripts/build-plant-protection-list.ts",
     "sync:content": "tsx scripts/sync-content.ts"
   },
   "dependencies": {
@@ -24,6 +27,7 @@
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",
     "@vitejs/plugin-react": "^6.1.0",
+    "opencc-js": "^1.4.2",
     "oxlint": "^1.79.0",
     "tsx": "^4.23.13",
     "typescript": "~6.0.2",

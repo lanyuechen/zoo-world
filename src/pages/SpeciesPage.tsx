@@ -103,7 +103,23 @@ export default function SpeciesPage() {
         </div>
         <div>
           <dt>保护等级</dt>
-          <dd>{species.status || '待补充'}</dd>
+          <dd>
+            {species.status ? (
+              <span
+                className={
+                  species.status.includes('一级')
+                    ? 'status-badge status-i'
+                    : species.status.includes('二级')
+                      ? 'status-badge status-ii'
+                      : 'status-badge'
+                }
+              >
+                {species.status}
+              </span>
+            ) : (
+              '待补充'
+            )}
+          </dd>
         </div>
         <div>
           <dt>国内分布</dt>

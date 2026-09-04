@@ -1,0 +1,7005 @@
+{
+  "title": "国家重点保护野生动物名录",
+  "version": "2021",
+  "source": "国家林业和草原局、农业农村部公告（2021年第3号）",
+  "sourceUrl": "http://www.forestry.gov.cn/lyj/1/gkgfxwj/20210201/546057.html",
+  "compiledFrom": "https://zh.wikipedia.org/wiki/国家重点保护野生动物名录",
+  "compiledAt": "2026-09-04T04:42:39.712Z",
+  "notes": [
+    "现行有效版本为2021年2月公布施行（国务院2021年1月4日批准）",
+    "等级：Ⅰ=国家一级，Ⅱ=国家二级",
+    "“类”条目按属/目/科所有种扩及名录中对应阶元下物种"
+  ],
+  "species": [
+    {
+      "chineseName": "褐耳鹰",
+      "scientificName": "Accipiter badius",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "苍鹰",
+      "scientificName": "Accipiter gentilis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "日本松雀鹰",
+      "scientificName": "Accipiter gularis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "雀鹰",
+      "scientificName": "Accipiter nisus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "赤腹鹰",
+      "scientificName": "Accipiter soloensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "凤头鹰",
+      "scientificName": "Accipiter trivirgatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "松雀鹰",
+      "scientificName": "Accipiter virgatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "棕颈犀鸟",
+      "scientificName": "Aceros nipalensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "井冈山脊蛇",
+      "scientificName": "Achalinus jinggangensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "西伯利亚鲟",
+      "scientificName": "Acipenser baerii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "长江鲟",
+      "scientificName": "Acipenser dabryanus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物（原名“达氏鲟”）",
+      "note": "原名“达氏鲟”",
+      "aquatic": true
+    },
+    {
+      "chineseName": "裸腹鲟",
+      "scientificName": "Acipenser nudiventris",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "小体鲟",
+      "scientificName": "Acipenser ruthenus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "施氏鲟",
+      "scientificName": "Acipenser schrenckii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "中华鲟",
+      "scientificName": "Acipenser sinensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "细纹苇莺",
+      "scientificName": "Acrocephalus sorghophilus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "瘰鳞蛇",
+      "scientificName": "Acrochordus granulatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "鬼鸮",
+      "scientificName": "Aegolius funereus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "秃鹫",
+      "scientificName": "Aegypius monachus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "爪哇金丝雨燕",
+      "scientificName": "Aerodramus fuciphagus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大熊猫",
+      "scientificName": "Ailuropoda melanoleuca",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "小熊猫",
+      "scientificName": "Ailurus fulgens",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "鸳鸯",
+      "scientificName": "Aix galericulata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "角鱼",
+      "scientificName": "Akrokolioplax bicornis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "云雀",
+      "scientificName": "Alauda arvensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "斑头大翠鸟",
+      "scientificName": "Alcedo hercules",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蓝耳翠鸟",
+      "scientificName": "Alcedo meninting",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "驼鹿",
+      "scientificName": "Alces alces",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大石鸡",
+      "scientificName": "Alectoris magna",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "扬子鳄",
+      "scientificName": "Alligator sinensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "海南湍蛙",
+      "scientificName": "Amolops hainanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "香港湍蛙",
+      "scientificName": "Amolops hongkongensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "中华两栖甲",
+      "scientificName": "Amphizoa sinica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "多鳞白鱼",
+      "scientificName": "Anabarilius polylepis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "山白鱼",
+      "scientificName": "Anabarilius transmontanus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "大鲵",
+      "scientificName": "Andrias davidianus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "花鳗鲡",
+      "scientificName": "Anguilla marmorata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "白喉犀鸟",
+      "scientificName": "Anorrhinus austeni",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白额雁",
+      "scientificName": "Anser albifrons",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "鸿雁",
+      "scientificName": "Anser cygnoid",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "小白额雁",
+      "scientificName": "Anser erythropus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "冠斑犀鸟",
+      "scientificName": "Anthracoceros coronatus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蓑羽鹤",
+      "scientificName": "Anthropoides virgo",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "小爪水獭",
+      "scientificName": "Aonyx cinerea",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "金雕",
+      "scientificName": "Aquila chrysaetos",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白腹隼雕",
+      "scientificName": "Aquila fasciata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白肩雕",
+      "scientificName": "Aquila heliaca",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "草原雕",
+      "scientificName": "Aquila nipalensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "海南山鹧鸪",
+      "scientificName": "Arborophila ardens",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白颊山鹧鸪",
+      "scientificName": "Arborophila atrogularis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "褐胸山鹧鸪",
+      "scientificName": "Arborophila brunneopectus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "台湾山鹧鸪",
+      "scientificName": "Arborophila crudigularis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白眉山鹧鸪",
+      "scientificName": "Arborophila gingica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红胸山鹧鸪",
+      "scientificName": "Arborophila mandellii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "四川山鹧鸪",
+      "scientificName": "Arborophila rufipectus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红喉山鹧鸪",
+      "scientificName": "Arborophila rufogularis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "环颈山鹧鸪",
+      "scientificName": "Arborophila torqueola",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "熊狸",
+      "scientificName": "Arctictis binturong",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "小齿狸",
+      "scientificName": "Arctogalidia trivigata",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白腹鹭",
+      "scientificName": "Ardea insignis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "翻石鹬",
+      "scientificName": "Arenaria interpres",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白翅栖鸭",
+      "scientificName": "Asarcornis scutulata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "短耳鸮",
+      "scientificName": "Asio flammeus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "长耳鸮",
+      "scientificName": "Asio otus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "扁吻鱼",
+      "scientificName": "Aspiorhynchus laticeps",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物（原名“新疆大头鱼”）",
+      "note": "原名“新疆大头鱼”",
+      "aquatic": true
+    },
+    {
+      "chineseName": "横斑腹小鸮",
+      "scientificName": "Athene brama",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "纵纹腹小鸮",
+      "scientificName": "Athene noctua",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "伟铗𧈢",
+      "scientificName": "Atlasjapyx atlas",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "褐冠鹃隼",
+      "scientificName": "Aviceda jerdoni",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑冠鹃隼",
+      "scientificName": "Aviceda leuphotes",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "青头潜鸭",
+      "scientificName": "Aythya baeri",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "棕草鹛",
+      "scientificName": "Babax koslowi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大草鹛",
+      "scientificName": "Babax waddelli",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "魾",
+      "scientificName": "Bagarius bagarius",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "红魾",
+      "scientificName": "Bagarius rutilus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "巨魾",
+      "scientificName": "Bagarius yarrelli",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "黄唇鱼",
+      "scientificName": "Bahaba taipingensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "肉质柱头虫",
+      "scientificName": "Balanoglossus carnosus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "三崎柱头虫",
+      "scientificName": "Balanoglossus misakiensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "小须鲸",
+      "scientificName": "Baleanoptera acutorostrata",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "塞鲸",
+      "scientificName": "Baleanoptera borealis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "布氏鲸",
+      "scientificName": "Baleanoptera edeni",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "蓝鲸",
+      "scientificName": "Baleanoptera musculus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "大翅鲸",
+      "scientificName": "Baleanoptera novaeangliae",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "大村鲸",
+      "scientificName": "Baleanoptera omurai",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "长须鲸",
+      "scientificName": "Baleanoptera physalus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "黑顶蛙口夜鹰",
+      "scientificName": "Batrachostomus hodgsoni",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "弱唇褶山溪鲵",
+      "scientificName": "Batrachuperus cochranae",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "无斑山溪鲵",
+      "scientificName": "Batrachuperus karlschmidti",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "龙洞山溪鲵",
+      "scientificName": "Batrachuperus londongensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "山溪鲵",
+      "scientificName": "Batrachuperus pinchonii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "西藏山溪鲵",
+      "scientificName": "Batrachuperus tibetanus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "盐源山溪鲵",
+      "scientificName": "Batrachuperus yenyuanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "贝氏喙鲸",
+      "scientificName": "Berardius bairdii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "多尾凤蝶",
+      "scientificName": "Bhutanitis lidderdalii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "不丹尾凤蝶",
+      "scientificName": "Bhutanitis ludlowi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "双尾凤蝶",
+      "scientificName": "Bhutanitis mansfieldi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "玄裳尾凤蝶",
+      "scientificName": "Bhutanitis nigrilima",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "丽斑尾凤蝶",
+      "scientificName": "Bhutanitis pulchristriata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "三尾凤蝶",
+      "scientificName": "Bhutanitis thaidina",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "玉龙尾凤蝶",
+      "scientificName": "Bhutanitis yulongensisn",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "野牛",
+      "scientificName": "Bos gaurus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "爪哇野牛",
+      "scientificName": "Bos javanicus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "野牦牛",
+      "scientificName": "Bos mutus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "抱龙角蟾",
+      "scientificName": "Boulenophrys baolongensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "厦门文昌鱼",
+      "scientificName": "Branchiostoma belcheri",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群。原名“文昌鱼”。）",
+      "note": "仅限野外种群。原名“文昌鱼”。",
+      "aquatic": true
+    },
+    {
+      "chineseName": "青岛文昌鱼",
+      "scientificName": "Branchiostoma tsingdauense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "红胸黑雁",
+      "scientificName": "Branta ruficollis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "毛腿雕鸮",
+      "scientificName": "Bubo blakistoni",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "雕鸮",
+      "scientificName": "Bubo bubo",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "林雕鸮",
+      "scientificName": "Bubo nipalensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "雪鸮",
+      "scientificName": "Bubo scandiacus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "双角犀鸟",
+      "scientificName": "Buceros bicornis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "秦岭羚牛",
+      "scientificName": "Budorcas bedfordi",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "贡山羚牛",
+      "scientificName": "Budorcas taxicolor",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "四川羚牛",
+      "scientificName": "Budorcas tibetanus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "不丹羚牛",
+      "scientificName": "Budorcas whitei",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "无棘溪蟾",
+      "scientificName": "Bufo aspinius",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "史氏蟾蜍",
+      "scientificName": "Bufo stejnegeri",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "灰脸𫛭鹰",
+      "scientificName": "Butastur indicus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "棕翅𫛭鹰",
+      "scientificName": "Butastur liventer",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白眼𫛭鹰",
+      "scientificName": "Butastur teesa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "欧亚𫛭",
+      "scientificName": "Buteo buteo",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大𫛭",
+      "scientificName": "Buteo hemilasius",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "普通𫛭",
+      "scientificName": "Buteo japonicus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "毛脚𫛭",
+      "scientificName": "Buteo lagopus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "喜山𫛭",
+      "scientificName": "Buteo refectus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "棕尾𫛭",
+      "scientificName": "Buteo rufinus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "阔嘴鹬",
+      "scientificName": "Calidris falcinellus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "勺嘴鹬",
+      "scientificName": "Calidris pygmaea",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大滨鹬",
+      "scientificName": "Calidris tenuirostris",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红喉歌鸲",
+      "scientificName": "Calliope calliope",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑喉歌鸲",
+      "scientificName": "Calliope obscura",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "金胸歌鸲",
+      "scientificName": "Calliope pectardens",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "北海狗",
+      "scientificName": "Callorhinus ursinus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "野骆驼",
+      "scientificName": "Camelus ferus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "亚洲胡狼",
+      "scientificName": "Canis aureus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "狼",
+      "scientificName": "Canis lupus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "北山羊",
+      "scientificName": "Capra sibirica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "中华鬣羚",
+      "scientificName": "Capricornis milneedwardsii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红鬣羚",
+      "scientificName": "Capricornis rubidus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "台湾鬣羚",
+      "scientificName": "Capricornis swinhoei",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "喜马拉雅鬣羚",
+      "scientificName": "Capricornis thar",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "粗毛兔",
+      "scientificName": "Caprolagus hispidus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蓝鞘大步甲",
+      "scientificName": "Carabus cyaneogigas",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "硕步甲",
+      "scientificName": "Carabus davidi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "桂北大步甲",
+      "scientificName": "Carabus guibeicus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "巫山大步甲",
+      "scientificName": "Carabus ishizukai",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "库班大步甲",
+      "scientificName": "Carabus kubani",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "拉步甲",
+      "scientificName": "Carabus lafossei",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "细胸大步甲",
+      "scientificName": "Carabus osawai",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "贞大步甲",
+      "scientificName": "Carabus penelope",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "滇川大步甲",
+      "scientificName": "Carabus yunanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "噬人鲨",
+      "scientificName": "Carcharodon carcharias",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "圆尾蝎鲎",
+      "scientificName": "Carcinoscorpius rotundicauda",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "红海龟",
+      "scientificName": "Caretta caretta",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物（原名“蠵龜”）",
+      "note": "原名“蠵龜”",
+      "aquatic": true
+    },
+    {
+      "chineseName": "藏雀",
+      "scientificName": "Carpodacus roborowskii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "北朱雀",
+      "scientificName": "Carpodacus roseus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "褐头朱雀",
+      "scientificName": "Carpodacus sillemi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "唐冠螺",
+      "scientificName": "Cassis cornuta",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（原名“冠螺”）",
+      "note": "原名“冠螺”",
+      "aquatic": true
+    },
+    {
+      "chineseName": "河狸",
+      "scientificName": "Castor fiber",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "小鸦鹃",
+      "scientificName": "Centropus bengalensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "褐翅鸦鹃",
+      "scientificName": "Centropus fuciphagus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "四川旋木雀",
+      "scientificName": "Certhia tianquanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "马鹿",
+      "scientificName": "Cervus canadensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": false
+    },
+    {
+      "chineseName": "水鹿",
+      "scientificName": "Cervus equinus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "梅花鹿",
+      "scientificName": "Cervus nippon",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": false
+    },
+    {
+      "chineseName": "豚鹿",
+      "scientificName": "Cervus porcinus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "西藏马鹿",
+      "scientificName": "Cervus wallichii",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "塔里木马鹿",
+      "scientificName": "Cervus yarkandensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": false
+    },
+    {
+      "chineseName": "姥鲨",
+      "scientificName": "Cetorhinus maximus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "法螺",
+      "scientificName": "Charonia tritonis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "波纹唇鱼",
+      "scientificName": "Cheilinus undulatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "越南臂金龟",
+      "scientificName": "Cheirotonus battareli",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "台湾长臂金龟",
+      "scientificName": "Cheirotonus formosanus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "福氏彩臂金龟",
+      "scientificName": "Cheirotonus fujiokai",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "格彩臂金龟",
+      "scientificName": "Cheirotonus gestroi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "阳彩臂金龟",
+      "scientificName": "Cheirotonus jansoni",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "印度长臂金龟",
+      "scientificName": "Cheirotonus macleayii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "昭沼氏长臂金龟",
+      "scientificName": "Cheirotonus terunumai",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "绿海龟",
+      "scientificName": "Chelonia mydas",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "波斑鸨",
+      "scientificName": "Chlamydotis macqueenii",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑浮鸥",
+      "scientificName": "Chlidonias niger",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "三趾鸦雀",
+      "scientificName": "Cholornis paradocus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "缟灵猫",
+      "scientificName": "Chrotogale owstoni",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白腹锦鸡",
+      "scientificName": "Chrysolophus amherstiae",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红腹锦鸡",
+      "scientificName": "Chrysolophus pictus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大黄冠啄木鸟",
+      "scientificName": "Chrysophlegma flavinucha",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "骨唇黄河鱼",
+      "scientificName": "Chuanchia labiosa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "东方白鹳",
+      "scientificName": "Ciconia boyciana",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白鹳",
+      "scientificName": "Ciconia ciconia",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑鹳",
+      "scientificName": "Ciconia nigra",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "短趾雕",
+      "scientificName": "Circaetus gallicus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白头鹞",
+      "scientificName": "Circus aeruginosus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白尾鹞",
+      "scientificName": "Circus cyaneus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "草原鹞",
+      "scientificName": "Circus macrourus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "鹊鹞",
+      "scientificName": "Circus melanoleucos",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "乌灰鹞",
+      "scientificName": "Circus pygargus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白腹鹞",
+      "scientificName": "Circus spilonotus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蓝绿鹊",
+      "scientificName": "Cissa chinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黄胸绿鹊",
+      "scientificName": "Cissa hypoleuca",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "乌雕",
+      "scientificName": "Clanga clanga",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "紫宽嘴鸫",
+      "scientificName": "Cochoa purpurea",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "绿宽嘴鸫",
+      "scientificName": "Cochoa viridis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "三索蛇",
+      "scientificName": "Coelognathus radiatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "中亚鸽",
+      "scientificName": "Columba eversmanni",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "斑尾林鸽",
+      "scientificName": "Columba palumbus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "紫林鸽",
+      "scientificName": "Columba punicea",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "圆口铜鱼",
+      "scientificName": "Coreius guichennoti",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "北方铜鱼",
+      "scientificName": "Coreius septentrionalis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "花田鸡",
+      "scientificName": "Coturnicops exquisitus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "长脚秧鸡",
+      "scientificName": "Crex crex",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蓝马鸡",
+      "scientificName": "Crossoptilon aurtun",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白马鸡",
+      "scientificName": "Crossoptilon crossoptilon",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "藏马鸡",
+      "scientificName": "Crossoptilon harmani",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "褐马鸡",
+      "scientificName": "Crossoptilon mantchuricum",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "豺",
+      "scientificName": "Cuon alpinus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "欧氏摄龟",
+      "scientificName": "Cyclemys oldhamii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "小天鹅",
+      "scientificName": "Cygnus columbianus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大天鹅",
+      "scientificName": "Cygnus cygnus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "疣鼻天鹅",
+      "scientificName": "Cygnus olor",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红尾筒蛇",
+      "scientificName": "Cylindrophis ruffus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "潮汕蝾螈",
+      "scientificName": "Cynops orphicus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "白喉林鹟",
+      "scientificName": "Cyornis brunneatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "虎斑宝贝",
+      "scientificName": "Cypraea tigris",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "抚仙鲤",
+      "scientificName": "Cyprinus fuxianensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "小鲤",
+      "scientificName": "Cyprinus micristius",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "大头鲤",
+      "scientificName": "Cyprinus pellegrini",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "海南塞勒蛛",
+      "scientificName": "Cyriopagopus hainanus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "泰国圆斑蝰",
+      "scientificName": "Daboia siamensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黄𫚉",
+      "scientificName": "Dasyatis bennettii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限陆封种群）",
+      "note": "仅限陆封种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "长喙真海豚",
+      "scientificName": "Delphinus capensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "真海豚",
+      "scientificName": "Delphinus delphis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "白翅啄木鸟",
+      "scientificName": "Dendrocopos leucopterus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "栗树鸭",
+      "scientificName": "Dendrocygna javanica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "棱皮龟",
+      "scientificName": "Dermochelys coriacea",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "香港双足蜥",
+      "scientificName": "Dibamus bogadeki",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大盘尾",
+      "scientificName": "Dicrurus paradiseus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "小盘尾",
+      "scientificName": "Dicrurus remifer",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "巴塘龙蜥",
+      "scientificName": "Diploderma batangense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "短尾龙蜥",
+      "scientificName": "Diploderma brevicaudum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "侏龙蜥",
+      "scientificName": "Diploderma drukdaypo",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "滑腹龙蜥",
+      "scientificName": "Diploderma laeviventre",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "宜兰龙蜥",
+      "scientificName": "Diploderma luei",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "溪头龙蜥",
+      "scientificName": "Diploderma makii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "帆背龙蜥",
+      "scientificName": "Diploderma vela",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "斑重唇鱼",
+      "scientificName": "Diptychus maculatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "无序双孔螅",
+      "scientificName": "Distichopora irregularis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "紫色双孔螅",
+      "scientificName": "Distichopora violacea",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "安达刀锹甲",
+      "scientificName": "Dorcus antaeus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白腹啄木鸟",
+      "scientificName": "Dryocopus javensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑啄木鸟",
+      "scientificName": "Dryocopus martius",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "绿皇鸠",
+      "scientificName": "Ducula aenea",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "山皇鸠",
+      "scientificName": "Ducula badia",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "儒艮",
+      "scientificName": "Dugong dugong",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "琉球棘螈",
+      "scientificName": "Echinotriton andersoni",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "镇海棘螈",
+      "scientificName": "Echinotriton chinhaiensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物（原名“镇海疣螈”）",
+      "note": "原名“镇海疣螈”",
+      "aquatic": true
+    },
+    {
+      "chineseName": "高山棘螈",
+      "scientificName": "Echinotriton maxiquadratus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "黄嘴白鹭",
+      "scientificName": "Egretta eulophotes",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "岩鹭",
+      "scientificName": "Egretta sacra",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑翅鸢",
+      "scientificName": "Elanus caeruleus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "团花锦蛇",
+      "scientificName": "Elaphe davidi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "麋鹿",
+      "scientificName": "Elaphurus davidianus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "亚洲象",
+      "scientificName": "Elephas maximus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黄胸鹀",
+      "scientificName": "Emberiza aureola",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "栗斑腹鹀",
+      "scientificName": "Emberiza jankowskii",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "藏鹀",
+      "scientificName": "Emberiza koslowi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蓝鹀",
+      "scientificName": "Emberiza siemsseni",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "龟头海蛇",
+      "scientificName": "Emydocephalus ijimae",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "胫晓扁犀金龟",
+      "scientificName": "Eophileurus tetraspermexitus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "普氏野马",
+      "scientificName": "Equus ferus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物（原名“野马”）",
+      "note": "原名“野马”",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蒙古野驴",
+      "scientificName": "Equus hemionus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "藏野驴",
+      "scientificName": "Equus kiang",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物（原名“西藏野驴”）",
+      "note": "原名“西藏野驴”",
+      "aquatic": false
+    },
+    {
+      "chineseName": "玳瑁",
+      "scientificName": "Eretmochelys imbricata",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "髯海豹",
+      "scientificName": "Erignathus barbatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "佳丽刺柱螅",
+      "scientificName": "Errina dabneyi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "红沙蟒",
+      "scientificName": "Eryx miliaris",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "东方沙蟒",
+      "scientificName": "Eryx tataricus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大石鸻",
+      "scientificName": "Esacus recurvirostris",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "灰鲸",
+      "scientificName": "Eschrichtius robustus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "北太平洋露脊鲸",
+      "scientificName": "Eubalaena japonica",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "青石爬𬶐",
+      "scientificName": "Euchiloglanis davidi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "北海狮",
+      "scientificName": "Eumetonpias jubatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "细角尤犀金龟",
+      "scientificName": "Eupatorus gracilicornis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "粗尤犀金龟",
+      "scientificName": "Eupatorus hardwickii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "横斑锦蛇",
+      "scientificName": "Euprepiophis perlaceus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "镰翅鸡",
+      "scientificName": "Falcipennis falcipennis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红腿隼",
+      "scientificName": "Falco amurensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "猎隼",
+      "scientificName": "Falco cherrug",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "灰背隼",
+      "scientificName": "Falco columbarius",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "游隼",
+      "scientificName": "Falco peregrinus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "矛隼",
+      "scientificName": "Falco rusticolus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "猛隼",
+      "scientificName": "Falco severus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "燕隼",
+      "scientificName": "Falco subbuteo",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黄爪隼",
+      "scientificName": "Falco tinnunculus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红隼",
+      "scientificName": "Falco vespertinus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "荒漠猫",
+      "scientificName": "Felis bieti",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "丛林猫",
+      "scientificName": "Felis chaus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "草原斑猫",
+      "scientificName": "Felis silvestris",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "渔猫",
+      "scientificName": "Felis viverrinus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "小虎鲸",
+      "scientificName": "Feresa attenuata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "白腹军舰鸟",
+      "scientificName": "Fregata andrewsi",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白斑军舰鸟",
+      "scientificName": "Fregata ariel",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑腹军舰鸟",
+      "scientificName": "Fregata minor",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "中华雀鹛",
+      "scientificName": "Fulvetta striaticollis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "长丝黑𬶐",
+      "scientificName": "Gagata dolichonema",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "林沙锥",
+      "scientificName": "Gallinago nemoricola",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "中华蛩蠊",
+      "scientificName": "Galloisiana sinensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "原鸡",
+      "scientificName": "Gallus gallus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "棕噪鹛",
+      "scientificName": "Garrulax berthemyi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白点噪鹛",
+      "scientificName": "Garrulax bieti",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "画眉",
+      "scientificName": "Garrulax canorus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑喉噪鹛",
+      "scientificName": "Garrulax chinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蓝冠噪鹛",
+      "scientificName": "Garrulax courtoisi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "斑背噪鹛",
+      "scientificName": "Garrulax lunulatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "褐胸噪鹛",
+      "scientificName": "Garrulax maesi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大噪鹛",
+      "scientificName": "Garrulax maximus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "眼纹噪鹛",
+      "scientificName": "Garrulax ocellatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "海南画眉",
+      "scientificName": "Garrulax owstoni",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑额山噪鹛",
+      "scientificName": "Garrulax sukatschewi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "台湾画眉",
+      "scientificName": "Garrulax taewanus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "鹅喉羚",
+      "scientificName": "Gazella subgutturosa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大壁虎",
+      "scientificName": "Gekko gecko",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑疣大壁虎",
+      "scientificName": "Gekko reevesii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "地龟",
+      "scientificName": "Geoemyda spengleri",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "青岛橡头虫",
+      "scientificName": "Glandiceps qingdaoensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "小腺蛙",
+      "scientificName": "Glandirana minima",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "灰燕鸻",
+      "scientificName": "Glareola lactea",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "领鸺鹠",
+      "scientificName": "Glaucidium brodiei",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "斑头鸺鹠",
+      "scientificName": "Glaucidium cuculoides",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "花头鸺鹠",
+      "scientificName": "Glaucidium passerinum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "短肢领航鲸",
+      "scientificName": "Globicephala macrorhynchus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "短殖舌形虫",
+      "scientificName": "Glossobalanus mortenseni",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "多鳃孔舌形虫",
+      "scientificName": "Glossobalanus polybranchioporus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "蛇岛蝮",
+      "scientificName": "Gloydius shedaoensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑斑原𬶐",
+      "scientificName": "Glyptosternon maculatum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "平鳍鳅𬶍",
+      "scientificName": "Gobiobotia homalopteroidea",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "稀有𬶋鲫",
+      "scientificName": "Gobiocypris rarus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "越南睑虎",
+      "scientificName": "Goniurosaurus araneus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "霸王岭睑虎",
+      "scientificName": "Goniurosaurus bawanglingensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "海南睑虎",
+      "scientificName": "Goniurosaurus hainanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "嘉道理睑虎",
+      "scientificName": "Goniurosaurus kadoorieorum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "广西睑虎",
+      "scientificName": "Goniurosaurus kwangsiensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "荔波睑虎",
+      "scientificName": "Goniurosaurus liboensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "凭祥睑虎",
+      "scientificName": "Goniurosaurus luii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "英德睑虎",
+      "scientificName": "Goniurosaurus yingdeensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蒲氏睑虎",
+      "scientificName": "Goniurosaurus zhelongi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "周氏睑虎",
+      "scientificName": "Goniurosaurus zhoui",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "栗头鳽",
+      "scientificName": "Gorsachius goisagi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "海南鳽",
+      "scientificName": "Gorsachius magnificus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物（原名“海南虎斑鳽”）",
+      "note": "原名“海南虎斑鳽”",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑冠鳽",
+      "scientificName": "Gorsachius melanolophus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "鹩哥",
+      "scientificName": "Gracula religiosa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "里氏海豚",
+      "scientificName": "Grampus griseus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "赤颈鹤",
+      "scientificName": "Grus antigone",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "沙丘鹤",
+      "scientificName": "Grus canadensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "灰鹤",
+      "scientificName": "Grus grus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "丹顶鹤",
+      "scientificName": "Grus japonensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白鹤",
+      "scientificName": "Grus leucogeranus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白头鹤",
+      "scientificName": "Grus monacha",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑颈鹤",
+      "scientificName": "Grus nigricollis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白枕鹤",
+      "scientificName": "Grus vipio",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "陈氏西蛩蠊",
+      "scientificName": "Grylloblattella cheni",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "貂熊",
+      "scientificName": "Gulo gulo",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "厚唇裸重唇鱼",
+      "scientificName": "Gymnodiptychus pachycheilus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "胡兀鹫",
+      "scientificName": "Gypaetus barbatus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白背兀鹫",
+      "scientificName": "Gyps bengalensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物（原名“拟兀鹫”）",
+      "note": "原名“拟兀鹫”",
+      "aquatic": false
+    },
+    {
+      "chineseName": "兀鹫",
+      "scientificName": "Gyps fulvus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "高山兀鹫",
+      "scientificName": "Gyps himalayensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "长嘴兀鹫",
+      "scientificName": "Gyps indicus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "双孔鱼",
+      "scientificName": "Gyrinocheilus aymonieri",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "白胸翡翠",
+      "scientificName": "Halcyon smyrnensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白尾海雕",
+      "scientificName": "Haliaeetus albicilla",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白腹海雕",
+      "scientificName": "Haliaeetus leucogaster",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "玉带海雕",
+      "scientificName": "Haliaeetus leucoryphus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "虎头海雕",
+      "scientificName": "Haliaeetus pelagicus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "栗鸢",
+      "scientificName": "Haliastur indus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红头咬鹃",
+      "scientificName": "Harpactes erythrocephalus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "橙胸咬鹃",
+      "scientificName": "Harpactes oreskios",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红腹咬鹃",
+      "scientificName": "Harpactes wardi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "马来熊",
+      "scientificName": "Helarctos malayanus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "悍马巨蜣螂",
+      "scientificName": "Heliocopris bucephalus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "上帝巨蜣螂",
+      "scientificName": "Heliocopris dominus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "迈达斯巨蜣螂",
+      "scientificName": "Heliocopris midas",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "扭尾曦春蜓",
+      "scientificName": "Heliogomphus retroflexus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（原名“尖板曦箭蜓”）",
+      "note": "原名“尖板曦箭蜓”",
+      "aquatic": false
+    },
+    {
+      "chineseName": "斑鳠",
+      "scientificName": "Hemibagrus guttatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "凤头雨燕",
+      "scientificName": "Hemiprocne coronata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "塔尔羊",
+      "scientificName": "Hemitragus jemlahicus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "靴隼雕",
+      "scientificName": "Hieraaetus pennatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "砗蚝",
+      "scientificName": "Hippopus hippopus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "灰喉针尾雨燕",
+      "scientificName": "Hirundapus cochinchinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "西白眉长臂猿",
+      "scientificName": "Hoolock hoolock",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "东白眉长臂猿",
+      "scientificName": "Hoolock leuconedys",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "高黎贡白眉长臂猿",
+      "scientificName": "Hoolock tianxing",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "虎纹蛙",
+      "scientificName": "Hoplobatrachus chinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "川陕哲罗鲑",
+      "scientificName": "Hucho bleekeri",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "石川氏哲罗鲑",
+      "scientificName": "Hucho ishikawai",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "哲罗鲑",
+      "scientificName": "Hucho taimen",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "鳇",
+      "scientificName": "Huso dauricus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "水雉",
+      "scientificName": "Hydrophasianus chirurgus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "青灰海蛇",
+      "scientificName": "Hydrophis caerulescens",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "平颏海蛇",
+      "scientificName": "Hydrophis curtus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "青环海蛇",
+      "scientificName": "Hydrophis cyanocinctus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "环纹海蛇",
+      "scientificName": "Hydrophis fasciatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "小头海蛇",
+      "scientificName": "Hydrophis gracilis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "截吻海蛇",
+      "scientificName": "Hydrophis jerdonii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "黑头海蛇",
+      "scientificName": "Hydrophis melanocephalus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "淡灰海蛇",
+      "scientificName": "Hydrophis ornatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "棘眦海蛇",
+      "scientificName": "Hydrophis peronii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "长吻海蛇",
+      "scientificName": "Hydrophis platurus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "棘鳞海蛇",
+      "scientificName": "Hydrophis stokesii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "海蝰",
+      "scientificName": "Hydrophis viperinus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "獐",
+      "scientificName": "Hydropotes inermis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（原名“河麂”）",
+      "note": "原名“河麂”",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白掌长臂猿",
+      "scientificName": "Hylobates lar",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "安吉小鲵",
+      "scientificName": "Hynobius amjiensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "阿里山小鲵",
+      "scientificName": "Hynobius arisanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "中国小鲵",
+      "scientificName": "Hynobius chinensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "台湾小鲵",
+      "scientificName": "Hynobius formosanus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "观雾小鲵",
+      "scientificName": "Hynobius fucus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "南湖小鲵",
+      "scientificName": "Hynobius glacialis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "挂榜山小鲵",
+      "scientificName": "Hynobius guabangshanensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "东北小鲵",
+      "scientificName": "Hynobius leechii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "猫儿山小鲵",
+      "scientificName": "Hynobius maoershanensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "普雄原鲵",
+      "scientificName": "Hynobius puxiongensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "楚南小鲵",
+      "scientificName": "Hynobius sonani",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "义乌小鲵",
+      "scientificName": "Hynobius yiwuensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "大鳞鲢",
+      "scientificName": "Hypophthalmichthys harmandi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "鹮嘴鹬",
+      "scientificName": "Ibidorhyncha struthersii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "遗鸥",
+      "scientificName": "Ichthyaetus relictus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "版纳鱼螈",
+      "scientificName": "Ichthyophis bannaicus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "渔雕",
+      "scientificName": "Icthyophaga humilis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "林雕",
+      "scientificName": "Ictinaetus malaiensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "朗氏喙鲸",
+      "scientificName": "Indopacetus pecificus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "缅甸陆龟",
+      "scientificName": "Indotestudo elongata",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "香港盲蛇",
+      "scientificName": "Indotyphlops lazelli",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "粗糙竹节柳珊瑚",
+      "scientificName": "Isis hippuris",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "细枝竹节柳珊瑚",
+      "scientificName": "Isis minorbrachyblasta",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "网枝竹节柳珊瑚",
+      "scientificName": "Isis reticulata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "血雉",
+      "scientificName": "Ithaginis cruentus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "小苇鳽",
+      "scientificName": "Ixbrychus minutus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黄腿渔鸮",
+      "scientificName": "Ketupa flavipes",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "褐渔鸮",
+      "scientificName": "Ketupa Zeylonensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "小抹香鲸",
+      "scientificName": "Kogia breviceps",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "鹅喙鲸",
+      "scientificName": "Kogia cavirostris",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "侏抹香鲸",
+      "scientificName": "Kogia sima",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "弗氏海豚",
+      "scientificName": "Lagenodelphis hosei",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "太平洋斑纹海豚",
+      "scientificName": "Lagenorhynchus obliquidens",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "柳雷鸟",
+      "scientificName": "Lagopus lagopus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "岩雷鸟",
+      "scientificName": "Lagopus muta",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "日本七鳃鳗",
+      "scientificName": "Lampetra japonica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "东北七鳃鳗",
+      "scientificName": "Lampetra morii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "雷氏七鳃鳗",
+      "scientificName": "Lampetra reissneri",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "绢丝丽蚌",
+      "scientificName": "Lamprotula fibrosa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "背瘤丽蚌",
+      "scientificName": "Lamprotula leai",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "佛耳丽蚌",
+      "scientificName": "Lamprotula mansuyi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "多瘤丽蚌",
+      "scientificName": "Lamprotula polysticta",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "刻裂丽蚌",
+      "scientificName": "Lamprotula scripta",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "小鸥",
+      "scientificName": "Larus minutus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "棕头歌鸲",
+      "scientificName": "Larvivora ruficeps",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蓝灰扁尾海蛇",
+      "scientificName": "Laticauda colubrina",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "扁尾海蛇",
+      "scientificName": "Laticauda laticaudata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "半环扁尾海蛇",
+      "scientificName": "Laticauda semifasciata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "蜡皮蜥",
+      "scientificName": "Leiolepis reevesii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "银耳相思鸟",
+      "scientificName": "Leiothrix argentauris",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红嘴相思鸟",
+      "scientificName": "Leiothrix lutea",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "太平洋丽龟",
+      "scientificName": "Lepidochelys olivacea",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "长薄鳅",
+      "scientificName": "Leptobotia elongata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "黄线薄鳅",
+      "scientificName": "Leptobotia flavolineata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "红唇薄鳅",
+      "scientificName": "Leptobotia rubrilabris",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "秃鹳",
+      "scientificName": "Leptoptilos javanicus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "海南兔",
+      "scientificName": "Lepus hainanus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "雪兔",
+      "scientificName": "Lepus timidus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "塔里木兔",
+      "scientificName": "Lepus yarkandensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大凉螈",
+      "scientificName": "Liangshantriton taliangensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（原名“大凉疣螈”）",
+      "note": "原名“大凉疣螈”",
+      "aquatic": true
+    },
+    {
+      "chineseName": "半蹼鹬",
+      "scientificName": "Limnodromus semipalmatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "脆皮大头蛙",
+      "scientificName": "Limnonectes fragilis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "金氏䱀",
+      "scientificName": "Liobagrus kingi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "黑冠薮鹛",
+      "scientificName": "Liocichla bugunorum",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "灰胸薮鹛",
+      "scientificName": "Liocichla omeiensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "金胸雀鹛",
+      "scientificName": "Lioparus chrysotis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白𬶨豚",
+      "scientificName": "Lipotes vexillifer",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "巫山巴鲵",
+      "scientificName": "Liua shihi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "秦巴巴鲵",
+      "scientificName": "Liua tsinpaensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "罗默刘树蛙",
+      "scientificName": "Liuixalus romeri",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "棕尾虹雉",
+      "scientificName": "Lophophorus impejanus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "绿尾虹雉",
+      "scientificName": "Lophophorus lhuysii",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白尾梢虹雉",
+      "scientificName": "Lophophorus sclateri",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "棕腹隼雕",
+      "scientificName": "Lophtriorchis kienerii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑鹇",
+      "scientificName": "Lophura leucomelana",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白鹇",
+      "scientificName": "Lophura nycthemera",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蓝腹鹇",
+      "scientificName": "Lophura swinhoii",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物（原名“蓝鹇”）",
+      "note": "原名“蓝鹇”",
+      "aquatic": false
+    },
+    {
+      "chineseName": "短尾鹦鹉",
+      "scientificName": "Loriculus vernalis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "锤尾凤蝶",
+      "scientificName": "Losaria coon",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红交嘴雀",
+      "scientificName": "Loxia curvirostra",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "巨叉深山锹甲",
+      "scientificName": "Lucanus hermani",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "鯮",
+      "scientificName": "Luciobrama macrocephalus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "单纹似鳡",
+      "scientificName": "Luciocyprinus langsoni",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "中华虎凤蝶",
+      "scientificName": "Luehdorfia chinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "新疆歌鸲",
+      "scientificName": "Luscinia megarhynchos",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蓝喉歌鸲",
+      "scientificName": "Luscinia svecica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "水獭",
+      "scientificName": "Lutra lutra",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "江獭",
+      "scientificName": "Lutrongale perspicillata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "猞猁",
+      "scientificName": "Lynx lynx",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑琴鸡",
+      "scientificName": "Lyrurus tetrix",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "短尾猴",
+      "scientificName": "Macaca arctoides",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "熊猴",
+      "scientificName": "Macaca assamensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "台湾猴",
+      "scientificName": "Macaca cyclopis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "北豚尾猴",
+      "scientificName": "Macaca leonina",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物（原名“豚尾猴”）",
+      "note": "原名“豚尾猴”",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白颊猕猴",
+      "scientificName": "Macaca leucogenys",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "猕猴",
+      "scientificName": "Macaca mulatta",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "藏南猕猴",
+      "scientificName": "Macaca munzala",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "藏酋猴",
+      "scientificName": "Macaca thibetana",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "小鹃鸠",
+      "scientificName": "Macropygia ruficeps",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物（原名“棕头鹃鸠”）",
+      "note": "原名“棕头鹃鸠”",
+      "aquatic": false
+    },
+    {
+      "chineseName": "菲律宾鹃鸠",
+      "scientificName": "Macropygia tenuirostris",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "斑尾鹃鸠",
+      "scientificName": "Macropygia unchall",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大斑霾灰蝶",
+      "scientificName": "Maculinea arionides",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "印度穿山甲",
+      "scientificName": "Manis crassicaudata",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "马来穿山甲",
+      "scientificName": "Manis javanica",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "穿山甲",
+      "scientificName": "Manis pentadactyla",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "凹甲陆龟",
+      "scientificName": "Manouria impressa",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "珠母珍珠蚌",
+      "scientificName": "Margaritiana dahurica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "螺蛳",
+      "scientificName": "Margarya melanioides",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "云石斑鸭",
+      "scientificName": "Marmaronetta angustirostris",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黄喉貂",
+      "scientificName": "Martes flavigula",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "石貂",
+      "scientificName": "Martes foina",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "紫貂",
+      "scientificName": "Martes zibellina",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黄喉拟水龟",
+      "scientificName": "Mauremys mutica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "黑颈乌龟",
+      "scientificName": "Mauremys nigricans",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "草龟",
+      "scientificName": "Mauremys reevesii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "花龟",
+      "scientificName": "Mauremys sinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "蒙古百灵",
+      "scientificName": "Melanocorypha mongolica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "懒熊",
+      "scientificName": "Melursus ursinus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "斑头秋沙鸭",
+      "scientificName": "Mergellus albellus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "中华秋沙鸭",
+      "scientificName": "Mergus squamatus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "栗头蜂虎",
+      "scientificName": "Merops leschenaulti",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（原名“黑胸蜂虎”）",
+      "note": "原名“黑胸蜂虎”",
+      "aquatic": false
+    },
+    {
+      "chineseName": "绿喉蜂虎",
+      "scientificName": "Merops orientalis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "彩虹蜂虎",
+      "scientificName": "Merops ornatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蓝颊蜂虎",
+      "scientificName": "Merops persicus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "栗喉蜂虎",
+      "scientificName": "Merops philippinus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蓝喉蜂虎",
+      "scientificName": "Merops viridis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "柏氏中喙鲸",
+      "scientificName": "Mesoplodon densirostris",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "银杏齿中喙鲸",
+      "scientificName": "Mesoplodon ginkgodens",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "小中喙鲸",
+      "scientificName": "Mesoplodon peruvianus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "铜翅水雉",
+      "scientificName": "Metopidius indicus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑颈鸬鹚",
+      "scientificName": "Microcarbo niger",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红腿小隼",
+      "scientificName": "Microhierax caerulescens",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白腿小隼",
+      "scientificName": "Microhierax melanoleucos",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "分叉多孔螅",
+      "scientificName": "Millepora dichotoma",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "节块多孔螅",
+      "scientificName": "Millepora exaesa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "窝形多孔螅",
+      "scientificName": "Millepora foveolata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "错综多孔螅",
+      "scientificName": "Millepora intricata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "阔叶多孔螅",
+      "scientificName": "Millepora latifolia",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "扁叶多孔螅",
+      "scientificName": "Millepora platyphylla",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "娇嫩多孔螅",
+      "scientificName": "Millepora tenera",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "黑鸢",
+      "scientificName": "Milvus migrans",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "歌百灵",
+      "scientificName": "Mirafra javanica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "安徽麝",
+      "scientificName": "Moschus anhuiensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "林麝",
+      "scientificName": "Moschus berezovskii",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "马麝",
+      "scientificName": "Moschus chrysogaster",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑麝",
+      "scientificName": "Moschus fuscus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "喜马拉雅麝",
+      "scientificName": "Moschus leucogaster",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "原麝",
+      "scientificName": "Moschus moschiferus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "宝兴鹛雀",
+      "scientificName": "Moupinia poecilotis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大灰啄木鸟",
+      "scientificName": "Mulleripicus pulverulentus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑麂",
+      "scientificName": "Muntiacus crinifrons",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "贡山麂",
+      "scientificName": "Muntiacus gongshanesis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "海南麂",
+      "scientificName": "Muntiacus nigripes",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "彩鹳",
+      "scientificName": "Mycteria leucocephala",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "胭脂鱼",
+      "scientificName": "Myxocyprinus asiaticus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "赤斑羚",
+      "scientificName": "Naemorhedus baileyi",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "长尾斑羚",
+      "scientificName": "Naemorhedus caudatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "缅甸斑羚",
+      "scientificName": "Naemorhedus evansi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "喜马拉雅斑羚",
+      "scientificName": "Naemorhedus goral",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "中华斑羚",
+      "scientificName": "Naemorhedus griseus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "鹦鹉螺",
+      "scientificName": "Nautilus pompilius",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "中华旌蛉",
+      "scientificName": "Nemopistha sinica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "云豹",
+      "scientificName": "Neofelis nebulosa",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "长江江豚",
+      "scientificName": "Neophocaena asiaeorientalis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "印太江豚",
+      "scientificName": "Neophocaena phocaenoides",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "东亚江豚",
+      "scientificName": "Neophocaena sunameri",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "白兀鹫",
+      "scientificName": "Neophron percnopterus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "短尾鸦雀",
+      "scientificName": "Neosuthora davidiana",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "棉凫",
+      "scientificName": "Nettapus coromandelianus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "棕腹大仙鹟",
+      "scientificName": "Niltava davidi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大仙鹟",
+      "scientificName": "Niltava grandis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "日本鹰鸮",
+      "scientificName": "Ninox japonica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "鹰鸮",
+      "scientificName": "Ninox scutulata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "朱鹮",
+      "scientificName": "Nipponia nippon",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "凤头鹰雕",
+      "scientificName": "Nisaetus cirrhatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "鹰雕",
+      "scientificName": "Nisaetus nipalensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "西黑冠长臂猿",
+      "scientificName": "Nomascus concolor",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "海南长臂猿",
+      "scientificName": "Nomascus hainanus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "北白颊长臂猿",
+      "scientificName": "Nomascus leucogenys",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "东黑冠长臂猿",
+      "scientificName": "Nomascus nasutus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "中国淡水蛏",
+      "scientificName": "Novaculina chinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "白腰杓鹬",
+      "scientificName": "Numenius arquata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大杓鹬",
+      "scientificName": "Numenius madagascariensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "小杓鹬",
+      "scientificName": "Numenius minutus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "貉",
+      "scientificName": "Nyctereutes procyonides",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蜂猴",
+      "scientificName": "Nycticebus bengalensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "倭蜂猴",
+      "scientificName": "Nycticebus pygmaeus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "赤须蜂虎",
+      "scientificName": "Nyctyornis amictus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蓝须蜂虎",
+      "scientificName": "Nyctyornis athertoni",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "贺兰山鼠兔",
+      "scientificName": "Ochotona argentata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "伊犁鼠兔",
+      "scientificName": "Ochotona iliensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "务川臭蛙",
+      "scientificName": "Odorrana wuchuanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "马苏大马哈鱼",
+      "scientificName": "Oncorhynchus masou",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "吉林爪鲵",
+      "scientificName": "Onychodactylus zhangyapingi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "辽宁爪鲵",
+      "scientificName": "Onychodactylus zhaoermii",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "四川白甲鱼",
+      "scientificName": "Onychostoma angustistomata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "多鳞白甲鱼",
+      "scientificName": "Onychostoma macrolepis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "棘角蛇纹春蜓",
+      "scientificName": "Ophiogomphus spinicornis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（原名“寬紋北箭蜓”）",
+      "note": "原名“寬紋北箭蜓”",
+      "aquatic": false
+    },
+    {
+      "chineseName": "眼镜王蛇",
+      "scientificName": "Ophiophagus hannah",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "细脆蛇蜥",
+      "scientificName": "Ophisaurus gracilis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "海南脆蛇蜥",
+      "scientificName": "Ophisaurus hainanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "脆蛇蜥",
+      "scientificName": "Ophisaurus harti",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "虎鲸",
+      "scientificName": "Orcinus orca",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "凉北齿蟾",
+      "scientificName": "Oreolalax liangbeiensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "无眼岭鳅",
+      "scientificName": "Oreonectes anophthalmus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "鹊鹂",
+      "scientificName": "Oriolus mellianus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "鸨",
+      "scientificName": "Otis tarda",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "兔狲",
+      "scientificName": "Otocolobus manul",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "纵纹角鸮",
+      "scientificName": "Otus brucei",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "优雅角鸮",
+      "scientificName": "Otus elegans",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "领角鸮",
+      "scientificName": "Otus lettia",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "西红角鸮",
+      "scientificName": "Otus scops",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "北领角鸮",
+      "scientificName": "Otus semitorques",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黄嘴角鸮",
+      "scientificName": "Otus spilocephalus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红角鸮",
+      "scientificName": "Otus sunia",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "阿尔泰盘羊",
+      "scientificName": "Ovis ammon",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "哈萨克盘羊",
+      "scientificName": "Ovis collium",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "戈壁盘羊",
+      "scientificName": "Ovis darwini",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "西藏盘羊",
+      "scientificName": "Ovis hodgsoni",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "天山盘羊",
+      "scientificName": "Ovis karelini",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "帕米尔盘羊",
+      "scientificName": "Ovis polii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "尖裸鲤",
+      "scientificName": "Oxygymnocypris stewartii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "白头硬尾鸭",
+      "scientificName": "Oxyura leucocephala",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "鹗",
+      "scientificName": "Pandion haliaetus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "长丝𩷶",
+      "scientificName": "Pangasius sanitwangsei",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "坡鹿",
+      "scientificName": "Panolia siamensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "豹",
+      "scientificName": "Panthera pardus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "虎",
+      "scientificName": "Panthera tigris",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "雪豹",
+      "scientificName": "Panthera uncia",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "藏羚",
+      "scientificName": "Pantholops hodgsoni",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "锦绣龙虾",
+      "scientificName": "Panulirus ornatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "震旦鸦雀",
+      "scientificName": "Paradoxornis heudei",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "椰子猫",
+      "scientificName": "Paradoxurus hermaphroditus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "橙脊瘰螈",
+      "scientificName": "Paramesotriton aurantius",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "尾斑瘰螈",
+      "scientificName": "Paramesotriton caudopunctatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "中国瘰螈",
+      "scientificName": "Paramesotriton chinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "越南瘰螈",
+      "scientificName": "Paramesotriton deloustali",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "富钟瘰螈",
+      "scientificName": "Paramesotriton fuzhongensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "广西瘰螈",
+      "scientificName": "Paramesotriton guangxiensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "香港瘰螈",
+      "scientificName": "Paramesotriton hongkongensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "无斑瘰螈",
+      "scientificName": "Paramesotriton labiatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "龙里瘰螈",
+      "scientificName": "Paramesotriton longliensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "茂兰瘰螈",
+      "scientificName": "Paramesotriton maolanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "七溪岭瘰螈",
+      "scientificName": "Paramesotriton qixilingensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "武陵瘰螈",
+      "scientificName": "Paramesotriton wulingensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "云雾瘰螈",
+      "scientificName": "Paramesotriton yunwuensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "织金瘰螈",
+      "scientificName": "Paramesotriton zhijinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "鳞皮小蟾",
+      "scientificName": "Parapelophryne scalpta",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "云猫",
+      "scientificName": "Pardofelis marmorata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "金猫",
+      "scientificName": "Pardofelis temminckii",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "阿波罗绢蝶",
+      "scientificName": "Parnassius appollo",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "君主绢蝶",
+      "scientificName": "Parnassius imperator",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "绿孔雀",
+      "scientificName": "Pavo muticus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "鹳嘴翡翠",
+      "scientificName": "Pelargopsis capensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（原名“鹳嘴翠鸟”）",
+      "note": "原名“鹳嘴翠鸟”",
+      "aquatic": false
+    },
+    {
+      "chineseName": "卷羽鹈鹕",
+      "scientificName": "Pelecanus crispus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白鹈鹕",
+      "scientificName": "Pelecanus onocrotalus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "斑嘴鹈鹕",
+      "scientificName": "Pelecanus philippensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "鼋",
+      "scientificName": "Pelochelys cantorii",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "瓜头鲸",
+      "scientificName": "Peponocephala electra",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "金沙鲈鲤",
+      "scientificName": "Percocypris pingi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "花鲈鲤",
+      "scientificName": "Percocypris regani",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "后背鲈鲤",
+      "scientificName": "Percocypris retrodorslis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "张氏鲈鲤",
+      "scientificName": "Percocypris tchangi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "黑头噪鸦",
+      "scientificName": "Perisoreus internigrans",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "鹃头蜂鹰",
+      "scientificName": "Pernis apivorus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "凤头蜂鹰",
+      "scientificName": "Pernis ptilorhynchus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "海鸬鹚",
+      "scientificName": "Phalacrocorax pelagicus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "秀山白灰蝶",
+      "scientificName": "Phengaris xiushani",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "西太平洋斑海豹",
+      "scientificName": "Phoca largha",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物（原名“斑海豹”）",
+      "note": "原名“斑海豹”",
+      "aquatic": true
+    },
+    {
+      "chineseName": "栗鸮",
+      "scientificName": "Phodilus badius",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "短尾信天翁",
+      "scientificName": "Phoebastria albatrus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑脚信天翁",
+      "scientificName": "Phoebastria nigripes",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "贺兰山红尾鸲",
+      "scientificName": "Phoenicurus alaschanicus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "长鬣蜥",
+      "scientificName": "Phrynocephalus cocincinus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "贵南沙蜥",
+      "scientificName": "Phrynocephalus guinanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大耳沙蜥",
+      "scientificName": "Phrynocephalus mystaceus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "泛叶䗛",
+      "scientificName": "Phyllium celebicum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "独龙叶䗛",
+      "scientificName": "Phyllium drunganum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "同叶䗛",
+      "scientificName": "Phyllium parum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "丽叶䗛",
+      "scientificName": "Phyllium pulchrifolium",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "珍叶䗛",
+      "scientificName": "Phyllium rarum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "东方叶䗛",
+      "scientificName": "Phyllium siccifolium",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "中华叶䗛",
+      "scientificName": "Phyllium sinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "藏叶䗛",
+      "scientificName": "Phyllium tibetense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "翔叶䗛",
+      "scientificName": "Phyllium westwoodi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "滇叶䗛",
+      "scientificName": "Phyllium yunnanense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "抹香鲸",
+      "scientificName": "Physeter macrocephalus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "三趾啄木鸟",
+      "scientificName": "Picoides tridactylus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黄冠啄木鸟",
+      "scientificName": "Picus chlorolophus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红颈绿啄木鸟",
+      "scientificName": "Picus rabieri",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大珠母贝",
+      "scientificName": "Pinctada maxima",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "蓝八色鸫",
+      "scientificName": "Pitta cyanea",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蓝翅八色鸫",
+      "scientificName": "Pitta moluccensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蓝枕八色鸫",
+      "scientificName": "Pitta nipalensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "仙八色鸫",
+      "scientificName": "Pitta nympha",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "栗头八色鸫",
+      "scientificName": "Pitta oatesi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "双辫八色鸫",
+      "scientificName": "Pitta phayrei",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "绿胸八色鸫",
+      "scientificName": "Pitta sordida",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蓝背八色鸫",
+      "scientificName": "Pitta soror",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白琵鹭",
+      "scientificName": "Platalea leucorodia",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑脸琵鹭",
+      "scientificName": "Platalea minor",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "恒河豚",
+      "scientificName": "Platanista gangetica",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "极边扁咽齿鱼",
+      "scientificName": "Platypharodon extremus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "平胸龟",
+      "scientificName": "Platysternon megacephalum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "彩鹮",
+      "scientificName": "Plegadis falcinellus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "角䴙䴘",
+      "scientificName": "Podiceps auritus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "赤颈䴙䴘",
+      "scientificName": "Podiceps grisegena",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑颈䴙䴘",
+      "scientificName": "Podiceps nigricollis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白尾地鸦",
+      "scientificName": "Podoces biddulphi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑尾地鸦",
+      "scientificName": "Podoces hendersoni",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红腹山雀",
+      "scientificName": "Poecile davidi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白眉山雀",
+      "scientificName": "Poecile superciliosus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "灰孔雀雉",
+      "scientificName": "Polyplectron bicalcaratum",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "海南孔雀雉",
+      "scientificName": "Polyplectron katsumatae",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "紫水鸡",
+      "scientificName": "Porphyrio porphyrio",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "豹猫",
+      "scientificName": "Prionailurus bengalensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "斑林狸",
+      "scientificName": "Prionodon pardicolor",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蒙原羚",
+      "scientificName": "Procapra gutturosa",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物（原名“黄羊”）",
+      "note": "原名“黄羊”",
+      "aquatic": false
+    },
+    {
+      "chineseName": "藏原羚",
+      "scientificName": "Procapra picticaudata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "普氏原羚",
+      "scientificName": "Procapra przewalskii",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "乌原鲤",
+      "scientificName": "Procypris merus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "岩原鲤",
+      "scientificName": "Procypris rabaudi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "戴氏棕臂金龟",
+      "scientificName": "Propomacrus davidi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "玛氏棕臂金龟",
+      "scientificName": "Propomacrus muramotoae",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "角原矛头蝮",
+      "scientificName": "Protobothrops cornutus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "莽山烙铁头蛇",
+      "scientificName": "Protobothrops mangshanensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "厚唇原吸鳅",
+      "scientificName": "Protomyzon pachychilus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "白唇鹿",
+      "scientificName": "Przewalskium albirostris",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "长尾阔嘴鸟",
+      "scientificName": "Psarisomus dalhousiae",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白鲟",
+      "scientificName": "Psephurus schrenckii",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "白肩黑鹮",
+      "scientificName": "Pseudibis davisoni",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物（原名“黑鹮”）",
+      "note": "原名“黑鹮”",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黄斑拟小鲵",
+      "scientificName": "Pseudohynobius flavomaculatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "贵州拟小鲵",
+      "scientificName": "Pseudohynobius guizhouensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "金佛拟小鲵",
+      "scientificName": "Pseudohynobius jinfo",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "宽阔水拟小鲵",
+      "scientificName": "Pseudohynobius kuankuoshuiensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "水城拟小鲵",
+      "scientificName": "Pseudohynobius shuichengensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "岩羊",
+      "scientificName": "Pseudois nayaur",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "伪虎鲸",
+      "scientificName": "Pseudorca crassidens",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "平鳍裸吻鱼",
+      "scientificName": "Psilorhynchus homaloptera",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "绯胸鹦鹉",
+      "scientificName": "Psittacula alexandri",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大紫胸鹦鹉",
+      "scientificName": "Psittacula derbiana",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "亚历山大鹦鹉",
+      "scientificName": "Psittacula eupatria",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "灰头鹦鹉",
+      "scientificName": "Psittacula finschii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "青头鹦鹉",
+      "scientificName": "Psittacula himalayana",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红领绿鹦鹉",
+      "scientificName": "Psittacula krameri",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "花头鹦鹉",
+      "scientificName": "Psittacula roseata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蓝腰鹦鹉",
+      "scientificName": "Psittinus cyanurus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑腹沙鸡",
+      "scientificName": "Pterocles orientalis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑颏果鸠",
+      "scientificName": "Ptilinopus leclancheri",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黄殖翼柱头虫",
+      "scientificName": "Ptychodera flava",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "勺鸡",
+      "scientificName": "Pucrasia macrolopha",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "环海豹",
+      "scientificName": "Pusa hispida",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "台湾鹎",
+      "scientificName": "Pycnonotus taivanus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蟒蛇",
+      "scientificName": "Python bivittatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（原名“蟒”）",
+      "note": "原名“蟒”",
+      "aquatic": false
+    },
+    {
+      "chineseName": "乐东蟾蜍",
+      "scientificName": "Qiongbufo ledongensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "斑鳖",
+      "scientificName": "Rafetus swinhoei",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "新疆北鲵",
+      "scientificName": "Ranodon sibiricus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "巨松鼠",
+      "scientificName": "Ratufa bicolor",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "巫溪树蛙",
+      "scientificName": "Rhacophorus hongchibaensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "洪佛树蛙",
+      "scientificName": "Rhacophorus hungfuensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "老山树蛙",
+      "scientificName": "Rhacophorus laoshan",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "鲸鲨",
+      "scientificName": "Rhincodon typus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "大鼻吻𬶋",
+      "scientificName": "Rhinogobio nasutus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "长鳍吻𬶋",
+      "scientificName": "Rhinogobio ventralis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "滇金丝猴",
+      "scientificName": "Rhinopithecus bieti",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黔金丝猴",
+      "scientificName": "Rhinopithecus brelichi",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "川金丝猴",
+      "scientificName": "Rhinopithecus roxellana",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "怒江金丝猴",
+      "scientificName": "Rhinopithecus strykeri",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "尖喙蛇",
+      "scientificName": "Rhynchophis boulengeri",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "花冠皱盔犀鸟",
+      "scientificName": "Rhyticeros undulatus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "眼斑水龟",
+      "scientificName": "Sacalia bealei",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "四眼斑水龟",
+      "scientificName": "Sacalia quadriocellata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "黄岛长吻虫",
+      "scientificName": "Saccoglossus hwangtauensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "高鼻羚羊",
+      "scientificName": "Saiga tatarica",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "极北鲵",
+      "scientificName": "Salamandrella keyserlingii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "花羔红点鲑",
+      "scientificName": "Salvelinus malma",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "黑兀鹫",
+      "scientificName": "Sarcogyps calvus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑紫蛱蝶",
+      "scientificName": "Sasakia funebris",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "最美紫蛱蝶",
+      "scientificName": "Sasakia pulcherrima",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑嘴鸥",
+      "scientificName": "Saundersilarus saundersi",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白喉石鹡",
+      "scientificName": "Saxicola insignis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "拜氏蜣螂",
+      "scientificName": "Scarabaeus babori",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "艾氏泽蜣螂",
+      "scientificName": "Scarabaeus erichsoni",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "塔里木裂腹鱼",
+      "scientificName": "Schizothorax biddulphi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "细鳞裂腹鱼",
+      "scientificName": "Schizothorax chongi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "重口裂腹鱼",
+      "scientificName": "Schizothorax davidi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "巨须裂腹鱼",
+      "scientificName": "Schizothorax macropogon",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "大理裂腹鱼",
+      "scientificName": "Schizothorax taliensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "拉萨裂腹鱼",
+      "scientificName": "Schizothorax waltoni",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "金额雀鹛",
+      "scientificName": "Schoeniparus variegaticeps",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "桓仁滑蜥",
+      "scientificName": "Scincella huanrenensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "金顶齿突蟾",
+      "scientificName": "Scutiger chintingensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "九龙齿突蟾",
+      "scientificName": "Scutiger jiulongensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "木里齿突蟾",
+      "scientificName": "Scutiger muliensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "宁陕齿突蟾",
+      "scientificName": "Scutiger ningshanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "平武齿突蟾",
+      "scientificName": "Scutiger pingwuensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "喜山长尾叶猴",
+      "scientificName": "Semmopithecus schistaceus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "银胸丝冠鸟",
+      "scientificName": "Serilophus lunatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "鳄蜥",
+      "scientificName": "Shinisaurus crocodilurus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "花脸鸭",
+      "scientificName": "Sibirionetta formosa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "昆明鲇",
+      "scientificName": "Silurus mento",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "白眶鸦雀",
+      "scientificName": "Sinosuthora conspicillata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "灰冠鸦雀",
+      "scientificName": "Sinosuthora przewalskii",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "暗色鸦雀",
+      "scientificName": "Sinosuthora zappeyi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "丽䴓",
+      "scientificName": "Sitta formosa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "巨䴓",
+      "scientificName": "Sitta magna",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "滇䴓",
+      "scientificName": "Sitta yunnanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "龙骨蛏蚌",
+      "scientificName": "Solenaia carinatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "中华白海豚",
+      "scientificName": "Sousa chinensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "淡喉鹩鹛",
+      "scientificName": "Spelaeornis kinneari",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蛇雕",
+      "scientificName": "Spilornis cheela",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "弄岗穗鹛",
+      "scientificName": "Stachyris nonggangensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "热带点斑原海豚",
+      "scientificName": "Stenella attenuata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "条纹原海豚",
+      "scientificName": "Stenella coeruleoalba",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "飞旋原海豚",
+      "scientificName": "Stenella longirostris",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "糙齿海豚",
+      "scientificName": "Steno bredanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "北鲑",
+      "scientificName": "Stenodus leucichthys",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "黑腹燕鸥",
+      "scientificName": "Sterna acuticauda",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "河燕鸥",
+      "scientificName": "Sterna aurantia",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物（原名“黃嘴河燕鷗”）",
+      "note": "原名“黃嘴河燕鷗”",
+      "aquatic": false
+    },
+    {
+      "chineseName": "灰林鸮",
+      "scientificName": "Strix aluco",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "四川林鸮",
+      "scientificName": "Strix davidi",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "褐林鸮",
+      "scientificName": "Strix leptogrammica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "乌林鸮",
+      "scientificName": "Strix nebulosa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "长尾林鸮",
+      "scientificName": "Strix uralensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "扇形柱星螅",
+      "scientificName": "Stylaster flabelliformis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "细巧柱星螅",
+      "scientificName": "Stylaster gracilis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "佳丽柱星螅",
+      "scientificName": "Stylaster pulcher",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "艳红柱星螅",
+      "scientificName": "Stylaster sanguineus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "粗糙柱星螅",
+      "scientificName": "Stylaster scabiosus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "蓝脸鲣鸟",
+      "scientificName": "Sula dactylatra",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "褐鲣鸟",
+      "scientificName": "Sula leucogaster",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红脚鲣鸟",
+      "scientificName": "Sula sula",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "猛鸮",
+      "scientificName": "Surnia ulula",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大卫长阎甲",
+      "scientificName": "Syntelia davidis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "玛氏长阎甲",
+      "scientificName": "Syntelia mazuri",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "中华长阎甲",
+      "scientificName": "Syntelia sinica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "冠海雀",
+      "scientificName": "Synthliboramphus wumizusume",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白颈长尾雉",
+      "scientificName": "Syrmaticus ellioti",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑颈长尾雉",
+      "scientificName": "Syrmaticus humiae",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑长尾雉",
+      "scientificName": "Syrmaticus mikado",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白冠长尾雉",
+      "scientificName": "Syrmaticus reevesii",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "中国鲎",
+      "scientificName": "Tachypleus tridentatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "唐鱼",
+      "scientificName": "Tanichthys albonubes",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "棕腹林鸲",
+      "scientificName": "Tarsiger hyperythrus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "金斑喙凤蝶",
+      "scientificName": "Teinopalpus aureus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "喙凤蝶",
+      "scientificName": "Teinopalpus imperialism",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "鲥",
+      "scientificName": "Tenualosa reevesii",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "吐鲁番沙虎",
+      "scientificName": "Teratoscincus roborowskii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "伊犁沙虎",
+      "scientificName": "Teratoscincus scincus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "四爪陆龟",
+      "scientificName": "Testudo horsfieldi",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑嘴松鸡",
+      "scientificName": "Tetrao urogalloides",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物（原名“细嘴松鸡”）",
+      "note": "原名“细嘴松鸡”",
+      "aquatic": false
+    },
+    {
+      "chineseName": "松鸡",
+      "scientificName": "Tetrao urogallus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "阿尔泰雪鸡",
+      "scientificName": "Tetraogallus altaicus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "暗腹雪鸡",
+      "scientificName": "Tetraogallus himalayensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "藏雪鸡",
+      "scientificName": "Tetraogallus tibetanus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红喉雉鹑",
+      "scientificName": "Tetraophasis obscurus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黄喉雉鹑",
+      "scientificName": "Tetraophasis szechenyii",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "花尾榛鸡",
+      "scientificName": "Tetrastes bonasia",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "斑尾榛鸡",
+      "scientificName": "Tetrastes sewerzowi",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "小鸨",
+      "scientificName": "Tetrax tetrax",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大凤头燕鸥",
+      "scientificName": "Thalasseus bergii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "中华凤头燕鸥",
+      "scientificName": "Thalasseus bernsteini",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物（原名“黑嘴端鳳頭燕鷗”）",
+      "note": "原名“黑嘴端鳳頭燕鷗”",
+      "aquatic": false
+    },
+    {
+      "chineseName": "西藏温泉蛇",
+      "scientificName": "Thermophis baileyi",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "香格里拉温泉蛇",
+      "scientificName": "Thermophis shangrila",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "四川温泉蛇",
+      "scientificName": "Thermophis zhaoermii",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑头白鹮",
+      "scientificName": "Threskiornis melanocephalus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物（原名“白鹮”）",
+      "note": "原名“白鹮”",
+      "aquatic": false
+    },
+    {
+      "chineseName": "北极茴鱼",
+      "scientificName": "Thymallus arcticus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "下游黑龙江茴鱼",
+      "scientificName": "Thymallus tugarinae",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "鸭绿江茴鱼",
+      "scientificName": "Thymallus yaluensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "松江鲈",
+      "scientificName": "Trachidermus fasciatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群。原名“松江鲈鱼”）",
+      "note": "仅限野外种群。原名“松江鲈鱼”",
+      "aquatic": true
+    },
+    {
+      "chineseName": "印支灰叶猴",
+      "scientificName": "Trachypithecus crepusculus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑叶猴",
+      "scientificName": "Trachypithecus francoisi",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白头叶猴",
+      "scientificName": "Trachypithecus leucocephalus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "菲氏叶猴",
+      "scientificName": "Trachypithecus phayrei",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "戴帽叶猴",
+      "scientificName": "Trachypithecus pileatus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "肖氏乌叶猴",
+      "scientificName": "Trachypithecus shortridgei",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "灰腹角雉",
+      "scientificName": "Tragopan blythii",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黄腹角雉",
+      "scientificName": "Tragopan caboti",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑头角雉",
+      "scientificName": "Tragopan melanocephalus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红胸角雉",
+      "scientificName": "Tragopan satyra",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红腹角雉",
+      "scientificName": "Tragopan temminckii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "威氏鼷鹿",
+      "scientificName": "Tragulus williamsoni",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物（原名“鼷鹿”）",
+      "note": "原名“鼷鹿”",
+      "aquatic": false
+    },
+    {
+      "chineseName": "针尾绿鸠",
+      "scientificName": "Treron apicauda",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "橙胸绿鸠",
+      "scientificName": "Treron bicinctus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "厚嘴绿鸠",
+      "scientificName": "Treron curvirostra",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红顶绿鸠",
+      "scientificName": "Treron formosae",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黄脚绿鸠",
+      "scientificName": "Treron phoenicopterus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "灰头绿鸠",
+      "scientificName": "Treron pompadora",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红翅绿鸠",
+      "scientificName": "Treron sieboldii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "楔尾绿鸠",
+      "scientificName": "Treron sphenurus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "番红砗磲",
+      "scientificName": "Tridacna crocea",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "无鳞砗磲",
+      "scientificName": "Tridacna derasa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "大砗磲",
+      "scientificName": "Tridacna gigas",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物（原名“庫氏硨磲”）",
+      "note": "原名“庫氏硨磲”",
+      "aquatic": true
+    },
+    {
+      "chineseName": "长砗磲",
+      "scientificName": "Tridacna maxima",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "鳞砗磲",
+      "scientificName": "Tridacna squamosa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "小青脚鹬",
+      "scientificName": "Tringa guttifer",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "山瑞鳖",
+      "scientificName": "Trionyx steindachneri",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "小头高原鳅",
+      "scientificName": "Triplophysa minuta",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "拟鲇高原鳅",
+      "scientificName": "Triplophysa siluroides",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "aquatic": true
+    },
+    {
+      "chineseName": "湘西盲高原鳅",
+      "scientificName": "Triplophysa xiangxiensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "橙翅噪鹛",
+      "scientificName": "Trochalopteron elliotii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红翅噪鹛",
+      "scientificName": "Trochalopteron formosum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红尾噪鹛",
+      "scientificName": "Trochalopteron milnei",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "金裳凤蝶",
+      "scientificName": "Troides aeacus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "鸟翼裳凤蝶",
+      "scientificName": "Troides amphrysus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "珂裳凤蝶",
+      "scientificName": "Troides criton",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "楔纹裳凤蝶",
+      "scientificName": "Troides cuneifera",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "小斑裳凤蝶",
+      "scientificName": "Troides haliphron",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "裳凤蝶",
+      "scientificName": "Troides helena",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "荧光裳凤蝶",
+      "scientificName": "Troides magellanus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "绿脚树鹧鸪",
+      "scientificName": "Tropicoperdix chloripus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "戴叉犀金龟",
+      "scientificName": "Trypoxylus davidis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（原名“叉犀金龜”）",
+      "note": "原名“叉犀金龜”",
+      "aquatic": false
+    },
+    {
+      "chineseName": "笙珊瑚",
+      "scientificName": "Tubipora musica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "夜光蝾螺",
+      "scientificName": "Turbo marmoratus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "印太瓶鼻海豚",
+      "scientificName": "Tursiops aduncus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "瓶鼻海豚",
+      "scientificName": "Tursiops truncatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "贵州疣螈",
+      "scientificName": "Tylototriton kweichowensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "川南疣螈",
+      "scientificName": "Tylototriton pseudoverrucosus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "丽色疣螈",
+      "scientificName": "Tylototriton pulcherrima",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "红瘰疣螈",
+      "scientificName": "Tylototriton shanjing",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "棕黑疣螈",
+      "scientificName": "Tylototriton verrucosus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（原名“细瘰疣螈”）",
+      "note": "原名“细瘰疣螈”",
+      "aquatic": true
+    },
+    {
+      "chineseName": "滇南疣螈",
+      "scientificName": "Tylototriton yangi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "裸腹盲鲃",
+      "scientificName": "Typhlobarbus nudiventris",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "仓鸮",
+      "scientificName": "Tyto alba",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "草鸮",
+      "scientificName": "Tyto longimembris",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "朱鹀",
+      "scientificName": "Urocynchramus pylzowi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "棕熊",
+      "scientificName": "Ursus arctos",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑熊",
+      "scientificName": "Ursus thibetanus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黄颊麦鸡",
+      "scientificName": "Vanellus gregarius",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "孟加拉巨蜥",
+      "scientificName": "Varanus bengalensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "圆鼻巨蜥",
+      "scientificName": "Varanus salvator",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物（原名“巨蜥”）",
+      "note": "原名“巨蜥”",
+      "aquatic": false
+    },
+    {
+      "chineseName": "哀牢髭蟾",
+      "scientificName": "Vibrissaphora ailaonica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "峨眉髭蟾",
+      "scientificName": "Vibrissaphora boringii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "雷山髭蟾",
+      "scientificName": "Vibrissaphora leishanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "原髭蟾",
+      "scientificName": "Vibrissaphora promustache",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "极北蝰",
+      "scientificName": "Vipera berus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "东方蝰",
+      "scientificName": "Vipera renardi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大斑灵猫",
+      "scientificName": "Viverra megaspila",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大灵猫",
+      "scientificName": "Viverra zibetha",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "小灵猫",
+      "scientificName": "Viverricula indica",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "沙狐",
+      "scientificName": "Vulpes corsac",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "藏狐",
+      "scientificName": "Vulpes ferrilata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "赤狐",
+      "scientificName": "Vulpes vulpes",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "闪鳞蛇",
+      "scientificName": "Xenopeltis unicolor",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "南澳岛角蟾",
+      "scientificName": "Xenophrys insularis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "水城角蟾",
+      "scientificName": "Xenophrys shuichengensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "安徽瑶螈",
+      "scientificName": "Yaotriton anhuiensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "细痣瑶螈",
+      "scientificName": "Yaotriton asperrimus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（原名“细痣疣螈”）",
+      "note": "原名“细痣疣螈”",
+      "aquatic": true
+    },
+    {
+      "chineseName": "宽脊瑶螈",
+      "scientificName": "Yaotriton broadoridgus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "大别瑶螈",
+      "scientificName": "Yaotriton dabienicus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "海南瑶螈",
+      "scientificName": "Yaotriton hainanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "浏阳瑶螈",
+      "scientificName": "Yaotriton liuyangensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "莽山瑶螈",
+      "scientificName": "Yaotriton lizhenchangi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "文县瑶螈",
+      "scientificName": "Yaotriton wenxianensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "蔡氏瑶螈",
+      "scientificName": "Yaotriton ziegleri",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "叶氏肛刺蛙",
+      "scientificName": "Yerana yei",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "黑网乌梢蛇",
+      "scientificName": "Zaocys carinatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "棕背田鸡",
+      "scientificName": "Zapornia bicolor",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "姬田鸡",
+      "scientificName": "Zapornia parva",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "斑胁田鸡",
+      "scientificName": "Zapornia paykullii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "墨脱缺翅虫",
+      "scientificName": "Zorotypus medoensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "中华缺翅虫",
+      "scientificName": "Zorotypus sinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红胁绣眼鸟",
+      "scientificName": "Zosterops erythropleurus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "aquatic": false
+    }
+  ],
+  "taxonRules": [
+    {
+      "chineseName": "闭壳龟属",
+      "genus": "Cuora",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "match": "genus"
+    },
+    {
+      "chineseName": "金线鲃属",
+      "genus": "Sinocyclocheilus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "match": "genus"
+    },
+    {
+      "chineseName": "细鳞鲑属",
+      "genus": "Brachymystax",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "match": "genus"
+    },
+    {
+      "chineseName": "海马属",
+      "genus": "Hippocampus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物（仅限野外种群）",
+      "note": "仅限野外种群",
+      "match": "genus"
+    },
+    {
+      "chineseName": "黑珊瑚目",
+      "taxon": "Antipatharia",
+      "rank": "order",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "match": "order"
+    },
+    {
+      "chineseName": "石珊瑚目",
+      "taxon": "Scleractinia",
+      "rank": "order",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "match": "order"
+    },
+    {
+      "chineseName": "苍珊瑚科",
+      "taxon": "Helioporidae",
+      "rank": "family",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生动物",
+      "match": "family"
+    },
+    {
+      "chineseName": "红珊瑚科",
+      "taxon": "Coralliidae",
+      "rank": "family",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生动物",
+      "match": "family"
+    }
+  ]
+}

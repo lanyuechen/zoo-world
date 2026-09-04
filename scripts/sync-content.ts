@@ -4,6 +4,8 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { loadProtectionLookup, resolveAnimalStatus } from './apply-animal-protection'
+import { loadPlantProtectionLookup, resolvePlantStatus } from './apply-plant-protection'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.resolve(__dirname, '..')
@@ -222,6 +224,26 @@ function main() {
     a.scientificName.localeCompare(b.scientificName),
   )
 
+  const { list: animalList, lookup: animalLookup } = loadProtectionLookup()
+  const { list: plantList, lookup: plantLookup } = loadPlantProtectionLookup()
+  let animalProtected = 0
+  let plantProtected = 0
+  for (const s of species) {
+    if (s.kingdom.latin === 'Animalia') {
+      const fromList = resolveAnimalStatus(s, animalLookup)
+      if (fromList) {
+        s.status = fromList
+        animalProtected += 1
+      }
+    } else if (s.kingdom.latin !== 'Animalia') {
+      const fromList = resolvePlantStatus(s, plantLookup)
+      if (fromList) {
+        s.status = fromList
+        plantProtected += 1
+      }
+    }
+  }
+
   fs.mkdirSync(PUBLIC_DATA, { recursive: true })
   fs.rmSync(SPECIES_DIR, { recursive: true, force: true })
   fs.mkdirSync(SPECIES_DIR, { recursive: true })
@@ -239,10 +261,10 @@ function main() {
     if (s.distribution.length > 0) withDistribution += 1
   }
 
-  for (const [phylum, list] of byPhylum) {
+  for (const [phylum, listRows] of byPhylum) {
     fs.writeFileSync(
       path.join(SPECIES_DIR, `${safeSegment(phylum)}.json`),
-      JSON.stringify(list),
+      JSON.stringify(listRows),
       'utf8',
     )
   }
@@ -256,9 +278,34 @@ function main() {
     kingdoms: [...kingdoms].sort(),
     phyla: [...byPhylum.keys()].sort(),
     withDistribution,
+    withAnimalProtection: animalProtected,
+    withPlantProtection: plantProtected,
+    withProtection: animalProtected + plantProtected,
+    protection: {
+      wildlife: {
+        list: animalList.title,
+        version: animalList.version,
+        source: animalList.source,
+        sourceUrl: animalList.sourceUrl,
+        appliedAt: new Date().toISOString(),
+        matchedSpecies: animalProtected,
+        animalSpecies: species.filter((s) => s.kingdom.latin === 'Animalia').length,
+      },
+      plant: {
+        list: plantList.title,
+        version: plantList.version,
+        source: plantList.source,
+        sourceUrl: plantList.sourceUrl,
+        appliedAt: new Date().toISOString(),
+        matchedSpecies: plantProtected,
+        plantSpecies: species.filter((s) => s.kingdom.latin === 'Plantae').length,
+      },
+    },
     notes: [
       '主干分类索引唯一来源：《中国生物物种名录》',
       '收录动物界、植物界、真菌界；由 content/species Markdown 同步生成运行时索引',
+      '动物保护等级依据《国家重点保护野生动物名录》（2021）匹配写入',
+      '植物保护等级依据《国家重点保护野生植物名录》（2021）匹配写入',
     ],
   }
 
@@ -271,7 +318,9 @@ function main() {
   )
   fs.writeFileSync(path.join(PUBLIC_DATA, 'slug-index.json'), JSON.stringify(slugIndex), 'utf8')
 
-  console.log(`完成：${species.length} 种（含分布 ${withDistribution}）`)
+  console.log(
+    `完成：${species.length} 种（含分布 ${withDistribution}，保护动物 ${animalProtected}，保护植物 ${plantProtected}）`,
+  )
 }
 
 main()

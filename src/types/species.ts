@@ -28,7 +28,7 @@ export interface SpeciesRecord {
   genus: TaxonLabel
   /** 国内分布省份，后续补充 */
   distribution: string[]
-  /** 保护等级，后续补充 */
+  /** 保护等级（国家重点保护野生动/植物名录） */
   status: string | null
   /** 审核专家 / 数据源 */
   reviewedBy: string
@@ -68,6 +68,29 @@ export interface CatalogueMeta {
   files?: string[]
   notes?: string[]
   withDistribution?: number
+  withProtection?: number
+  withAnimalProtection?: number
+  withPlantProtection?: number
+  protection?: {
+    wildlife?: {
+      list: string
+      version: string
+      source: string
+      sourceUrl: string
+      appliedAt: string
+      matchedSpecies: number
+      animalSpecies: number
+    }
+    plant?: {
+      list: string
+      version: string
+      source: string
+      sourceUrl: string
+      appliedAt: string
+      matchedSpecies: number
+      plantSpecies: number
+    }
+  }
   split?: boolean
   message?: string
 }

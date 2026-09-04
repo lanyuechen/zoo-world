@@ -42,16 +42,55 @@ export default function App() {
       </main>
 
       <footer className="site-footer">
-        <p>
-          分类主干取自
-          <a href="https://www.sp2000.org.cn" target="_blank" rel="noreferrer">
-            中国生物物种名录（Species 2000 中国节点）
-          </a>
-          ，仅作非商业科普检索。拉丁学名为主键。
-        </p>
         {data && (
-          <p className="footer-meta">已收录 {data.meta.speciesCount.toLocaleString()} 种</p>
+          <p className="footer-meta">
+            已收录 {data.meta.speciesCount.toLocaleString()} 种
+            {(data.meta.withAnimalProtection ?? 0) > 0 && (
+              <>
+                {' '}
+                · 国家重点保护动物 {(data.meta.withAnimalProtection ?? 0).toLocaleString()} 种
+              </>
+            )}
+            {(data.meta.withPlantProtection ?? 0) > 0 && (
+              <>
+                {' '}
+                · 国家重点保护植物 {(data.meta.withPlantProtection ?? 0).toLocaleString()} 种
+              </>
+            )}
+          </p>
         )}
+        <p className="footer-sources-label">数据来源：</p>
+        <ul className="footer-sources">
+          <li>
+            <a href="https://www.sp2000.org.cn" target="_blank" rel="noreferrer">
+              中国生物物种名录（Species 2000 中国节点）
+            </a>
+          </li>
+          <li>
+            <a
+              href={
+                data?.meta.protection?.wildlife?.sourceUrl ||
+                'http://www.forestry.gov.cn/lyj/1/gkgfxwj/20210201/546057.html'
+              }
+              target="_blank"
+              rel="noreferrer"
+            >
+              国家重点保护野生动物名录（2021）
+            </a>
+          </li>
+          <li>
+            <a
+              href={
+                data?.meta.protection?.plant?.sourceUrl ||
+                'https://www.gov.cn/zhengce/zhengceku/2021-09/09/content_5636409.htm'
+              }
+              target="_blank"
+              rel="noreferrer"
+            >
+              国家重点保护野生植物名录（2021）
+            </a>
+          </li>
+        </ul>
       </footer>
     </div>
   )
