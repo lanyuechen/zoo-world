@@ -43,33 +43,25 @@ export default function App() {
 
       <footer className="site-footer">
         {data && (
-          <p className="footer-meta">
-            已收录 {data.meta.speciesCount.toLocaleString()} 种
+          <ul className="footer-meta">
+            <li>已收录 {data.meta.speciesCount.toLocaleString()} 种</li>
             {(data.meta.withAnimalProtection ?? 0) > 0 && (
-              <>
-                {' '}
-                · 国家重点保护动物 {(data.meta.withAnimalProtection ?? 0).toLocaleString()} 种
-              </>
+              <li>
+                国家重点保护动物 {(data.meta.withAnimalProtection ?? 0).toLocaleString()} 种
+              </li>
             )}
             {(data.meta.withPlantProtection ?? 0) > 0 && (
-              <>
-                {' '}
-                · 国家重点保护植物 {(data.meta.withPlantProtection ?? 0).toLocaleString()} 种
-              </>
-            )}
-            {(data.meta.withSanyou ?? 0) > 0 && (
-              <>
-                {' '}
-                · 三有动物 {(data.meta.withSanyou ?? 0).toLocaleString()} 种
-              </>
+              <li>
+                国家重点保护植物 {(data.meta.withPlantProtection ?? 0).toLocaleString()} 种
+              </li>
             )}
             {(data.meta.withRedList ?? 0) > 0 && (
-              <>
-                {' '}
-                · 红色名录 {(data.meta.withRedList ?? 0).toLocaleString()} 种
-              </>
+              <li>红色名录 {(data.meta.withRedList ?? 0).toLocaleString()} 种</li>
             )}
-          </p>
+            {(data.meta.withSanyou ?? 0) > 0 && (
+              <li>三有动物 {(data.meta.withSanyou ?? 0).toLocaleString()} 种</li>
+            )}
+          </ul>
         )}
         <p className="footer-sources-label">数据来源：</p>
         <ul className="footer-sources">
@@ -133,6 +125,11 @@ export default function App() {
               rel="noreferrer"
             >
               GBIF 中国分布记录（occurrence，辅助地图）
+            </a>
+          </li>
+          <li>
+            <a href="http://www.zoology.csdb.cn/dba/fauna" target="_blank" rel="noreferrer">
+              中国动物志（中国动物主题数据库）
             </a>
           </li>
         </ul>

@@ -26,11 +26,15 @@ html {
   background: var(--fog);
   font-family: var(--font-body);
   line-height: 1.6;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 body {
   margin: 0;
   min-height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
   background:
     radial-gradient(ellipse 80% 50% at 10% -10%, rgba(61, 143, 102, 0.18), transparent 55%),
     radial-gradient(ellipse 60% 40% at 90% 0%, rgba(31, 77, 56, 0.12), transparent 50%),
@@ -52,6 +56,8 @@ body::before {
   position: relative;
   z-index: 1;
   min-height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 a {

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import SpeciesDistributionMap from '../components/SpeciesDistributionMap'
+import IntroMarkdown from '../components/IntroMarkdown'
 import { findSpeciesBySlug } from '../lib/catalogue'
 import type { SpeciesRecord } from '../types/species'
 
@@ -111,12 +112,31 @@ export default function SpeciesPage() {
       : null,
   ].filter(Boolean) as { key: string; label: string; className: string }[]
 
+  const mdDisplayPath = (() => {
+    const seg = (s: string) => s.replace(/[\\/:*?"<>|]/g, '_').replace(/\s+/g, '_')
+    // 与磁盘一致：content/species/{门}/{纲}/{目}/{科}/{属}/{slug}.md
+    return [
+      'content/species',
+      seg(species.phylum.latin),
+      seg(species.class.latin),
+      seg(species.order.latin),
+      seg(species.family.latin),
+      seg(species.genus.latin),
+      `${species.slug}.md`,
+    ].join('/')
+  })()
+
   return (
     <div className="page species-page">
       <header className="species-head">
         <p className="taxon-rank">种</p>
         <h1>{species.chineseName || '（中文名待补）'}</h1>
-        <p className="taxon-latin">{species.scientificName}</p>
+        <p className="taxon-latin">
+          {species.scientificName}
+          {species.synonyms.length > 0 && (
+            <span className="taxon-synonyms">（{species.synonyms.join('；')}）</span>
+          )}
+        </p>
         {statusTags.length > 0 && (
           <ul className="species-status-tags">
             {statusTags.map((tag) => (
@@ -130,23 +150,9 @@ export default function SpeciesPage() {
 
       <dl className="meta-grid">
         <div>
-          <dt>主键（拉丁学名）</dt>
-          <dd>
-            <code>{species.scientificName}</code>
-          </dd>
-        </div>
-        <div>
-          <dt>异名</dt>
-          <dd>{species.synonyms.length ? species.synonyms.join('；') : '待补充'}</dd>
-        </div>
-        <div>
-          <dt>审核 / 数据源</dt>
-          <dd>{species.reviewedBy || '—'}</dd>
-        </div>
-        <div>
           <dt>Markdown</dt>
           <dd>
-            <code>content/{species.mdPath}</code>
+            <code>{mdDisplayPath}</code>
           </dd>
         </div>
       </dl>
@@ -173,10 +179,10 @@ export default function SpeciesPage() {
       <section className="intro-block">
         <h2>介绍</h2>
         {species.intro ? (
-          <div className="intro-body">{species.intro}</div>
+          <IntroMarkdown source={species.intro} />
         ) : (
           <p className="empty">
-            科普文本待补充。编辑对应 Markdown 正文后运行 npm run sync:content。
+            科普文本待补充。编辑对应 Markdown 正文后运行 npm run merge:intro。
           </p>
         )}
       </section>

@@ -22,6 +22,9 @@
     "gbif:request": "tsx scripts/gbif-request-cn-download.ts",
     "gbif:process": "tsx scripts/gbif-process-cn.ts",
     "apply:gbif": "tsx scripts/apply-gbif-distribution.ts",
+    "enrich:fauna": "tsx scripts/enrich-fauna-sinica.ts",
+    "normalize:fauna": "tsx scripts/normalize-fauna-md.ts",
+    "merge:intro": "tsx scripts/merge-md-intro.ts",
     "sync:content": "tsx scripts/sync-content.ts"
   },
   "dependencies": {

@@ -1,5 +1,5 @@
 /**
- * 从 content/species/**/*.md 重建 public/data 分片索引
+ * 从 content/species 下全部 Markdown 重建 public/data 分片索引
  */
 import fs from 'node:fs'
 import path from 'node:path'
@@ -144,8 +144,8 @@ function parseMarkdown(filePath: string): SpeciesRecord | null {
 
   const rel = path.relative(path.join(ROOT, 'content'), filePath).split(path.sep).join('/')
   const intro = body
-    .replace(/^#.*$/m, '')
-    .replace(/^\*\*.*\*\*\s*$/m, '')
+    .replace(/^# [^#\n].*$/m, '')
+    .replace(/^\*\*[^*]+\*\*\s*$/m, '')
     .replace(/^>\s*科普介绍待补充。\s*$/m, '')
     .trim()
 

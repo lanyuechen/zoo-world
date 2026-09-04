@@ -19,6 +19,8 @@ data/gbif/raw/
 data/gbif/china-species-summary.json
 data/gbif/last-download-request.json
 public/data/gbif-points/
+data/fauna/progress.json
+data/fauna/cache/
 
 # 生成的大体量数据（由 import / sync 产生）
 public/data/catalogue.json

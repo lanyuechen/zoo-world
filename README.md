@@ -22,12 +22,27 @@ npm run dev
 npm run sync:content
 ```
 
+### 《中国动物志》正文补充（中国动物主题数据库）
+
+从 [中国动物主题数据库](http://www.zoology.csdb.cn/) 公开页抓取《中国动物志》描述，写入动物界 Markdown 正文（`<!-- fauna-sinica -->` 标记块）。**不改分类主干**。
+
+```bash
+# 试跑单个 / 限额
+npm run enrich:fauna -- --name="Aix galericulata"
+npm run enrich:fauna -- --phylum=Chordata --limit=50
+# 断点续跑
+npm run enrich:fauna -- --resume
+# 将 Markdown 正文合并进运行时索引（推荐；不会冲掉植物/真菌分片）
+npm run merge:intro
+```
+
+说明：当前 `content/species` 若只有动物界 Markdown，勿用 `sync:content` 全量重建索引（会丢掉植物/真菌）；用 `merge:intro` 只回写 `intro`。
 ## 数据约定
 
 物种文件路径：
 
 ```text
-content/species/{界}/{门}/{纲}/{目}/{科}/{属}/{拉丁学名slug}.md
+content/species/{门}/{纲}/{目}/{科}/{属}/{拉丁学名slug}.md
 ```
 
 Frontmatter 字段：`scientificName`（主键）、`chineseName`、`synonyms`、界门纲目科属、`distribution`、`status`、`reviewedBy`、`slug`。

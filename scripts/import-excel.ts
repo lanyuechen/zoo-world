@@ -305,7 +305,6 @@ function main() {
 
       const mdPath = [
         'species',
-        safeSegment(kingdom.latin),
         safeSegment(phylum.latin),
         safeSegment(classTaxon.latin),
         safeSegment(order.latin),
