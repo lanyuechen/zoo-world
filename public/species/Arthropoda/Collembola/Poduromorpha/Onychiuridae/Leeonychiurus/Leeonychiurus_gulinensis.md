@@ -1,0 +1,69 @@
+---
+scientificName: "Leeonychiurus gulinensis"
+chineseName: ""
+synonyms: []
+kingdom:
+  latin: "Animalia"
+  chinese: "动物界"
+phylum:
+  latin: "Arthropoda"
+  chinese: "节肢动物门"
+class:
+  latin: "Collembola"
+  chinese: "弹尾纲"
+order:
+  latin: "Poduromorpha"
+  chinese: "原䖴目"
+family:
+  latin: "Onychiuridae"
+  chinese: "棘䖴科"
+genus:
+  latin: "Leeonychiurus"
+  chinese: "李氏棘䖴属"
+distribution: []
+status: null
+sanyou: false
+tags: []
+redListCategory: null
+redList: null
+reviewedBy: "Maolin Ye,Chengwang Huang,Daoyuan Yu,Xin Sun,Nerivania Nunes Godeiro,Jigang Jiang,Zhaohui Li,Yunxia Luan,Donghui Wu,Feng Zhang"
+slug: "Leeonychiurus_gulinensis"
+---
+
+<!-- fauna-sinica:start -->
+# Leeonychiurus gulinensis
+
+**Leeonychiurus gulinensis**
+
+## 形态描述
+
+雌蛛体长4．80—8．00。体长6．50者，头胸部长2．25，宽1．85；腹部长4．25，宽2．50。前后眼列强后曲，前列四眼近等大，前中眼间距小于前中眼直径，前中侧眼间距等于前中眼直径，后中眼略大于后侧眼，后中眼间距约为1／3前中眼直径，后中侧眼间距为前中眼直径的1．60倍。中眼域梯形，长大于宽，前边大于后边。背甲黄褐色，颈沟、中窝处淡褐色。
+
+胸甲黄褐色，有黄白色斑，前缘为1对眉状斑，两侧各1对椭圆形斑，后端1个“V”字形斑。螯肢黄色，前齿堤4齿，后齿堤3齿，颚叶、下唇皆褐色。触肢、步足黄色，有褐色环纹。足式为1，2，4，3。腹部长卵圆形，末端骤然收缩，背面前端有1对疣状突起，末端有4个突起。背面黄褐色，斑纹黑褐色。前缘正中有一“十”字形纹，其后有一黄白色倒“八”字形纹。
+
+心脏斑褐色，呈树枝状分叉；其两侧前后排列有1对斜方斑及1括弧形斑。腹末端褐色，尾突黑褐色。腹部两侧还有许多碎斑。腹面纺器之前黄褐色，之后黑褐色。纺器位于腹部全长的2／3处，其前方两侧各有一三角形银色斑。外雌器基部椭圆形，两侧隆起较丰满，呈梨形，其间的浅凹槽似长心形，宽度为外雌器基部宽度的1／3。腹面观垂体较短，侧面观可见其起始于外雌器基部前缘背侧，随即折向腹侧。
+
+外雌器后端两侧各有一膜质瓣(后面观)，纳精囊卵圆形。。
+
+## 大小
+
+雌蛛体长4．80—8．00。体长6．50者，头胸部长2．25，宽1．85；腹部长4．25，宽2．50。
+
+## 国内分布
+
+中国(江西、湖南)
+
+## 分类讨论
+
+本种外形及外雌器结构与C．angusta Tanikawa，1992很相似(Tanikawa，1992：26，figs．35—38，43)区别在于：(1)本种垂体较短且起始于外雌器前缘近背侧，后者垂体较长，起始于外雌器腹侧中部；(2)本种外雌器后端两侧各有一膜质瓣，而后者无此结构
+
+## 标本信息
+
+观察标本：12♀♀，江西庐山，1987年6月10日，王家福、肖小芹采；1♀，湖南城步南山，1982年7月29日，胡运瑾采。
+
+## 参考文献
+
+- 尹长民等, 1997. 中国动物志 无脊椎动物 第十卷 蛛形纲 蜘蛛目 圆蛛科. 北京: 科学出版社.460 页，292 图.
+
+> 来源：中国动物志数据库（《中国动物志》）。中国动物主题数据库：http://www.zoology.csdb.cn/taxon/{BBF7EA5D-879A-4A59-8A8E-12AEBCE47B0A}
+<!-- fauna-sinica:end -->
