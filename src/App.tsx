@@ -63,13 +63,19 @@ export default function App() {
                 · 三有动物 {(data.meta.withSanyou ?? 0).toLocaleString()} 种
               </>
             )}
+            {(data.meta.withRedList ?? 0) > 0 && (
+              <>
+                {' '}
+                · 红色名录 {(data.meta.withRedList ?? 0).toLocaleString()} 种
+              </>
+            )}
           </p>
         )}
         <p className="footer-sources-label">数据来源：</p>
         <ul className="footer-sources">
           <li>
             <a href="https://www.sp2000.org.cn" target="_blank" rel="noreferrer">
-              中国生物物种名录（Species 2000 中国节点）
+              中国生物物种名录（Species 2000 中国节点）（2026）
             </a>
           </li>
           <li>
@@ -106,6 +112,18 @@ export default function App() {
               rel="noreferrer"
             >
               有重要生态、科学、社会价值的陆生野生动物名录（2023）
+            </a>
+          </li>
+          <li>
+            <a
+              href={
+                data?.meta.redList?.animal?.sourceUrl ||
+                'https://www.mee.gov.cn/xxgk2018/xxgk/xxgk01/202305/t20230522_1030745.html'
+              }
+              target="_blank"
+              rel="noreferrer"
+            >
+              中国生物多样性红色名录（2020）
             </a>
           </li>
         </ul>

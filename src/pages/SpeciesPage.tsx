@@ -121,6 +121,20 @@ export default function SpeciesPage() {
             )}
           </dd>
         </div>
+        <div>
+          <dt>红色名录</dt>
+          <dd>
+            {species.redList ? (
+              <span
+                className={`status-badge status-redlist status-redlist-${(species.redListCategory || '').toLowerCase()}`}
+              >
+                {species.redList}
+              </span>
+            ) : (
+              '—'
+            )}
+          </dd>
+        </div>
         {species.kingdom.latin === 'Animalia' && (
           <div>
             <dt>三有名录</dt>

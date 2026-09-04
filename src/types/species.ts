@@ -37,6 +37,10 @@ export interface SpeciesRecord {
   sanyou: boolean | null
   /** 展示标签，如「三有」 */
   tags: string[]
+  /** 中国生物多样性红色名录等级代码，如 CR / EN / VU */
+  redListCategory: string | null
+  /** 红色名录展示文案，如 极危（CR） */
+  redList: string | null
   /** 审核专家 / 数据源 */
   reviewedBy: string
   /** 相对 content/ 的 Markdown 路径 */
@@ -79,6 +83,9 @@ export interface CatalogueMeta {
   withAnimalProtection?: number
   withPlantProtection?: number
   withSanyou?: number
+  withRedList?: number
+  withAnimalRedList?: number
+  withPlantRedList?: number
   protection?: {
     wildlife?: {
       list: string
@@ -109,6 +116,28 @@ export interface CatalogueMeta {
     matchedSpecies: number
     animalSpecies: number
     listSpecies: number
+  }
+  redList?: {
+    animal?: {
+      list: string
+      version: string
+      source: string
+      sourceUrl: string
+      appliedAt: string
+      matchedSpecies: number
+      listSpecies: number
+      kingdomSpecies: number
+    }
+    plant?: {
+      list: string
+      version: string
+      source: string
+      sourceUrl: string
+      appliedAt: string
+      matchedSpecies: number
+      listSpecies: number
+      kingdomSpecies: number
+    }
   }
   split?: boolean
   message?: string

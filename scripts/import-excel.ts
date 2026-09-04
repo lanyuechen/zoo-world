@@ -11,6 +11,7 @@ import { fileURLToPath } from 'node:url'
 import XLSX from 'xlsx'
 import { loadProtectionLookup, resolveAnimalStatus } from './apply-animal-protection'
 import { loadPlantProtectionLookup, resolvePlantStatus } from './apply-plant-protection'
+import { loadRedListLookups, resolveRedList } from './apply-redlist'
 import { applySanyouTags, loadSanyouLookup } from './apply-sanyou'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
@@ -59,6 +60,8 @@ interface SpeciesRecord {
   status: string | null
   sanyou: boolean | null
   tags: string[]
+  redListCategory: string | null
+  redList: string | null
   reviewedBy: string
   mdPath: string
   slug: string
@@ -130,6 +133,8 @@ distribution: ${yamlList(s.distribution)}
 status: ${s.status == null ? 'null' : JSON.stringify(s.status)}
 sanyou: ${s.sanyou == null ? 'null' : s.sanyou}
 tags: ${yamlList(s.tags)}
+redListCategory: ${s.redListCategory == null ? 'null' : JSON.stringify(s.redListCategory)}
+redList: ${s.redList == null ? 'null' : JSON.stringify(s.redList)}
 reviewedBy: ${JSON.stringify(s.reviewedBy)}
 slug: ${JSON.stringify(s.slug)}
 ---
@@ -323,6 +328,8 @@ function main() {
         status: null,
         sanyou: null,
         tags: [],
+        redListCategory: null,
+        redList: null,
         reviewedBy,
         mdPath,
         slug,
@@ -365,13 +372,21 @@ function main() {
     a.scientificName.localeCompare(b.scientificName),
   )
 
-  console.log('匹配国家重点保护名录与三有名录…')
+  console.log('匹配国家重点保护名录、三有名录与红色名录…')
   const { list: animalList, lookup: animalLookup } = loadProtectionLookup()
   const { list: plantList, lookup: plantLookup } = loadPlantProtectionLookup()
   const { list: sanyouList, lookup: sanyouLookup } = loadSanyouLookup()
+  const {
+    animalList: redAnimalList,
+    plantList: redPlantList,
+    animalLookup: redAnimalLookup,
+    plantLookup: redPlantLookup,
+  } = loadRedListLookups()
   let animalProtected = 0
   let plantProtected = 0
   let sanyouCount = 0
+  let animalRed = 0
+  let plantRed = 0
   for (const s of species) {
     if (s.kingdom.latin === 'Animalia') {
       const status = resolveAnimalStatus(s, animalLookup)
@@ -390,6 +405,17 @@ function main() {
     s.sanyou = sanyou
     s.tags = tags
     if (sanyou) sanyouCount += 1
+
+    const red = resolveRedList(s, redAnimalLookup, redPlantLookup)
+    if (red) {
+      s.redListCategory = red.category
+      s.redList = red.label
+      if (s.kingdom.latin === 'Animalia') animalRed += 1
+      else if (s.kingdom.latin === 'Plantae') plantRed += 1
+    } else {
+      s.redListCategory = null
+      s.redList = null
+    }
   }
 
   console.log('写入分片索引…')
@@ -401,6 +427,9 @@ function main() {
     withPlantProtection: plantProtected,
     withProtection: animalProtected + plantProtected,
     withSanyou: sanyouCount,
+    withAnimalRedList: animalRed,
+    withPlantRedList: plantRed,
+    withRedList: animalRed + plantRed,
     protection: {
       wildlife: {
         list: animalList.title,
@@ -432,6 +461,28 @@ function main() {
       animalSpecies: species.filter((s) => s.kingdom.latin === 'Animalia').length,
       listSpecies: sanyouList.species.length,
     },
+    redList: {
+      animal: {
+        list: redAnimalList.title,
+        version: redAnimalList.version,
+        source: redAnimalList.source,
+        sourceUrl: redAnimalList.sourceUrl,
+        appliedAt: new Date().toISOString(),
+        matchedSpecies: animalRed,
+        listSpecies: redAnimalList.species.length,
+        kingdomSpecies: species.filter((s) => s.kingdom.latin === 'Animalia').length,
+      },
+      plant: {
+        list: redPlantList.title,
+        version: redPlantList.version,
+        source: redPlantList.source,
+        sourceUrl: redPlantList.sourceUrl,
+        appliedAt: new Date().toISOString(),
+        matchedSpecies: plantRed,
+        listSpecies: redPlantList.species.length,
+        kingdomSpecies: species.filter((s) => s.kingdom.latin === 'Plantae').length,
+      },
+    },
     notes: [
       '主干分类索引唯一来源：《中国生物物种名录》',
       '收录动物界、植物界、真菌界本土物种；拉丁学名为主键',
@@ -439,6 +490,7 @@ function main() {
       '动物保护等级依据《国家重点保护野生动物名录》（2021）匹配写入',
       '植物保护等级依据《国家重点保护野生植物名录》（2021）匹配写入',
       '动物「三有」标签依据《有重要生态、科学、社会价值的陆生野生动物名录》（2023）匹配',
+      '动植物红色名录等级依据《中国生物多样性红色名录》（2020）匹配写入',
       '科普介绍与图片后续在 Markdown 中补充，再运行 npm run sync:content',
     ],
   })
@@ -449,6 +501,8 @@ function main() {
   console.log(`  国家重点保护动物（已匹配）: ${animalProtected}`)
   console.log(`  国家重点保护植物（已匹配）: ${plantProtected}`)
   console.log(`  三有名录（已匹配）: ${sanyouCount}`)
+  console.log(`  红色名录动物（已匹配）: ${animalRed}`)
+  console.log(`  红色名录植物（已匹配）: ${plantRed}`)
   console.log(`  Markdown: ${writeMd ? mdWritten : '跳过 (--no-md)'}`)
   console.log(`  索引目录: ${PUBLIC_DATA}`)
 }
