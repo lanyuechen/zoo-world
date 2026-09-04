@@ -12,9 +12,11 @@
     "preview:pages": "BASE_PATH=/zoo-world/ vite preview",
     "import:excel": "tsx scripts/import-excel.ts",
     "import:excel:index-only": "tsx scripts/import-excel.ts --no-md",
-    "apply:protection": "tsx scripts/apply-animal-protection.ts && tsx scripts/apply-plant-protection.ts",
+    "apply:protection": "tsx scripts/apply-animal-protection.ts && tsx scripts/apply-plant-protection.ts && tsx scripts/apply-sanyou.ts",
+    "apply:sanyou": "tsx scripts/apply-sanyou.ts",
     "build:protection-list": "tsx scripts/build-protection-list.ts",
     "build:plant-protection-list": "tsx scripts/build-plant-protection-list.ts",
+    "build:sanyou-list": "tsx scripts/build-sanyou-list.ts",
     "sync:content": "tsx scripts/sync-content.ts"
   },
   "dependencies": {

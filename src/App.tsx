@@ -57,6 +57,12 @@ export default function App() {
                 · 国家重点保护植物 {(data.meta.withPlantProtection ?? 0).toLocaleString()} 种
               </>
             )}
+            {(data.meta.withSanyou ?? 0) > 0 && (
+              <>
+                {' '}
+                · 三有动物 {(data.meta.withSanyou ?? 0).toLocaleString()} 种
+              </>
+            )}
           </p>
         )}
         <p className="footer-sources-label">数据来源：</p>
@@ -88,6 +94,18 @@ export default function App() {
               rel="noreferrer"
             >
               国家重点保护野生植物名录（2021）
+            </a>
+          </li>
+          <li>
+            <a
+              href={
+                data?.meta.sanyou?.sourceUrl ||
+                'https://www.forestry.gov.cn/lyj/1/gsgg/20230630/509640.html'
+              }
+              target="_blank"
+              rel="noreferrer"
+            >
+              有重要生态、科学、社会价值的陆生野生动物名录（2023）
             </a>
           </li>
         </ul>

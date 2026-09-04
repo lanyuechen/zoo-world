@@ -463,6 +463,18 @@
   background: rgba(138, 106, 40, 0.1);
 }
 
+.status-badge.status-sanyou {
+  border-color: #2f5d4a;
+  color: #1f4d38;
+  background: rgba(31, 77, 56, 0.1);
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
 .lineage ol {
   margin: 0;
   padding: 0;

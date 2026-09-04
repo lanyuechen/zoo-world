@@ -30,6 +30,13 @@ export interface SpeciesRecord {
   distribution: string[]
   /** 保护等级（国家重点保护野生动/植物名录） */
   status: string | null
+  /**
+   * 是否列入三有名录（仅动物界有意义）
+   * true=是，false=否，null=不适用（植物/真菌等）
+   */
+  sanyou: boolean | null
+  /** 展示标签，如「三有」 */
+  tags: string[]
   /** 审核专家 / 数据源 */
   reviewedBy: string
   /** 相对 content/ 的 Markdown 路径 */
@@ -71,6 +78,7 @@ export interface CatalogueMeta {
   withProtection?: number
   withAnimalProtection?: number
   withPlantProtection?: number
+  withSanyou?: number
   protection?: {
     wildlife?: {
       list: string
@@ -90,6 +98,17 @@ export interface CatalogueMeta {
       matchedSpecies: number
       plantSpecies: number
     }
+  }
+  sanyou?: {
+    list: string
+    shortTitle: string
+    version: string
+    source: string
+    sourceUrl: string
+    appliedAt: string
+    matchedSpecies: number
+    animalSpecies: number
+    listSpecies: number
   }
   split?: boolean
   message?: string

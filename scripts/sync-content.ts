@@ -6,6 +6,7 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { loadProtectionLookup, resolveAnimalStatus } from './apply-animal-protection'
 import { loadPlantProtectionLookup, resolvePlantStatus } from './apply-plant-protection'
+import { applySanyouTags, loadSanyouLookup } from './apply-sanyou'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.resolve(__dirname, '..')
@@ -30,6 +31,8 @@ interface SpeciesRecord {
   genus: TaxonLabel
   distribution: string[]
   status: string | null
+  sanyou: boolean | null
+  tags: string[]
   reviewedBy: string
   mdPath: string
   slug: string
@@ -155,6 +158,13 @@ function parseMarkdown(filePath: string): SpeciesRecord | null {
     genus: taxon(data.genus),
     distribution: Array.isArray(data.distribution) ? (data.distribution as string[]) : [],
     status: data.status == null || data.status === '' ? null : String(data.status),
+    sanyou:
+      data.sanyou === true || data.sanyou === 'true'
+        ? true
+        : data.sanyou === false || data.sanyou === 'false'
+          ? false
+          : null,
+    tags: Array.isArray(data.tags) ? (data.tags as string[]) : [],
     reviewedBy: String(data.reviewedBy || ''),
     mdPath: rel,
     slug: String(data.slug || scientificName.replace(/\s+/g, '_')),
@@ -226,8 +236,10 @@ function main() {
 
   const { list: animalList, lookup: animalLookup } = loadProtectionLookup()
   const { list: plantList, lookup: plantLookup } = loadPlantProtectionLookup()
+  const { list: sanyouList, lookup: sanyouLookup } = loadSanyouLookup()
   let animalProtected = 0
   let plantProtected = 0
+  let sanyouCount = 0
   for (const s of species) {
     if (s.kingdom.latin === 'Animalia') {
       const fromList = resolveAnimalStatus(s, animalLookup)
@@ -235,13 +247,17 @@ function main() {
         s.status = fromList
         animalProtected += 1
       }
-    } else if (s.kingdom.latin !== 'Animalia') {
+    } else {
       const fromList = resolvePlantStatus(s, plantLookup)
       if (fromList) {
         s.status = fromList
         plantProtected += 1
       }
     }
+    const { sanyou, tags } = applySanyouTags(s, sanyouLookup)
+    s.sanyou = sanyou
+    s.tags = tags
+    if (sanyou) sanyouCount += 1
   }
 
   fs.mkdirSync(PUBLIC_DATA, { recursive: true })
@@ -281,6 +297,7 @@ function main() {
     withAnimalProtection: animalProtected,
     withPlantProtection: plantProtected,
     withProtection: animalProtected + plantProtected,
+    withSanyou: sanyouCount,
     protection: {
       wildlife: {
         list: animalList.title,
@@ -301,11 +318,23 @@ function main() {
         plantSpecies: species.filter((s) => s.kingdom.latin === 'Plantae').length,
       },
     },
+    sanyou: {
+      list: sanyouList.title,
+      shortTitle: sanyouList.shortTitle,
+      version: sanyouList.version,
+      source: sanyouList.source,
+      sourceUrl: sanyouList.sourceUrl,
+      appliedAt: new Date().toISOString(),
+      matchedSpecies: sanyouCount,
+      animalSpecies: species.filter((s) => s.kingdom.latin === 'Animalia').length,
+      listSpecies: sanyouList.species.length,
+    },
     notes: [
       '主干分类索引唯一来源：《中国生物物种名录》',
       '收录动物界、植物界、真菌界；由 content/species Markdown 同步生成运行时索引',
       '动物保护等级依据《国家重点保护野生动物名录》（2021）匹配写入',
       '植物保护等级依据《国家重点保护野生植物名录》（2021）匹配写入',
+      '动物「三有」标签依据《有重要生态、科学、社会价值的陆生野生动物名录》（2023）匹配',
     ],
   }
 
@@ -319,7 +348,7 @@ function main() {
   fs.writeFileSync(path.join(PUBLIC_DATA, 'slug-index.json'), JSON.stringify(slugIndex), 'utf8')
 
   console.log(
-    `完成：${species.length} 种（含分布 ${withDistribution}，保护动物 ${animalProtected}，保护植物 ${plantProtected}）`,
+    `完成：${species.length} 种（含分布 ${withDistribution}，保护动物 ${animalProtected}，保护植物 ${plantProtected}，三有 ${sanyouCount}）`,
   )
 }
 

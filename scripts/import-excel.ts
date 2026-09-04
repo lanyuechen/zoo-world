@@ -11,6 +11,7 @@ import { fileURLToPath } from 'node:url'
 import XLSX from 'xlsx'
 import { loadProtectionLookup, resolveAnimalStatus } from './apply-animal-protection'
 import { loadPlantProtectionLookup, resolvePlantStatus } from './apply-plant-protection'
+import { applySanyouTags, loadSanyouLookup } from './apply-sanyou'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ROOT = path.resolve(__dirname, '..')
@@ -56,6 +57,8 @@ interface SpeciesRecord {
   genus: TaxonLabel
   distribution: string[]
   status: string | null
+  sanyou: boolean | null
+  tags: string[]
   reviewedBy: string
   mdPath: string
   slug: string
@@ -125,6 +128,8 @@ genus:
   chinese: ${JSON.stringify(s.genus.chinese)}
 distribution: ${yamlList(s.distribution)}
 status: ${s.status == null ? 'null' : JSON.stringify(s.status)}
+sanyou: ${s.sanyou == null ? 'null' : s.sanyou}
+tags: ${yamlList(s.tags)}
 reviewedBy: ${JSON.stringify(s.reviewedBy)}
 slug: ${JSON.stringify(s.slug)}
 ---
@@ -316,6 +321,8 @@ function main() {
         genus,
         distribution: [],
         status: null,
+        sanyou: null,
+        tags: [],
         reviewedBy,
         mdPath,
         slug,
@@ -358,11 +365,13 @@ function main() {
     a.scientificName.localeCompare(b.scientificName),
   )
 
-  console.log('匹配国家重点保护野生动植物名录…')
+  console.log('匹配国家重点保护名录与三有名录…')
   const { list: animalList, lookup: animalLookup } = loadProtectionLookup()
   const { list: plantList, lookup: plantLookup } = loadPlantProtectionLookup()
+  const { list: sanyouList, lookup: sanyouLookup } = loadSanyouLookup()
   let animalProtected = 0
   let plantProtected = 0
+  let sanyouCount = 0
   for (const s of species) {
     if (s.kingdom.latin === 'Animalia') {
       const status = resolveAnimalStatus(s, animalLookup)
@@ -370,13 +379,17 @@ function main() {
         s.status = status
         animalProtected += 1
       }
-    } else if (s.kingdom.latin !== 'Animalia') {
+    } else {
       const status = resolvePlantStatus(s, plantLookup)
       if (status) {
         s.status = status
         plantProtected += 1
       }
     }
+    const { sanyou, tags } = applySanyouTags(s, sanyouLookup)
+    s.sanyou = sanyou
+    s.tags = tags
+    if (sanyou) sanyouCount += 1
   }
 
   console.log('写入分片索引…')
@@ -387,6 +400,7 @@ function main() {
     withAnimalProtection: animalProtected,
     withPlantProtection: plantProtected,
     withProtection: animalProtected + plantProtected,
+    withSanyou: sanyouCount,
     protection: {
       wildlife: {
         list: animalList.title,
@@ -407,12 +421,24 @@ function main() {
         plantSpecies: species.filter((s) => s.kingdom.latin === 'Plantae').length,
       },
     },
+    sanyou: {
+      list: sanyouList.title,
+      shortTitle: sanyouList.shortTitle,
+      version: sanyouList.version,
+      source: sanyouList.source,
+      sourceUrl: sanyouList.sourceUrl,
+      appliedAt: new Date().toISOString(),
+      matchedSpecies: sanyouCount,
+      animalSpecies: species.filter((s) => s.kingdom.latin === 'Animalia').length,
+      listSpecies: sanyouList.species.length,
+    },
     notes: [
       '主干分类索引唯一来源：《中国生物物种名录》',
       '收录动物界、植物界、真菌界本土物种；拉丁学名为主键',
       '当前 Excel 不含异名、国内分布省份；相关字段留空待补',
       '动物保护等级依据《国家重点保护野生动物名录》（2021）匹配写入',
       '植物保护等级依据《国家重点保护野生植物名录》（2021）匹配写入',
+      '动物「三有」标签依据《有重要生态、科学、社会价值的陆生野生动物名录》（2023）匹配',
       '科普介绍与图片后续在 Markdown 中补充，再运行 npm run sync:content',
     ],
   })
@@ -422,6 +448,7 @@ function main() {
   console.log(`  唯一物种: ${species.length}`)
   console.log(`  国家重点保护动物（已匹配）: ${animalProtected}`)
   console.log(`  国家重点保护植物（已匹配）: ${plantProtected}`)
+  console.log(`  三有名录（已匹配）: ${sanyouCount}`)
   console.log(`  Markdown: ${writeMd ? mdWritten : '跳过 (--no-md)'}`)
   console.log(`  索引目录: ${PUBLIC_DATA}`)
 }

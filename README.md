@@ -48,19 +48,21 @@ Frontmatter 字段：`scientificName`（主键）、`chineseName`、`synonyms`�
 
 **Excel 暂无**：异名、国内分布省份、科普正文、图片 → 字段已预留，后续在 Markdown 中补充。
 
-**保护等级**：
+**保护等级 / 标签**：
 - 动物：现行《[国家重点保护野生动物名录](http://www.forestry.gov.cn/lyj/1/gkgfxwj/20210201/546057.html)》（2021）→ `data/protection/national-key-wildlife-2021.json`
 - 植物：现行《[国家重点保护野生植物名录](https://www.gov.cn/zhengce/zhengceku/2021-09/09/content_5636409.htm)》（2021）→ `data/protection/national-key-wildplants-2021.json`
+- 三有：现行《[有重要生态、科学、社会价值的陆生野生动物名录](https://www.forestry.gov.cn/lyj/1/gsgg/20230630/509640.html)》（2023）→ `data/protection/sanyou-wildlife-2023.json`（字段 `sanyou` / 标签「三有」）
 
 ```bash
 # 从维基百科重建名录 JSON（需网络）
 npm run build:protection-list
 npm run build:plant-protection-list
-# 写入 / 更新 public/data 物种分片中的 status（动植物）
+npm run build:sanyou-list
+# 写入 / 更新 public/data 物种分片中的 status / 三有标签
 npm run apply:protection
 ```
 
-导入 Excel（`import:excel`）与同步 Markdown（`sync:content`）时会自动匹配保护等级。组（sect.）级植物保护规则因库内无组级字段暂不自动扩及全属。
+导入 Excel（`import:excel`）与同步 Markdown（`sync:content`）时会自动匹配保护等级与三有标签。组（sect.）级植物保护规则因库内无组级字段暂不自动扩及全属。
 
 `data/raw/` 应包含动物界、植物界、真菌界名录表。
 

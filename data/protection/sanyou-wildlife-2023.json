@@ -1,0 +1,7946 @@
+{
+  "title": "有重要生态、科学、社会价值的陆生野生动物名录",
+  "shortTitle": "三有名录",
+  "version": "2023",
+  "source": "国家林业和草原局公告（2023年第17号）",
+  "sourceUrl": "https://www.forestry.gov.cn/lyj/1/gsgg/20230630/509640.html",
+  "compiledFrom": "https://zh.wikipedia.org/wiki/国家保护的有益的或者有重要经济、科学研究价值的陆生野生动物名录",
+  "compiledAt": "2026-09-04T05:12:02.502Z",
+  "notes": [
+    "现行有效版本为2023年6月公布施行",
+    "简称「三有名录」：有重要生态、科学、社会价值的陆生野生动物",
+    "已列入国家重点保护名录的物种一般不再列入本名录"
+  ],
+  "species": [
+    {
+      "chineseName": "阿赖山裂睑蜥",
+      "scientificName": "Ablepharus alaicus",
+      "note": "原名Asymblepharus alaicus"
+    },
+    {
+      "chineseName": "沙地泛蜥",
+      "scientificName": "Ablepharus deserti"
+    },
+    {
+      "chineseName": "棕脸鹟莺",
+      "scientificName": "Abroscopus albogularis"
+    },
+    {
+      "chineseName": "黑脸鹟莺",
+      "scientificName": "Abroscopus schisticeps"
+    },
+    {
+      "chineseName": "黄腹鹟莺",
+      "scientificName": "Abroscopus superciliaris"
+    },
+    {
+      "chineseName": "白腰朱顶雀",
+      "scientificName": "Acanthis flammea"
+    },
+    {
+      "chineseName": "极北朱顶雀",
+      "scientificName": "Acanthis hornemanni"
+    },
+    {
+      "chineseName": "长棘蜥",
+      "scientificName": "Acanthosaura armata"
+    },
+    {
+      "chineseName": "丽棘蜥",
+      "scientificName": "Acanthosaura lepidogaster"
+    },
+    {
+      "chineseName": "刘氏棘蜥",
+      "scientificName": "Acanthosaura liui"
+    },
+    {
+      "chineseName": "铜壁关棘蜥",
+      "scientificName": "Acanthosaura tongbiguanensis"
+    },
+    {
+      "chineseName": "青脊蛇",
+      "scientificName": "Achalinus ater"
+    },
+    {
+      "chineseName": "德化脊蛇",
+      "scientificName": "Achalinus dehuaensis"
+    },
+    {
+      "chineseName": "台湾脊蛇",
+      "scientificName": "Achalinus formosanus"
+    },
+    {
+      "chineseName": "海南脊蛇",
+      "scientificName": "Achalinus hainanus"
+    },
+    {
+      "chineseName": "黄家岭脊蛇",
+      "scientificName": "Achalinus huangjietangi"
+    },
+    {
+      "chineseName": "美姑脊蛇",
+      "scientificName": "Achalinus meiguensis"
+    },
+    {
+      "chineseName": "阿里山脊蛇",
+      "scientificName": "Achalinus niger"
+    },
+    {
+      "chineseName": "攀枝花脊蛇",
+      "scientificName": "Achalinus panzhihuaensis"
+    },
+    {
+      "chineseName": "屏边脊蛇",
+      "scientificName": "Achalinus pingbianensis"
+    },
+    {
+      "chineseName": "棕脊蛇",
+      "scientificName": "Achalinus rufescens"
+    },
+    {
+      "chineseName": "黑脊蛇",
+      "scientificName": "Achalinus spinalis"
+    },
+    {
+      "chineseName": "杨氏脊蛇",
+      "scientificName": "Achalinus yangdatongi"
+    },
+    {
+      "chineseName": "云开脊蛇",
+      "scientificName": "Achalinus yunkaiensis"
+    },
+    {
+      "chineseName": "白领八哥",
+      "scientificName": "Acridotheres albocinctus"
+    },
+    {
+      "chineseName": "红嘴椋鸟",
+      "scientificName": "Acridotheres burmannicus"
+    },
+    {
+      "chineseName": "八哥",
+      "scientificName": "Acridotheres cristatellus"
+    },
+    {
+      "chineseName": "林八哥",
+      "scientificName": "Acridotheres grandis"
+    },
+    {
+      "chineseName": "爪哇八哥",
+      "scientificName": "Acridotheres javanicus"
+    },
+    {
+      "chineseName": "家八哥",
+      "scientificName": "Acridotheres tristis"
+    },
+    {
+      "chineseName": "稻田苇莺",
+      "scientificName": "Acrocephalus agricola"
+    },
+    {
+      "chineseName": "大苇莺",
+      "scientificName": "Acrocephalus arundinaceus"
+    },
+    {
+      "chineseName": "黑眉苇莺",
+      "scientificName": "Acrocephalus bistrigiceps"
+    },
+    {
+      "chineseName": "钝翅苇莺",
+      "scientificName": "Acrocephalus concinens"
+    },
+    {
+      "chineseName": "布氏苇莺",
+      "scientificName": "Acrocephalus dumetorum"
+    },
+    {
+      "chineseName": "须苇莺",
+      "scientificName": "Acrocephalus melanopogon"
+    },
+    {
+      "chineseName": "东方大苇莺",
+      "scientificName": "Acrocephalus orientalis"
+    },
+    {
+      "chineseName": "蒲苇莺",
+      "scientificName": "Acrocephalus schoenobaenus"
+    },
+    {
+      "chineseName": "芦莺",
+      "scientificName": "Acrocephalus scirpaceus"
+    },
+    {
+      "chineseName": "噪苇莺",
+      "scientificName": "Acrocephalus stentoreus"
+    },
+    {
+      "chineseName": "远东苇莺",
+      "scientificName": "Acrocephalus tangorum"
+    },
+    {
+      "chineseName": "栗额斑翅鹛",
+      "scientificName": "Actinodura egertoni"
+    },
+    {
+      "chineseName": "白眶斑翅鹛",
+      "scientificName": "Actinodura ramsayi"
+    },
+    {
+      "chineseName": "矶鹬",
+      "scientificName": "Actitis hypoleucos"
+    },
+    {
+      "chineseName": "李氏长足甲",
+      "scientificName": "Adesmia lii"
+    },
+    {
+      "chineseName": "黑眉长尾山雀",
+      "scientificName": "Aegithalos bonvaloti"
+    },
+    {
+      "chineseName": "北长尾山雀",
+      "scientificName": "Aegithalos caudatus"
+    },
+    {
+      "chineseName": "红头长尾山雀",
+      "scientificName": "Aegithalos concinnus"
+    },
+    {
+      "chineseName": "银脸长尾山雀",
+      "scientificName": "Aegithalos fuliginosus"
+    },
+    {
+      "chineseName": "银喉长尾山雀",
+      "scientificName": "Aegithalos glaucogularis"
+    },
+    {
+      "chineseName": "棕额长尾山雀",
+      "scientificName": "Aegithalos iouschistos"
+    },
+    {
+      "chineseName": "大绿雀鹎",
+      "scientificName": "Aegithina lafresnayei"
+    },
+    {
+      "chineseName": "黑翅雀鹎",
+      "scientificName": "Aegithina tiphia"
+    },
+    {
+      "chineseName": "沟牙鼯鼠",
+      "scientificName": "Aeretes melanopterus"
+    },
+    {
+      "chineseName": "短嘴金丝燕",
+      "scientificName": "Aerodramus brevirostris"
+    },
+    {
+      "chineseName": "大金丝燕",
+      "scientificName": "Aerodramus maximus"
+    },
+    {
+      "chineseName": "叉尾太阳鸟",
+      "scientificName": "Aethopyga christinae"
+    },
+    {
+      "chineseName": "蓝喉太阳鸟",
+      "scientificName": "Aethopyga gouldiae"
+    },
+    {
+      "chineseName": "火尾太阳鸟",
+      "scientificName": "Aethopyga ignicauda"
+    },
+    {
+      "chineseName": "绿喉太阳鸟",
+      "scientificName": "Aethopyga nipalensis"
+    },
+    {
+      "chineseName": "黑胸太阳鸟",
+      "scientificName": "Aethopyga saturata"
+    },
+    {
+      "chineseName": "黄腰太阳鸟",
+      "scientificName": "Aethopyga siparaja"
+    },
+    {
+      "chineseName": "赤朱雀",
+      "scientificName": "Agraphospiza rubescens"
+    },
+    {
+      "chineseName": "短异潜水蜂",
+      "scientificName": "Agriotypus succinctus",
+      "note": "原拉丁学名Atopotypus succinatus"
+    },
+    {
+      "chineseName": "紫背椋鸟",
+      "scientificName": "Agropsar philippensis"
+    },
+    {
+      "chineseName": "北椋鸟",
+      "scientificName": "Agropsar sturninus"
+    },
+    {
+      "chineseName": "绿瘦蛇",
+      "scientificName": "Ahaetulla prasina"
+    },
+    {
+      "chineseName": "小云雀",
+      "scientificName": "Alauda gulgula"
+    },
+    {
+      "chineseName": "白翅百灵",
+      "scientificName": "Alauda leucoptera"
+    },
+    {
+      "chineseName": "短趾百灵",
+      "scientificName": "Alaudala cheleensis"
+    },
+    {
+      "chineseName": "普通翠鸟",
+      "scientificName": "Alcedo atthis"
+    },
+    {
+      "chineseName": "灰眶雀鹛",
+      "scientificName": "Alcippe morrisonia"
+    },
+    {
+      "chineseName": "白眶雀鹛",
+      "scientificName": "Alcippe nipalensis"
+    },
+    {
+      "chineseName": "褐脸雀鹛",
+      "scientificName": "Alcippe poioicephala"
+    },
+    {
+      "chineseName": "石鸡",
+      "scientificName": "Alectoris chukar"
+    },
+    {
+      "chineseName": "黄腹冠鹎",
+      "scientificName": "Alophoixus flaveolus"
+    },
+    {
+      "chineseName": "白喉冠鹎",
+      "scientificName": "Alophoixus pallidus"
+    },
+    {
+      "chineseName": "隐耳漠虎",
+      "scientificName": "Alsophylax pipiens"
+    },
+    {
+      "chineseName": "新疆漠虎",
+      "scientificName": "Alsophylax przewalskii"
+    },
+    {
+      "chineseName": "宽斑隆趾虎",
+      "scientificName": "Altiphylax stoliczkai"
+    },
+    {
+      "chineseName": "红梅花雀",
+      "scientificName": "Amandava amandava",
+      "note": "原名（红）梅花雀 Estrida amandava"
+    },
+    {
+      "chineseName": "森下交脉环蝶",
+      "scientificName": "Amathuxidia morishitai",
+      "note": "原为环蝶科物种更改为蛱蝶科眼蝶亚科物种"
+    },
+    {
+      "chineseName": "白眉苦恶鸟",
+      "scientificName": "Amaurornis cinerea"
+    },
+    {
+      "chineseName": "白胸苦恶鸟",
+      "scientificName": "Amaurornis phoenicurus"
+    },
+    {
+      "chineseName": "琥珀蝉",
+      "scientificName": "Ambragaeana ambra"
+    },
+    {
+      "chineseName": "金冠树八哥",
+      "scientificName": "Ampeliceps coronatus"
+    },
+    {
+      "chineseName": "草腹链蛇",
+      "scientificName": "Amphiesma stolatum"
+    },
+    {
+      "chineseName": "白眶蛇",
+      "scientificName": "Amphiesmoides ornaticeps"
+    },
+    {
+      "chineseName": "参状远盲蚓",
+      "scientificName": "Amynthas aspergillus"
+    },
+    {
+      "chineseName": "栉盲远盲蚓",
+      "scientificName": "Amynthas pectiniferus"
+    },
+    {
+      "chineseName": "针尾鸭",
+      "scientificName": "Anas acuta"
+    },
+    {
+      "chineseName": "绿翅鸭",
+      "scientificName": "Anas crecca"
+    },
+    {
+      "chineseName": "棕颈鸭",
+      "scientificName": "Anas luzonica"
+    },
+    {
+      "chineseName": "绿头鸭",
+      "scientificName": "Anas platyrhynchos",
+      "note": "仅限野外种群"
+    },
+    {
+      "chineseName": "印度斑嘴鸭",
+      "scientificName": "Anas poecilorhyncha"
+    },
+    {
+      "chineseName": "斑嘴鸭",
+      "scientificName": "Anas zonorhyncha"
+    },
+    {
+      "chineseName": "钳嘴鹳",
+      "scientificName": "Anastomus oscitans"
+    },
+    {
+      "chineseName": "漆点旌翅颜蜡蝉",
+      "scientificName": "Ancyra annamensis"
+    },
+    {
+      "chineseName": "白顶玄燕鸥",
+      "scientificName": "Anous stolidus",
+      "note": "原名白顶玄鸥"
+    },
+    {
+      "chineseName": "灰雁",
+      "scientificName": "Anser anser"
+    },
+    {
+      "chineseName": "雪雁",
+      "scientificName": "Anser caerulescens"
+    },
+    {
+      "chineseName": "豆雁",
+      "scientificName": "Anser fabalis"
+    },
+    {
+      "chineseName": "斑头雁",
+      "scientificName": "Anser indicus"
+    },
+    {
+      "chineseName": "短嘴豆雁",
+      "scientificName": "Anser serrirostris"
+    },
+    {
+      "chineseName": "白喉姬鹟",
+      "scientificName": "Anthipes monileger"
+    },
+    {
+      "chineseName": "褐喉食蜜鸟",
+      "scientificName": "Anthreptes malacensis"
+    },
+    {
+      "chineseName": "平原鹨",
+      "scientificName": "Anthus campestris"
+    },
+    {
+      "chineseName": "红喉鹨",
+      "scientificName": "Anthus cervinus"
+    },
+    {
+      "chineseName": "布氏鹨",
+      "scientificName": "Anthus godlewskii"
+    },
+    {
+      "chineseName": "北鹨",
+      "scientificName": "Anthus gustavi"
+    },
+    {
+      "chineseName": "树鹨",
+      "scientificName": "Anthus hodgsoni"
+    },
+    {
+      "chineseName": "草地鹨",
+      "scientificName": "Anthus pratensis"
+    },
+    {
+      "chineseName": "大花鹨",
+      "scientificName": "Anthus richardi"
+    },
+    {
+      "chineseName": "粉红胸鹨",
+      "scientificName": "Anthus roseatus"
+    },
+    {
+      "chineseName": "黄腹鹨",
+      "scientificName": "Anthus rubescens"
+    },
+    {
+      "chineseName": "东方田鹨",
+      "scientificName": "Anthus rufulus"
+    },
+    {
+      "chineseName": "水鹨",
+      "scientificName": "Anthus spinoletta"
+    },
+    {
+      "chineseName": "山鹨",
+      "scientificName": "Anthus sylvanus"
+    },
+    {
+      "chineseName": "林鹨",
+      "scientificName": "Anthus trivialis"
+    },
+    {
+      "chineseName": "龙苍沟日蛾",
+      "scientificName": "Antispila longcangensis"
+    },
+    {
+      "chineseName": "亚洲辉椋鸟",
+      "scientificName": "Aplonis panayensis"
+    },
+    {
+      "chineseName": "暗背雨燕",
+      "scientificName": "Apus acuticauda"
+    },
+    {
+      "chineseName": "普通雨燕",
+      "scientificName": "Apus apus"
+    },
+    {
+      "chineseName": "小白腰雨燕",
+      "scientificName": "Apus nipalensis"
+    },
+    {
+      "chineseName": "白腰雨燕",
+      "scientificName": "Apus pacificus"
+    },
+    {
+      "chineseName": "黄缘萤",
+      "scientificName": "Aquatica ficta"
+    },
+    {
+      "chineseName": "红胸水萤",
+      "scientificName": "Aquatica lateralis"
+    },
+    {
+      "chineseName": "雷氏萤",
+      "scientificName": "Aquatica leii"
+    },
+    {
+      "chineseName": "长嘴捕蛛鸟",
+      "scientificName": "Arachnothera longirostra"
+    },
+    {
+      "chineseName": "纹背捕蛛鸟",
+      "scientificName": "Arachnothera magna"
+    },
+    {
+      "chineseName": "冬青王蛾",
+      "scientificName": "Archaeoattacus edwardsii",
+      "note": "原名冬青大蚕蛾"
+    },
+    {
+      "chineseName": "方花蛇",
+      "scientificName": "Archelaphe bella",
+      "note": "原名方花小头蛇Oligodon bellus"
+    },
+    {
+      "chineseName": "猪獾",
+      "scientificName": "Arctonyx collaris"
+    },
+    {
+      "chineseName": "大白鹭",
+      "scientificName": "Ardea alba"
+    },
+    {
+      "chineseName": "苍鹭",
+      "scientificName": "Ardea cinerea"
+    },
+    {
+      "chineseName": "中白鹭",
+      "scientificName": "Ardea intermedia"
+    },
+    {
+      "chineseName": "草鹭",
+      "scientificName": "Ardea purpurea"
+    },
+    {
+      "chineseName": "淡足鹱",
+      "scientificName": "Ardenna carneipes"
+    },
+    {
+      "chineseName": "灰鹱",
+      "scientificName": "Ardenna grisea"
+    },
+    {
+      "chineseName": "楔尾鹱",
+      "scientificName": "Ardenna pacifica"
+    },
+    {
+      "chineseName": "短尾鹱",
+      "scientificName": "Ardenna tenuirostris"
+    },
+    {
+      "chineseName": "池鹭",
+      "scientificName": "Ardeola bacchus"
+    },
+    {
+      "chineseName": "印度池鹭",
+      "scientificName": "Ardeola grayii"
+    },
+    {
+      "chineseName": "爪哇池鹭",
+      "scientificName": "Ardeola speciosa"
+    },
+    {
+      "chineseName": "大盲蛇",
+      "scientificName": "Argyrophis diardii",
+      "note": "原拉丁学名Typhlops diardii"
+    },
+    {
+      "chineseName": "恒春盲蛇",
+      "scientificName": "Argyrophis koshunensis",
+      "note": "原拉丁学名Typhlops koshunensis"
+    },
+    {
+      "chineseName": "灰燕鵙",
+      "scientificName": "Artamus fuscus"
+    },
+    {
+      "chineseName": "厚嘴苇莺",
+      "scientificName": "Arundinax aedon"
+    },
+    {
+      "chineseName": "喜山裂睑蜥",
+      "scientificName": "Asymblepharus himalayana",
+      "note": "原名喜山滑蜥 Scincella himalayana"
+    },
+    {
+      "chineseName": "拉达克裂睑蜥",
+      "scientificName": "Asymblepharus ladacensis",
+      "note": "原名拉达克滑蜥 Scincella ladacensis"
+    },
+    {
+      "chineseName": "锡金裂睑蜥",
+      "scientificName": "Asymblepharus sikimmensis",
+      "note": "原名锡金滑蜥 Scincella sikimmensis"
+    },
+    {
+      "chineseName": "黄宽缘萤",
+      "scientificName": "Asymmetricata circumdata"
+    },
+    {
+      "chineseName": "光蜥",
+      "scientificName": "Ateuchosaurus chinensis"
+    },
+    {
+      "chineseName": "帚尾豪猪",
+      "scientificName": "Atherurus macrourus",
+      "note": "原名扫尾豪猪"
+    },
+    {
+      "chineseName": "滇西蛇",
+      "scientificName": "Atretium yunnanensis"
+    },
+    {
+      "chineseName": "大花角蟾",
+      "scientificName": "Atympanophrys gigantica",
+      "note": "原拉丁学名 Megophrys giganticus"
+    },
+    {
+      "chineseName": "南江角蟾",
+      "scientificName": "Atympanophrys nankiangensis",
+      "note": "原拉丁学名 Megophrys nankiangensis"
+    },
+    {
+      "chineseName": "沙坪角蟾",
+      "scientificName": "Atympanophrys shapingensis",
+      "note": "原名沙坪无耳蟾"
+    },
+    {
+      "chineseName": "瓦屋角蟾",
+      "scientificName": "Atympanophrys wawuensis"
+    },
+    {
+      "chineseName": "红头潜鸭",
+      "scientificName": "Aythya ferina"
+    },
+    {
+      "chineseName": "凤头潜鸭",
+      "scientificName": "Aythya fuligula"
+    },
+    {
+      "chineseName": "斑背潜鸭",
+      "scientificName": "Aythya marila"
+    },
+    {
+      "chineseName": "白眼潜鸭",
+      "scientificName": "Aythya nyroca"
+    },
+    {
+      "chineseName": "帆背潜鸭",
+      "scientificName": "Aythya valisineria"
+    },
+    {
+      "chineseName": "黑头蝰",
+      "scientificName": "Azemiops feae"
+    },
+    {
+      "chineseName": "白头蝰",
+      "scientificName": "Azemiops kharini"
+    },
+    {
+      "chineseName": "矛纹草鹛",
+      "scientificName": "Babax lanceolatus"
+    },
+    {
+      "chineseName": "棕胸竹鸡",
+      "scientificName": "Bambusicola fytchii"
+    },
+    {
+      "chineseName": "台湾竹鸡",
+      "scientificName": "Bambusicola sonorivox"
+    },
+    {
+      "chineseName": "灰胸竹鸡",
+      "scientificName": "Bambusicola thoracicus"
+    },
+    {
+      "chineseName": "大宽喙象",
+      "scientificName": "Baryrhynchus cratus",
+      "note": "原拉丁学名Baryrrhynchus cratus"
+    },
+    {
+      "chineseName": "毛耳飞鼠",
+      "scientificName": "Belomys pearsoni",
+      "note": "原拉丁学名Belomys pearsonii"
+    },
+    {
+      "chineseName": "大伞弄蝶",
+      "scientificName": "Bibasis miracula"
+    },
+    {
+      "chineseName": "珠光蛇",
+      "scientificName": "Blythia reticulata"
+    },
+    {
+      "chineseName": "黄嘴栗啄木鸟",
+      "scientificName": "Blythipicus pyrrhotis"
+    },
+    {
+      "chineseName": "绿林蛇",
+      "scientificName": "Boiga cyanea"
+    },
+    {
+      "chineseName": "广西林蛇",
+      "scientificName": "Boiga guangxiensis"
+    },
+    {
+      "chineseName": "绞花林蛇",
+      "scientificName": "Boiga kraepelini"
+    },
+    {
+      "chineseName": "繁花林蛇",
+      "scientificName": "Boiga multomaculata"
+    },
+    {
+      "chineseName": "强婚刺铃蟾",
+      "scientificName": "Bombina fortinuptialis"
+    },
+    {
+      "chineseName": "利川铃蟾",
+      "scientificName": "Bombina lichuanensis"
+    },
+    {
+      "chineseName": "大蹼铃蟾",
+      "scientificName": "Bombina maxima"
+    },
+    {
+      "chineseName": "微蹼铃蟾",
+      "scientificName": "Bombina microdeladigitora"
+    },
+    {
+      "chineseName": "东方铃蟾",
+      "scientificName": "Bombina orientalis"
+    },
+    {
+      "chineseName": "伪猛熊蜂",
+      "scientificName": "Bombus personatus"
+    },
+    {
+      "chineseName": "华丽熊蜂",
+      "scientificName": "Bombus superbus"
+    },
+    {
+      "chineseName": "太平鸟",
+      "scientificName": "Bombycilla garrulus"
+    },
+    {
+      "chineseName": "小太平鸟",
+      "scientificName": "Bombycilla japonica"
+    },
+    {
+      "chineseName": "大麻鳽",
+      "scientificName": "Botaurus stellaris"
+    },
+    {
+      "chineseName": "封开角蟾",
+      "scientificName": "Boulenophrys acuta"
+    },
+    {
+      "chineseName": "安龙角蟾",
+      "scientificName": "Boulenophrys anlongensis"
+    },
+    {
+      "chineseName": "百山祖角蟾",
+      "scientificName": "Boulenophrys baishanzuensis"
+    },
+    {
+      "chineseName": "宾川角蟾",
+      "scientificName": "Boulenophrys binchuanensis"
+    },
+    {
+      "chineseName": "炳灵角蟾",
+      "scientificName": "Boulenophrys binlingensis"
+    },
+    {
+      "chineseName": "淡肩角蟾",
+      "scientificName": "Boulenophrys boettgeri",
+      "note": "原拉丁学名 Megophrys boettgeri"
+    },
+    {
+      "chineseName": "短肢角蟾",
+      "scientificName": "Boulenophrys brachykolos",
+      "note": "原拉丁学名 Megophrys brachykolos"
+    },
+    {
+      "chineseName": "尾突角蟾",
+      "scientificName": "Boulenophrys caudoprocta",
+      "note": "原拉丁学名 Megophrys caudoprocta"
+    },
+    {
+      "chineseName": "陈氏角蟾",
+      "scientificName": "Boulenophrys cheni"
+    },
+    {
+      "chineseName": "赤水角蟾",
+      "scientificName": "Boulenophrys chishuiensis"
+    },
+    {
+      "chineseName": "从江角蟾",
+      "scientificName": "Boulenophrys congjiangensis"
+    },
+    {
+      "chineseName": "戴云角蟾",
+      "scientificName": "Boulenophrys daiyunensis"
+    },
+    {
+      "chineseName": "道济角蟾",
+      "scientificName": "Boulenophrys daoji"
+    },
+    {
+      "chineseName": "大围角蟾",
+      "scientificName": "Boulenophrys daweimontis",
+      "note": "原名大围山角蟾 Megophrys daweimontis"
+    },
+    {
+      "chineseName": "东莞角蟾",
+      "scientificName": "Boulenophrys dongguanensis"
+    },
+    {
+      "chineseName": "黄山角蟾",
+      "scientificName": "Boulenophrys huangshanensis"
+    },
+    {
+      "chineseName": "江氏角蟾",
+      "scientificName": "Boulenophrys jiangi"
+    },
+    {
+      "chineseName": "景东角蟾",
+      "scientificName": "Boulenophrys jingdongensis"
+    },
+    {
+      "chineseName": "井冈山角蟾",
+      "scientificName": "Boulenophrys jinggangensis"
+    },
+    {
+      "chineseName": "九连山角蟾",
+      "scientificName": "Boulenophrys jiulianensis"
+    },
+    {
+      "chineseName": "挂墩角蟾",
+      "scientificName": "Boulenophrys kuatunensis",
+      "note": "原拉丁学名 Megophrys kuatunensis"
+    },
+    {
+      "chineseName": "雷山角蟾",
+      "scientificName": "Boulenophrys leishanensis"
+    },
+    {
+      "chineseName": "荔波角蟾",
+      "scientificName": "Boulenophrys liboensis"
+    },
+    {
+      "chineseName": "林氏角蟾",
+      "scientificName": "Boulenophrys lini"
+    },
+    {
+      "chineseName": "丽水角蟾",
+      "scientificName": "Boulenophrys lishuiensis"
+    },
+    {
+      "chineseName": "小角蟾",
+      "scientificName": "Boulenophrys minor",
+      "note": "原拉丁学名 Megophrys minor"
+    },
+    {
+      "chineseName": "花坪角蟾",
+      "scientificName": "Boulenophrys mirabilis"
+    },
+    {
+      "chineseName": "幕阜山角蟾",
+      "scientificName": "Boulenophrys mufumontana"
+    },
+    {
+      "chineseName": "南昆山角蟾",
+      "scientificName": "Boulenophrys nankunensis"
+    },
+    {
+      "chineseName": "南岭角蟾",
+      "scientificName": "Boulenophrys nanlingensis"
+    },
+    {
+      "chineseName": "黑石顶角蟾",
+      "scientificName": "Boulenophrys obesa"
+    },
+    {
+      "chineseName": "雨神角蟾",
+      "scientificName": "Boulenophrys ombrophila"
+    },
+    {
+      "chineseName": "峨眉角蟾",
+      "scientificName": "Boulenophrys omeimontis",
+      "note": "原拉丁学名 Megophrys omeimontis"
+    },
+    {
+      "chineseName": "粗皮角蟾",
+      "scientificName": "Boulenophrys palpebralespinosa",
+      "note": "原拉丁学名 Megophrys palpebralespinosa"
+    },
+    {
+      "chineseName": "黔北角蟾",
+      "scientificName": "Boulenophrys qianbeiensis"
+    },
+    {
+      "chineseName": "红股角蟾",
+      "scientificName": "Boulenophrys rubrimera"
+    },
+    {
+      "chineseName": "桑植角蟾",
+      "scientificName": "Boulenophrys sangzhiensis"
+    },
+    {
+      "chineseName": "三明角蟾",
+      "scientificName": "Boulenophrys sanmingensis"
+    },
+    {
+      "chineseName": "石门台角蟾",
+      "scientificName": "Boulenophrys shimentaina"
+    },
+    {
+      "chineseName": "舜皇角蟾",
+      "scientificName": "Boulenophrys shunhuangensis"
+    },
+    {
+      "chineseName": "棘指角蟾",
+      "scientificName": "Boulenophrys spinatus",
+      "note": "原拉丁学名 Megophrys spinatus"
+    },
+    {
+      "chineseName": "铜钹山角蟾",
+      "scientificName": "Boulenophrys tongboensis"
+    },
+    {
+      "chineseName": "棘疣角蟾",
+      "scientificName": "Boulenophrys tuberogranulatus"
+    },
+    {
+      "chineseName": "武功山角蟾",
+      "scientificName": "Boulenophrys wugongensis"
+    },
+    {
+      "chineseName": "无量山角蟾",
+      "scientificName": "Boulenophrys wuliangshanensis"
+    },
+    {
+      "chineseName": "巫山角蟾",
+      "scientificName": "Boulenophrys wushanensis"
+    },
+    {
+      "chineseName": "湘南角蟾",
+      "scientificName": "Boulenophrys xiangnanensis"
+    },
+    {
+      "chineseName": "仙居角蟾",
+      "scientificName": "Boulenophrys xianjuensis"
+    },
+    {
+      "chineseName": "阳明山角蟾",
+      "scientificName": "Boulenophrys yangmingensis"
+    },
+    {
+      "chineseName": "瑶山角蟾",
+      "scientificName": "Boulenophrys yaoshanensis"
+    },
+    {
+      "chineseName": "英德角蟾",
+      "scientificName": "Boulenophrys yingdeensis"
+    },
+    {
+      "chineseName": "云开角蟾",
+      "scientificName": "Boulenophrys yunkaiensis"
+    },
+    {
+      "chineseName": "黑头鹎",
+      "scientificName": "Brachypodius atriceps"
+    },
+    {
+      "chineseName": "锈腹短翅鸫",
+      "scientificName": "Brachypteryx hyperythra"
+    },
+    {
+      "chineseName": "白喉短翅鸫",
+      "scientificName": "Brachypteryx leucophris"
+    },
+    {
+      "chineseName": "蓝短翅鸫",
+      "scientificName": "Brachypteryx montana"
+    },
+    {
+      "chineseName": "长嘴斑海雀",
+      "scientificName": "Brachyramphus perdix",
+      "note": "原斑海雀 Brachyramphus marmoratus"
+    },
+    {
+      "chineseName": "川南短腿蟾",
+      "scientificName": "Brachytarsophrys chuannanensis"
+    },
+    {
+      "chineseName": "费氏短腿蟾",
+      "scientificName": "Brachytarsophrys feae",
+      "note": "原名缅北短腿蟾"
+    },
+    {
+      "chineseName": "东方短腿蟾",
+      "scientificName": "Brachytarsophrys orientalis"
+    },
+    {
+      "chineseName": "平顶短腿蟾",
+      "scientificName": "Brachytarsophrys platyparietus"
+    },
+    {
+      "chineseName": "珀普短腿蟾",
+      "scientificName": "Brachytarsophrys popei"
+    },
+    {
+      "chineseName": "黑雁",
+      "scientificName": "Branta bernicla"
+    },
+    {
+      "chineseName": "加拿大雁",
+      "scientificName": "Branta canadensis"
+    },
+    {
+      "chineseName": "小美洲黑雁",
+      "scientificName": "Branta hutchinsii"
+    },
+    {
+      "chineseName": "白颊黑雁",
+      "scientificName": "Branta leucopsis"
+    },
+    {
+      "chineseName": "牛背鹭",
+      "scientificName": "Bubulcus ibis"
+    },
+    {
+      "chineseName": "蒙古沙雀",
+      "scientificName": "Bucanetes mongolicus"
+    },
+    {
+      "chineseName": "鹊鸭",
+      "scientificName": "Bucephala clangula"
+    },
+    {
+      "chineseName": "周氏溪树蛙",
+      "scientificName": "Buergeria choui"
+    },
+    {
+      "chineseName": "日本溪树蛙",
+      "scientificName": "Buergeria japonica"
+    },
+    {
+      "chineseName": "太田溪树蛙",
+      "scientificName": "Buergeria otai"
+    },
+    {
+      "chineseName": "海南溪树蛙",
+      "scientificName": "Buergeria oxycephala"
+    },
+    {
+      "chineseName": "壮溪树蛙",
+      "scientificName": "Buergeria robusta"
+    },
+    {
+      "chineseName": "哀牢溪蟾",
+      "scientificName": "Bufo ailaoanus",
+      "note": "原名哀牢蟾蜍"
+    },
+    {
+      "chineseName": "华西蟾蜍",
+      "scientificName": "Bufo andrewsi"
+    },
+    {
+      "chineseName": "盘谷蟾蜍",
+      "scientificName": "Bufo bankorensis"
+    },
+    {
+      "chineseName": "隐耳溪蟾",
+      "scientificName": "Bufo cryptotympanicus",
+      "note": "原名隐耳蟾蜍"
+    },
+    {
+      "chineseName": "中华蟾蜍",
+      "scientificName": "Bufo gargarizans",
+      "note": "原名录中沙湾蟾蜍（Bufo kabischi）、岷山蟾蜍（Bufo minshanicus）、西藏蟾蜍（Bufo tibetanus）、卧龙蟾蜍（Bufo wolongensis）为其的同物异名"
+    },
+    {
+      "chineseName": "绿春溪蟾",
+      "scientificName": "Bufo luchunnicus"
+    },
+    {
+      "chineseName": "孟连溪蟾",
+      "scientificName": "Bufo menglianus"
+    },
+    {
+      "chineseName": "缅甸溪蟾",
+      "scientificName": "Bufo pageoti"
+    },
+    {
+      "chineseName": "圆疣蟾蜍",
+      "scientificName": "Bufo tuberculatus"
+    },
+    {
+      "chineseName": "疣棘溪蟾",
+      "scientificName": "Bufo tuberospinius",
+      "note": "原拉丁学名Torrentophryne tuberospinia"
+    },
+    {
+      "chineseName": "塔里木蟾蜍",
+      "scientificName": "Bufotes pewzowi",
+      "note": "原新疆蟾蜍（Bufo nouettei），原名录中绿蟾蜍（Bufo viridis）为其同物异名"
+    },
+    {
+      "chineseName": "札达蟾蜍",
+      "scientificName": "Bufotes zamdaensis"
+    },
+    {
+      "chineseName": "褐燕鹱",
+      "scientificName": "Bulweria bulwerii",
+      "note": "原名纯褐鹱"
+    },
+    {
+      "chineseName": "环蛇",
+      "scientificName": "Bungarus bungaroides"
+    },
+    {
+      "chineseName": "马来环蛇",
+      "scientificName": "Bungarus candidus"
+    },
+    {
+      "chineseName": "金环蛇",
+      "scientificName": "Bungarus fasciatus"
+    },
+    {
+      "chineseName": "银环蛇",
+      "scientificName": "Bungarus multicinctus"
+    },
+    {
+      "chineseName": "素贞环蛇",
+      "scientificName": "Bungarus suzhenae"
+    },
+    {
+      "chineseName": "云南环蛇",
+      "scientificName": "Bungarus wanghaotingi"
+    },
+    {
+      "chineseName": "妖艳吉丁",
+      "scientificName": "Buprestis mirabilis"
+    },
+    {
+      "chineseName": "石鸻",
+      "scientificName": "Burhinus oedicnemus"
+    },
+    {
+      "chineseName": "绿鹭",
+      "scientificName": "Butorides striata"
+    },
+    {
+      "chineseName": "八声杜鹃",
+      "scientificName": "Cacomantis merulinus"
+    },
+    {
+      "chineseName": "栗斑杜鹃",
+      "scientificName": "Cacomantis sonneratii"
+    },
+    {
+      "chineseName": "贡山两头蛇",
+      "scientificName": "Calamaria andersoni"
+    },
+    {
+      "chineseName": "尖尾两头蛇",
+      "scientificName": "Calamaria pavimentata"
+    },
+    {
+      "chineseName": "钝尾两头蛇",
+      "scientificName": "Calamaria septentrionalis"
+    },
+    {
+      "chineseName": "云南两头蛇",
+      "scientificName": "Calamaria yunnanensis"
+    },
+    {
+      "chineseName": "细嘴短趾百灵",
+      "scientificName": "Calandrella acutirostris"
+    },
+    {
+      "chineseName": "大短趾百灵",
+      "scientificName": "Calandrella brachydactyla"
+    },
+    {
+      "chineseName": "铁爪鹀",
+      "scientificName": "Calcarius lapponicus"
+    },
+    {
+      "chineseName": "尖尾滨鹬",
+      "scientificName": "Calidris acuminata"
+    },
+    {
+      "chineseName": "三趾滨鹬",
+      "scientificName": "Calidris alba",
+      "note": "原名三趾鹬"
+    },
+    {
+      "chineseName": "黑腹滨鹬",
+      "scientificName": "Calidris alpina"
+    },
+    {
+      "chineseName": "红腹滨鹬",
+      "scientificName": "Calidris canutus"
+    },
+    {
+      "chineseName": "弯嘴滨鹬",
+      "scientificName": "Calidris ferruginea"
+    },
+    {
+      "chineseName": "西滨鹬",
+      "scientificName": "Calidris mauri",
+      "note": "原名西方滨鹬"
+    },
+    {
+      "chineseName": "斑胸滨鹬",
+      "scientificName": "Calidris melanotos"
+    },
+    {
+      "chineseName": "小滨鹬",
+      "scientificName": "Calidris minuta"
+    },
+    {
+      "chineseName": "岩滨鹬",
+      "scientificName": "Calidris ptilocnemis"
+    },
+    {
+      "chineseName": "流苏鹬",
+      "scientificName": "Calidris pugnax"
+    },
+    {
+      "chineseName": "红颈滨鹬",
+      "scientificName": "Calidris ruficollis"
+    },
+    {
+      "chineseName": "长趾滨鹬",
+      "scientificName": "Calidris subminuta"
+    },
+    {
+      "chineseName": "青脚滨鹬",
+      "scientificName": "Calidris temminckii"
+    },
+    {
+      "chineseName": "红眉金翅雀",
+      "scientificName": "Callacanthis burtoni"
+    },
+    {
+      "chineseName": "黑胸歌鸲",
+      "scientificName": "Calliope pectoralis"
+    },
+    {
+      "chineseName": "白须黑胸歌鸲",
+      "scientificName": "Calliope tschebaiewi"
+    },
+    {
+      "chineseName": "绿彩蝉",
+      "scientificName": "Callogaena viridula"
+    },
+    {
+      "chineseName": "金背松鼠",
+      "scientificName": "Callosciurus caniceps"
+    },
+    {
+      "chineseName": "赤腹松鼠",
+      "scientificName": "Callosciurus erythraeus"
+    },
+    {
+      "chineseName": "印支松鼠",
+      "scientificName": "Callosciurus inornatus"
+    },
+    {
+      "chineseName": "黄足松鼠",
+      "scientificName": "Callosciurus phayrei"
+    },
+    {
+      "chineseName": "蓝腹松鼠",
+      "scientificName": "Callosciurus pygerythrus"
+    },
+    {
+      "chineseName": "五纹松鼠",
+      "scientificName": "Callosciurus quinquestriatus"
+    },
+    {
+      "chineseName": "白额鹱",
+      "scientificName": "Calonectris leucomelas"
+    },
+    {
+      "chineseName": "棕背树蜥",
+      "scientificName": "Calotes emma"
+    },
+    {
+      "chineseName": "绿背树蜥",
+      "scientificName": "Calotes jerdoni"
+    },
+    {
+      "chineseName": "墨脱树蜥",
+      "scientificName": "Calotes medogensis"
+    },
+    {
+      "chineseName": "白唇树蜥",
+      "scientificName": "Calotes mystaceus"
+    },
+    {
+      "chineseName": "异鳞蜥",
+      "scientificName": "Calotes paulus",
+      "note": "原拉丁学名Oriocalotes paulus"
+    },
+    {
+      "chineseName": "变色树蜥",
+      "scientificName": "Calotes versicolor"
+    },
+    {
+      "chineseName": "墨脱翠䗛",
+      "scientificName": "Calvisia medogensis"
+    },
+    {
+      "chineseName": "二斑丽叩甲",
+      "scientificName": "Campsosternus bimaculatus"
+    },
+    {
+      "chineseName": "绿腹丽叩甲",
+      "scientificName": "Campsosternus fruhstorferi"
+    },
+    {
+      "chineseName": "朱肩丽叩甲",
+      "scientificName": "Campsosternus gemma"
+    },
+    {
+      "chineseName": "黔丽叩甲",
+      "scientificName": "Campsosternus guizhouensis"
+    },
+    {
+      "chineseName": "小竹鼠",
+      "scientificName": "Cannomys badius"
+    },
+    {
+      "chineseName": "狍",
+      "scientificName": "Capreolus pygargus",
+      "note": "原拉丁学名Capreolus ygargus"
+    },
+    {
+      "chineseName": "林夜鹰",
+      "scientificName": "Caprimulgus affinis"
+    },
+    {
+      "chineseName": "欧夜鹰",
+      "scientificName": "Caprimulgus europaeus"
+    },
+    {
+      "chineseName": "普通夜鹰",
+      "scientificName": "Caprimulgus indicus"
+    },
+    {
+      "chineseName": "长尾夜鹰",
+      "scientificName": "Caprimulgus macrurus"
+    },
+    {
+      "chineseName": "红额金翅雀",
+      "scientificName": "Carduelis carduelis"
+    },
+    {
+      "chineseName": "中华朱雀",
+      "scientificName": "Carpodacus davidianus"
+    },
+    {
+      "chineseName": "白眉朱雀",
+      "scientificName": "Carpodacus dubius"
+    },
+    {
+      "chineseName": "棕朱雀",
+      "scientificName": "Carpodacus edwardsii"
+    },
+    {
+      "chineseName": "普通朱雀",
+      "scientificName": "Carpodacus erythrinus"
+    },
+    {
+      "chineseName": "台湾酒红朱雀",
+      "scientificName": "Carpodacus formosanus"
+    },
+    {
+      "chineseName": "喜山红眉朱雀",
+      "scientificName": "Carpodacus pulcherrimus"
+    },
+    {
+      "chineseName": "红胸朱雀",
+      "scientificName": "Carpodacus puniceus"
+    },
+    {
+      "chineseName": "红腰朱雀",
+      "scientificName": "Carpodacus rhodochlamys"
+    },
+    {
+      "chineseName": "粉眉朱雀",
+      "scientificName": "Carpodacus rodochroa",
+      "note": "原名玫红眉朱雀 Carpodacus rhodochrous"
+    },
+    {
+      "chineseName": "点翅朱雀",
+      "scientificName": "Carpodacus rodopeplus"
+    },
+    {
+      "chineseName": "大朱雀",
+      "scientificName": "Carpodacus rubicilla"
+    },
+    {
+      "chineseName": "拟大朱雀",
+      "scientificName": "Carpodacus rubicilloides"
+    },
+    {
+      "chineseName": "长尾雀",
+      "scientificName": "Carpodacus sibiricus"
+    },
+    {
+      "chineseName": "血雀",
+      "scientificName": "Carpodacus sipahi"
+    },
+    {
+      "chineseName": "沙色朱雀",
+      "scientificName": "Carpodacus stoliczkae"
+    },
+    {
+      "chineseName": "红眉松雀",
+      "scientificName": "Carpodacus subhimachalus"
+    },
+    {
+      "chineseName": "喜山白眉朱雀",
+      "scientificName": "Carpodacus thura"
+    },
+    {
+      "chineseName": "斑翅朱雀",
+      "scientificName": "Carpodacus trifasciatus"
+    },
+    {
+      "chineseName": "淡腹点翅朱雀",
+      "scientificName": "Carpodacus verreauxii"
+    },
+    {
+      "chineseName": "酒红朱雀",
+      "scientificName": "Carpodacus vinaceus"
+    },
+    {
+      "chineseName": "曙红朱雀",
+      "scientificName": "Carpodacus waltoni"
+    },
+    {
+      "chineseName": "罗甸硕黄吉丁",
+      "scientificName": "Catoxantha luodiana"
+    },
+    {
+      "chineseName": "金腰燕",
+      "scientificName": "Cecropis daurica"
+    },
+    {
+      "chineseName": "斑腰燕",
+      "scientificName": "Cecropis striolata"
+    },
+    {
+      "chineseName": "火冠雀",
+      "scientificName": "Cephalopyrus flammiceps"
+    },
+    {
+      "chineseName": "棕薮鸲",
+      "scientificName": "Cercotrichas galactotes"
+    },
+    {
+      "chineseName": "凹头叩甲",
+      "scientificName": "Ceropectus messi"
+    },
+    {
+      "chineseName": "角嘴海雀",
+      "scientificName": "Cerorhinca monocerata"
+    },
+    {
+      "chineseName": "褐喉旋木雀",
+      "scientificName": "Certhia discolor"
+    },
+    {
+      "chineseName": "欧亚旋木雀",
+      "scientificName": "Certhia familiaris"
+    },
+    {
+      "chineseName": "高山旋木雀",
+      "scientificName": "Certhia himalayana"
+    },
+    {
+      "chineseName": "霍氏旋木雀",
+      "scientificName": "Certhia hodgsoni"
+    },
+    {
+      "chineseName": "休氏旋木雀",
+      "scientificName": "Certhia manipurensis"
+    },
+    {
+      "chineseName": "红腹旋木雀",
+      "scientificName": "Certhia nipalensis"
+    },
+    {
+      "chineseName": "斑鱼狗",
+      "scientificName": "Ceryle rudis"
+    },
+    {
+      "chineseName": "棕顶树莺",
+      "scientificName": "Cettia brunnifrons"
+    },
+    {
+      "chineseName": "栗头树莺",
+      "scientificName": "Cettia castaneocoronata"
+    },
+    {
+      "chineseName": "宽尾树莺",
+      "scientificName": "Cettia cetti"
+    },
+    {
+      "chineseName": "大树莺",
+      "scientificName": "Cettia major"
+    },
+    {
+      "chineseName": "三趾翠鸟",
+      "scientificName": "Ceyx erithaca"
+    },
+    {
+      "chineseName": "白顶溪鸲",
+      "scientificName": "Chaimarrornis leucocephalus"
+    },
+    {
+      "chineseName": "紫颊太阳鸟",
+      "scientificName": "Chalcoparia singalensis",
+      "note": "原名黄颊直嘴太阳鸟 Anthreptes singalensis"
+    },
+    {
+      "chineseName": "绿翅金鸠",
+      "scientificName": "Chalcophaps indica"
+    },
+    {
+      "chineseName": "环颈鸻",
+      "scientificName": "Charadrius alexandrinus"
+    },
+    {
+      "chineseName": "红胸鸻",
+      "scientificName": "Charadrius asiaticus"
+    },
+    {
+      "chineseName": "金眶鸻",
+      "scientificName": "Charadrius dubius"
+    },
+    {
+      "chineseName": "剑鸻",
+      "scientificName": "Charadrius hiaticula"
+    },
+    {
+      "chineseName": "铁嘴沙鸻",
+      "scientificName": "Charadrius leschenaultii"
+    },
+    {
+      "chineseName": "蒙古沙鸻",
+      "scientificName": "Charadrius mongolus"
+    },
+    {
+      "chineseName": "长嘴剑鸻",
+      "scientificName": "Charadrius placidus"
+    },
+    {
+      "chineseName": "东方鸻",
+      "scientificName": "Charadrius veredus"
+    },
+    {
+      "chineseName": "黄腹扇尾鹟",
+      "scientificName": "Chelidorhynx hypoxanthus"
+    },
+    {
+      "chineseName": "背条螳臂树蛙",
+      "scientificName": "Chirixalus doriae",
+      "note": "原名背条跳树蛙"
+    },
+    {
+      "chineseName": "黑眉鸦雀",
+      "scientificName": "Chleuasicus atrosuperciliaris"
+    },
+    {
+      "chineseName": "灰翅浮鸥",
+      "scientificName": "Chlidonias hybrida",
+      "note": "原名须浮鸥"
+    },
+    {
+      "chineseName": "白翅浮鸥",
+      "scientificName": "Chlidonias leucopterus"
+    },
+    {
+      "chineseName": "叶齿金绿泥蜂",
+      "scientificName": "Chlorion lobatum"
+    },
+    {
+      "chineseName": "黑头金翅雀",
+      "scientificName": "Chloris ambigua"
+    },
+    {
+      "chineseName": "欧金翅雀",
+      "scientificName": "Chloris chloris"
+    },
+    {
+      "chineseName": "金翅雀",
+      "scientificName": "Chloris sinica"
+    },
+    {
+      "chineseName": "高山金翅雀",
+      "scientificName": "Chloris spinoides"
+    },
+    {
+      "chineseName": "金额叶鹎",
+      "scientificName": "Chloropsis aurifrons"
+    },
+    {
+      "chineseName": "蓝翅叶鹎",
+      "scientificName": "Chloropsis cochinchinensis"
+    },
+    {
+      "chineseName": "橙腹叶鹎",
+      "scientificName": "Chloropsis hardwickii"
+    },
+    {
+      "chineseName": "褐鸦雀",
+      "scientificName": "Cholornis unicolor"
+    },
+    {
+      "chineseName": "周氏角蝉",
+      "scientificName": "Choucentrus sinensis"
+    },
+    {
+      "chineseName": "棕头鸥",
+      "scientificName": "Chroicocephalus brunnicephalus"
+    },
+    {
+      "chineseName": "细嘴鸥",
+      "scientificName": "Chroicocephalus genei"
+    },
+    {
+      "chineseName": "澳洲红嘴鸥",
+      "scientificName": "Chroicocephalus novaehollandiae"
+    },
+    {
+      "chineseName": "红嘴鸥",
+      "scientificName": "Chroicocephalus ridibundus"
+    },
+    {
+      "chineseName": "北部湾金吉丁",
+      "scientificName": "Chrysochroa saundersii tonkinensis",
+      "note": "原名Chrysochroa tonkinensis"
+    },
+    {
+      "chineseName": "红绿金吉丁",
+      "scientificName": "Chrysochroa vittata"
+    },
+    {
+      "chineseName": "翠金鹃",
+      "scientificName": "Chrysococcyx maculatus"
+    },
+    {
+      "chineseName": "紫金鹃",
+      "scientificName": "Chrysococcyx xanthorhynchus"
+    },
+    {
+      "chineseName": "大金背啄木鸟",
+      "scientificName": "Chrysocolaptes lucidus"
+    },
+    {
+      "chineseName": "斑喉希鹛",
+      "scientificName": "Chrysominla strigula"
+    },
+    {
+      "chineseName": "金眼鹛雀",
+      "scientificName": "Chrysomma sinense"
+    },
+    {
+      "chineseName": "金花蛇",
+      "scientificName": "Chrysopelea ornata"
+    },
+    {
+      "chineseName": "白颈鹳",
+      "scientificName": "Ciconia episcopus"
+    },
+    {
+      "chineseName": "蓝额地鸲",
+      "scientificName": "Cinclidium frontale"
+    },
+    {
+      "chineseName": "河乌",
+      "scientificName": "Cinclus cinclus"
+    },
+    {
+      "chineseName": "褐河乌",
+      "scientificName": "Cinclus pallasii"
+    },
+    {
+      "chineseName": "紫花蜜鸟",
+      "scientificName": "Cinnyris asiaticus"
+    },
+    {
+      "chineseName": "黄腹花蜜鸟",
+      "scientificName": "Cinnyris jugularis"
+    },
+    {
+      "chineseName": "金头扇尾莺",
+      "scientificName": "Cisticola exilis"
+    },
+    {
+      "chineseName": "棕扇尾莺",
+      "scientificName": "Cisticola juncidis"
+    },
+    {
+      "chineseName": "红翅凤头鹃",
+      "scientificName": "Clamator coromandus"
+    },
+    {
+      "chineseName": "斑翅凤头鹃",
+      "scientificName": "Clamator jacobinus"
+    },
+    {
+      "chineseName": "长尾鸭",
+      "scientificName": "Clangula hyemalis"
+    },
+    {
+      "chineseName": "污色无翅刺䗛",
+      "scientificName": "Cnipsomorpha colorantis",
+      "note": "原拉丁学名Cnipsus colorantis"
+    },
+    {
+      "chineseName": "锡嘴雀",
+      "scientificName": "Coccothraustes coccothraustes"
+    },
+    {
+      "chineseName": "斑林鸽",
+      "scientificName": "Columba hodgsonii",
+      "note": "原名点斑林鸽"
+    },
+    {
+      "chineseName": "黑林鸽",
+      "scientificName": "Columba janthina"
+    },
+    {
+      "chineseName": "雪鸽",
+      "scientificName": "Columba leuconota"
+    },
+    {
+      "chineseName": "原鸽",
+      "scientificName": "Columba livia"
+    },
+    {
+      "chineseName": "欧鸽",
+      "scientificName": "Columba oenas"
+    },
+    {
+      "chineseName": "灰林鸽",
+      "scientificName": "Columba pulchricollis"
+    },
+    {
+      "chineseName": "岩鸽",
+      "scientificName": "Columba rupestris"
+    },
+    {
+      "chineseName": "红嘴鸦雀",
+      "scientificName": "Conostoma aemodium"
+    },
+    {
+      "chineseName": "鹊鸲",
+      "scientificName": "Copsychus saularis"
+    },
+    {
+      "chineseName": "棕胸佛法僧",
+      "scientificName": "Coracias benghalensis"
+    },
+    {
+      "chineseName": "蓝胸佛法僧",
+      "scientificName": "Coracias garrulus"
+    },
+    {
+      "chineseName": "大鹃鵙",
+      "scientificName": "Coracina macei"
+    },
+    {
+      "chineseName": "渡鸦",
+      "scientificName": "Corvus corax"
+    },
+    {
+      "chineseName": "达乌里寒鸦",
+      "scientificName": "Corvus dauuricus"
+    },
+    {
+      "chineseName": "秃鼻乌鸦",
+      "scientificName": "Corvus frugilegus"
+    },
+    {
+      "chineseName": "白颈鸦",
+      "scientificName": "Corvus pectoralis"
+    },
+    {
+      "chineseName": "西鹌鹑",
+      "scientificName": "Coturnix coturnix"
+    },
+    {
+      "chineseName": "鹌鹑",
+      "scientificName": "Coturnix japonica",
+      "note": "仅限野外种群"
+    },
+    {
+      "chineseName": "眼纹斑叩甲",
+      "scientificName": "Cryptalaus larvatus"
+    },
+    {
+      "chineseName": "豹纹斑叩甲",
+      "scientificName": "Cryptalaus sordidus"
+    },
+    {
+      "chineseName": "大杜鹃",
+      "scientificName": "Cuculus canorus"
+    },
+    {
+      "chineseName": "四声杜鹃",
+      "scientificName": "Cuculus micropterus"
+    },
+    {
+      "chineseName": "东方中杜鹃",
+      "scientificName": "Cuculus optatus"
+    },
+    {
+      "chineseName": "小杜鹃",
+      "scientificName": "Cuculus poliocephalus"
+    },
+    {
+      "chineseName": "中杜鹃",
+      "scientificName": "Cuculus saturatus"
+    },
+    {
+      "chineseName": "方尾鹟",
+      "scientificName": "Culicicapa ceylonensis"
+    },
+    {
+      "chineseName": "斑胁姬鹛",
+      "scientificName": "Cutia nipalensis"
+    },
+    {
+      "chineseName": "灰蓝山雀",
+      "scientificName": "Cyanistes cyanus"
+    },
+    {
+      "chineseName": "黄喉穗鹛",
+      "scientificName": "Cyanoderma ambiguum"
+    },
+    {
+      "chineseName": "金头穗鹛",
+      "scientificName": "Cyanoderma chrysaeum"
+    },
+    {
+      "chineseName": "黑颏穗鹛",
+      "scientificName": "Cyanoderma pyrrhops"
+    },
+    {
+      "chineseName": "红头穗鹛",
+      "scientificName": "Cyanoderma ruficeps"
+    },
+    {
+      "chineseName": "灰喜鹊",
+      "scientificName": "Cyanopica cyanus"
+    },
+    {
+      "chineseName": "白腹暗蓝鹟",
+      "scientificName": "Cyanoptila cumatilis"
+    },
+    {
+      "chineseName": "白腹蓝鹟",
+      "scientificName": "Cyanoptila cyanomelana"
+    },
+    {
+      "chineseName": "山蓝仙鹟",
+      "scientificName": "Cyornis banyumas"
+    },
+    {
+      "chineseName": "白尾蓝仙鹟",
+      "scientificName": "Cyornis concretus"
+    },
+    {
+      "chineseName": "中华仙鹟",
+      "scientificName": "Cyornis glaucicomans"
+    },
+    {
+      "chineseName": "海南蓝仙鹟",
+      "scientificName": "Cyornis hainanus"
+    },
+    {
+      "chineseName": "灰颊仙鹟",
+      "scientificName": "Cyornis poliogenys"
+    },
+    {
+      "chineseName": "蓝喉仙鹟",
+      "scientificName": "Cyornis rubeculoides"
+    },
+    {
+      "chineseName": "纯蓝仙鹟",
+      "scientificName": "Cyornis unicolor"
+    },
+    {
+      "chineseName": "棕雨燕",
+      "scientificName": "Cypsiurus balasiensis"
+    },
+    {
+      "chineseName": "施氏塞勒蛛",
+      "scientificName": "Cyriopagopus schmidti"
+    },
+    {
+      "chineseName": "察隅裸趾虎",
+      "scientificName": "Cyrtodactylus cayuensis",
+      "note": "原名卡西裸趾虎 Cyrtodactylus khasiensis"
+    },
+    {
+      "chineseName": "滇西裸趾虎",
+      "scientificName": "Cyrtodactylus dianxiensis"
+    },
+    {
+      "chineseName": "古林箐裸趾虎",
+      "scientificName": "Cyrtodactylus gulinqingensis"
+    },
+    {
+      "chineseName": "河口裸趾虎",
+      "scientificName": "Cyrtodactylus hekouensis"
+    },
+    {
+      "chineseName": "西藏裸趾虎",
+      "scientificName": "Cyrtodactylus tibetanus"
+    },
+    {
+      "chineseName": "瓦氏裸趾虎",
+      "scientificName": "Cyrtodactylus wayakonei"
+    },
+    {
+      "chineseName": "赵氏裸趾虎",
+      "scientificName": "Cyrtodactylus zhaoermii"
+    },
+    {
+      "chineseName": "镇康裸趾虎",
+      "scientificName": "Cyrtodactylus zhenkangensis"
+    },
+    {
+      "chineseName": "墨脱弯脚虎",
+      "scientificName": "Cyrtopodion medogense",
+      "note": "原名墨脱裸趾虎Cyrtodactylus medogense"
+    },
+    {
+      "chineseName": "藏管尾犁胸蝉",
+      "scientificName": "Darthula xizangensis",
+      "note": "原名西藏管尾犁胸蝉"
+    },
+    {
+      "chineseName": "尖吻蝮",
+      "scientificName": "Deinagkistrodon acutus"
+    },
+    {
+      "chineseName": "烟腹毛脚燕",
+      "scientificName": "Delichon dasypus"
+    },
+    {
+      "chineseName": "黑喉毛脚燕",
+      "scientificName": "Delichon nipalense"
+    },
+    {
+      "chineseName": "毛脚燕",
+      "scientificName": "Delichon urbicum"
+    },
+    {
+      "chineseName": "喜山过树蛇",
+      "scientificName": "Dendrelaphis biloreatus",
+      "note": "原拉丁学名Dendrelaphis gorei"
+    },
+    {
+      "chineseName": "银山过树蛇",
+      "scientificName": "Dendrelaphis ngansonensis"
+    },
+    {
+      "chineseName": "过树蛇",
+      "scientificName": "Dendrelaphis pictus"
+    },
+    {
+      "chineseName": "八莫过树蛇",
+      "scientificName": "Dendrelaphis subocularis"
+    },
+    {
+      "chineseName": "沃氏过树蛇",
+      "scientificName": "Dendrelaphis vogeli"
+    },
+    {
+      "chineseName": "灰树鹊",
+      "scientificName": "Dendrocitta formosae"
+    },
+    {
+      "chineseName": "黑额树鹊",
+      "scientificName": "Dendrocitta frontalis"
+    },
+    {
+      "chineseName": "棕腹树鹊",
+      "scientificName": "Dendrocitta vagabunda"
+    },
+    {
+      "chineseName": "纹胸啄木鸟",
+      "scientificName": "Dendrocopos atratus"
+    },
+    {
+      "chineseName": "褐额啄木鸟",
+      "scientificName": "Dendrocopos auriceps"
+    },
+    {
+      "chineseName": "星头啄木鸟",
+      "scientificName": "Dendrocopos canicapillus"
+    },
+    {
+      "chineseName": "赤胸啄木鸟",
+      "scientificName": "Dendrocopos cathpharius"
+    },
+    {
+      "chineseName": "黄颈啄木鸟",
+      "scientificName": "Dendrocopos darjellensis"
+    },
+    {
+      "chineseName": "棕腹啄木鸟",
+      "scientificName": "Dendrocopos hyperythrus"
+    },
+    {
+      "chineseName": "小星头啄木鸟",
+      "scientificName": "Dendrocopos kizuki"
+    },
+    {
+      "chineseName": "白背啄木鸟",
+      "scientificName": "Dendrocopos leucotos"
+    },
+    {
+      "chineseName": "纹腹啄木鸟",
+      "scientificName": "Dendrocopos macei"
+    },
+    {
+      "chineseName": "大斑啄木鸟",
+      "scientificName": "Dendrocopos major"
+    },
+    {
+      "chineseName": "小斑啄木鸟",
+      "scientificName": "Dendrocopos minor"
+    },
+    {
+      "chineseName": "山鹡鸰",
+      "scientificName": "Dendronanthus indicus"
+    },
+    {
+      "chineseName": "白尾双足蜥",
+      "scientificName": "Dibamus bourreti"
+    },
+    {
+      "chineseName": "厚嘴啄花鸟",
+      "scientificName": "Dicaeum agile"
+    },
+    {
+      "chineseName": "黄臀啄花鸟",
+      "scientificName": "Dicaeum chrysorrheum"
+    },
+    {
+      "chineseName": "纯色啄花鸟",
+      "scientificName": "Dicaeum concolor"
+    },
+    {
+      "chineseName": "朱背啄花鸟",
+      "scientificName": "Dicaeum cruentatum"
+    },
+    {
+      "chineseName": "红胸啄花鸟",
+      "scientificName": "Dicaeum ignipectus"
+    },
+    {
+      "chineseName": "黄腹啄花鸟",
+      "scientificName": "Dicaeum melanozanthum"
+    },
+    {
+      "chineseName": "古铜色卷尾",
+      "scientificName": "Dicrurus aeneus"
+    },
+    {
+      "chineseName": "鸦嘴卷尾",
+      "scientificName": "Dicrurus annectans"
+    },
+    {
+      "chineseName": "发冠卷尾",
+      "scientificName": "Dicrurus hottentottus"
+    },
+    {
+      "chineseName": "灰卷尾",
+      "scientificName": "Dicrurus leucophaeus"
+    },
+    {
+      "chineseName": "黑卷尾",
+      "scientificName": "Dicrurus macrocercus"
+    },
+    {
+      "chineseName": "长象蜡蝉",
+      "scientificName": "Dictyomorpha furca"
+    },
+    {
+      "chineseName": "小金背啄木鸟",
+      "scientificName": "Dinopium benghalense"
+    },
+    {
+      "chineseName": "金背啄木鸟",
+      "scientificName": "Dinopium javanense",
+      "note": "原名金背三趾啄木鸟"
+    },
+    {
+      "chineseName": "喜山金背啄木鸟",
+      "scientificName": "Dinopium shorii"
+    },
+    {
+      "chineseName": "中国突眼蝇",
+      "scientificName": "Diopsis chinica"
+    },
+    {
+      "chineseName": "细纹龙蜥",
+      "scientificName": "Diploderma angustelinea"
+    },
+    {
+      "chineseName": "敖闰龙蜥",
+      "scientificName": "Diploderma aurun"
+    },
+    {
+      "chineseName": "博窝龙蜥",
+      "scientificName": "Diploderma bowoense"
+    },
+    {
+      "chineseName": "短肢龙蜥",
+      "scientificName": "Diploderma brevipes",
+      "note": "原名短肢攀蜥"
+    },
+    {
+      "chineseName": "沙坝龙蜥",
+      "scientificName": "Diploderma chapaense"
+    },
+    {
+      "chineseName": "裸耳龙蜥",
+      "scientificName": "Diploderma dymondi",
+      "note": "原名裸耳攀蜥"
+    },
+    {
+      "chineseName": "横纹龙蜥",
+      "scientificName": "Diploderma fasciatum",
+      "note": "原名四川攀蜥Japalura szechwanensis；Diploderma szechwanensis为Diploderma fasciatum的同物异名。"
+    },
+    {
+      "chineseName": "草绿龙蜥",
+      "scientificName": "Diploderma flaviceps",
+      "note": "原名草绿攀蜥Japalura flaviceps"
+    },
+    {
+      "chineseName": "黄唇龙蜥",
+      "scientificName": "Diploderma flavilabre"
+    },
+    {
+      "chineseName": "丽喉龙蜥",
+      "scientificName": "Diploderma formosgula"
+    },
+    {
+      "chineseName": "宜宾龙蜥",
+      "scientificName": "Diploderma grahami",
+      "note": "原名宜宾攀蜥 Japalura grahami"
+    },
+    {
+      "chineseName": "翡翠龙蜥",
+      "scientificName": "Diploderma iadinum"
+    },
+    {
+      "chineseName": "勐海龙蜥",
+      "scientificName": "Diploderma menghaiense"
+    },
+    {
+      "chineseName": "米仓山龙蜥",
+      "scientificName": "Diploderma micangshanense",
+      "note": "原名米仓山攀蜥 Japalura micangshanensis"
+    },
+    {
+      "chineseName": "蟠螭龙蜥",
+      "scientificName": "Diploderma panchi"
+    },
+    {
+      "chineseName": "蟠龙龙蜥",
+      "scientificName": "Diploderma panlong"
+    },
+    {
+      "chineseName": "琉球龙蜥",
+      "scientificName": "Diploderma polygonatum"
+    },
+    {
+      "chineseName": "麒麟龙蜥",
+      "scientificName": "Diploderma qilin"
+    },
+    {
+      "chineseName": "贡山龙蜥",
+      "scientificName": "Diploderma slowinskii"
+    },
+    {
+      "chineseName": "丽纹龙蜥",
+      "scientificName": "Diploderma splendidum",
+      "note": "原名丽纹攀蜥 Japalura splendida"
+    },
+    {
+      "chineseName": "山地龙蜥",
+      "scientificName": "Diploderma swild"
+    },
+    {
+      "chineseName": "台湾龙蜥",
+      "scientificName": "Diploderma swinhonis",
+      "note": "原名台湾攀蜥 Japalura swinhonis"
+    },
+    {
+      "chineseName": "昆明龙蜥",
+      "scientificName": "Diploderma varcoae",
+      "note": "原名昆明攀蜥 Japalura varcoae"
+    },
+    {
+      "chineseName": "玉龙龙蜥",
+      "scientificName": "Diploderma yulongense"
+    },
+    {
+      "chineseName": "云南龙蜥",
+      "scientificName": "Diploderma yunnanense",
+      "note": "原名云南攀蜥 Japalura yunnanensis"
+    },
+    {
+      "chineseName": "汶川龙蜥",
+      "scientificName": "Diploderma zhaoermii"
+    },
+    {
+      "chineseName": "裸耳飞蜥",
+      "scientificName": "Draco blanfordii"
+    },
+    {
+      "chineseName": "斑飞蜥",
+      "scientificName": "Draco maculatus"
+    },
+    {
+      "chineseName": "橙喉长吻松鼠",
+      "scientificName": "Dremomys gularis"
+    },
+    {
+      "chineseName": "橙腹长吻松鼠",
+      "scientificName": "Dremomys lokriah"
+    },
+    {
+      "chineseName": "珀氏长吻松鼠",
+      "scientificName": "Dremomys pernyi",
+      "note": "原名泊氏长吻松鼠"
+    },
+    {
+      "chineseName": "红腿长吻松鼠",
+      "scientificName": "Dremomys pyrrhomerus"
+    },
+    {
+      "chineseName": "红颊长吻松鼠",
+      "scientificName": "Dremomys rufigenis"
+    },
+    {
+      "chineseName": "隆枕蟾蜍",
+      "scientificName": "Duttaphrynus cyphosus"
+    },
+    {
+      "chineseName": "喜山蟾蜍",
+      "scientificName": "Duttaphrynus himalayanus",
+      "note": "原拉丁学名Bufo himalayanus"
+    },
+    {
+      "chineseName": "黑眶蟾蜍",
+      "scientificName": "Duttaphrynus melanostictus",
+      "note": "原拉丁学名Bufo melanostictus"
+    },
+    {
+      "chineseName": "白鹭",
+      "scientificName": "Egretta garzetta"
+    },
+    {
+      "chineseName": "白脸鹭",
+      "scientificName": "Egretta novaehollandiae"
+    },
+    {
+      "chineseName": "斑鹭",
+      "scientificName": "Egretta picata"
+    },
+    {
+      "chineseName": "丽星鹩鹛",
+      "scientificName": "Elachura formosa"
+    },
+    {
+      "chineseName": "赤峰锦蛇",
+      "scientificName": "Elaphe anomala"
+    },
+    {
+      "chineseName": "双斑锦蛇",
+      "scientificName": "Elaphe bimaculata"
+    },
+    {
+      "chineseName": "坎氏锦蛇",
+      "scientificName": "Elaphe cantoris"
+    },
+    {
+      "chineseName": "王锦蛇",
+      "scientificName": "Elaphe carinata",
+      "note": "仅限野外种群"
+    },
+    {
+      "chineseName": "白条锦蛇",
+      "scientificName": "Elaphe dione"
+    },
+    {
+      "chineseName": "南峰锦蛇",
+      "scientificName": "Elaphe hodgsonii"
+    },
+    {
+      "chineseName": "百花锦蛇",
+      "scientificName": "Elaphe moellendorffi"
+    },
+    {
+      "chineseName": "棕黑锦蛇",
+      "scientificName": "Elaphe schrenckii"
+    },
+    {
+      "chineseName": "黑眉锦蛇",
+      "scientificName": "Elaphe taeniura"
+    },
+    {
+      "chineseName": "秦皇锦蛇",
+      "scientificName": "Elaphe xiphodonta"
+    },
+    {
+      "chineseName": "若尔盖锦蛇",
+      "scientificName": "Elaphe zoigeensis"
+    },
+    {
+      "chineseName": "褐头鹀",
+      "scientificName": "Emberiza bruniceps"
+    },
+    {
+      "chineseName": "灰颈鹀",
+      "scientificName": "Emberiza buchanani"
+    },
+    {
+      "chineseName": "黍鹀",
+      "scientificName": "Emberiza calandra"
+    },
+    {
+      "chineseName": "黄眉鹀",
+      "scientificName": "Emberiza chrysophrys"
+    },
+    {
+      "chineseName": "淡灰眉岩鹀",
+      "scientificName": "Emberiza cia"
+    },
+    {
+      "chineseName": "三道眉草鹀",
+      "scientificName": "Emberiza cioides"
+    },
+    {
+      "chineseName": "黄鹀",
+      "scientificName": "Emberiza citrinella"
+    },
+    {
+      "chineseName": "黄喉鹀",
+      "scientificName": "Emberiza elegans"
+    },
+    {
+      "chineseName": "栗耳鹀",
+      "scientificName": "Emberiza fucata"
+    },
+    {
+      "chineseName": "灰眉岩鹀",
+      "scientificName": "Emberiza godlewskii"
+    },
+    {
+      "chineseName": "圃鹀",
+      "scientificName": "Emberiza hortulana"
+    },
+    {
+      "chineseName": "白头鹀",
+      "scientificName": "Emberiza leucocephalos"
+    },
+    {
+      "chineseName": "黑头鹀",
+      "scientificName": "Emberiza melanocephala"
+    },
+    {
+      "chineseName": "苇鹀",
+      "scientificName": "Emberiza pallasi"
+    },
+    {
+      "chineseName": "小鹀",
+      "scientificName": "Emberiza pusilla"
+    },
+    {
+      "chineseName": "田鹀",
+      "scientificName": "Emberiza rustica"
+    },
+    {
+      "chineseName": "栗鹀",
+      "scientificName": "Emberiza rutila"
+    },
+    {
+      "chineseName": "芦鹀",
+      "scientificName": "Emberiza schoeniclus"
+    },
+    {
+      "chineseName": "灰头鹀",
+      "scientificName": "Emberiza spodocephala"
+    },
+    {
+      "chineseName": "白顶鹀",
+      "scientificName": "Emberiza stewarti"
+    },
+    {
+      "chineseName": "硫黄鹀",
+      "scientificName": "Emberiza sulphurata"
+    },
+    {
+      "chineseName": "白眉鹀",
+      "scientificName": "Emberiza tristrami"
+    },
+    {
+      "chineseName": "灰鹀",
+      "scientificName": "Emberiza variabilis"
+    },
+    {
+      "chineseName": "红颈苇鹀",
+      "scientificName": "Emberiza yessoensis"
+    },
+    {
+      "chineseName": "三叶虫萤",
+      "scientificName": "Emeia pseudosauteri"
+    },
+    {
+      "chineseName": "岩岸岛蜥",
+      "scientificName": "Emoia atrocostatata"
+    },
+    {
+      "chineseName": "黑背燕尾",
+      "scientificName": "Enicurus immaculatus"
+    },
+    {
+      "chineseName": "白额燕尾",
+      "scientificName": "Enicurus leschenaulti"
+    },
+    {
+      "chineseName": "斑背燕尾",
+      "scientificName": "Enicurus maculatus"
+    },
+    {
+      "chineseName": "灰背燕尾",
+      "scientificName": "Enicurus schistaceus"
+    },
+    {
+      "chineseName": "小燕尾",
+      "scientificName": "Enicurus scouleri"
+    },
+    {
+      "chineseName": "大长舌果蝠",
+      "scientificName": "Eonycteris spelaea"
+    },
+    {
+      "chineseName": "黑尾蜡嘴雀",
+      "scientificName": "Eophona migratoria"
+    },
+    {
+      "chineseName": "黑头蜡嘴雀",
+      "scientificName": "Eophona personata"
+    },
+    {
+      "chineseName": "龟瓢虫",
+      "scientificName": "Epiverta chelonia"
+    },
+    {
+      "chineseName": "丽斑麻蜥",
+      "scientificName": "Eremias argus"
+    },
+    {
+      "chineseName": "敏麻蜥",
+      "scientificName": "Eremias arguta"
+    },
+    {
+      "chineseName": "山地麻蜥",
+      "scientificName": "Eremias brenchleyi"
+    },
+    {
+      "chineseName": "喀什麻蜥",
+      "scientificName": "Eremias buechneri"
+    },
+    {
+      "chineseName": "准噶尔麻蜥",
+      "scientificName": "Eremias dzungarica"
+    },
+    {
+      "chineseName": "网纹麻蜥",
+      "scientificName": "Eremias grammica"
+    },
+    {
+      "chineseName": "科克沙尔麻蜥",
+      "scientificName": "Eremias kokshaaliensis"
+    },
+    {
+      "chineseName": "密点麻蜥",
+      "scientificName": "Eremias multiocellata"
+    },
+    {
+      "chineseName": "荒漠麻蜥",
+      "scientificName": "Eremias przewalskii"
+    },
+    {
+      "chineseName": "四额鳞麻蜥",
+      "scientificName": "Eremias quadrifrons"
+    },
+    {
+      "chineseName": "吐鲁番麻蜥",
+      "scientificName": "Eremias roborowskii"
+    },
+    {
+      "chineseName": "天山麻蜥",
+      "scientificName": "Eremias stummeri"
+    },
+    {
+      "chineseName": "快步麻蜥",
+      "scientificName": "Eremias velox"
+    },
+    {
+      "chineseName": "虫纹麻蜥",
+      "scientificName": "Eremias vermiculata"
+    },
+    {
+      "chineseName": "莎车麻蜥",
+      "scientificName": "Eremias yarkandensis"
+    },
+    {
+      "chineseName": "角百灵",
+      "scientificName": "Eremophila alpestris"
+    },
+    {
+      "chineseName": "东北刺猬",
+      "scientificName": "Erinaceus amurensis"
+    },
+    {
+      "chineseName": "欧亚鸲",
+      "scientificName": "Erithacus rubecula"
+    },
+    {
+      "chineseName": "白腹凤鹛",
+      "scientificName": "Erpornis zantholeuca"
+    },
+    {
+      "chineseName": "台湾斑胸钩嘴鹛",
+      "scientificName": "Erythrogenys erythrocnemis"
+    },
+    {
+      "chineseName": "斑胸钩嘴鹛",
+      "scientificName": "Erythrogenys gravivox"
+    },
+    {
+      "chineseName": "长嘴钩嘴鹛",
+      "scientificName": "Erythrogenys hypoleucos"
+    },
+    {
+      "chineseName": "华南斑胸钩嘴鹛",
+      "scientificName": "Erythrogenys swinhoei"
+    },
+    {
+      "chineseName": "长尾鹦雀",
+      "scientificName": "Erythrura prasina"
+    },
+    {
+      "chineseName": "黑眼蝶",
+      "scientificName": "Ethope henrici"
+    },
+    {
+      "chineseName": "小嘴鸻",
+      "scientificName": "Eudromias morinellus"
+    },
+    {
+      "chineseName": "噪鹃",
+      "scientificName": "Eudynamys scolopaceus"
+    },
+    {
+      "chineseName": "铜蓝鹟",
+      "scientificName": "Eumyias thalassinus"
+    },
+    {
+      "chineseName": "白喉文鸟",
+      "scientificName": "Euodice malabarica"
+    },
+    {
+      "chineseName": "绒毛鼯鼠",
+      "scientificName": "Eupetaurus cinereus",
+      "note": "原名羊绒鼯鼠"
+    },
+    {
+      "chineseName": "玉斑锦蛇",
+      "scientificName": "Euprepiophis mandarina",
+      "note": "原拉丁学名Elaphe mandarina"
+    },
+    {
+      "chineseName": "三宝鸟",
+      "scientificName": "Eurystomus orientalis"
+    },
+    {
+      "chineseName": "库氏南蜥",
+      "scientificName": "Eutropis cumingi"
+    },
+    {
+      "chineseName": "长尾南蜥",
+      "scientificName": "Eutropis longicaudata",
+      "note": "原拉丁学名Mabuya longicaudata"
+    },
+    {
+      "chineseName": "多棱南蜥",
+      "scientificName": "Eutropis multicarinata",
+      "note": "原拉丁学名Mabuya multicarinata"
+    },
+    {
+      "chineseName": "多线南蜥",
+      "scientificName": "Eutropis multifasciata",
+      "note": "原拉丁学名Mabuya multifasciata"
+    },
+    {
+      "chineseName": "马尾蜂",
+      "scientificName": "Euurobracon yokhamae",
+      "note": "原拉丁名Euurobracon yokohamae"
+    },
+    {
+      "chineseName": "墨脱埃蛾蜡蝉",
+      "scientificName": "Exoma medogensis"
+    },
+    {
+      "chineseName": "抚华费树蛙",
+      "scientificName": "Feihyla fuhua"
+    },
+    {
+      "chineseName": "白颊费树蛙",
+      "scientificName": "Feihyla palpebralis",
+      "note": "原名白颊小树蛙Philautus palpebralis"
+    },
+    {
+      "chineseName": "侧条费树蛙",
+      "scientificName": "Feihyla vittata",
+      "note": "原名侧条跳树蛙Chirixalus vittata"
+    },
+    {
+      "chineseName": "红喉姬鹟",
+      "scientificName": "Ficedula albicilla"
+    },
+    {
+      "chineseName": "绿背姬鹟",
+      "scientificName": "Ficedula elisae"
+    },
+    {
+      "chineseName": "侏蓝姬鹟",
+      "scientificName": "Ficedula hodgsoni"
+    },
+    {
+      "chineseName": "棕胸蓝姬鹟",
+      "scientificName": "Ficedula hyperythra"
+    },
+    {
+      "chineseName": "斑姬鹟",
+      "scientificName": "Ficedula hypoleuca"
+    },
+    {
+      "chineseName": "鸲姬鹟",
+      "scientificName": "Ficedula mugimaki"
+    },
+    {
+      "chineseName": "黄眉姬鹟",
+      "scientificName": "Ficedula narcissina"
+    },
+    {
+      "chineseName": "琉球姬鹟",
+      "scientificName": "Ficedula owstoni"
+    },
+    {
+      "chineseName": "红胸姬鹟",
+      "scientificName": "Ficedula parva"
+    },
+    {
+      "chineseName": "栗尾姬鹟",
+      "scientificName": "Ficedula ruficauda"
+    },
+    {
+      "chineseName": "玉头姬鹟",
+      "scientificName": "Ficedula sapphira"
+    },
+    {
+      "chineseName": "锈胸蓝姬鹟",
+      "scientificName": "Ficedula sordida"
+    },
+    {
+      "chineseName": "橙胸姬鹟",
+      "scientificName": "Ficedula strophiata"
+    },
+    {
+      "chineseName": "白眉蓝姬鹟",
+      "scientificName": "Ficedula superciliaris"
+    },
+    {
+      "chineseName": "灰蓝姬鹟",
+      "scientificName": "Ficedula tricolor"
+    },
+    {
+      "chineseName": "小斑姬鹟",
+      "scientificName": "Ficedula westermanni"
+    },
+    {
+      "chineseName": "白眉姬鹟",
+      "scientificName": "Ficedula zanthopygia"
+    },
+    {
+      "chineseName": "黄斑渔游蛇",
+      "scientificName": "Fowlea flavipunctatus"
+    },
+    {
+      "chineseName": "渔游蛇",
+      "scientificName": "Fowlea piscator",
+      "note": "原拉丁学名Xenochrophis piscator"
+    },
+    {
+      "chineseName": "中华鹧鸪",
+      "scientificName": "Francolinus pintadeanus"
+    },
+    {
+      "chineseName": "苍头燕雀",
+      "scientificName": "Fringilla coelebs"
+    },
+    {
+      "chineseName": "燕雀",
+      "scientificName": "Fringilla montifringilla"
+    },
+    {
+      "chineseName": "白骨顶",
+      "scientificName": "Fulica atra"
+    },
+    {
+      "chineseName": "褐头雀鹛",
+      "scientificName": "Fulvetta cinereiceps"
+    },
+    {
+      "chineseName": "路氏雀鹛",
+      "scientificName": "Fulvetta ludlowi"
+    },
+    {
+      "chineseName": "棕头雀鹛",
+      "scientificName": "Fulvetta ruficapilla"
+    },
+    {
+      "chineseName": "白眉雀鹛",
+      "scientificName": "Fulvetta vinipectus"
+    },
+    {
+      "chineseName": "江西叉突𧐐",
+      "scientificName": "Furcaperla jiangxiensis"
+    },
+    {
+      "chineseName": "凤头百灵",
+      "scientificName": "Galerida cristata"
+    },
+    {
+      "chineseName": "超高萤叶甲",
+      "scientificName": "Galeruca altissima"
+    },
+    {
+      "chineseName": "董鸡",
+      "scientificName": "Gallicrex cinerea"
+    },
+    {
+      "chineseName": "扇尾沙锥",
+      "scientificName": "Gallinago gallinago"
+    },
+    {
+      "chineseName": "拉氏沙锥",
+      "scientificName": "Gallinago hardwickii",
+      "note": "原名澳南沙锥"
+    },
+    {
+      "chineseName": "大沙锥",
+      "scientificName": "Gallinago megala"
+    },
+    {
+      "chineseName": "孤沙锥",
+      "scientificName": "Gallinago solitaria"
+    },
+    {
+      "chineseName": "针尾沙锥",
+      "scientificName": "Gallinago stenura"
+    },
+    {
+      "chineseName": "黑水鸡",
+      "scientificName": "Gallinula chloropus"
+    },
+    {
+      "chineseName": "白头鵙鹛",
+      "scientificName": "Gampsorhynchus rufulus"
+    },
+    {
+      "chineseName": "白喉噪鹛",
+      "scientificName": "Garrulax albogularis"
+    },
+    {
+      "chineseName": "灰胁噪鹛",
+      "scientificName": "Garrulax caerulatus"
+    },
+    {
+      "chineseName": "栗颊噪鹛",
+      "scientificName": "Garrulax castanotis"
+    },
+    {
+      "chineseName": "灰翅噪鹛",
+      "scientificName": "Garrulax cineraceus"
+    },
+    {
+      "chineseName": "山噪鹛",
+      "scientificName": "Garrulax davidi"
+    },
+    {
+      "chineseName": "栗臀噪鹛",
+      "scientificName": "Garrulax gularis"
+    },
+    {
+      "chineseName": "白冠噪鹛",
+      "scientificName": "Garrulax leucolophus"
+    },
+    {
+      "chineseName": "斑胸噪鹛",
+      "scientificName": "Garrulax merulinus"
+    },
+    {
+      "chineseName": "小黑领噪鹛",
+      "scientificName": "Garrulax monileger"
+    },
+    {
+      "chineseName": "黑领噪鹛",
+      "scientificName": "Garrulax pectoralis"
+    },
+    {
+      "chineseName": "黑脸噪鹛",
+      "scientificName": "Garrulax perspicillatus"
+    },
+    {
+      "chineseName": "台湾棕噪鹛",
+      "scientificName": "Garrulax poecilorhynchus"
+    },
+    {
+      "chineseName": "台湾白喉噪鹛",
+      "scientificName": "Garrulax ruficeps"
+    },
+    {
+      "chineseName": "栗颈噪鹛",
+      "scientificName": "Garrulax ruficollis"
+    },
+    {
+      "chineseName": "棕颏噪鹛",
+      "scientificName": "Garrulax rufogularis"
+    },
+    {
+      "chineseName": "白颊噪鹛",
+      "scientificName": "Garrulax sannio"
+    },
+    {
+      "chineseName": "白颈噪鹛",
+      "scientificName": "Garrulax strepitans"
+    },
+    {
+      "chineseName": "松鸦",
+      "scientificName": "Garrulus glandarius"
+    },
+    {
+      "chineseName": "黄嘴潜鸟",
+      "scientificName": "Gavia adamsii"
+    },
+    {
+      "chineseName": "黑喉潜鸟",
+      "scientificName": "Gavia arctica"
+    },
+    {
+      "chineseName": "太平洋潜鸟",
+      "scientificName": "Gavia pacifica"
+    },
+    {
+      "chineseName": "红喉潜鸟",
+      "scientificName": "Gavia stellata"
+    },
+    {
+      "chineseName": "竹啄木鸟",
+      "scientificName": "Gecinulus grantia"
+    },
+    {
+      "chineseName": "截趾虎",
+      "scientificName": "Gehyra mutilata"
+    },
+    {
+      "chineseName": "鹰氏壁虎",
+      "scientificName": "Gekko adleri"
+    },
+    {
+      "chineseName": "耳疣壁虎",
+      "scientificName": "Gekko auriverrucosus"
+    },
+    {
+      "chineseName": "版纳伞虎",
+      "scientificName": "Gekko bannaensis"
+    },
+    {
+      "chineseName": "中国壁虎",
+      "scientificName": "Gekko chinensis"
+    },
+    {
+      "chineseName": "成都壁虎",
+      "scientificName": "Gekko cib"
+    },
+    {
+      "chineseName": "龟山壁虎",
+      "scientificName": "Gekko guishanicus"
+    },
+    {
+      "chineseName": "铅山壁虎",
+      "scientificName": "Gekko hokouensis"
+    },
+    {
+      "chineseName": "多疣壁虎",
+      "scientificName": "Gekko japonicus"
+    },
+    {
+      "chineseName": "金江壁虎",
+      "scientificName": "Gekko jinjiangensis"
+    },
+    {
+      "chineseName": "兰屿壁虎",
+      "scientificName": "Gekko kikuchii"
+    },
+    {
+      "chineseName": "广西壁虎",
+      "scientificName": "Gekko kwangsiensis"
+    },
+    {
+      "chineseName": "荔波壁虎",
+      "scientificName": "Gekko liboensis"
+    },
+    {
+      "chineseName": "梅氏壁虎",
+      "scientificName": "Gekko melli"
+    },
+    {
+      "chineseName": "粗疣壁虎",
+      "scientificName": "Gekko scabridus"
+    },
+    {
+      "chineseName": "海南壁虎",
+      "scientificName": "Gekko similignum"
+    },
+    {
+      "chineseName": "蹼趾壁虎",
+      "scientificName": "Gekko subpalmatus"
+    },
+    {
+      "chineseName": "无蹼壁虎",
+      "scientificName": "Gekko swinhonis"
+    },
+    {
+      "chineseName": "太白壁虎",
+      "scientificName": "Gekko taibaiensis"
+    },
+    {
+      "chineseName": "文县壁虎",
+      "scientificName": "Gekko wenxianensis"
+    },
+    {
+      "chineseName": "鸥嘴噪鸥",
+      "scientificName": "Gelochelidon nilotica"
+    },
+    {
+      "chineseName": "橙头地鸫",
+      "scientificName": "Geokichla citrina"
+    },
+    {
+      "chineseName": "白眉地鸫",
+      "scientificName": "Geokichla sibirica"
+    },
+    {
+      "chineseName": "普通燕鸻",
+      "scientificName": "Glareola maldivarum"
+    },
+    {
+      "chineseName": "领燕鸻",
+      "scientificName": "Glareola pratincola"
+    },
+    {
+      "chineseName": "若尔盖蝮",
+      "scientificName": "Gloydius angusticeps"
+    },
+    {
+      "chineseName": "短尾蝮",
+      "scientificName": "Gloydius brevicaudus"
+    },
+    {
+      "chineseName": "长岛蝮",
+      "scientificName": "Gloydius changdaoensis"
+    },
+    {
+      "chineseName": "阿拉善蝮",
+      "scientificName": "Gloydius cognatus"
+    },
+    {
+      "chineseName": "西伯利亚蝮",
+      "scientificName": "Gloydius halys"
+    },
+    {
+      "chineseName": "澜沧蝮",
+      "scientificName": "Gloydius huangi"
+    },
+    {
+      "chineseName": "黑眉蝮",
+      "scientificName": "Gloydius intermedius",
+      "note": "原名录中岩栖蝮Gloydius saxatilis与其同物异名"
+    },
+    {
+      "chineseName": "庙岛蝮",
+      "scientificName": "Gloydius lijianlii"
+    },
+    {
+      "chineseName": "怒江蝮",
+      "scientificName": "Gloydius lipipengi"
+    },
+    {
+      "chineseName": "六盘山蝮",
+      "scientificName": "Gloydius liupanensis"
+    },
+    {
+      "chineseName": "雪山蝮",
+      "scientificName": "Gloydius monticola"
+    },
+    {
+      "chineseName": "秦岭蝮",
+      "scientificName": "Gloydius qinlingensis"
+    },
+    {
+      "chineseName": "红斑高山蝮",
+      "scientificName": "Gloydius rubromaculatus"
+    },
+    {
+      "chineseName": "华北蝮",
+      "scientificName": "Gloydius stejnegeri"
+    },
+    {
+      "chineseName": "高原蝮",
+      "scientificName": "Gloydius strauchi"
+    },
+    {
+      "chineseName": "冰川蝮",
+      "scientificName": "Gloydius swild"
+    },
+    {
+      "chineseName": "乌苏里蝮",
+      "scientificName": "Gloydius ussuriensis"
+    },
+    {
+      "chineseName": "蓝瞳绿锦蛇",
+      "scientificName": "Gonyosoma coeruleum"
+    },
+    {
+      "chineseName": "灰腹绿锦蛇",
+      "scientificName": "Gonyosoma frenatum",
+      "note": "原拉丁学名Elaphe frenata"
+    },
+    {
+      "chineseName": "海南尖喙蛇",
+      "scientificName": "Gonyosoma hainanense"
+    },
+    {
+      "chineseName": "绿锦蛇",
+      "scientificName": "Gonyosoma prasinum",
+      "note": "原拉丁学名Elaphe prasina"
+    },
+    {
+      "chineseName": "黑眼睑纤树蛙",
+      "scientificName": "Gracixalus gracilipes",
+      "note": "原名黑眼脸小树蛙Philautus gracilipes"
+    },
+    {
+      "chineseName": "广东纤树蛙",
+      "scientificName": "Gracixalus guangdongensis"
+    },
+    {
+      "chineseName": "井冈纤树蛙",
+      "scientificName": "Gracixalus jinggangensis"
+    },
+    {
+      "chineseName": "金秀纤树蛙",
+      "scientificName": "Gracixalus jinxiuensis",
+      "note": "原名金秀小树蛙Philautus jinxiuensis"
+    },
+    {
+      "chineseName": "墨脱纤树蛙",
+      "scientificName": "Gracixalus medogensis",
+      "note": "原名墨脱小树蛙Philautus medogensis"
+    },
+    {
+      "chineseName": "弄岗纤树蛙",
+      "scientificName": "Gracixalus nonggangensis"
+    },
+    {
+      "chineseName": "浦活纤树蛙",
+      "scientificName": "Gracixalus quangi"
+    },
+    {
+      "chineseName": "田林纤树蛙",
+      "scientificName": "Gracixalus tianlinensis"
+    },
+    {
+      "chineseName": "云南纤树蛙",
+      "scientificName": "Gracixalus yunnanensis"
+    },
+    {
+      "chineseName": "斑椋鸟",
+      "scientificName": "Gracupica contra"
+    },
+    {
+      "chineseName": "黑领椋鸟",
+      "scientificName": "Gracupica nigricollis"
+    },
+    {
+      "chineseName": "中华草鹛",
+      "scientificName": "Graminicola striatus"
+    },
+    {
+      "chineseName": "条纹噪鹛",
+      "scientificName": "Grammatoptila striata"
+    },
+    {
+      "chineseName": "蓝大翅鸲",
+      "scientificName": "Grandala coelicolor"
+    },
+    {
+      "chineseName": "白燕鸥",
+      "scientificName": "Gygis alba",
+      "note": "原名白玄鸥"
+    },
+    {
+      "chineseName": "蛎鹬",
+      "scientificName": "Haematopus ostralegus"
+    },
+    {
+      "chineseName": "赤翡翠",
+      "scientificName": "Halcyon coromanda"
+    },
+    {
+      "chineseName": "蓝翡翠",
+      "scientificName": "Halcyon pileata"
+    },
+    {
+      "chineseName": "云南碧蝉",
+      "scientificName": "Hea yunnanensis"
+    },
+    {
+      "chineseName": "无颞鳞腹链蛇",
+      "scientificName": "Hebius atemporalis",
+      "note": "原拉丁学名Amphiesma atemporale"
+    },
+    {
+      "chineseName": "黑带腹链蛇",
+      "scientificName": "Hebius bitaeniatus",
+      "note": "原拉丁学名Amphiesma bitaeniatum"
+    },
+    {
+      "chineseName": "白眉腹链蛇",
+      "scientificName": "Hebius boulengeri",
+      "note": "原拉丁学名Amphiesma  boulengeri"
+    },
+    {
+      "chineseName": "沙坝腹链蛇",
+      "scientificName": "Hebius chapaensis"
+    },
+    {
+      "chineseName": "克氏腹链蛇",
+      "scientificName": "Hebius clerki"
+    },
+    {
+      "chineseName": "锈链腹链蛇",
+      "scientificName": "Hebius craspedogaster",
+      "note": "原拉丁学名Amphiesma craspedogaster"
+    },
+    {
+      "chineseName": "棕网腹链蛇",
+      "scientificName": "Hebius johannis",
+      "note": "原拉丁学名Amphiesma johannis"
+    },
+    {
+      "chineseName": "卡西腹链蛇",
+      "scientificName": "Hebius khasiensis",
+      "note": "原拉丁学名Amphiesma khasiense"
+    },
+    {
+      "chineseName": "泪纹腹链蛇",
+      "scientificName": "Hebius lacrima"
+    },
+    {
+      "chineseName": "瓦屋山腹链蛇",
+      "scientificName": "Hebius metusia",
+      "note": "原拉丁学名Amphiesma metusium"
+    },
+    {
+      "chineseName": "台北腹链蛇",
+      "scientificName": "Hebius miyajimae",
+      "note": "原拉丁学名Amphiesma miyajimae"
+    },
+    {
+      "chineseName": "腹斑腹链蛇",
+      "scientificName": "Hebius modestus",
+      "note": "原拉丁学名Amphiesma modestum"
+    },
+    {
+      "chineseName": "八线腹链蛇",
+      "scientificName": "Hebius octolineatus",
+      "note": "原拉丁学名Amphiesma octolineatum"
+    },
+    {
+      "chineseName": "丽纹腹链蛇",
+      "scientificName": "Hebius optatus",
+      "note": "原拉丁学名Amphiesma optatum"
+    },
+    {
+      "chineseName": "坡普腹链蛇",
+      "scientificName": "Hebius popei",
+      "note": "原拉丁学名Amphiesma popei"
+    },
+    {
+      "chineseName": "桑植腹链蛇",
+      "scientificName": "Hebius sangzhiensis"
+    },
+    {
+      "chineseName": "棕黑腹链蛇",
+      "scientificName": "Hebius sauteri",
+      "note": "原拉丁学名Amphiesma sauteri"
+    },
+    {
+      "chineseName": "腾冲腹链蛇",
+      "scientificName": "Hebius septemlineatus"
+    },
+    {
+      "chineseName": "缅北腹链蛇",
+      "scientificName": "Hebius venningi",
+      "note": "原拉丁学名Amphiesma venningi"
+    },
+    {
+      "chineseName": "东亚腹链蛇",
+      "scientificName": "Hebius vibakari",
+      "note": "原拉丁学名Amphiesma vibakari"
+    },
+    {
+      "chineseName": "维西腹链蛇",
+      "scientificName": "Hebius weixiensis"
+    },
+    {
+      "chineseName": "盐边腹链蛇",
+      "scientificName": "Hebius yanbianensis"
+    },
+    {
+      "chineseName": "缅北蜥虎",
+      "scientificName": "Hemidactylus aquilonius"
+    },
+    {
+      "chineseName": "原尾蜥虎",
+      "scientificName": "Hemidactylus bowringii"
+    },
+    {
+      "chineseName": "疣尾蜥虎",
+      "scientificName": "Hemidactylus frenatus"
+    },
+    {
+      "chineseName": "锯尾蜥虎",
+      "scientificName": "Hemidactylus garnotii"
+    },
+    {
+      "chineseName": "蝎尾蜥虎",
+      "scientificName": "Hemidactylus platyurus",
+      "note": "原名蝎虎Cosymbotus platyurus"
+    },
+    {
+      "chineseName": "史氏蜥虎",
+      "scientificName": "Hemidactylus stejnegeri",
+      "note": "原名台湾蜥虎"
+    },
+    {
+      "chineseName": "大耳猬",
+      "scientificName": "Hemiechinus auritus"
+    },
+    {
+      "chineseName": "昌宁半叶趾虎",
+      "scientificName": "Hemiphyllodactylus changningensis"
+    },
+    {
+      "chineseName": "都庞岭半叶趾虎",
+      "scientificName": "Hemiphyllodactylus dupanglingensis"
+    },
+    {
+      "chineseName": "独山半叶趾虎",
+      "scientificName": "Hemiphyllodactylus dushanensis"
+    },
+    {
+      "chineseName": "香港半叶趾虎",
+      "scientificName": "Hemiphyllodactylus hongkongensis"
+    },
+    {
+      "chineseName": "惠水半叶趾虎",
+      "scientificName": "Hemiphyllodactylus huishuiensis"
+    },
+    {
+      "chineseName": "金平半叶趾虎",
+      "scientificName": "Hemiphyllodactylus jinpingensis"
+    },
+    {
+      "chineseName": "龙陵半叶趾虎",
+      "scientificName": "Hemiphyllodactylus longlingensis"
+    },
+    {
+      "chineseName": "半叶趾虎",
+      "scientificName": "Hemiphyllodactylus typus"
+    },
+    {
+      "chineseName": "云南半叶趾虎",
+      "scientificName": "Hemiphyllodactylus yunnanensis",
+      "note": "原名录中沙坝半叶趾虎（Hemiphyllodactylus chapaensis）与其同物异名"
+    },
+    {
+      "chineseName": "察隅半叶趾虎",
+      "scientificName": "Hemiphyllodactylus zayuensis"
+    },
+    {
+      "chineseName": "竹塘乡半叶趾虎",
+      "scientificName": "Hemiphyllodactylus zhutangxiangensis"
+    },
+    {
+      "chineseName": "褐背鹟鵙",
+      "scientificName": "Hemipus picatus"
+    },
+    {
+      "chineseName": "淡脚树莺",
+      "scientificName": "Hemitesia pallidipes"
+    },
+    {
+      "chineseName": "栗背短脚鹎",
+      "scientificName": "Hemixos castanonotus"
+    },
+    {
+      "chineseName": "灰短脚鹎",
+      "scientificName": "Hemixos flavala"
+    },
+    {
+      "chineseName": "花脊游蛇",
+      "scientificName": "Hemorrhois ravergieri",
+      "note": "原名拉丁名Coluber ravergieri"
+    },
+    {
+      "chineseName": "爪哇獴",
+      "scientificName": "Herpestes javanicus",
+      "note": "原名红颊獴"
+    },
+    {
+      "chineseName": "食蟹獴",
+      "scientificName": "Herpestes urva"
+    },
+    {
+      "chineseName": "察隅腹链蛇",
+      "scientificName": "Herpetoreas burbrinki"
+    },
+    {
+      "chineseName": "平头腹链蛇",
+      "scientificName": "Herpetoreas platyceps",
+      "note": "原拉丁学名Amphiesma platyceps"
+    },
+    {
+      "chineseName": "白耳奇鹛",
+      "scientificName": "Heterophasia auricularis"
+    },
+    {
+      "chineseName": "黑顶奇鹛",
+      "scientificName": "Heterophasia capistrata"
+    },
+    {
+      "chineseName": "黑头奇鹛",
+      "scientificName": "Heterophasia desgodinsi"
+    },
+    {
+      "chineseName": "灰奇鹛",
+      "scientificName": "Heterophasia gracilis"
+    },
+    {
+      "chineseName": "长尾奇鹛",
+      "scientificName": "Heterophasia picaoides"
+    },
+    {
+      "chineseName": "丽色奇鹛",
+      "scientificName": "Heterophasia pulchella"
+    },
+    {
+      "chineseName": "细点音天牛",
+      "scientificName": "Heterophilus punctulatus"
+    },
+    {
+      "chineseName": "栗背短翅鸫",
+      "scientificName": "Heteroxenicus stellatus"
+    },
+    {
+      "chineseName": "黑翅长脚鹬",
+      "scientificName": "Himantopus himantopus"
+    },
+    {
+      "chineseName": "大蹄蝠",
+      "scientificName": "Hipposideros armiger"
+    },
+    {
+      "chineseName": "白喉针尾雨燕",
+      "scientificName": "Hirundapus caudacutus"
+    },
+    {
+      "chineseName": "紫针尾雨燕",
+      "scientificName": "Hirundapus celebensis"
+    },
+    {
+      "chineseName": "褐背针尾雨燕",
+      "scientificName": "Hirundapus giganteus"
+    },
+    {
+      "chineseName": "家燕",
+      "scientificName": "Hirundo rustica"
+    },
+    {
+      "chineseName": "洋燕",
+      "scientificName": "Hirundo tahitica"
+    },
+    {
+      "chineseName": "丑鸭",
+      "scientificName": "Histrionicus histrionicus"
+    },
+    {
+      "chineseName": "黄腹树莺",
+      "scientificName": "Horornis acanthizoides"
+    },
+    {
+      "chineseName": "喜山黄腹树莺",
+      "scientificName": "Horornis brunnescens"
+    },
+    {
+      "chineseName": "远东树莺",
+      "scientificName": "Horornis canturians"
+    },
+    {
+      "chineseName": "短翅树莺",
+      "scientificName": "Horornis diphone"
+    },
+    {
+      "chineseName": "异色树莺",
+      "scientificName": "Horornis flavolivaceus"
+    },
+    {
+      "chineseName": "强脚树莺",
+      "scientificName": "Horornis fortipes"
+    },
+    {
+      "chineseName": "白腰叉尾海燕",
+      "scientificName": "Hydrobates leucorhous"
+    },
+    {
+      "chineseName": "黑叉尾海燕",
+      "scientificName": "Hydrobates monorhis"
+    },
+    {
+      "chineseName": "褐翅叉尾海燕",
+      "scientificName": "Hydrobates tristrami"
+    },
+    {
+      "chineseName": "红嘴巨燕鸥",
+      "scientificName": "Hydroprogne caspia",
+      "note": "原名红嘴巨鸥"
+    },
+    {
+      "chineseName": "毛猬",
+      "scientificName": "Hylomys suillus"
+    },
+    {
+      "chineseName": "黑白飞鼠",
+      "scientificName": "Hylopetes alboniger"
+    },
+    {
+      "chineseName": "海南小飞鼠",
+      "scientificName": "Hylopetes phayrei",
+      "note": "原名录中低泡飞鼠与其同物异名"
+    },
+    {
+      "chineseName": "蓝枕花蜜鸟",
+      "scientificName": "Hypogramma hypogrammicum"
+    },
+    {
+      "chineseName": "黑枕王鹟",
+      "scientificName": "Hypothymis azurea"
+    },
+    {
+      "chineseName": "栗耳短脚鹎",
+      "scientificName": "Hypsipetes amaurotis"
+    },
+    {
+      "chineseName": "黑短脚鹎",
+      "scientificName": "Hypsipetes leucocephalus"
+    },
+    {
+      "chineseName": "马来豪猪",
+      "scientificName": "Hystrix brachyura",
+      "note": "原名录中云南豪猪与其同物异名"
+    },
+    {
+      "chineseName": "中国豪猪",
+      "scientificName": "Hystrix hodgsoni",
+      "note": "原名豪猪，仅限野外种群"
+    },
+    {
+      "chineseName": "渔鸥",
+      "scientificName": "Ichthyaetus ichthyaetus"
+    },
+    {
+      "chineseName": "靴篱莺",
+      "scientificName": "Iduna caligata"
+    },
+    {
+      "chineseName": "草绿篱莺",
+      "scientificName": "Iduna pallida"
+    },
+    {
+      "chineseName": "赛氏篱莺",
+      "scientificName": "Iduna rama"
+    },
+    {
+      "chineseName": "黄腰响蜜䴕",
+      "scientificName": "Indicator xanthonotus"
+    },
+    {
+      "chineseName": "白头钩盲蛇",
+      "scientificName": "Indotyphlops albiceps",
+      "note": "原拉丁学名Ramphotyphlops albiceps"
+    },
+    {
+      "chineseName": "钩盲蛇",
+      "scientificName": "Indotyphlops braminus",
+      "note": "原拉丁学名Ramphotyphlops braminus"
+    },
+    {
+      "chineseName": "灰眼短脚鹎",
+      "scientificName": "Iole propinqua"
+    },
+    {
+      "chineseName": "藏旖凤蝶",
+      "scientificName": "Iphiclides podalirinus",
+      "note": "原名旖凤蝶"
+    },
+    {
+      "chineseName": "和平鸟",
+      "scientificName": "Irena puella"
+    },
+    {
+      "chineseName": "海南杆䗛猎蝽",
+      "scientificName": "Ischnobaenella hainana"
+    },
+    {
+      "chineseName": "栗苇鳽",
+      "scientificName": "Ixobrychus cinnamomeus"
+    },
+    {
+      "chineseName": "紫背苇鳽",
+      "scientificName": "Ixobrychus eurhythmus"
+    },
+    {
+      "chineseName": "黑苇鳽",
+      "scientificName": "Ixobrychus flavicollis",
+      "note": "原名黑鳽"
+    },
+    {
+      "chineseName": "黄斑苇鳽",
+      "scientificName": "Ixobrychus sinensis",
+      "note": "原名黄苇鳽"
+    },
+    {
+      "chineseName": "绿翅短脚鹎",
+      "scientificName": "Ixos mcclellandii"
+    },
+    {
+      "chineseName": "短尾钩嘴鹛",
+      "scientificName": "Jabouilleia danjoui"
+    },
+    {
+      "chineseName": "长肢攀蜥",
+      "scientificName": "Japalura andersoniana"
+    },
+    {
+      "chineseName": "三棱攀蜥",
+      "scientificName": "Japalura tricarinata"
+    },
+    {
+      "chineseName": "费氏角蟾",
+      "scientificName": "Jingophrys feii"
+    },
+    {
+      "chineseName": "凸肛角蟾",
+      "scientificName": "Jingophrys pachyproctus",
+      "note": "原名突肛角蟾 Megophrys pachyproctus"
+    },
+    {
+      "chineseName": "叶氏角蟾",
+      "scientificName": "Jingophrys yeae"
+    },
+    {
+      "chineseName": "张氏角蟾",
+      "scientificName": "Jingophrys zhangi"
+    },
+    {
+      "chineseName": "周氏角蟾",
+      "scientificName": "Jingophrys zhoui"
+    },
+    {
+      "chineseName": "四斑幽花金龟",
+      "scientificName": "Jumnos ruckeri",
+      "note": "原拉丁学名Iumnos ruckeri"
+    },
+    {
+      "chineseName": "蚁䴕",
+      "scientificName": "Jynx torquilla"
+    },
+    {
+      "chineseName": "白腰鹊鸲",
+      "scientificName": "Kittacincla malabarica"
+    },
+    {
+      "chineseName": "碧眼原指树蛙",
+      "scientificName": "Kurixalus berylliniris"
+    },
+    {
+      "chineseName": "泰北原指树蛙",
+      "scientificName": "Kurixalus bisacculus"
+    },
+    {
+      "chineseName": "琉球原指树蛙",
+      "scientificName": "Kurixalus eiffingeri",
+      "note": "原名琉球跳树蛙Chirixalus eiffingeri"
+    },
+    {
+      "chineseName": "面天原指树蛙",
+      "scientificName": "Kurixalus idiootocus",
+      "note": "原名面天跳树蛙Chirixalus idiootocus"
+    },
+    {
+      "chineseName": "冷泉原指树蛙",
+      "scientificName": "Kurixalus lenquanensis"
+    },
+    {
+      "chineseName": "吻原指树蛙",
+      "scientificName": "Kurixalus naso",
+      "note": "原名伊伽树蛙Rhacophorus  naso"
+    },
+    {
+      "chineseName": "锯腿原指树蛙",
+      "scientificName": "Kurixalus odontotarsus",
+      "note": "原名锯腿小树蛙Philautus cavirostris"
+    },
+    {
+      "chineseName": "多疣原指树蛙",
+      "scientificName": "Kurixalus verrucosus"
+    },
+    {
+      "chineseName": "王氏原指树蛙",
+      "scientificName": "Kurixalus wangi"
+    },
+    {
+      "chineseName": "杨氏原指树蛙",
+      "scientificName": "Kurixalus yangi"
+    },
+    {
+      "chineseName": "捷蜥蜴",
+      "scientificName": "Lacerta agilis"
+    },
+    {
+      "chineseName": "暗灰鹃鵙",
+      "scientificName": "Lalage melaschistos"
+    },
+    {
+      "chineseName": "牛头伯劳",
+      "scientificName": "Lanius bucephalus"
+    },
+    {
+      "chineseName": "红背伯劳",
+      "scientificName": "Lanius collurio"
+    },
+    {
+      "chineseName": "栗背伯劳",
+      "scientificName": "Lanius collurioides"
+    },
+    {
+      "chineseName": "红尾伯劳",
+      "scientificName": "Lanius cristatus"
+    },
+    {
+      "chineseName": "灰伯劳",
+      "scientificName": "Lanius excubitor"
+    },
+    {
+      "chineseName": "荒漠伯劳",
+      "scientificName": "Lanius isabellinus"
+    },
+    {
+      "chineseName": "黑额伯劳",
+      "scientificName": "Lanius minor"
+    },
+    {
+      "chineseName": "棕尾伯劳",
+      "scientificName": "Lanius phoenicuroides"
+    },
+    {
+      "chineseName": "棕背伯劳",
+      "scientificName": "Lanius schach"
+    },
+    {
+      "chineseName": "楔尾伯劳",
+      "scientificName": "Lanius sphenocercus"
+    },
+    {
+      "chineseName": "灰背伯劳",
+      "scientificName": "Lanius tephronotus"
+    },
+    {
+      "chineseName": "虎纹伯劳",
+      "scientificName": "Lanius tigrinus"
+    },
+    {
+      "chineseName": "普通海鸥",
+      "scientificName": "Larus canus",
+      "note": "原名海鸥"
+    },
+    {
+      "chineseName": "黑尾鸥",
+      "scientificName": "Larus crassirostris"
+    },
+    {
+      "chineseName": "灰翅鸥",
+      "scientificName": "Larus glaucescens"
+    },
+    {
+      "chineseName": "北极鸥",
+      "scientificName": "Larus hyperboreus"
+    },
+    {
+      "chineseName": "灰背鸥",
+      "scientificName": "Larus schistisagus"
+    },
+    {
+      "chineseName": "日本歌鸲",
+      "scientificName": "Larvivora akahige"
+    },
+    {
+      "chineseName": "栗腹歌鸲",
+      "scientificName": "Larvivora brunnea"
+    },
+    {
+      "chineseName": "蓝歌鸲",
+      "scientificName": "Larvivora cyane"
+    },
+    {
+      "chineseName": "琉球歌鸲",
+      "scientificName": "Larvivora komadori"
+    },
+    {
+      "chineseName": "红尾歌鸲",
+      "scientificName": "Larvivora sibilans"
+    },
+    {
+      "chineseName": "喜山岩蜥",
+      "scientificName": "Laudakia himalayana"
+    },
+    {
+      "chineseName": "西藏岩蜥",
+      "scientificName": "Laudakia papenfussi"
+    },
+    {
+      "chineseName": "拉萨岩蜥",
+      "scientificName": "Laudakia sacra"
+    },
+    {
+      "chineseName": "新疆岩蜥",
+      "scientificName": "Laudakia stoliczkana",
+      "note": "原名录中塔里木岩蜥（Laudakia tarimensis）与其同物异名"
+    },
+    {
+      "chineseName": "南亚岩蜥",
+      "scientificName": "Laudakia tuberculata"
+    },
+    {
+      "chineseName": "吴氏岩蜥",
+      "scientificName": "Laudakia wui"
+    },
+    {
+      "chineseName": "栗背奇鹛",
+      "scientificName": "Leioptila annectens"
+    },
+    {
+      "chineseName": "哀鳞趾虎",
+      "scientificName": "Lepidodactylus lugubris"
+    },
+    {
+      "chineseName": "雅美鳞趾虎",
+      "scientificName": "Lepidodactylus yami"
+    },
+    {
+      "chineseName": "高山掌突蟾",
+      "scientificName": "Leptobrachella alpina",
+      "note": "原拉丁学名Leptolalax alpinus"
+    },
+    {
+      "chineseName": "黄连山掌突蟾",
+      "scientificName": "Leptobrachella aspera"
+    },
+    {
+      "chineseName": "毕节掌突蟾",
+      "scientificName": "Leptobrachella bijie"
+    },
+    {
+      "chineseName": "布氏掌突蟾",
+      "scientificName": "Leptobrachella bourreti"
+    },
+    {
+      "chineseName": "赤水掌突蟾",
+      "scientificName": "Leptobrachella chishuiensis"
+    },
+    {
+      "chineseName": "大明山掌突蟾",
+      "scientificName": "Leptobrachella damingshanensis"
+    },
+    {
+      "chineseName": "水城掌突蟾",
+      "scientificName": "Leptobrachella dorsospina"
+    },
+    {
+      "chineseName": "拂晓掌突蟾",
+      "scientificName": "Leptobrachella eos"
+    },
+    {
+      "chineseName": "费氏掌突蟾",
+      "scientificName": "Leptobrachella feii"
+    },
+    {
+      "chineseName": "黄腺掌突蟾",
+      "scientificName": "Leptobrachella flaviglandulosa"
+    },
+    {
+      "chineseName": "刘氏掌突蟾",
+      "scientificName": "Leptobrachella laui"
+    },
+    {
+      "chineseName": "福建掌突蟾",
+      "scientificName": "Leptobrachella liui"
+    },
+    {
+      "chineseName": "莽山掌突蟾",
+      "scientificName": "Leptobrachella mangshanensis"
+    },
+    {
+      "chineseName": "猫儿山掌突蟾",
+      "scientificName": "Leptobrachella maoershanensis"
+    },
+    {
+      "chineseName": "雪山掌突蟾",
+      "scientificName": "Leptobrachella niveimontis"
+    },
+    {
+      "chineseName": "夜神掌突蟾",
+      "scientificName": "Leptobrachella nyx"
+    },
+    {
+      "chineseName": "峨山掌突蟾",
+      "scientificName": "Leptobrachella oshanensis",
+      "note": "原拉丁学名Leptolalax oshanensis"
+    },
+    {
+      "chineseName": "紫棕掌突蟾",
+      "scientificName": "Leptobrachella purpura"
+    },
+    {
+      "chineseName": "紫腹掌突蟾",
+      "scientificName": "Leptobrachella purpuraventra"
+    },
+    {
+      "chineseName": "上思掌突蟾",
+      "scientificName": "Leptobrachella shangsiensis"
+    },
+    {
+      "chineseName": "十万大山掌突蟾",
+      "scientificName": "Leptobrachella shiwandashanensis"
+    },
+    {
+      "chineseName": "绥阳掌突蟾",
+      "scientificName": "Leptobrachella suiyangensis"
+    },
+    {
+      "chineseName": "三岛掌突蟾",
+      "scientificName": "Leptobrachella sungi"
+    },
+    {
+      "chineseName": "腾冲掌突蟾",
+      "scientificName": "Leptobrachella tengchongensis"
+    },
+    {
+      "chineseName": "腹斑掌突蟾",
+      "scientificName": "Leptobrachella ventripunctata",
+      "note": "原拉丁学名Leptolalax ventripunctatus"
+    },
+    {
+      "chineseName": "五皇山掌突蟾",
+      "scientificName": "Leptobrachella wuhuangmontis"
+    },
+    {
+      "chineseName": "武陵掌突蟾",
+      "scientificName": "Leptobrachella wulingensis"
+    },
+    {
+      "chineseName": "盈江掌突蟾",
+      "scientificName": "Leptobrachella yingjiangensis"
+    },
+    {
+      "chineseName": "云开掌突蟾",
+      "scientificName": "Leptobrachella yunkaiensis"
+    },
+    {
+      "chineseName": "波普拟髭蟾",
+      "scientificName": "Leptobrachium bompu"
+    },
+    {
+      "chineseName": "沙巴拟髭蟾",
+      "scientificName": "Leptobrachium chapaense"
+    },
+    {
+      "chineseName": "广西拟髭蟾",
+      "scientificName": "Leptobrachium guangxiense"
+    },
+    {
+      "chineseName": "海南拟髭蟾",
+      "scientificName": "Leptobrachium hainanense"
+    },
+    {
+      "chineseName": "华深拟髭蟾",
+      "scientificName": "Leptobrachium huashen"
+    },
+    {
+      "chineseName": "崇安髭蟾",
+      "scientificName": "Leptobrachium liui",
+      "note": "原名刘氏髭蟾 Vibrissaphora liui"
+    },
+    {
+      "chineseName": "腾冲拟髭蟾",
+      "scientificName": "Leptobrachium tengchongense"
+    },
+    {
+      "chineseName": "凤头雀莺",
+      "scientificName": "Leptopoecile elegans"
+    },
+    {
+      "chineseName": "花彩雀莺",
+      "scientificName": "Leptopoecile sophiae"
+    },
+    {
+      "chineseName": "云南兔",
+      "scientificName": "Lepus comus",
+      "note": "原名西南兔"
+    },
+    {
+      "chineseName": "高丽兔",
+      "scientificName": "Lepus coreanus"
+    },
+    {
+      "chineseName": "东北兔",
+      "scientificName": "Lepus mandshuricus",
+      "note": "原名录中东北黑兔与其同物异名"
+    },
+    {
+      "chineseName": "灰尾兔",
+      "scientificName": "Lepus oiostolus"
+    },
+    {
+      "chineseName": "华南兔",
+      "scientificName": "Lepus sinensis"
+    },
+    {
+      "chineseName": "中亚兔",
+      "scientificName": "Lepus tibetanus"
+    },
+    {
+      "chineseName": "蒙古兔",
+      "scientificName": "Lepus tolai",
+      "note": "原名录中草兔与其同物异名"
+    },
+    {
+      "chineseName": "雪鹑",
+      "scientificName": "Lerwa lerwa"
+    },
+    {
+      "chineseName": "弗氏鸥",
+      "scientificName": "Leucophaeus pipixcan"
+    },
+    {
+      "chineseName": "粉红腹岭雀",
+      "scientificName": "Leucosticte arctoa"
+    },
+    {
+      "chineseName": "高山岭雀",
+      "scientificName": "Leucosticte brandti"
+    },
+    {
+      "chineseName": "林岭雀",
+      "scientificName": "Leucosticte nemoricola"
+    },
+    {
+      "chineseName": "灰胸秧鸡",
+      "scientificName": "Lewinia striata",
+      "note": "原名蓝胸秧鸡Gallirallus striatus"
+    },
+    {
+      "chineseName": "低斑蜻",
+      "scientificName": "Libellula angelina"
+    },
+    {
+      "chineseName": "长嘴半蹼鹬",
+      "scientificName": "Limnodromus scolopaceus",
+      "note": "原名长嘴鹬"
+    },
+    {
+      "chineseName": "斑尾塍鹬",
+      "scientificName": "Limosa lapponica"
+    },
+    {
+      "chineseName": "黑尾塍鹬",
+      "scientificName": "Limosa limosa"
+    },
+    {
+      "chineseName": "赤胸朱顶雀",
+      "scientificName": "Linaria cannabina"
+    },
+    {
+      "chineseName": "黄嘴朱顶雀",
+      "scientificName": "Linaria flavirostris"
+    },
+    {
+      "chineseName": "灰头薮鹛",
+      "scientificName": "Liocichla phoenicea"
+    },
+    {
+      "chineseName": "红翅薮鹛",
+      "scientificName": "Liocichla ripponi"
+    },
+    {
+      "chineseName": "黄痣薮鹛",
+      "scientificName": "Liocichla steerii"
+    },
+    {
+      "chineseName": "滑鳞蛇",
+      "scientificName": "Liopeltis frenatus"
+    },
+    {
+      "chineseName": "费氏刘树蛙",
+      "scientificName": "Liuixalus feii"
+    },
+    {
+      "chineseName": "海南刘树蛙",
+      "scientificName": "Liuixalus hainanus"
+    },
+    {
+      "chineseName": "眼斑刘树蛙",
+      "scientificName": "Liuixalus ocellatus",
+      "note": "原名眼斑小树蛙Philautus ocellatus"
+    },
+    {
+      "chineseName": "十万大山刘树蛙",
+      "scientificName": "Liuixalus shiwandashan"
+    },
+    {
+      "chineseName": "高山舌突蛙",
+      "scientificName": "Liurana alpina"
+    },
+    {
+      "chineseName": "墨脱舌突蛙",
+      "scientificName": "Liurana medogensis"
+    },
+    {
+      "chineseName": "河谷舌突蛙",
+      "scientificName": "Liurana vallecula"
+    },
+    {
+      "chineseName": "西藏舌突蛙",
+      "scientificName": "Liurana xizangensis"
+    },
+    {
+      "chineseName": "台湾短翅蝗莺",
+      "scientificName": "Locustella alishanensis"
+    },
+    {
+      "chineseName": "小蝗莺",
+      "scientificName": "Locustella certhiola"
+    },
+    {
+      "chineseName": "四川短翅蝗莺",
+      "scientificName": "Locustella chengi"
+    },
+    {
+      "chineseName": "北短翅蝗莺",
+      "scientificName": "Locustella davidi"
+    },
+    {
+      "chineseName": "苍眉蝗莺",
+      "scientificName": "Locustella fasciolata"
+    },
+    {
+      "chineseName": "矛斑蝗莺",
+      "scientificName": "Locustella lanceolata"
+    },
+    {
+      "chineseName": "鸲蝗莺",
+      "scientificName": "Locustella luscinioides"
+    },
+    {
+      "chineseName": "棕褐短翅蝗莺",
+      "scientificName": "Locustella luteoventris"
+    },
+    {
+      "chineseName": "巨嘴短翅蝗莺",
+      "scientificName": "Locustella major",
+      "note": "原名巨嘴短翅莺 Bradvpterus maior"
+    },
+    {
+      "chineseName": "高山短翅蝗莺",
+      "scientificName": "Locustella mandelli"
+    },
+    {
+      "chineseName": "黑斑蝗莺",
+      "scientificName": "Locustella naevia"
+    },
+    {
+      "chineseName": "北蝗莺",
+      "scientificName": "Locustella ochotensis"
+    },
+    {
+      "chineseName": "东亚蝗莺",
+      "scientificName": "Locustella pleskei"
+    },
+    {
+      "chineseName": "斑背大尾莺",
+      "scientificName": "Locustella pryeri"
+    },
+    {
+      "chineseName": "中华短翅蝗莺",
+      "scientificName": "Locustella tacsanowskia"
+    },
+    {
+      "chineseName": "斑胸短翅蝗莺",
+      "scientificName": "Locustella thoracica"
+    },
+    {
+      "chineseName": "栗腹文鸟",
+      "scientificName": "Lonchura atricapilla"
+    },
+    {
+      "chineseName": "斑文鸟",
+      "scientificName": "Lonchura punctulata"
+    },
+    {
+      "chineseName": "白腰文鸟",
+      "scientificName": "Lonchura striata"
+    },
+    {
+      "chineseName": "褐冠山雀",
+      "scientificName": "Lophophanes dichrous"
+    },
+    {
+      "chineseName": "白翅交嘴雀",
+      "scientificName": "Loxia leucoptera"
+    },
+    {
+      "chineseName": "岜沙掌突蟾",
+      "scientificName": "Lptobrachella bashaensis"
+    },
+    {
+      "chineseName": "福运锹甲",
+      "scientificName": "Lucanus fortunei",
+      "note": "原名幸运锹甲"
+    },
+    {
+      "chineseName": "红胸黑翅萤",
+      "scientificName": "Luciola kagiana"
+    },
+    {
+      "chineseName": "白腹短翅鸲",
+      "scientificName": "Luscinia phaenicuroides"
+    },
+    {
+      "chineseName": "白环蛇",
+      "scientificName": "Lycodon aulicus"
+    },
+    {
+      "chineseName": "花坪白环蛇",
+      "scientificName": "Lycodon cathaya"
+    },
+    {
+      "chineseName": "沙坝白环蛇",
+      "scientificName": "Lycodon chapaensis"
+    },
+    {
+      "chineseName": "双全白环蛇",
+      "scientificName": "Lycodon fasciatus"
+    },
+    {
+      "chineseName": "黄链蛇",
+      "scientificName": "Lycodon flavozonatus",
+      "note": "原拉丁学名Dinodon flavozonatum"
+    },
+    {
+      "chineseName": "福清白环蛇",
+      "scientificName": "Lycodon futsingensis"
+    },
+    {
+      "chineseName": "贡山白环蛇",
+      "scientificName": "Lycodon gongshan"
+    },
+    {
+      "chineseName": "老挝白环蛇",
+      "scientificName": "Lycodon laoensis"
+    },
+    {
+      "chineseName": "刘氏白环蛇",
+      "scientificName": "Lycodon liuchengchaoi"
+    },
+    {
+      "chineseName": "南方链蛇",
+      "scientificName": "Lycodon meridionalis"
+    },
+    {
+      "chineseName": "横纹白环蛇",
+      "scientificName": "Lycodon multizonatus",
+      "note": "原名横纹小头蛇Oligodon multizonatus"
+    },
+    {
+      "chineseName": "隐士白环蛇",
+      "scientificName": "Lycodon obvelatus"
+    },
+    {
+      "chineseName": "锦白环蛇",
+      "scientificName": "Lycodon pictus"
+    },
+    {
+      "chineseName": "粉链蛇",
+      "scientificName": "Lycodon rosozonatus",
+      "note": "原拉丁学名Dinodon rosozonatum"
+    },
+    {
+      "chineseName": "赤链蛇",
+      "scientificName": "Lycodon rufozonatus",
+      "note": "原拉丁学名Dinodon rufozonatum"
+    },
+    {
+      "chineseName": "黑背白环蛇",
+      "scientificName": "Lycodon ruhstrati"
+    },
+    {
+      "chineseName": "白链蛇",
+      "scientificName": "Lycodon septentrionalis",
+      "note": "原拉丁学名Dinodon septentrionalis"
+    },
+    {
+      "chineseName": "锯纹白环蛇",
+      "scientificName": "Lycodon serratus"
+    },
+    {
+      "chineseName": "细白环蛇",
+      "scientificName": "Lycodon subcinctus"
+    },
+    {
+      "chineseName": "东川白环蛇",
+      "scientificName": "Lycodon synaptor"
+    },
+    {
+      "chineseName": "察隅白环蛇",
+      "scientificName": "Lycodon zayuensis"
+    },
+    {
+      "chineseName": "姬鹬",
+      "scientificName": "Lymnocryptes minimus"
+    },
+    {
+      "chineseName": "毛腿夜鹰",
+      "scientificName": "Lyncornis macrotis"
+    },
+    {
+      "chineseName": "台湾黄山雀",
+      "scientificName": "Machlolophus holsti"
+    },
+    {
+      "chineseName": "黄颊山雀",
+      "scientificName": "Machlolophus spilonotus"
+    },
+    {
+      "chineseName": "眼纹黄山雀",
+      "scientificName": "Machlolophus xanthogenys"
+    },
+    {
+      "chineseName": "安氏长舌果蝠",
+      "scientificName": "Macroglossus sobrinus"
+    },
+    {
+      "chineseName": "绿眉鸭",
+      "scientificName": "Mareca americana"
+    },
+    {
+      "chineseName": "罗纹鸭",
+      "scientificName": "Mareca falcata"
+    },
+    {
+      "chineseName": "赤颈鸭",
+      "scientificName": "Mareca penelope"
+    },
+    {
+      "chineseName": "赤膀鸭",
+      "scientificName": "Mareca strepera"
+    },
+    {
+      "chineseName": "灰中趾虎",
+      "scientificName": "Mediodactylus russowii",
+      "note": "原名灰裸趾虎Cyrtodactylus russowii"
+    },
+    {
+      "chineseName": "冠鱼狗",
+      "scientificName": "Megaceryle lugubris"
+    },
+    {
+      "chineseName": "无尾果蝠",
+      "scientificName": "Megaerops ecaudatus"
+    },
+    {
+      "chineseName": "泰国无尾果蝠",
+      "scientificName": "Megaerops niphanae"
+    },
+    {
+      "chineseName": "蝙蛾角突姬蜂",
+      "scientificName": "Megalomya hepialivora"
+    },
+    {
+      "chineseName": "沼泽大尾莺",
+      "scientificName": "Megalurus palustris"
+    },
+    {
+      "chineseName": "黑海番鸭",
+      "scientificName": "Melanitta americana"
+    },
+    {
+      "chineseName": "斑脸海番鸭",
+      "scientificName": "Melanitta fusca"
+    },
+    {
+      "chineseName": "冕雀",
+      "scientificName": "Melanochlora sultanea"
+    },
+    {
+      "chineseName": "双斑百灵",
+      "scientificName": "Melanocorypha bimaculata"
+    },
+    {
+      "chineseName": "草原百灵",
+      "scientificName": "Melanocorypha calandra"
+    },
+    {
+      "chineseName": "长嘴百灵",
+      "scientificName": "Melanocorypha maxima"
+    },
+    {
+      "chineseName": "黑百灵",
+      "scientificName": "Melanocorypha yeltoniensis"
+    },
+    {
+      "chineseName": "狗獾",
+      "scientificName": "Meles meles"
+    },
+    {
+      "chineseName": "鼬獾",
+      "scientificName": "Melogale moschata"
+    },
+    {
+      "chineseName": "缅甸鼬獾",
+      "scientificName": "Melogale personata"
+    },
+    {
+      "chineseName": "凤头鹀",
+      "scientificName": "Melophus lathami"
+    },
+    {
+      "chineseName": "条纹松鼠",
+      "scientificName": "Menetes berdmorei"
+    },
+    {
+      "chineseName": "中华原𧎥",
+      "scientificName": "Mengenilla sinensis"
+    },
+    {
+      "chineseName": "普通秋沙鸭",
+      "scientificName": "Mergus merganser"
+    },
+    {
+      "chineseName": "红胸秋沙鸭",
+      "scientificName": "Mergus serrator"
+    },
+    {
+      "chineseName": "畸腿半鞘天牛",
+      "scientificName": "Merionoeda splendida"
+    },
+    {
+      "chineseName": "黄喉蜂虎",
+      "scientificName": "Merops apiaster"
+    },
+    {
+      "chineseName": "达乌尔猬",
+      "scientificName": "Mesechinus dauuricus",
+      "note": "原拉丁学名Hemiechinus dauuricus"
+    },
+    {
+      "chineseName": "侯氏猬",
+      "scientificName": "Mesechinus hughi",
+      "note": "原拉丁学名Hemiechinus hughi，原林猬为侯氏猬山西亚种"
+    },
+    {
+      "chineseName": "小齿猬",
+      "scientificName": "Mesechinus miodon"
+    },
+    {
+      "chineseName": "高黎贡林猬",
+      "scientificName": "Mesechinus wangi"
+    },
+    {
+      "chineseName": "条纹正钳蝎",
+      "scientificName": "Mesobuthus eupeus"
+    },
+    {
+      "chineseName": "威廉腔蚓",
+      "scientificName": "Metaphire guillemi"
+    },
+    {
+      "chineseName": "侏鸬鹚",
+      "scientificName": "Microcarbo pygmeus"
+    },
+    {
+      "chineseName": "吉氏小扁𧐐",
+      "scientificName": "Microperla geei",
+      "note": "原拉丁学名Microperla jeei"
+    },
+    {
+      "chineseName": "栗啄木鸟",
+      "scientificName": "Micropternus brachyurus"
+    },
+    {
+      "chineseName": "红尾希鹛",
+      "scientificName": "Minla ignotincta"
+    },
+    {
+      "chineseName": "纹胸鹛",
+      "scientificName": "Mixornis gularis"
+    },
+    {
+      "chineseName": "蓝头矶鸫",
+      "scientificName": "Monticola cinclorhyncha"
+    },
+    {
+      "chineseName": "白喉矶鸫",
+      "scientificName": "Monticola gularis"
+    },
+    {
+      "chineseName": "栗腹矶鸫",
+      "scientificName": "Monticola rufiventris"
+    },
+    {
+      "chineseName": "白背矶鸫",
+      "scientificName": "Monticola saxatilis"
+    },
+    {
+      "chineseName": "蓝矶鸫",
+      "scientificName": "Monticola solitarius"
+    },
+    {
+      "chineseName": "褐翅雪雀",
+      "scientificName": "Montifringilla adamsi"
+    },
+    {
+      "chineseName": "藏雪雀",
+      "scientificName": "Montifringilla henrici"
+    },
+    {
+      "chineseName": "白斑翅雪雀",
+      "scientificName": "Montifringilla nivalis"
+    },
+    {
+      "chineseName": "白鹡鸰",
+      "scientificName": "Motacilla alba"
+    },
+    {
+      "chineseName": "灰鹡鸰",
+      "scientificName": "Motacilla cinerea"
+    },
+    {
+      "chineseName": "黄头鹡鸰",
+      "scientificName": "Motacilla citreola"
+    },
+    {
+      "chineseName": "西黄鹡鸰",
+      "scientificName": "Motacilla flava"
+    },
+    {
+      "chineseName": "日本鹡鸰",
+      "scientificName": "Motacilla grandis"
+    },
+    {
+      "chineseName": "黄鹡鸰",
+      "scientificName": "Motacilla tschutschensis"
+    },
+    {
+      "chineseName": "林麂",
+      "scientificName": "Muntiacus feae",
+      "note": "原名菲氏麂"
+    },
+    {
+      "chineseName": "叶麂",
+      "scientificName": "Muntiacus putaoensis"
+    },
+    {
+      "chineseName": "小麂",
+      "scientificName": "Muntiacus reevesi"
+    },
+    {
+      "chineseName": "赤麂",
+      "scientificName": "Muntiacus vaginalis",
+      "note": "原拉丁学名Muntiacus muntjak"
+    },
+    {
+      "chineseName": "北灰鹟",
+      "scientificName": "Muscicapa dauurica"
+    },
+    {
+      "chineseName": "棕尾褐鹟",
+      "scientificName": "Muscicapa ferruginea"
+    },
+    {
+      "chineseName": "灰纹鹟",
+      "scientificName": "Muscicapa griseisticta"
+    },
+    {
+      "chineseName": "褐胸鹟",
+      "scientificName": "Muscicapa muttui"
+    },
+    {
+      "chineseName": "乌鹟",
+      "scientificName": "Muscicapa sibirica"
+    },
+    {
+      "chineseName": "斑鹟",
+      "scientificName": "Muscicapa striata"
+    },
+    {
+      "chineseName": "香鼬",
+      "scientificName": "Mustela altaica"
+    },
+    {
+      "chineseName": "白鼬",
+      "scientificName": "Mustela erminea"
+    },
+    {
+      "chineseName": "艾鼬",
+      "scientificName": "Mustela eversmanni",
+      "note": "原拉丁学名Mustela versmanii"
+    },
+    {
+      "chineseName": "黄腹鼬",
+      "scientificName": "Mustela kathiah"
+    },
+    {
+      "chineseName": "伶鼬",
+      "scientificName": "Mustela nivalis"
+    },
+    {
+      "chineseName": "黄鼬",
+      "scientificName": "Mustela sibirica"
+    },
+    {
+      "chineseName": "纹鼬",
+      "scientificName": "Mustela strigidorsa"
+    },
+    {
+      "chineseName": "黄颈拟蜡嘴雀",
+      "scientificName": "Mycerobas affinis"
+    },
+    {
+      "chineseName": "白斑翅拟蜡嘴雀",
+      "scientificName": "Mycerobas carnipes"
+    },
+    {
+      "chineseName": "白点翅拟蜡嘴雀",
+      "scientificName": "Mycerobas melanozanthos"
+    },
+    {
+      "chineseName": "白尾蓝地鸲",
+      "scientificName": "Myiomela leucura"
+    },
+    {
+      "chineseName": "紫啸鸫",
+      "scientificName": "Myophonus caeruleus"
+    },
+    {
+      "chineseName": "台湾紫啸鸫",
+      "scientificName": "Myophonus insularis"
+    },
+    {
+      "chineseName": "火尾绿鹛",
+      "scientificName": "Myzornis pyrrhoura"
+    },
+    {
+      "chineseName": "舟山眼镜蛇",
+      "scientificName": "Naja atra"
+    },
+    {
+      "chineseName": "孟加拉眼镜蛇",
+      "scientificName": "Naja kaouthia",
+      "note": "仅限野外种群"
+    },
+    {
+      "chineseName": "钩尾南华䗛",
+      "scientificName": "Nanhuaphasma hamicerum"
+    },
+    {
+      "chineseName": "纹胸鹪鹛",
+      "scientificName": "Napothera epilepidota"
+    },
+    {
+      "chineseName": "墨脱棱鼻树蛙",
+      "scientificName": "Nasutixalus medogensis"
+    },
+    {
+      "chineseName": "盈江棱鼻树蛙",
+      "scientificName": "Nasutixalus yingjiangensis"
+    },
+    {
+      "chineseName": "红腹膜花天牛",
+      "scientificName": "Necydalis rufiabdominis"
+    },
+    {
+      "chineseName": "海南毛猬",
+      "scientificName": "Neohylomys hainanensis"
+    },
+    {
+      "chineseName": "周氏新蝎蛉",
+      "scientificName": "Neopanorpa choui"
+    },
+    {
+      "chineseName": "褐斑背角花金龟",
+      "scientificName": "Neophaedimus auzouxi"
+    },
+    {
+      "chineseName": "中国鼩猬",
+      "scientificName": "Neotetracus sinensis"
+    },
+    {
+      "chineseName": "赤嘴潜鸭",
+      "scientificName": "Netta rufina"
+    },
+    {
+      "chineseName": "小仙鹟",
+      "scientificName": "Niltava macgrigoriae"
+    },
+    {
+      "chineseName": "棕腹仙鹟",
+      "scientificName": "Niltava sundara"
+    },
+    {
+      "chineseName": "棕腹蓝仙鹟",
+      "scientificName": "Niltava vivida"
+    },
+    {
+      "chineseName": "豹眼蝶",
+      "scientificName": "Nosea hainanensis"
+    },
+    {
+      "chineseName": "星鸦",
+      "scientificName": "Nucifraga caryocatactes"
+    },
+    {
+      "chineseName": "中杓鹬",
+      "scientificName": "Numenius phaeopus"
+    },
+    {
+      "chineseName": "夜鹭",
+      "scientificName": "Nycticorax nycticorax"
+    },
+    {
+      "chineseName": "黄蹼洋海燕",
+      "scientificName": "Oceanites oceanicus"
+    },
+    {
+      "chineseName": "中华奥锹甲",
+      "scientificName": "Odontolabis sinensis"
+    },
+    {
+      "chineseName": "漠䳭",
+      "scientificName": "Oenanthe deserti"
+    },
+    {
+      "chineseName": "沙䳭",
+      "scientificName": "Oenanthe isabellina"
+    },
+    {
+      "chineseName": "穗䳭",
+      "scientificName": "Oenanthe oenanthe"
+    },
+    {
+      "chineseName": "东方斑䳭",
+      "scientificName": "Oenanthe picata"
+    },
+    {
+      "chineseName": "白顶䳭",
+      "scientificName": "Oenanthe pleschanka"
+    },
+    {
+      "chineseName": "喜山小头蛇",
+      "scientificName": "Oligodon albocinctus"
+    },
+    {
+      "chineseName": "双线小头蛇",
+      "scientificName": "Oligodon bivirgatus"
+    },
+    {
+      "chineseName": "菱斑小头蛇",
+      "scientificName": "Oligodon catenata"
+    },
+    {
+      "chineseName": "中国小头蛇",
+      "scientificName": "Oligodon chinensis"
+    },
+    {
+      "chineseName": "紫棕小头蛇",
+      "scientificName": "Oligodon cinereus"
+    },
+    {
+      "chineseName": "束纹小头蛇",
+      "scientificName": "Oligodon fasciolatus",
+      "note": "原名录中管状小头蛇（Oligodon cyclurus）与其同物异名"
+    },
+    {
+      "chineseName": "台湾小头蛇",
+      "scientificName": "Oligodon formosanus"
+    },
+    {
+      "chineseName": "泰北小头蛇",
+      "scientificName": "Oligodon joynsoni"
+    },
+    {
+      "chineseName": "圆斑小头蛇",
+      "scientificName": "Oligodon lacroixi"
+    },
+    {
+      "chineseName": "墨脱小头蛇",
+      "scientificName": "Oligodon lipipengi"
+    },
+    {
+      "chineseName": "龙胜小头蛇",
+      "scientificName": "Oligodon lungshenensis"
+    },
+    {
+      "chineseName": "黑带小头蛇",
+      "scientificName": "Oligodon melanozonatus"
+    },
+    {
+      "chineseName": "方斑小头蛇",
+      "scientificName": "Oligodon nagao"
+    },
+    {
+      "chineseName": "饰纹小头蛇",
+      "scientificName": "Oligodon ornatus"
+    },
+    {
+      "chineseName": "白腰燕鸥",
+      "scientificName": "Onychoprion aleuticus"
+    },
+    {
+      "chineseName": "褐翅燕鸥",
+      "scientificName": "Onychoprion anaethetus"
+    },
+    {
+      "chineseName": "乌燕鸥",
+      "scientificName": "Onychoprion fuscatus"
+    },
+    {
+      "chineseName": "白腰雪雀",
+      "scientificName": "Onychostruthus taczanowskii"
+    },
+    {
+      "chineseName": "红纹滞卵蛇",
+      "scientificName": "Oocatochus rufodorsatus",
+      "note": "原名红点锦蛇Elaphe rufodorsata"
+    },
+    {
+      "chineseName": "小口拟角蟾",
+      "scientificName": "Ophryophryne microstoma"
+    },
+    {
+      "chineseName": "突肛拟角蟾",
+      "scientificName": "Ophryophryne pachyproctus"
+    },
+    {
+      "chineseName": "香港后棱蛇",
+      "scientificName": "Opisthotropis andersonii"
+    },
+    {
+      "chineseName": "莽山后棱蛇",
+      "scientificName": "Opisthotropis cheni"
+    },
+    {
+      "chineseName": "广西后棱蛇",
+      "scientificName": "Opisthotropis guangxiensis"
+    },
+    {
+      "chineseName": "张氏后棱蛇",
+      "scientificName": "Opisthotropis hungtai"
+    },
+    {
+      "chineseName": "沙坝后棱蛇",
+      "scientificName": "Opisthotropis jacobi"
+    },
+    {
+      "chineseName": "挂墩后棱蛇",
+      "scientificName": "Opisthotropis kuatunensis"
+    },
+    {
+      "chineseName": "侧条后棱蛇",
+      "scientificName": "Opisthotropis lateralis"
+    },
+    {
+      "chineseName": "山溪后棱蛇",
+      "scientificName": "Opisthotropis latouchii"
+    },
+    {
+      "chineseName": "刘氏后棱蛇",
+      "scientificName": "Opisthotropis laui"
+    },
+    {
+      "chineseName": "福建后棱蛇",
+      "scientificName": "Opisthotropis maxwelli"
+    },
+    {
+      "chineseName": "深圳后棱蛇",
+      "scientificName": "Opisthotropis shenzhenensis"
+    },
+    {
+      "chineseName": "赵氏后棱蛇",
+      "scientificName": "Opisthotropis zhaoermii"
+    },
+    {
+      "chineseName": "紫灰锦蛇",
+      "scientificName": "Oreocryptophis porphyraceus",
+      "note": "原拉丁学名Elaphe porphyracea"
+    },
+    {
+      "chineseName": "川北齿蟾",
+      "scientificName": "Oreolalax chuanbeiensis"
+    },
+    {
+      "chineseName": "棘疣齿蟾",
+      "scientificName": "Oreolalax granulosus"
+    },
+    {
+      "chineseName": "景东齿蟾",
+      "scientificName": "Oreolalax jingdongensis"
+    },
+    {
+      "chineseName": "利川齿蟾",
+      "scientificName": "Oreolalax lichuanensis"
+    },
+    {
+      "chineseName": "龙门山齿蟾",
+      "scientificName": "Oreolalax longmenmontis"
+    },
+    {
+      "chineseName": "大齿蟾",
+      "scientificName": "Oreolalax major"
+    },
+    {
+      "chineseName": "点斑齿蟾",
+      "scientificName": "Oreolalax multipunctatus",
+      "note": "原名密点齿蟾"
+    },
+    {
+      "chineseName": "南江齿蟾",
+      "scientificName": "Oreolalax nanjiangensis"
+    },
+    {
+      "chineseName": "峨眉齿蟾",
+      "scientificName": "Oreolalax omeimontis"
+    },
+    {
+      "chineseName": "秉志齿蟾",
+      "scientificName": "Oreolalax pingii"
+    },
+    {
+      "chineseName": "宝兴齿蟾",
+      "scientificName": "Oreolalax popei"
+    },
+    {
+      "chineseName": "普雄齿蟾",
+      "scientificName": "Oreolalax puxiongensis"
+    },
+    {
+      "chineseName": "红点齿蟾",
+      "scientificName": "Oreolalax rhodostigmatus"
+    },
+    {
+      "chineseName": "疣刺齿蟾",
+      "scientificName": "Oreolalax rugosus"
+    },
+    {
+      "chineseName": "无蹼齿蟾",
+      "scientificName": "Oreolalax schrmidti"
+    },
+    {
+      "chineseName": "魏氏齿蟾",
+      "scientificName": "Oreolalax weigoldi",
+      "note": "原名巍氏齿突蟾Scutiger weigoldi"
+    },
+    {
+      "chineseName": "乡城齿蟾",
+      "scientificName": "Oreolalax xiangchengensis"
+    },
+    {
+      "chineseName": "广西瘤䗛",
+      "scientificName": "Orestes guangxiensis",
+      "note": "原拉丁学名Datames guangxiensis"
+    },
+    {
+      "chineseName": "黄脊游蛇",
+      "scientificName": "Orientocoluber spinalis",
+      "note": "原拉丁学名Coluber spinalis"
+    },
+    {
+      "chineseName": "黑枕黄鹂",
+      "scientificName": "Oriolus chinensis"
+    },
+    {
+      "chineseName": "印度金黄鹂",
+      "scientificName": "Oriolus kundoo"
+    },
+    {
+      "chineseName": "金黄鹂",
+      "scientificName": "Oriolus oriolus"
+    },
+    {
+      "chineseName": "细嘴黄鹂",
+      "scientificName": "Oriolus tenuirostris"
+    },
+    {
+      "chineseName": "朱鹂",
+      "scientificName": "Oriolus traillii"
+    },
+    {
+      "chineseName": "黑头黄鹂",
+      "scientificName": "Oriolus xanthornus"
+    },
+    {
+      "chineseName": "黑喉缝叶莺",
+      "scientificName": "Orthotomus atrogularis"
+    },
+    {
+      "chineseName": "长尾缝叶莺",
+      "scientificName": "Orthotomus sutorius"
+    },
+    {
+      "chineseName": "葛蛀犀金龟",
+      "scientificName": "Oryctes gnu"
+    },
+    {
+      "chineseName": "台湾烙铁头蛇",
+      "scientificName": "Ovophis makazayazaya"
+    },
+    {
+      "chineseName": "山烙铁头蛇",
+      "scientificName": "Ovophis monticola"
+    },
+    {
+      "chineseName": "越南烙铁头蛇",
+      "scientificName": "Ovophis tonkinensis"
+    },
+    {
+      "chineseName": "察隅烙铁头蛇",
+      "scientificName": "Ovophis zayuensis"
+    },
+    {
+      "chineseName": "威氏尖鞘叩甲",
+      "scientificName": "Oxynopterus weigeli",
+      "note": "原名录所列大尖鞘叩甲Oxynopterus annamensis与其同物异名"
+    },
+    {
+      "chineseName": "果子狸",
+      "scientificName": "Paguma larvata",
+      "note": "仅限野外种群"
+    },
+    {
+      "chineseName": "文须雀",
+      "scientificName": "Panurus biarmicus"
+    },
+    {
+      "chineseName": "台湾凤蝶",
+      "scientificName": "Papilio thaiwanus"
+    },
+    {
+      "chineseName": "中华近天牛茧蜂",
+      "scientificName": "Parabrulleia shibuensis"
+    },
+    {
+      "chineseName": "斑胸鸦雀",
+      "scientificName": "Paradoxornis flavirostris"
+    },
+    {
+      "chineseName": "点胸鸦雀",
+      "scientificName": "Paradoxornis guttaticollis"
+    },
+    {
+      "chineseName": "四川无肛䗛",
+      "scientificName": "Paraentoria sichuanensis"
+    },
+    {
+      "chineseName": "老挝拟须唇蛇",
+      "scientificName": "Parafimbrios lao"
+    },
+    {
+      "chineseName": "中华仿圆筒䗛",
+      "scientificName": "Paragongylopus sinensis"
+    },
+    {
+      "chineseName": "云南拟红眼蝉",
+      "scientificName": "Paratalainga yunnanensis"
+    },
+    {
+      "chineseName": "黄腹山雀",
+      "scientificName": "Pardaliparus venustulus"
+    },
+    {
+      "chineseName": "克钦钝头蛇",
+      "scientificName": "Pareas andersonii"
+    },
+    {
+      "chineseName": "泰雅钝头蛇",
+      "scientificName": "Pareas atayal"
+    },
+    {
+      "chineseName": "平鳞钝头蛇",
+      "scientificName": "Pareas boulengeri"
+    },
+    {
+      "chineseName": "棱鳞钝头蛇",
+      "scientificName": "Pareas carinatus"
+    },
+    {
+      "chineseName": "中国钝头蛇",
+      "scientificName": "Pareas chinensis",
+      "note": "原名钝头蛇"
+    },
+    {
+      "chineseName": "台湾钝头蛇",
+      "scientificName": "Pareas formosensis"
+    },
+    {
+      "chineseName": "伯仲钝头蛇",
+      "scientificName": "Pareas geminatus"
+    },
+    {
+      "chineseName": "缅甸钝头蛇",
+      "scientificName": "Pareas hamptoni"
+    },
+    {
+      "chineseName": "阿里山钝头蛇",
+      "scientificName": "Pareas komaii"
+    },
+    {
+      "chineseName": "横斑钝头蛇",
+      "scientificName": "Pareas macularius"
+    },
+    {
+      "chineseName": "横纹钝头蛇",
+      "scientificName": "Pareas margaritophorus"
+    },
+    {
+      "chineseName": "勐腊钝头蛇",
+      "scientificName": "Pareas menglaensis"
+    },
+    {
+      "chineseName": "蒙自钝头蛇",
+      "scientificName": "Pareas mengziensis"
+    },
+    {
+      "chineseName": "喜山钝头蛇",
+      "scientificName": "Pareas monticola"
+    },
+    {
+      "chineseName": "昆明钝头蛇",
+      "scientificName": "Pareas niger"
+    },
+    {
+      "chineseName": "黑顶钝头蛇",
+      "scientificName": "Pareas nigriceps"
+    },
+    {
+      "chineseName": "福建钝头蛇",
+      "scientificName": "Pareas stanleyi"
+    },
+    {
+      "chineseName": "贡山钝头蛇",
+      "scientificName": "Pareas vindumi"
+    },
+    {
+      "chineseName": "雪林钝头蛇",
+      "scientificName": "Pareas xuelinensis"
+    },
+    {
+      "chineseName": "云南钝头蛇",
+      "scientificName": "Pareas yunnanensis"
+    },
+    {
+      "chineseName": "红珠绢蝶",
+      "scientificName": "Parnassius bremeri"
+    },
+    {
+      "chineseName": "小红珠绢蝶",
+      "scientificName": "Parnassius nomion"
+    },
+    {
+      "chineseName": "大山雀",
+      "scientificName": "Parus cinereus"
+    },
+    {
+      "chineseName": "欧亚大山雀",
+      "scientificName": "Parus major",
+      "note": "原名西域山雀Parus bokharensis"
+    },
+    {
+      "chineseName": "绿背山雀",
+      "scientificName": "Parus monticolus"
+    },
+    {
+      "chineseName": "黑顶麻雀",
+      "scientificName": "Passer ammodendri"
+    },
+    {
+      "chineseName": "山麻雀",
+      "scientificName": "Passer cinnamomeus"
+    },
+    {
+      "chineseName": "家麻雀",
+      "scientificName": "Passer domesticus"
+    },
+    {
+      "chineseName": "黑胸麻雀",
+      "scientificName": "Passer hispaniolensis"
+    },
+    {
+      "chineseName": "麻雀",
+      "scientificName": "Passer montanus"
+    },
+    {
+      "chineseName": "粉红椋鸟",
+      "scientificName": "Pastor roseus"
+    },
+    {
+      "chineseName": "木棉梳角叩甲",
+      "scientificName": "Pectocera fortunei"
+    },
+    {
+      "chineseName": "白腹幽鹛",
+      "scientificName": "Pellorneum albiventre"
+    },
+    {
+      "chineseName": "棕头幽鹛",
+      "scientificName": "Pellorneum ruficeps"
+    },
+    {
+      "chineseName": "斑翅山鹑",
+      "scientificName": "Perdix dauurica"
+    },
+    {
+      "chineseName": "高原山鹑",
+      "scientificName": "Perdix hodgsoniae"
+    },
+    {
+      "chineseName": "灰山鹑",
+      "scientificName": "Perdix perdix"
+    },
+    {
+      "chineseName": "短嘴山椒鸟",
+      "scientificName": "Pericrocotus brevirostris"
+    },
+    {
+      "chineseName": "小灰山椒鸟",
+      "scientificName": "Pericrocotus cantonensis"
+    },
+    {
+      "chineseName": "灰山椒鸟",
+      "scientificName": "Pericrocotus divaricatus"
+    },
+    {
+      "chineseName": "长尾山椒鸟",
+      "scientificName": "Pericrocotus ethologus"
+    },
+    {
+      "chineseName": "赤红山椒鸟",
+      "scientificName": "Pericrocotus flammeus"
+    },
+    {
+      "chineseName": "粉红山椒鸟",
+      "scientificName": "Pericrocotus roseus"
+    },
+    {
+      "chineseName": "灰喉山椒鸟",
+      "scientificName": "Pericrocotus solaris"
+    },
+    {
+      "chineseName": "琉球山椒鸟",
+      "scientificName": "Pericrocotus tegimae"
+    },
+    {
+      "chineseName": "煤山雀",
+      "scientificName": "Periparus ater"
+    },
+    {
+      "chineseName": "黑冠山雀",
+      "scientificName": "Periparus rubidiventris"
+    },
+    {
+      "chineseName": "棕枕山雀",
+      "scientificName": "Periparus rufonuchalis"
+    },
+    {
+      "chineseName": "北噪鸦",
+      "scientificName": "Perisoreus infaustus"
+    },
+    {
+      "chineseName": "史氏皮𧐐",
+      "scientificName": "Perlomyia smithae",
+      "note": "原名史氏长卷襀Perlomyer smithae"
+    },
+    {
+      "chineseName": "红白鼯鼠",
+      "scientificName": "Petaurista alborufus"
+    },
+    {
+      "chineseName": "灰头小鼯鼠",
+      "scientificName": "Petaurista caniceps"
+    },
+    {
+      "chineseName": "海南大鼯鼠",
+      "scientificName": "Petaurista hainana",
+      "note": "原名海南鼯鼠"
+    },
+    {
+      "chineseName": "白颊鼯鼠",
+      "scientificName": "Petaurista leucogenys（Petaurista watasei）"
+    },
+    {
+      "chineseName": "栗褐鼯鼠",
+      "scientificName": "Petaurista magnificus"
+    },
+    {
+      "chineseName": "白斑小鼯鼠",
+      "scientificName": "Petaurista marica",
+      "note": "原名白斑鼯鼠，原名录中小鼯鼠与其同物异名"
+    },
+    {
+      "chineseName": "红背鼯鼠",
+      "scientificName": "Petaurista petaurista",
+      "note": "原名棕鼯鼠"
+    },
+    {
+      "chineseName": "霜背大鼯鼠",
+      "scientificName": "Petaurista philippensis",
+      "note": "原名灰背大鼯鼠,与台湾大鼯鼠同物异名"
+    },
+    {
+      "chineseName": "橙色小鼯鼠",
+      "scientificName": "Petaurista sybilla"
+    },
+    {
+      "chineseName": "灰鼯鼠",
+      "scientificName": "Petaurista xanthotis"
+    },
+    {
+      "chineseName": "云南大鼯鼠",
+      "scientificName": "Petaurista yunamensis",
+      "note": "原名云南鼯鼠"
+    },
+    {
+      "chineseName": "石雀",
+      "scientificName": "Petronia petronia"
+    },
+    {
+      "chineseName": "绿嘴地鹃",
+      "scientificName": "Phaenicophaeus tristis"
+    },
+    {
+      "chineseName": "白尾鹲",
+      "scientificName": "Phaethon lepturus"
+    },
+    {
+      "chineseName": "红尾鹲",
+      "scientificName": "Phaethon rubricauda"
+    },
+    {
+      "chineseName": "绿背鸬鹚",
+      "scientificName": "Phalacrocorax capillatus",
+      "note": "原名暗绿背鸬鹚"
+    },
+    {
+      "chineseName": "普通鸬鹚",
+      "scientificName": "Phalacrocorax carbo"
+    },
+    {
+      "chineseName": "红脸鸬鹚",
+      "scientificName": "Phalacrocorax urile"
+    },
+    {
+      "chineseName": "灰瓣蹼鹬",
+      "scientificName": "Phalaropus fulicarius"
+    },
+    {
+      "chineseName": "红颈瓣蹼鹬",
+      "scientificName": "Phalaropus lobatus"
+    },
+    {
+      "chineseName": "环颈雉",
+      "scientificName": "Phasianus colchicus",
+      "note": "原名雉鸡；仅限野外种群"
+    },
+    {
+      "chineseName": "通俗腔蚓",
+      "scientificName": "Pheretima vulgaris"
+    },
+    {
+      "chineseName": "肯氏小树蛙",
+      "scientificName": "Philautus kempii"
+    },
+    {
+      "chineseName": "黑背信天翁",
+      "scientificName": "Phoebastria immutabilis"
+    },
+    {
+      "chineseName": "大红鹳",
+      "scientificName": "Phoenicopterus roseus"
+    },
+    {
+      "chineseName": "蓝头红尾鸲",
+      "scientificName": "Phoenicuropsis coeruleocephala"
+    },
+    {
+      "chineseName": "红背红尾鸲",
+      "scientificName": "Phoenicuropsis erythronotus"
+    },
+    {
+      "chineseName": "蓝额红尾鸲",
+      "scientificName": "Phoenicuropsis frontalis"
+    },
+    {
+      "chineseName": "白喉红尾鸲",
+      "scientificName": "Phoenicuropsis schisticeps"
+    },
+    {
+      "chineseName": "北红尾鸲",
+      "scientificName": "Phoenicurus auroreus"
+    },
+    {
+      "chineseName": "红腹红尾鸲",
+      "scientificName": "Phoenicurus erythrogastrus"
+    },
+    {
+      "chineseName": "黑喉红尾鸲",
+      "scientificName": "Phoenicurus hodgsoni"
+    },
+    {
+      "chineseName": "赭红尾鸲",
+      "scientificName": "Phoenicurus ochruros"
+    },
+    {
+      "chineseName": "欧亚红尾鸲",
+      "scientificName": "Phoenicurus phoenicurus"
+    },
+    {
+      "chineseName": "中华石蛾",
+      "scientificName": "Phryganea sinensis"
+    },
+    {
+      "chineseName": "伊犁沙蜥",
+      "scientificName": "Phrynocephalus alpherakii"
+    },
+    {
+      "chineseName": "叶城沙蜥",
+      "scientificName": "Phrynocephalus axillaris",
+      "note": "原名录中白梢沙蜥（Phrynocephalus koslowi）、库车沙蜥（Phrynocephalus ludovici）与其同物异名"
+    },
+    {
+      "chineseName": "红尾沙蜥",
+      "scientificName": "Phrynocephalus erythrurus"
+    },
+    {
+      "chineseName": "南疆沙蜥",
+      "scientificName": "Phrynocephalus forsythii"
+    },
+    {
+      "chineseName": "旱地沙蜥",
+      "scientificName": "Phrynocephalus helioscopus"
+    },
+    {
+      "chineseName": "黑腹沙蜥",
+      "scientificName": "Phrynocephalus melanurus",
+      "note": "原名录中白条沙蜥（Phrynocephalus albolineatus）与其同物异名"
+    },
+    {
+      "chineseName": "荒漠沙蜥",
+      "scientificName": "Phrynocephalus przewalskii",
+      "note": "原名录中草原沙蜥（Phrynocephalus frontalis）与其同物异名"
+    },
+    {
+      "chineseName": "贵德沙蜥",
+      "scientificName": "Phrynocephalus putjatai"
+    },
+    {
+      "chineseName": "西藏沙蜥",
+      "scientificName": "Phrynocephalus theobaldi",
+      "note": "原名录中泽当沙蜥（Phrynocephalus zetangensis）与其同物异名"
+    },
+    {
+      "chineseName": "变色沙蜥",
+      "scientificName": "Phrynocephalus versicolor",
+      "note": "原名录中的居延沙蜥（Phrynocephalus guentheri）、无斑沙蜥（Phrynocephalus immaculatus）与其同物异名"
+    },
+    {
+      "chineseName": "青海沙蜥",
+      "scientificName": "Phrynocephalus vlangalii",
+      "note": "原名录中的红原沙蜥（Phrynocephalus hongyuanensis）与其同物异名"
+    },
+    {
+      "chineseName": "栗头织叶莺",
+      "scientificName": "Phyllergates cucullatus"
+    },
+    {
+      "chineseName": "黄腹柳莺",
+      "scientificName": "Phylloscopus affinis"
+    },
+    {
+      "chineseName": "棕眉柳莺",
+      "scientificName": "Phylloscopus armandii"
+    },
+    {
+      "chineseName": "极北柳莺",
+      "scientificName": "Phylloscopus borealis"
+    },
+    {
+      "chineseName": "萨岛柳莺",
+      "scientificName": "Phylloscopus borealoides"
+    },
+    {
+      "chineseName": "灰岩柳莺",
+      "scientificName": "Phylloscopus calciatilis"
+    },
+    {
+      "chineseName": "黄胸柳莺",
+      "scientificName": "Phylloscopus cantator"
+    },
+    {
+      "chineseName": "淡黄腰柳莺",
+      "scientificName": "Phylloscopus chloronotus"
+    },
+    {
+      "chineseName": "冠纹柳莺",
+      "scientificName": "Phylloscopus claudiae"
+    },
+    {
+      "chineseName": "叽喳柳莺",
+      "scientificName": "Phylloscopus collybita"
+    },
+    {
+      "chineseName": "冕柳莺",
+      "scientificName": "Phylloscopus coronatus"
+    },
+    {
+      "chineseName": "云南白斑尾柳莺",
+      "scientificName": "Phylloscopus davisoni"
+    },
+    {
+      "chineseName": "峨眉柳莺",
+      "scientificName": "Phylloscopus emeiensis"
+    },
+    {
+      "chineseName": "四川柳莺",
+      "scientificName": "Phylloscopus forresti"
+    },
+    {
+      "chineseName": "烟柳莺",
+      "scientificName": "Phylloscopus fuligiventer"
+    },
+    {
+      "chineseName": "褐柳莺",
+      "scientificName": "Phylloscopus fuscatus"
+    },
+    {
+      "chineseName": "华南冠纹柳莺",
+      "scientificName": "Phylloscopus goodsoni"
+    },
+    {
+      "chineseName": "灰柳莺",
+      "scientificName": "Phylloscopus griseolus"
+    },
+    {
+      "chineseName": "海南柳莺",
+      "scientificName": "Phylloscopus hainanus"
+    },
+    {
+      "chineseName": "淡眉柳莺",
+      "scientificName": "Phylloscopus humei"
+    },
+    {
+      "chineseName": "日本冕柳莺",
+      "scientificName": "Phylloscopus ijimae"
+    },
+    {
+      "chineseName": "黄眉柳莺",
+      "scientificName": "Phylloscopus inornatus"
+    },
+    {
+      "chineseName": "甘肃柳莺",
+      "scientificName": "Phylloscopus kansuensis"
+    },
+    {
+      "chineseName": "灰喉柳莺",
+      "scientificName": "Phylloscopus maculipennis"
+    },
+    {
+      "chineseName": "乌嘴柳莺",
+      "scientificName": "Phylloscopus magnirostris"
+    },
+    {
+      "chineseName": "华西柳莺",
+      "scientificName": "Phylloscopus occisinensis"
+    },
+    {
+      "chineseName": "白斑尾柳莺",
+      "scientificName": "Phylloscopus ogilviegranti"
+    },
+    {
+      "chineseName": "双斑绿柳莺",
+      "scientificName": "Phylloscopus plumbeitarsus"
+    },
+    {
+      "chineseName": "黄腰柳莺",
+      "scientificName": "Phylloscopus proregulus"
+    },
+    {
+      "chineseName": "橙斑翅柳莺",
+      "scientificName": "Phylloscopus pulcher"
+    },
+    {
+      "chineseName": "西南冠纹柳莺",
+      "scientificName": "Phylloscopus reguloides"
+    },
+    {
+      "chineseName": "黑眉柳莺",
+      "scientificName": "Phylloscopus ricketti"
+    },
+    {
+      "chineseName": "巨嘴柳莺",
+      "scientificName": "Phylloscopus schwarzi"
+    },
+    {
+      "chineseName": "林柳莺",
+      "scientificName": "Phylloscopus sibilatrix"
+    },
+    {
+      "chineseName": "中亚叽喳柳莺",
+      "scientificName": "Phylloscopus sindianus"
+    },
+    {
+      "chineseName": "棕腹柳莺",
+      "scientificName": "Phylloscopus subaffinis"
+    },
+    {
+      "chineseName": "淡脚柳莺",
+      "scientificName": "Phylloscopus tenellipes"
+    },
+    {
+      "chineseName": "暗绿柳莺",
+      "scientificName": "Phylloscopus trochiloides"
+    },
+    {
+      "chineseName": "欧柳莺",
+      "scientificName": "Phylloscopus trochilus"
+    },
+    {
+      "chineseName": "日本柳莺",
+      "scientificName": "Phylloscopus xanthodryas"
+    },
+    {
+      "chineseName": "灰头柳莺",
+      "scientificName": "Phylloscopus xanthoschistos"
+    },
+    {
+      "chineseName": "云南柳莺",
+      "scientificName": "Phylloscopus yunnanensis"
+    },
+    {
+      "chineseName": "喜鹊",
+      "scientificName": "Pica pica"
+    },
+    {
+      "chineseName": "斑姬啄木鸟",
+      "scientificName": "Picumnus innominatus"
+    },
+    {
+      "chineseName": "灰头绿啄木鸟",
+      "scientificName": "Picus canus"
+    },
+    {
+      "chineseName": "鳞腹绿啄木鸟",
+      "scientificName": "Picus squamatus"
+    },
+    {
+      "chineseName": "花腹绿啄木鸟",
+      "scientificName": "Picus vittatus"
+    },
+    {
+      "chineseName": "纹喉绿啄木鸟",
+      "scientificName": "Picus xanthopygaeus",
+      "note": "原名鳞喉绿啄木鸟"
+    },
+    {
+      "chineseName": "松雀",
+      "scientificName": "Pinicola enucleator"
+    },
+    {
+      "chineseName": "颈斑蛇",
+      "scientificName": "Plagiopholis blakewayi",
+      "note": "原名录中昆明小头蛇（Oligodon kunmingensis）、云南颈斑蛇（Plagiopholis unipostocularis）与其同物异名"
+    },
+    {
+      "chineseName": "缅甸颈斑蛇",
+      "scientificName": "Plagiopholis nuchalis"
+    },
+    {
+      "chineseName": "福建颈斑蛇",
+      "scientificName": "Plagiopholis styani"
+    },
+    {
+      "chineseName": "雪鹀",
+      "scientificName": "Plectrophenax nivalis"
+    },
+    {
+      "chineseName": "黄纹石龙子",
+      "scientificName": "Plestiodon capito",
+      "note": "原拉丁学名Eumeces capito"
+    },
+    {
+      "chineseName": "中国石龙子",
+      "scientificName": "Plestiodon chinensis",
+      "note": "原拉丁学名Eumeces chinensis"
+    },
+    {
+      "chineseName": "蓝尾石龙子",
+      "scientificName": "Plestiodon elegans",
+      "note": "原拉丁学名Eumeces elegans"
+    },
+    {
+      "chineseName": "白斑石龙子",
+      "scientificName": "Plestiodon leucostictus"
+    },
+    {
+      "chineseName": "刘氏石龙子",
+      "scientificName": "Plestiodon liui",
+      "note": "原拉丁学名Eumeces liui"
+    },
+    {
+      "chineseName": "崇安石龙子",
+      "scientificName": "Plestiodon popei",
+      "note": "原拉丁学名Eumeces popei"
+    },
+    {
+      "chineseName": "四线石龙子",
+      "scientificName": "Plestiodon quadrilineatus",
+      "note": "原拉丁学名Eumeces quadrilineatus"
+    },
+    {
+      "chineseName": "钓鱼岛石龙子",
+      "scientificName": "Plestiodon takarai"
+    },
+    {
+      "chineseName": "越南石龙子",
+      "scientificName": "Plestiodon tamdaoensis"
+    },
+    {
+      "chineseName": "大渡石龙子",
+      "scientificName": "Plestiodon tunganus",
+      "note": "原拉丁学名Eumeces tunganus"
+    },
+    {
+      "chineseName": "纹胸织雀",
+      "scientificName": "Ploceus manyar"
+    },
+    {
+      "chineseName": "黄胸织雀",
+      "scientificName": "Ploceus philippinus"
+    },
+    {
+      "chineseName": "金鸻",
+      "scientificName": "Pluvialis fulva",
+      "note": "原名金斑鸻"
+    },
+    {
+      "chineseName": "灰鸻",
+      "scientificName": "Pluvialis squatarola",
+      "note": "原名灰斑鸻"
+    },
+    {
+      "chineseName": "鳞胸鹪鹛",
+      "scientificName": "Pnoepyga albiventer"
+    },
+    {
+      "chineseName": "台湾鹪鹛",
+      "scientificName": "Pnoepyga formosana"
+    },
+    {
+      "chineseName": "尼泊尔鹪鹛",
+      "scientificName": "Pnoepyga immaculata"
+    },
+    {
+      "chineseName": "小鳞胸鹪鹛",
+      "scientificName": "Pnoepyga pusilla"
+    },
+    {
+      "chineseName": "凤头䴙䴘",
+      "scientificName": "Podiceps cristatus"
+    },
+    {
+      "chineseName": "褐头山雀",
+      "scientificName": "Poecile montanus"
+    },
+    {
+      "chineseName": "沼泽山雀",
+      "scientificName": "Poecile palustris"
+    },
+    {
+      "chineseName": "四川褐头山雀",
+      "scientificName": "Poecile weigoldicus"
+    },
+    {
+      "chineseName": "山字宽盾蝽",
+      "scientificName": "Poecilocoris sanszesingatus"
+    },
+    {
+      "chineseName": "布氏泛树蛙",
+      "scientificName": "Polypedates braueri"
+    },
+    {
+      "chineseName": "凹顶泛树蛙",
+      "scientificName": "Polypedates impresus"
+    },
+    {
+      "chineseName": "斑腿泛树蛙",
+      "scientificName": "Polypedates megacephalus"
+    },
+    {
+      "chineseName": "无声囊泛树蛙",
+      "scientificName": "Polypedates mutus"
+    },
+    {
+      "chineseName": "小绒鸭",
+      "scientificName": "Polysticta stelleri"
+    },
+    {
+      "chineseName": "红嘴钩嘴鹛",
+      "scientificName": "Pomatorhinus ferruginosus"
+    },
+    {
+      "chineseName": "台湾棕颈钩嘴鹛",
+      "scientificName": "Pomatorhinus musicus"
+    },
+    {
+      "chineseName": "棕头钩嘴鹛",
+      "scientificName": "Pomatorhinus ochraceiceps"
+    },
+    {
+      "chineseName": "棕颈钩嘴鹛",
+      "scientificName": "Pomatorhinus ruficollis"
+    },
+    {
+      "chineseName": "灰头钩嘴鹛",
+      "scientificName": "Pomatorhinus schisticeps"
+    },
+    {
+      "chineseName": "细嘴钩嘴鹛",
+      "scientificName": "Pomatorhinus superciliaris",
+      "note": "原名剑嘴鹛 Xiphirhynchus superciliaris"
+    },
+    {
+      "chineseName": "斑胸田鸡",
+      "scientificName": "Porzana porzana"
+    },
+    {
+      "chineseName": "李氏小飞鼠",
+      "scientificName": "Priapomys leonardi"
+    },
+    {
+      "chineseName": "黑喉山鹪莺",
+      "scientificName": "Prinia atrogularis"
+    },
+    {
+      "chineseName": "山鹪莺",
+      "scientificName": "Prinia crinigera"
+    },
+    {
+      "chineseName": "黄腹山鹪莺",
+      "scientificName": "Prinia flaviventris"
+    },
+    {
+      "chineseName": "灰胸山鹪莺",
+      "scientificName": "Prinia hodgsonii"
+    },
+    {
+      "chineseName": "纯色山鹪莺",
+      "scientificName": "Prinia inornata"
+    },
+    {
+      "chineseName": "褐山鹪莺",
+      "scientificName": "Prinia polychroa"
+    },
+    {
+      "chineseName": "暗冕山鹪莺",
+      "scientificName": "Prinia rufescens"
+    },
+    {
+      "chineseName": "暗胸朱雀",
+      "scientificName": "Procarduelis nipalensis"
+    },
+    {
+      "chineseName": "大别山原矛头蝮",
+      "scientificName": "Protobothrops dabieshanensis"
+    },
+    {
+      "chineseName": "喜山原矛头蝮",
+      "scientificName": "Protobothrops himalayanus"
+    },
+    {
+      "chineseName": "菜花原矛头蝮",
+      "scientificName": "Protobothrops jerdonii"
+    },
+    {
+      "chineseName": "缅北原矛头蝮",
+      "scientificName": "Protobothrops kaulbacki"
+    },
+    {
+      "chineseName": "茂兰原矛头蝮",
+      "scientificName": "Protobothrops maolanensis"
+    },
+    {
+      "chineseName": "原矛头蝮",
+      "scientificName": "Protobothrops mucrosquamatus"
+    },
+    {
+      "chineseName": "越北原矛头蝮",
+      "scientificName": "Protobothrops trungkhanhensis"
+    },
+    {
+      "chineseName": "乡城原矛头蝮",
+      "scientificName": "Protobothrops xiangchengensis"
+    },
+    {
+      "chineseName": "黑喉岩鹨",
+      "scientificName": "Prunella atrogularis"
+    },
+    {
+      "chineseName": "领岩鹨",
+      "scientificName": "Prunella collaris"
+    },
+    {
+      "chineseName": "褐岩鹨",
+      "scientificName": "Prunella fulvescens"
+    },
+    {
+      "chineseName": "高原岩鹨",
+      "scientificName": "Prunella himalayana"
+    },
+    {
+      "chineseName": "栗背岩鹨",
+      "scientificName": "Prunella immaculata"
+    },
+    {
+      "chineseName": "棕眉山岩鹨",
+      "scientificName": "Prunella montanella"
+    },
+    {
+      "chineseName": "鸲岩鹨",
+      "scientificName": "Prunella rubeculoides"
+    },
+    {
+      "chineseName": "棕胸岩鹨",
+      "scientificName": "Prunella strophiata"
+    },
+    {
+      "chineseName": "紫沙蛇",
+      "scientificName": "Psammodynastes pulverulentus"
+    },
+    {
+      "chineseName": "花条蛇",
+      "scientificName": "Psammophis lineolatus"
+    },
+    {
+      "chineseName": "吐鲁番花条蛇",
+      "scientificName": "Psammophis turpanensis"
+    },
+    {
+      "chineseName": "颈棱蛇",
+      "scientificName": "Pseudoagkistrodon rudis",
+      "note": "原拉丁学名Macropisthodon rudis"
+    },
+    {
+      "chineseName": "混鳞蜥",
+      "scientificName": "Pseudocalotes austeniana"
+    },
+    {
+      "chineseName": "短肢拟树蜥",
+      "scientificName": "Pseudocalotes brevipes",
+      "note": "原名短肢树蜥Calotes brevipes"
+    },
+    {
+      "chineseName": "蚌西拟树蜥",
+      "scientificName": "Pseudocalotes kakhienensis",
+      "note": "原名蚌西树蜥Calotes kakhienensis"
+    },
+    {
+      "chineseName": "西藏拟树蜥",
+      "scientificName": "Pseudocalotes kingdonwardi",
+      "note": "原名西藏树蜥Calotes kingdonwardi"
+    },
+    {
+      "chineseName": "细鳞拟树蜥",
+      "scientificName": "Pseudocalotes microlepis",
+      "note": "原名细鳞树蜥Calotes microlepis"
+    },
+    {
+      "chineseName": "地山雀",
+      "scientificName": "Pseudopodoces humilis"
+    },
+    {
+      "chineseName": "横纹斜鳞蛇",
+      "scientificName": "Pseudoxenodon bambusicola"
+    },
+    {
+      "chineseName": "崇安斜鳞蛇",
+      "scientificName": "Pseudoxenodon karlschmidti"
+    },
+    {
+      "chineseName": "大眼斜鳞蛇",
+      "scientificName": "Pseudoxenodon macrops",
+      "note": "原名斜鳞蛇"
+    },
+    {
+      "chineseName": "纹尾斜鳞蛇",
+      "scientificName": "Pseudoxenodon stejnegeri",
+      "note": "原名花尾斜鳞蛇"
+    },
+    {
+      "chineseName": "蓝喉拟啄木鸟",
+      "scientificName": "Psilopogon asiaticus"
+    },
+    {
+      "chineseName": "蓝耳拟啄木鸟",
+      "scientificName": "Psilopogon australis"
+    },
+    {
+      "chineseName": "黑眉拟啄木鸟",
+      "scientificName": "Psilopogon faber"
+    },
+    {
+      "chineseName": "黄纹拟啄木鸟",
+      "scientificName": "Psilopogon faiostrictus"
+    },
+    {
+      "chineseName": "金喉拟啄木鸟",
+      "scientificName": "Psilopogon franklinii"
+    },
+    {
+      "chineseName": "赤胸拟啄木鸟",
+      "scientificName": "Psilopogon haemacephalus"
+    },
+    {
+      "chineseName": "绿拟啄木鸟",
+      "scientificName": "Psilopogon lineatus"
+    },
+    {
+      "chineseName": "台湾拟啄木鸟",
+      "scientificName": "Psilopogon nuchalis"
+    },
+    {
+      "chineseName": "大拟啄木鸟",
+      "scientificName": "Psilopogon virens"
+    },
+    {
+      "chineseName": "灰头鸦雀",
+      "scientificName": "Psittiparus gularis"
+    },
+    {
+      "chineseName": "白胸鸦雀",
+      "scientificName": "Psittiparus ruficeps"
+    },
+    {
+      "chineseName": "白额圆尾鹱",
+      "scientificName": "Pterodroma hypoleuca"
+    },
+    {
+      "chineseName": "小飞鼠",
+      "scientificName": "Pteromys volans",
+      "note": "原名飞鼠"
+    },
+    {
+      "chineseName": "米埔萤",
+      "scientificName": "Pteroptyx maipo"
+    },
+    {
+      "chineseName": "红翅鵙鹛",
+      "scientificName": "Pteruthius aeralatus"
+    },
+    {
+      "chineseName": "栗额鵙鹛",
+      "scientificName": "Pteruthius intermedius"
+    },
+    {
+      "chineseName": "栗喉鵙鹛",
+      "scientificName": "Pteruthius melanotis"
+    },
+    {
+      "chineseName": "棕腹鵙鹛",
+      "scientificName": "Pteruthius rufiventer"
+    },
+    {
+      "chineseName": "淡绿鵙鹛",
+      "scientificName": "Pteruthius xanthochlorus"
+    },
+    {
+      "chineseName": "乌梢蛇",
+      "scientificName": "Ptyas dhumnades",
+      "note": "原拉丁学名Zaocys dhumnades"
+    },
+    {
+      "chineseName": "纯绿翠青蛇",
+      "scientificName": "Ptyas doriae",
+      "note": "原拉丁学名Cyclophiops doriae"
+    },
+    {
+      "chineseName": "灰鼠蛇",
+      "scientificName": "Ptyas korros",
+      "note": "仅限野外种群"
+    },
+    {
+      "chineseName": "翠青蛇",
+      "scientificName": "Ptyas major",
+      "note": "原拉丁学名Cyclophiops major"
+    },
+    {
+      "chineseName": "滑鼠蛇",
+      "scientificName": "Ptyas mucosa",
+      "note": "仅限野外种群"
+    },
+    {
+      "chineseName": "横纹翠青蛇",
+      "scientificName": "Ptyas multicincta",
+      "note": "原拉丁学名Cyclophiops multicinctus"
+    },
+    {
+      "chineseName": "黑线乌梢蛇",
+      "scientificName": "Ptyas nigromarginata",
+      "note": "原拉丁学名Zaocys nigromarginatus"
+    },
+    {
+      "chineseName": "喉褶蜥",
+      "scientificName": "Ptyctolaemus gularis"
+    },
+    {
+      "chineseName": "纯色岩燕",
+      "scientificName": "Ptyonoprogne concolor"
+    },
+    {
+      "chineseName": "岩燕",
+      "scientificName": "Ptyonoprogne rupestris"
+    },
+    {
+      "chineseName": "白喉红臀鹎",
+      "scientificName": "Pycnonotus aurigaster"
+    },
+    {
+      "chineseName": "黑喉红臀鹎",
+      "scientificName": "Pycnonotus cafer"
+    },
+    {
+      "chineseName": "纹喉鹎",
+      "scientificName": "Pycnonotus finlaysoni"
+    },
+    {
+      "chineseName": "黄绿鹎",
+      "scientificName": "Pycnonotus flavescens"
+    },
+    {
+      "chineseName": "红耳鹎",
+      "scientificName": "Pycnonotus jocosus"
+    },
+    {
+      "chineseName": "白颊鹎",
+      "scientificName": "Pycnonotus leucogenis"
+    },
+    {
+      "chineseName": "黑顶黄鹎",
+      "scientificName": "Pycnonotus melanicterus"
+    },
+    {
+      "chineseName": "白头鹎",
+      "scientificName": "Pycnonotus sinensis"
+    },
+    {
+      "chineseName": "纵纹绿鹎",
+      "scientificName": "Pycnonotus striatus"
+    },
+    {
+      "chineseName": "黄臀鹎",
+      "scientificName": "Pycnonotus xanthorrhous"
+    },
+    {
+      "chineseName": "穹宇萤",
+      "scientificName": "Pygoluciola qingyu"
+    },
+    {
+      "chineseName": "棕背雪雀",
+      "scientificName": "Pyrgilauda blanfordi"
+    },
+    {
+      "chineseName": "黑喉雪雀",
+      "scientificName": "Pyrgilauda davidiana"
+    },
+    {
+      "chineseName": "棕颈雪雀",
+      "scientificName": "Pyrgilauda ruficollis"
+    },
+    {
+      "chineseName": "胸窗萤",
+      "scientificName": "Pyrocoelia pectoralis"
+    },
+    {
+      "chineseName": "黄嘴山鸦",
+      "scientificName": "Pyrrhocorax graculus"
+    },
+    {
+      "chineseName": "红嘴山鸦",
+      "scientificName": "Pyrrhocorax pyrrhocorax"
+    },
+    {
+      "chineseName": "金枕黑雀",
+      "scientificName": "Pyrrhoplectes epauletta"
+    },
+    {
+      "chineseName": "灰头灰雀",
+      "scientificName": "Pyrrhula erythaca"
+    },
+    {
+      "chineseName": "红头灰雀",
+      "scientificName": "Pyrrhula erythrocephala"
+    },
+    {
+      "chineseName": "褐灰雀",
+      "scientificName": "Pyrrhula nipalensis"
+    },
+    {
+      "chineseName": "红腹灰雀",
+      "scientificName": "Pyrrhula pyrrhula",
+      "note": "原名录的灰腹灰雀（Pyrrhula griseiventris）与其并为同一种"
+    },
+    {
+      "chineseName": "白喉斑秧鸡",
+      "scientificName": "Rallina eurizonoides"
+    },
+    {
+      "chineseName": "红脚斑秧鸡",
+      "scientificName": "Rallina fasciata"
+    },
+    {
+      "chineseName": "西秧鸡",
+      "scientificName": "Rallus aquaticus",
+      "note": "原名普通秧鸡"
+    },
+    {
+      "chineseName": "普通秧鸡",
+      "scientificName": "Rallus indicus"
+    },
+    {
+      "chineseName": "疣灌树蛙",
+      "scientificName": "Raorchestes andersoni",
+      "note": "原安氏小树蛙Philautus andersoni"
+    },
+    {
+      "chineseName": "沧源灌树蛙",
+      "scientificName": "Raorchestes cangyuanensis"
+    },
+    {
+      "chineseName": "勐海灌树蛙",
+      "scientificName": "Raorchestes hillisi"
+    },
+    {
+      "chineseName": "黄连山灌树蛙",
+      "scientificName": "Raorchestes huanglianshan"
+    },
+    {
+      "chineseName": "陇川灌树蛙",
+      "scientificName": "Raorchestes longchuanensis",
+      "note": "原名陇川小树蛙Philautus longchuanensis"
+    },
+    {
+      "chineseName": "勐腊灌树蛙",
+      "scientificName": "Raorchestes menglaensis",
+      "note": "原名勐腊小树蛙Philautus menglaensis"
+    },
+    {
+      "chineseName": "侏灌树蛙",
+      "scientificName": "Raorchestes parvulus"
+    },
+    {
+      "chineseName": "反嘴鹬",
+      "scientificName": "Recurvirostra avosetta"
+    },
+    {
+      "chineseName": "台湾戴菊",
+      "scientificName": "Regulus goodfellowi"
+    },
+    {
+      "chineseName": "戴菊",
+      "scientificName": "Regulus regulus"
+    },
+    {
+      "chineseName": "中华攀雀",
+      "scientificName": "Remiz consobrinus",
+      "note": "原名攀雀 Remiz pendulinus"
+    },
+    {
+      "chineseName": "白冠攀雀",
+      "scientificName": "Remiz coronatus"
+    },
+    {
+      "chineseName": "黑头攀雀",
+      "scientificName": "Remiz macronyx"
+    },
+    {
+      "chineseName": "海南颈槽蛇",
+      "scientificName": "Rhabdophis adleri"
+    },
+    {
+      "chineseName": "螭吻颈槽蛇",
+      "scientificName": "Rhabdophis chiwen"
+    },
+    {
+      "chineseName": "拟红脖颈槽蛇",
+      "scientificName": "Rhabdophis confusus"
+    },
+    {
+      "chineseName": "广东颈槽蛇",
+      "scientificName": "Rhabdophis guangdongensis"
+    },
+    {
+      "chineseName": "北方颈槽蛇",
+      "scientificName": "Rhabdophis helleri"
+    },
+    {
+      "chineseName": "喜山颈槽蛇",
+      "scientificName": "Rhabdophis himalayanus"
+    },
+    {
+      "chineseName": "缅甸颈槽蛇",
+      "scientificName": "Rhabdophis leonardi"
+    },
+    {
+      "chineseName": "黑纹颈槽蛇",
+      "scientificName": "Rhabdophis nigrocinctus"
+    },
+    {
+      "chineseName": "颈槽蛇",
+      "scientificName": "Rhabdophis nuchalis"
+    },
+    {
+      "chineseName": "九龙颈槽蛇",
+      "scientificName": "Rhabdophis pentasupralabialis"
+    },
+    {
+      "chineseName": "泰国颈槽蛇",
+      "scientificName": "Rhabdophis siamensis"
+    },
+    {
+      "chineseName": "台湾颈槽蛇",
+      "scientificName": "Rhabdophis swinhonis"
+    },
+    {
+      "chineseName": "虎斑颈槽蛇",
+      "scientificName": "Rhabdophis tigrinus"
+    },
+    {
+      "chineseName": "双斑树蛙",
+      "scientificName": "Rhacophorus bipunctatus"
+    },
+    {
+      "chineseName": "大吉岭树蛙",
+      "scientificName": "Rhacophorus jerdonii"
+    },
+    {
+      "chineseName": "黑蹼树蛙",
+      "scientificName": "Rhacophorus kio",
+      "note": "原拉丁学名Rhacophorus reinwardtii"
+    },
+    {
+      "chineseName": "红蹼树蛙",
+      "scientificName": "Rhacophorus rhodopus"
+    },
+    {
+      "chineseName": "横纹树蛙",
+      "scientificName": "Rhacophorus translineatus"
+    },
+    {
+      "chineseName": "圆疣树蛙",
+      "scientificName": "Rhacophorus tuberculatus",
+      "note": "原名疣腿树蛙"
+    },
+    {
+      "chineseName": "疣足树蛙",
+      "scientificName": "Rhacophorus verrucopus"
+    },
+    {
+      "chineseName": "白喉扇尾鹟",
+      "scientificName": "Rhipidura albicollis"
+    },
+    {
+      "chineseName": "白眉扇尾鹟",
+      "scientificName": "Rhipidura aureola"
+    },
+    {
+      "chineseName": "银星竹鼠",
+      "scientificName": "Rhizomys pruinosus",
+      "note": "原名花白竹鼠，仅限野外种群"
+    },
+    {
+      "chineseName": "中华竹鼠",
+      "scientificName": "Rhizomys sinensis"
+    },
+    {
+      "chineseName": "大竹鼠",
+      "scientificName": "Rhizomys sumatrensis"
+    },
+    {
+      "chineseName": "暗褐竹鼠",
+      "scientificName": "Rhizomys vestitus"
+    },
+    {
+      "chineseName": "红翅沙雀",
+      "scientificName": "Rhodopechys sanguineus"
+    },
+    {
+      "chineseName": "南岭雾带天蛾",
+      "scientificName": "Rhodoprasina nanlingensis"
+    },
+    {
+      "chineseName": "巨嘴沙雀",
+      "scientificName": "Rhodospiza obsoleta"
+    },
+    {
+      "chineseName": "楔尾鸥",
+      "scientificName": "Rhodostethia rosea"
+    },
+    {
+      "chineseName": "山鹛",
+      "scientificName": "Rhopophilus pekinensis"
+    },
+    {
+      "chineseName": "红尾水鸲",
+      "scientificName": "Rhyacornis fuliginosa"
+    },
+    {
+      "chineseName": "长嘴鹩鹛",
+      "scientificName": "Rimator malacoptilus"
+    },
+    {
+      "chineseName": "淡色崖沙燕",
+      "scientificName": "Riparia diluta"
+    },
+    {
+      "chineseName": "褐喉沙燕",
+      "scientificName": "Riparia paludicola"
+    },
+    {
+      "chineseName": "崖沙燕",
+      "scientificName": "Riparia riparia"
+    },
+    {
+      "chineseName": "三趾鸥",
+      "scientificName": "Rissa tridactyla"
+    },
+    {
+      "chineseName": "拟桑蟥",
+      "scientificName": "Rondotia lineata"
+    },
+    {
+      "chineseName": "彩鹬",
+      "scientificName": "Rostratula benghalensis"
+    },
+    {
+      "chineseName": "抱尾果蝠",
+      "scientificName": "Rousettus amplexicaudatus"
+    },
+    {
+      "chineseName": "棕果蝠",
+      "scientificName": "Rousettus leschenaultii"
+    },
+    {
+      "chineseName": "剪嘴鸥",
+      "scientificName": "Rynchops albicollis"
+    },
+    {
+      "chineseName": "瘤鸭",
+      "scientificName": "Sarkidiornis melanotos"
+    },
+    {
+      "chineseName": "斑翅椋鸟",
+      "scientificName": "Saroglossa spilopterus"
+    },
+    {
+      "chineseName": "白眉棕啄木鸟",
+      "scientificName": "Sasia ochracea"
+    },
+    {
+      "chineseName": "白斑黑石䳭",
+      "scientificName": "Saxicola caprata"
+    },
+    {
+      "chineseName": "灰林䳭",
+      "scientificName": "Saxicola ferreus"
+    },
+    {
+      "chineseName": "黑白林䳭",
+      "scientificName": "Saxicola jerdoni"
+    },
+    {
+      "chineseName": "黑喉石䳭",
+      "scientificName": "Saxicola maurus"
+    },
+    {
+      "chineseName": "褐顶雀鹛",
+      "scientificName": "Schoeniparus brunneus"
+    },
+    {
+      "chineseName": "栗头雀鹛",
+      "scientificName": "Schoeniparus castaneceps"
+    },
+    {
+      "chineseName": "黄喉雀鹛",
+      "scientificName": "Schoeniparus cinereus"
+    },
+    {
+      "chineseName": "褐胁雀鹛",
+      "scientificName": "Schoeniparus dubius"
+    },
+    {
+      "chineseName": "棕喉雀鹛",
+      "scientificName": "Schoeniparus rufogularis"
+    },
+    {
+      "chineseName": "昆明滑蜥",
+      "scientificName": "Scincella barbouri"
+    },
+    {
+      "chineseName": "长肢滑蜥",
+      "scientificName": "Scincella doriae"
+    },
+    {
+      "chineseName": "台湾滑蜥",
+      "scientificName": "Scincella formosensis"
+    },
+    {
+      "chineseName": "宁波滑蜥",
+      "scientificName": "Scincella modesta"
+    },
+    {
+      "chineseName": "山滑蜥",
+      "scientificName": "Scincella monticola"
+    },
+    {
+      "chineseName": "康定滑蜥",
+      "scientificName": "Scincella potanini"
+    },
+    {
+      "chineseName": "西域滑蜥",
+      "scientificName": "Scincella przewalskii"
+    },
+    {
+      "chineseName": "南滑蜥",
+      "scientificName": "Scincella reevesii"
+    },
+    {
+      "chineseName": "瓦山滑蜥",
+      "scientificName": "Scincella schmidti"
+    },
+    {
+      "chineseName": "秦岭滑蜥",
+      "scientificName": "Scincella tsinlingensis"
+    },
+    {
+      "chineseName": "岩松鼠",
+      "scientificName": "Sciurotamias davidianus"
+    },
+    {
+      "chineseName": "侧纹岩松鼠",
+      "scientificName": "Sciurotamias forresti"
+    },
+    {
+      "chineseName": "松鼠",
+      "scientificName": "Sciurus vulgaris"
+    },
+    {
+      "chineseName": "条背萤",
+      "scientificName": "Sclerotia flavida"
+    },
+    {
+      "chineseName": "付氏萤",
+      "scientificName": "Sclerotia fui"
+    },
+    {
+      "chineseName": "丘鹬",
+      "scientificName": "Scolopax rusticola"
+    },
+    {
+      "chineseName": "西藏齿突蟾",
+      "scientificName": "Scutiger boulengeri",
+      "note": "原名录中高山齿突蟾（Scutiger alticola）与其同物异名"
+    },
+    {
+      "chineseName": "胸腺齿突蟾",
+      "scientificName": "Scutiger glandulatus"
+    },
+    {
+      "chineseName": "贡山齿突蟾",
+      "scientificName": "Scutiger gongshanensis"
+    },
+    {
+      "chineseName": "六盘齿突蟾",
+      "scientificName": "Scutiger liupanensis"
+    },
+    {
+      "chineseName": "花齿突蟾",
+      "scientificName": "Scutiger maculatus"
+    },
+    {
+      "chineseName": "刺胸齿突蟾",
+      "scientificName": "Scutiger mammatus",
+      "note": "原名录中皱皮齿突蟾（Scutiger ruginosus）与其同物异名"
+    },
+    {
+      "chineseName": "林芝齿突蟾",
+      "scientificName": "Scutiger nyingchiensis"
+    },
+    {
+      "chineseName": "锡金齿突蟾",
+      "scientificName": "Scutiger sikkimmensis"
+    },
+    {
+      "chineseName": "刺疣齿突蟾",
+      "scientificName": "Scutiger spinosus"
+    },
+    {
+      "chineseName": "腾冲齿突蟾",
+      "scientificName": "Scutiger tengchongensis"
+    },
+    {
+      "chineseName": "圆疣齿突蟾",
+      "scientificName": "Scutiger tuberculatus"
+    },
+    {
+      "chineseName": "王朗齿突蟾",
+      "scientificName": "Scutiger wanglangensis"
+    },
+    {
+      "chineseName": "吴氏齿突蟾",
+      "scientificName": "Scutiger wuguanfui"
+    },
+    {
+      "chineseName": "白眶鹟莺",
+      "scientificName": "Seicercus affinis"
+    },
+    {
+      "chineseName": "金眶鹟莺",
+      "scientificName": "Seicercus burkii"
+    },
+    {
+      "chineseName": "栗头鹟莺",
+      "scientificName": "Seicercus castaniceps"
+    },
+    {
+      "chineseName": "峨眉鹟莺",
+      "scientificName": "Seicercus omeiensis"
+    },
+    {
+      "chineseName": "灰脸鹟莺",
+      "scientificName": "Seicercus poliogenys"
+    },
+    {
+      "chineseName": "淡尾鹟莺",
+      "scientificName": "Seicercus soror"
+    },
+    {
+      "chineseName": "灰冠鹟莺",
+      "scientificName": "Seicercus tephrocephalus"
+    },
+    {
+      "chineseName": "比氏鹟莺",
+      "scientificName": "Seicercus valentini"
+    },
+    {
+      "chineseName": "韦氏鹟莺",
+      "scientificName": "Seicercus whistleri"
+    },
+    {
+      "chineseName": "金额丝雀",
+      "scientificName": "Serinus pusillus"
+    },
+    {
+      "chineseName": "台湾斑翅鹛",
+      "scientificName": "Sibia morrisoniana"
+    },
+    {
+      "chineseName": "纹头斑翅鹛",
+      "scientificName": "Sibia nipalensis"
+    },
+    {
+      "chineseName": "灰头斑翅鹛",
+      "scientificName": "Sibia souliei"
+    },
+    {
+      "chineseName": "纹胸斑翅鹛",
+      "scientificName": "Sibia waldeni"
+    },
+    {
+      "chineseName": "黑头剑蛇",
+      "scientificName": "Sibynophis chinensis"
+    },
+    {
+      "chineseName": "黑领剑蛇",
+      "scientificName": "Sibynophis collaris"
+    },
+    {
+      "chineseName": "新象棘蝉",
+      "scientificName": "Sigmasoma chakratongi",
+      "note": "原拉丁学名Neosigmasoma manglunensis"
+    },
+    {
+      "chineseName": "硕华盲蛇蛉",
+      "scientificName": "Sininocellia gigantos"
+    },
+    {
+      "chineseName": "梵净山华甲茧蜂",
+      "scientificName": "Siniphanerotomella fanjingshana"
+    },
+    {
+      "chineseName": "环纹华珊瑚蛇",
+      "scientificName": "Sinomicrurus annularis"
+    },
+    {
+      "chineseName": "福建华珊瑚蛇",
+      "scientificName": "Sinomicrurus kelloggi",
+      "note": "原名福建丽纹蛇Calliophis kelloggi"
+    },
+    {
+      "chineseName": "中华珊瑚蛇",
+      "scientificName": "Sinomicrurus macclellandi",
+      "note": "原名丽纹蛇Calliophis macclellandi"
+    },
+    {
+      "chineseName": "广西华珊瑚蛇",
+      "scientificName": "Sinomicrurus peinani"
+    },
+    {
+      "chineseName": "梭德氏华珊瑚蛇",
+      "scientificName": "Sinomicrurus sauteri",
+      "note": "原名台湾丽纹蛇Calliophis sauteri"
+    },
+    {
+      "chineseName": "斯氏华珊瑚蛇",
+      "scientificName": "Sinomicrurus swinhoei"
+    },
+    {
+      "chineseName": "华萤叩甲",
+      "scientificName": "Sinopyrophorus schimmeli"
+    },
+    {
+      "chineseName": "灰喉鸦雀",
+      "scientificName": "Sinosuthora alphonsiana"
+    },
+    {
+      "chineseName": "褐翅鸦雀",
+      "scientificName": "Sinosuthora brunnea",
+      "note": "原名褐翅缘鸦雀Paradoxornis brunneus"
+    },
+    {
+      "chineseName": "棕头鸦雀",
+      "scientificName": "Sinosuthora webbiana",
+      "note": "原名棕翅缘鸦雀Paradoxornis webbianus"
+    },
+    {
+      "chineseName": "栗腹䴓",
+      "scientificName": "Sitta castanea"
+    },
+    {
+      "chineseName": "普通䴓",
+      "scientificName": "Sitta europaea"
+    },
+    {
+      "chineseName": "绒额䴓",
+      "scientificName": "Sitta frontalis"
+    },
+    {
+      "chineseName": "白尾䴓",
+      "scientificName": "Sitta himalayensis"
+    },
+    {
+      "chineseName": "Sitta leucopsis",
+      "scientificName": "Sitta leucopsis"
+    },
+    {
+      "chineseName": "栗臀䴓",
+      "scientificName": "Sitta nagaensis"
+    },
+    {
+      "chineseName": "淡紫䴓",
+      "scientificName": "Sitta solangiae"
+    },
+    {
+      "chineseName": "黑头䴓",
+      "scientificName": "Sitta villosa"
+    },
+    {
+      "chineseName": "台湾杂色山雀",
+      "scientificName": "Sittiparus castaneoventris"
+    },
+    {
+      "chineseName": "杂色山雀",
+      "scientificName": "Sittiparus varius"
+    },
+    {
+      "chineseName": "蓝翅希鹛",
+      "scientificName": "Siva cyanouroptera"
+    },
+    {
+      "chineseName": "黄腹杆蛇",
+      "scientificName": "Smithophis bicolor",
+      "note": "原拉丁学名Rhabdops bicolor"
+    },
+    {
+      "chineseName": "线纹溪蛇",
+      "scientificName": "Smithophis linearis"
+    },
+    {
+      "chineseName": "丽锥腹金小蜂",
+      "scientificName": "Solenura ania"
+    },
+    {
+      "chineseName": "铜绿狭甲蝇",
+      "scientificName": "Spaniocelyphus cupreus"
+    },
+    {
+      "chineseName": "琵嘴鸭",
+      "scientificName": "Spatula clypeata"
+    },
+    {
+      "chineseName": "白眉鸭",
+      "scientificName": "Spatula querquedula"
+    },
+    {
+      "chineseName": "锈喉鹩鹛",
+      "scientificName": "Spelaeornis badeigularis"
+    },
+    {
+      "chineseName": "棕喉鹩鹛",
+      "scientificName": "Spelaeornis caudatus"
+    },
+    {
+      "chineseName": "长尾鹩鹛",
+      "scientificName": "Spelaeornis reptatus"
+    },
+    {
+      "chineseName": "斑翅鹩鹛",
+      "scientificName": "Spelaeornis troglodytoides"
+    },
+    {
+      "chineseName": "球果蝠",
+      "scientificName": "Sphaerias blanfordi"
+    },
+    {
+      "chineseName": "墨脱蜓蜥",
+      "scientificName": "Sphenomorphus courcyanus"
+    },
+    {
+      "chineseName": "股鳞蜓蜥",
+      "scientificName": "Sphenomorphus incognitus"
+    },
+    {
+      "chineseName": "铜蜓蜥",
+      "scientificName": "Sphenomorphus indicus"
+    },
+    {
+      "chineseName": "斑蜓蜥",
+      "scientificName": "Sphenomorphus maculatus"
+    },
+    {
+      "chineseName": "台湾蜓蜥",
+      "scientificName": "Sphenomorphus taiwanensis"
+    },
+    {
+      "chineseName": "北部湾蜓蜥",
+      "scientificName": "Sphenomorphus tonkinensis"
+    },
+    {
+      "chineseName": "黄雀",
+      "scientificName": "Spinus spinus"
+    },
+    {
+      "chineseName": "藏黄雀",
+      "scientificName": "Spinus thibetanus"
+    },
+    {
+      "chineseName": "凤头雀嘴鹎",
+      "scientificName": "Spizixos canifrons"
+    },
+    {
+      "chineseName": "领雀嘴鹎",
+      "scientificName": "Spizixos semitorques"
+    },
+    {
+      "chineseName": "灰椋鸟",
+      "scientificName": "Spodiopsar cineraceus"
+    },
+    {
+      "chineseName": "丝光椋鸟",
+      "scientificName": "Spodiopsar sericeus"
+    },
+    {
+      "chineseName": "黑胸楔嘴穗鹛",
+      "scientificName": "Stachyris humei",
+      "note": "原名楔头鹩鹛 Sphenocicla humei"
+    },
+    {
+      "chineseName": "黑头穗鹛",
+      "scientificName": "Stachyris nigriceps"
+    },
+    {
+      "chineseName": "楔嘴穗鹛",
+      "scientificName": "Stachyris roberti"
+    },
+    {
+      "chineseName": "斑颈穗鹛",
+      "scientificName": "Stachyris strialata"
+    },
+    {
+      "chineseName": "长尾贼鸥",
+      "scientificName": "Stercorarius longicaudus"
+    },
+    {
+      "chineseName": "短尾贼鸥",
+      "scientificName": "Stercorarius parasiticus"
+    },
+    {
+      "chineseName": "中贼鸥",
+      "scientificName": "Stercorarius pomarinus"
+    },
+    {
+      "chineseName": "粉红燕鸥",
+      "scientificName": "Sterna dougallii"
+    },
+    {
+      "chineseName": "普通燕鸥",
+      "scientificName": "Sterna hirundo"
+    },
+    {
+      "chineseName": "黑枕燕鸥",
+      "scientificName": "Sterna sumatrana"
+    },
+    {
+      "chineseName": "金绿凹头吉丁",
+      "scientificName": "Sternocera aequisignata",
+      "note": "原名绿点椭圆吉丁"
+    },
+    {
+      "chineseName": "白额燕鸥",
+      "scientificName": "Sternula albifrons"
+    },
+    {
+      "chineseName": "宁陕线形蛇",
+      "scientificName": "Stichophanes ningshaanensis",
+      "note": "原名录中宁陕小头蛇（Oligodon ningshanensis）与其同物异名"
+    },
+    {
+      "chineseName": "花背蟾蜍",
+      "scientificName": "Strauchbufo raddei",
+      "note": "原拉丁学名Bufo raddei"
+    },
+    {
+      "chineseName": "珠颈斑鸠",
+      "scientificName": "Streptopelia chinensis"
+    },
+    {
+      "chineseName": "灰斑鸠",
+      "scientificName": "Streptopelia decaocto"
+    },
+    {
+      "chineseName": "山斑鸠",
+      "scientificName": "Streptopelia orientalis"
+    },
+    {
+      "chineseName": "棕斑鸠",
+      "scientificName": "Streptopelia senegalensis"
+    },
+    {
+      "chineseName": "火斑鸠",
+      "scientificName": "Streptopelia tranquebarica"
+    },
+    {
+      "chineseName": "欧斑鸠",
+      "scientificName": "Streptopelia turtur"
+    },
+    {
+      "chineseName": "灰头椋鸟",
+      "scientificName": "Sturnia malabarica"
+    },
+    {
+      "chineseName": "黑冠椋鸟",
+      "scientificName": "Sturnia pagodarum"
+    },
+    {
+      "chineseName": "灰背椋鸟",
+      "scientificName": "Sturnia sinensis"
+    },
+    {
+      "chineseName": "紫翅椋鸟",
+      "scientificName": "Sturnus vulgaris"
+    },
+    {
+      "chineseName": "硫磺蝉",
+      "scientificName": "Sulphogaeana sulphurea"
+    },
+    {
+      "chineseName": "乌鹃",
+      "scientificName": "Surniculus lugubris"
+    },
+    {
+      "chineseName": "黄额鸦雀",
+      "scientificName": "Suthora fulvifrons"
+    },
+    {
+      "chineseName": "黑喉鸦雀",
+      "scientificName": "Suthora nipalensis"
+    },
+    {
+      "chineseName": "金色鸦雀",
+      "scientificName": "Suthora verreauxi"
+    },
+    {
+      "chineseName": "休氏白喉林莺",
+      "scientificName": "Sylvia althaea"
+    },
+    {
+      "chineseName": "黑顶林莺",
+      "scientificName": "Sylvia atricapilla"
+    },
+    {
+      "chineseName": "灰白喉林莺",
+      "scientificName": "Sylvia communis"
+    },
+    {
+      "chineseName": "东歌林莺",
+      "scientificName": "Sylvia crassirostris"
+    },
+    {
+      "chineseName": "白喉林莺",
+      "scientificName": "Sylvia curruca"
+    },
+    {
+      "chineseName": "漠白喉林莺",
+      "scientificName": "Sylvia minula"
+    },
+    {
+      "chineseName": "荒漠林莺",
+      "scientificName": "Sylvia nana"
+    },
+    {
+      "chineseName": "横斑林莺",
+      "scientificName": "Sylvia nisoria"
+    },
+    {
+      "chineseName": "黄眉林雀",
+      "scientificName": "Sylviparus modestus"
+    },
+    {
+      "chineseName": "蓝胸鹑",
+      "scientificName": "Synoicus chinensis"
+    },
+    {
+      "chineseName": "扁嘴海雀",
+      "scientificName": "Synthliboramphus antiquus"
+    },
+    {
+      "chineseName": "毛腿沙鸡",
+      "scientificName": "Syrrhaptes paradoxus"
+    },
+    {
+      "chineseName": "西藏毛腿沙鸡",
+      "scientificName": "Syrrhaptes tibetanus"
+    },
+    {
+      "chineseName": "小䴙䴘",
+      "scientificName": "Tachybaptus ruficollis"
+    },
+    {
+      "chineseName": "高山雨燕",
+      "scientificName": "Tachymarptis melba"
+    },
+    {
+      "chineseName": "赤麻鸭",
+      "scientificName": "Tadorna ferruginea"
+    },
+    {
+      "chineseName": "翘鼻麻鸭",
+      "scientificName": "Tadorna tadorna"
+    },
+    {
+      "chineseName": "群斑带花金龟",
+      "scientificName": "Taeniodera coomani"
+    },
+    {
+      "chineseName": "天井山草蜥",
+      "scientificName": "Takydromus albomaculosus"
+    },
+    {
+      "chineseName": "黑龙江草蜥",
+      "scientificName": "Takydromus amurensis"
+    },
+    {
+      "chineseName": "台湾草蜥",
+      "scientificName": "Takydromus formosanus"
+    },
+    {
+      "chineseName": "雪山草蜥",
+      "scientificName": "Takydromus hsuehshanensis"
+    },
+    {
+      "chineseName": "峨眉草蜥",
+      "scientificName": "Takydromus intermedius",
+      "note": "原名峨眉地蜥Platyplacopus intermedius"
+    },
+    {
+      "chineseName": "古氏草蜥",
+      "scientificName": "Takydromus kuehnei",
+      "note": "原名台湾地蜥Platyplacopus kuehnei"
+    },
+    {
+      "chineseName": "鹿野草蜥",
+      "scientificName": "Takydromus luyeanus"
+    },
+    {
+      "chineseName": "恒春草蜥",
+      "scientificName": "Takydromus sauteri"
+    },
+    {
+      "chineseName": "北草蜥",
+      "scientificName": "Takydromus septentrionalis"
+    },
+    {
+      "chineseName": "南草蜥",
+      "scientificName": "Takydromus sexlineatus"
+    },
+    {
+      "chineseName": "蓬莱草蜥",
+      "scientificName": "Takydromus stejnegeri"
+    },
+    {
+      "chineseName": "崇安草蜥",
+      "scientificName": "Takydromus sylvaticus",
+      "note": "原名崇安地蜥Platyplacopus sylvaticus"
+    },
+    {
+      "chineseName": "翠斑草蜥",
+      "scientificName": "Takydromus viridipunctatus"
+    },
+    {
+      "chineseName": "白条草蜥",
+      "scientificName": "Takydromus wolteri"
+    },
+    {
+      "chineseName": "云开草蜥",
+      "scientificName": "Takydromus yunkaiensis"
+    },
+    {
+      "chineseName": "北花松鼠",
+      "scientificName": "Tamias sibiricus",
+      "note": "原名花鼠Eutamias sibiricus"
+    },
+    {
+      "chineseName": "明纹花鼠",
+      "scientificName": "Tamiops macclellandii",
+      "note": "原名明纹花松鼠"
+    },
+    {
+      "chineseName": "倭花鼠",
+      "scientificName": "Tamiops maritimus"
+    },
+    {
+      "chineseName": "隐纹花松鼠",
+      "scientificName": "Tamiops swinhoei"
+    },
+    {
+      "chineseName": "金色林鸲",
+      "scientificName": "Tarsiger chrysaeus"
+    },
+    {
+      "chineseName": "红胁蓝尾鸲",
+      "scientificName": "Tarsiger cyanurus"
+    },
+    {
+      "chineseName": "白眉林鸲",
+      "scientificName": "Tarsiger indicus"
+    },
+    {
+      "chineseName": "台湾林鸲",
+      "scientificName": "Tarsiger johnstoniae"
+    },
+    {
+      "chineseName": "蓝眉林鸲",
+      "scientificName": "Tarsiger rufilatus"
+    },
+    {
+      "chineseName": "塔尾树鹊",
+      "scientificName": "Temnurus temnurus"
+    },
+    {
+      "chineseName": "大敦细趾虎",
+      "scientificName": "Tenuidactylus dadunensis"
+    },
+    {
+      "chineseName": "长细趾虎",
+      "scientificName": "Tenuidactylus elongatus",
+      "note": "原名长裸趾虎Cyrtodactylus elongatus"
+    },
+    {
+      "chineseName": "钩嘴林鵙",
+      "scientificName": "Tephrodornis virgatus"
+    },
+    {
+      "chineseName": "新疆沙虎",
+      "scientificName": "Teratoscincus przewalskii"
+    },
+    {
+      "chineseName": "东方寿带",
+      "scientificName": "Terpsiphone affinis"
+    },
+    {
+      "chineseName": "紫寿带",
+      "scientificName": "Terpsiphone atrocaudata"
+    },
+    {
+      "chineseName": "寿带",
+      "scientificName": "Terpsiphone incei"
+    },
+    {
+      "chineseName": "印度寿带",
+      "scientificName": "Terpsiphone paradisi"
+    },
+    {
+      "chineseName": "灰腹地莺",
+      "scientificName": "Tesia cyaniventer"
+    },
+    {
+      "chineseName": "金冠地莺",
+      "scientificName": "Tesia olivea"
+    },
+    {
+      "chineseName": "小凤头燕鸥",
+      "scientificName": "Thalasseus bengalensis"
+    },
+    {
+      "chineseName": "白嘴端凤头燕鸥",
+      "scientificName": "Thalasseus sandvicensis"
+    },
+    {
+      "chineseName": "白斑棱皮树蛙",
+      "scientificName": "Theloderma albopunctatum",
+      "note": "原名白斑小树蛙Philautus albopunctatus"
+    },
+    {
+      "chineseName": "背崩棱皮树蛙",
+      "scientificName": "Theloderma baibengense"
+    },
+    {
+      "chineseName": "双色棱皮树蛙",
+      "scientificName": "Theloderma bicolor"
+    },
+    {
+      "chineseName": "北部湾棱皮树蛙",
+      "scientificName": "Theloderma corticale",
+      "note": "原名广西疣斑树蛙Theloderma kwangsiensis"
+    },
+    {
+      "chineseName": "印支棱皮树蛙",
+      "scientificName": "Theloderma gordoni"
+    },
+    {
+      "chineseName": "棘棱皮树蛙",
+      "scientificName": "Theloderma moloch",
+      "note": "原名西藏疣斑树蛙"
+    },
+    {
+      "chineseName": "缅甸棱皮树蛙",
+      "scientificName": "Theloderma pyaukkya"
+    },
+    {
+      "chineseName": "红吸盘棱皮树蛙",
+      "scientificName": "Theloderma rhododiscus",
+      "note": "原名红吸盘小树蛙Philautus rhododiscus"
+    },
+    {
+      "chineseName": "双锯球胸虎甲",
+      "scientificName": "Therates biserratus"
+    },
+    {
+      "chineseName": "虫草蝠蛾",
+      "scientificName": "Thitarodes armoricanus"
+    },
+    {
+      "chineseName": "红翅旋壁雀",
+      "scientificName": "Tichodroma muraria"
+    },
+    {
+      "chineseName": "宽嘴鹟莺",
+      "scientificName": "Tickellia hodgsoni"
+    },
+    {
+      "chineseName": "红顶鹛",
+      "scientificName": "Timalia pileata"
+    },
+    {
+      "chineseName": "尖峰岭彪䗛",
+      "scientificName": "Tirachoidea jianfenglingensis",
+      "note": "原拉丁学名Paraentoria jianfenglingensis"
+    },
+    {
+      "chineseName": "白领翡翠",
+      "scientificName": "Todiramphus chloris"
+    },
+    {
+      "chineseName": "白带笃蝉",
+      "scientificName": "Tosena melanopterix"
+    },
+    {
+      "chineseName": "耿氏坭蛇",
+      "scientificName": "Trachischium guentheri"
+    },
+    {
+      "chineseName": "山坭蛇",
+      "scientificName": "Trachischium monticola"
+    },
+    {
+      "chineseName": "小头坭蛇",
+      "scientificName": "Trachischium tenuiceps"
+    },
+    {
+      "chineseName": "褐脊瘤胸䗛",
+      "scientificName": "Trachythorax fuscocarinatus"
+    },
+    {
+      "chineseName": "草原蜥",
+      "scientificName": "Trapelus sanguinolentus"
+    },
+    {
+      "chineseName": "棕胸雅鹛",
+      "scientificName": "Trichastoma tickelli"
+    },
+    {
+      "chineseName": "白唇竹叶青蛇",
+      "scientificName": "Trimeresurus albolabris"
+    },
+    {
+      "chineseName": "藏南竹叶青蛇",
+      "scientificName": "Trimeresurus arunachalensis"
+    },
+    {
+      "chineseName": "饰尾竹叶青蛇",
+      "scientificName": "Trimeresurus caudornatus"
+    },
+    {
+      "chineseName": "台湾竹叶青蛇",
+      "scientificName": "Trimeresurus gracilis"
+    },
+    {
+      "chineseName": "冈氏竹叶青蛇",
+      "scientificName": "Trimeresurus gumprechti"
+    },
+    {
+      "chineseName": "滇南竹叶青蛇",
+      "scientificName": "Trimeresurus guoi"
+    },
+    {
+      "chineseName": "墨脱竹叶青蛇",
+      "scientificName": "Trimeresurus medoensis"
+    },
+    {
+      "chineseName": "坡普竹叶青蛇",
+      "scientificName": "Trimeresurus popeiorum"
+    },
+    {
+      "chineseName": "四川竹叶青蛇",
+      "scientificName": "Trimeresurus sichuanensis"
+    },
+    {
+      "chineseName": "福建竹叶青蛇",
+      "scientificName": "Trimeresurus stejnegeri",
+      "note": "原名竹叶青蛇"
+    },
+    {
+      "chineseName": "西藏竹叶青蛇",
+      "scientificName": "Trimeresurus tibetanus"
+    },
+    {
+      "chineseName": "盈江竹叶青蛇",
+      "scientificName": "Trimeresurus yingjiangensis"
+    },
+    {
+      "chineseName": "云南竹叶青蛇",
+      "scientificName": "Trimeresurus yunnanensis"
+    },
+    {
+      "chineseName": "环纹华游蛇",
+      "scientificName": "Trimerodytes aequifasciatus",
+      "note": "原拉丁学名Sinonatrix aequifasciata"
+    },
+    {
+      "chineseName": "赤链华游蛇",
+      "scientificName": "Trimerodytes annularis",
+      "note": "原拉丁学名Sinonatrix annularis"
+    },
+    {
+      "chineseName": "横纹华游蛇",
+      "scientificName": "Trimerodytes balteatus",
+      "note": "原名横纹后棱蛇Opisthotropis balteatus"
+    },
+    {
+      "chineseName": "乌华游蛇",
+      "scientificName": "Trimerodytes percarinata",
+      "note": "原名华游蛇Sinonatrix  percarinata"
+    },
+    {
+      "chineseName": "景东华游蛇",
+      "scientificName": "Trimerodytes yapingi"
+    },
+    {
+      "chineseName": "云南华游蛇",
+      "scientificName": "Trimerodytes yunnanensis"
+    },
+    {
+      "chineseName": "灰尾漂鹬",
+      "scientificName": "Tringa brevipes"
+    },
+    {
+      "chineseName": "鹤鹬",
+      "scientificName": "Tringa erythropus"
+    },
+    {
+      "chineseName": "小黄脚鹬",
+      "scientificName": "Tringa flavipes"
+    },
+    {
+      "chineseName": "林鹬",
+      "scientificName": "Tringa glareola"
+    },
+    {
+      "chineseName": "漂鹬",
+      "scientificName": "Tringa incana"
+    },
+    {
+      "chineseName": "青脚鹬",
+      "scientificName": "Tringa nebularia"
+    },
+    {
+      "chineseName": "白腰草鹬",
+      "scientificName": "Tringa ochropus"
+    },
+    {
+      "chineseName": "泽鹬",
+      "scientificName": "Tringa stagnatilis"
+    },
+    {
+      "chineseName": "红脚鹬",
+      "scientificName": "Tringa totanus"
+    },
+    {
+      "chineseName": "黑顶噪鹛",
+      "scientificName": "Trochalopteron affine"
+    },
+    {
+      "chineseName": "红头噪鹛",
+      "scientificName": "Trochalopteron erythrocephalum"
+    },
+    {
+      "chineseName": "灰腹噪鹛",
+      "scientificName": "Trochalopteron henrici"
+    },
+    {
+      "chineseName": "细纹噪鹛",
+      "scientificName": "Trochalopteron lineatum"
+    },
+    {
+      "chineseName": "台湾噪鹛",
+      "scientificName": "Trochalopteron morrisonianum",
+      "note": "原名玉山噪鹛 Garrulax morrisonianus"
+    },
+    {
+      "chineseName": "蓝翅噪鹛",
+      "scientificName": "Trochalopteron squamatum"
+    },
+    {
+      "chineseName": "纯色噪鹛",
+      "scientificName": "Trochalopteron subunicolor"
+    },
+    {
+      "chineseName": "杂色噪鹛",
+      "scientificName": "Trochalopteron variegatum"
+    },
+    {
+      "chineseName": "鹪鹩",
+      "scientificName": "Troglodytes troglodytes"
+    },
+    {
+      "chineseName": "复齿鼯鼠",
+      "scientificName": "Trogopterus xanthipes"
+    },
+    {
+      "chineseName": "缅甸棱蜥",
+      "scientificName": "Tropidophorus berdmorei"
+    },
+    {
+      "chineseName": "广西棱蜥",
+      "scientificName": "Tropidophorus guangxiensis"
+    },
+    {
+      "chineseName": "海南棱蜥",
+      "scientificName": "Tropidophorus hainanus"
+    },
+    {
+      "chineseName": "中国棱蜥",
+      "scientificName": "Tropidophorus sinicus"
+    },
+    {
+      "chineseName": "北树鼩",
+      "scientificName": "Tupaia belangeri",
+      "note": "原名树鼩"
+    },
+    {
+      "chineseName": "短尾鹪鹛",
+      "scientificName": "Turdinus brevicaudatus"
+    },
+    {
+      "chineseName": "灰岩鹪鹛",
+      "scientificName": "Turdinus crispifrons"
+    },
+    {
+      "chineseName": "白颈鸫",
+      "scientificName": "Turdus albocinctus"
+    },
+    {
+      "chineseName": "黑喉鸫",
+      "scientificName": "Turdus atrogularis"
+    },
+    {
+      "chineseName": "灰翅鸫",
+      "scientificName": "Turdus boulboul"
+    },
+    {
+      "chineseName": "乌灰鸫",
+      "scientificName": "Turdus cardis"
+    },
+    {
+      "chineseName": "赤胸鸫",
+      "scientificName": "Turdus chrysolaus"
+    },
+    {
+      "chineseName": "黑胸鸫",
+      "scientificName": "Turdus dissimilis"
+    },
+    {
+      "chineseName": "斑鸫",
+      "scientificName": "Turdus eunomus"
+    },
+    {
+      "chineseName": "灰背鸫",
+      "scientificName": "Turdus hortulorum"
+    },
+    {
+      "chineseName": "白眉歌鸫",
+      "scientificName": "Turdus iliacus"
+    },
+    {
+      "chineseName": "棕背黑头鸫",
+      "scientificName": "Turdus kessleri"
+    },
+    {
+      "chineseName": "乌鸫",
+      "scientificName": "Turdus mandarinus"
+    },
+    {
+      "chineseName": "藏乌鸫",
+      "scientificName": "Turdus maximus"
+    },
+    {
+      "chineseName": "欧亚乌鸫",
+      "scientificName": "Turdus merula"
+    },
+    {
+      "chineseName": "宝兴歌鸫",
+      "scientificName": "Turdus mupinensis"
+    },
+    {
+      "chineseName": "红尾斑鸫",
+      "scientificName": "Turdus naumanni"
+    },
+    {
+      "chineseName": "白头鸫",
+      "scientificName": "Turdus niveiceps"
+    },
+    {
+      "chineseName": "白眉鸫",
+      "scientificName": "Turdus obscurus"
+    },
+    {
+      "chineseName": "白腹鸫",
+      "scientificName": "Turdus pallidus"
+    },
+    {
+      "chineseName": "欧歌鸫",
+      "scientificName": "Turdus philomelos"
+    },
+    {
+      "chineseName": "田鸫",
+      "scientificName": "Turdus pilaris"
+    },
+    {
+      "chineseName": "灰头鸫",
+      "scientificName": "Turdus rubrocanus"
+    },
+    {
+      "chineseName": "赤颈鸫",
+      "scientificName": "Turdus ruficollis"
+    },
+    {
+      "chineseName": "蒂氏鸫",
+      "scientificName": "Turdus unicolor"
+    },
+    {
+      "chineseName": "槲鸫",
+      "scientificName": "Turdus viscivorus"
+    },
+    {
+      "chineseName": "棕三趾鹑",
+      "scientificName": "Turnix suscitator"
+    },
+    {
+      "chineseName": "林三趾鹑",
+      "scientificName": "Turnix sylvaticus"
+    },
+    {
+      "chineseName": "黄脚三趾鹑",
+      "scientificName": "Turnix tanki"
+    },
+    {
+      "chineseName": "戴胜",
+      "scientificName": "Upupa epops"
+    },
+    {
+      "chineseName": "台湾蓝鹊",
+      "scientificName": "Urocissa caerulea"
+    },
+    {
+      "chineseName": "红嘴蓝鹊",
+      "scientificName": "Urocissa erythroryncha"
+    },
+    {
+      "chineseName": "黄嘴蓝鹊",
+      "scientificName": "Urocissa flavirostris"
+    },
+    {
+      "chineseName": "白翅蓝鹊",
+      "scientificName": "Urocissa whiteheadi"
+    },
+    {
+      "chineseName": "鳞头树莺",
+      "scientificName": "Urosphena squameiceps"
+    },
+    {
+      "chineseName": "灰头麦鸡",
+      "scientificName": "Vanellus cinereus"
+    },
+    {
+      "chineseName": "距翅麦鸡",
+      "scientificName": "Vanellus duvaucelii"
+    },
+    {
+      "chineseName": "肉垂麦鸡",
+      "scientificName": "Vanellus indicus"
+    },
+    {
+      "chineseName": "白尾麦鸡",
+      "scientificName": "Vanellus leucurus"
+    },
+    {
+      "chineseName": "凤头麦鸡",
+      "scientificName": "Vanellus vanellus"
+    },
+    {
+      "chineseName": "贵州离颚细蜂",
+      "scientificName": "Vanhornia guizhouensis",
+      "note": "原名贵州华颚细蜂"
+    },
+    {
+      "chineseName": "虎鼬",
+      "scientificName": "Vormela peregusna"
+    },
+    {
+      "chineseName": "海南闪鳞蛇",
+      "scientificName": "Xenopeltis hainanensis"
+    },
+    {
+      "chineseName": "腺角蟾",
+      "scientificName": "Xenophrys glandulosa",
+      "note": "原名 Megophrys glandulosa"
+    },
+    {
+      "chineseName": "大角蟾",
+      "scientificName": "Xenophrys major",
+      "note": "原名白颌大角蟾Megophrys lateralis"
+    },
+    {
+      "chineseName": "莽山角蟾",
+      "scientificName": "Xenophrys mangshanensis",
+      "note": "原名 Megophrys mangshanensis"
+    },
+    {
+      "chineseName": "茅索角蟾",
+      "scientificName": "Xenophrys maosonensis"
+    },
+    {
+      "chineseName": "墨脱角蟾",
+      "scientificName": "Xenophrys medogensis"
+    },
+    {
+      "chineseName": "凹顶角蟾",
+      "scientificName": "Xenophrys parva",
+      "note": "原拉丁学名 Megophrys parva"
+    },
+    {
+      "chineseName": "翘嘴鹬",
+      "scientificName": "Xenus cinereus"
+    },
+    {
+      "chineseName": "黑蓝凿姬蜂",
+      "scientificName": "Xorides nigricaeruleus"
+    },
+    {
+      "chineseName": "白颈凤鹛",
+      "scientificName": "Yuhina bakeri"
+    },
+    {
+      "chineseName": "褐头凤鹛",
+      "scientificName": "Yuhina brunneiceps"
+    },
+    {
+      "chineseName": "栗耳凤鹛",
+      "scientificName": "Yuhina castaniceps"
+    },
+    {
+      "chineseName": "白领凤鹛",
+      "scientificName": "Yuhina diademata"
+    },
+    {
+      "chineseName": "黄颈凤鹛",
+      "scientificName": "Yuhina flavicollis"
+    },
+    {
+      "chineseName": "纹喉凤鹛",
+      "scientificName": "Yuhina gularis"
+    },
+    {
+      "chineseName": "黑颏凤鹛",
+      "scientificName": "Yuhina nigrimenta"
+    },
+    {
+      "chineseName": "棕臀凤鹛",
+      "scientificName": "Yuhina occipitalis"
+    },
+    {
+      "chineseName": "红脚田鸡",
+      "scientificName": "Zapornia akool",
+      "note": "原名红脚苦恶鸟Amaurornis akool"
+    },
+    {
+      "chineseName": "红胸田鸡",
+      "scientificName": "Zapornia fusca"
+    },
+    {
+      "chineseName": "小田鸡",
+      "scientificName": "Zapornia pusilla"
+    },
+    {
+      "chineseName": "诸罗树蛙",
+      "scientificName": "Zhangixalus arvalis",
+      "note": "原名民雄树蛙Rhacophorus arvalis"
+    },
+    {
+      "chineseName": "橙腹树蛙",
+      "scientificName": "Zhangixalus aurantiventris",
+      "note": "原拉丁学名Rhacophorus aurantiventris"
+    },
+    {
+      "chineseName": "缅甸树蛙",
+      "scientificName": "Zhangixalus burmanus",
+      "note": "原名贡山树蛙Rhacophorus gongshanensis"
+    },
+    {
+      "chineseName": "经甫树蛙",
+      "scientificName": "Zhangixalus chenfui",
+      "note": "原名经甫泛树蛙Polypedates chenfui"
+    },
+    {
+      "chineseName": "大树蛙",
+      "scientificName": "Zhangixalus dennysi",
+      "note": "原名大泛树蛙Polypedates dennysi"
+    },
+    {
+      "chineseName": "绿背树蛙",
+      "scientificName": "Zhangixalus dorsoviridis"
+    },
+    {
+      "chineseName": "宝兴树蛙",
+      "scientificName": "Zhangixalus dugritei",
+      "note": "原名杜氏泛树蛙Polypedates dugritei"
+    },
+    {
+      "chineseName": "棕褶树蛙",
+      "scientificName": "Zhangixalus feae",
+      "note": "原名棕褶泛树蛙Polypedates feae"
+    },
+    {
+      "chineseName": "弗氏树蛙",
+      "scientificName": "Zhangixalus franki"
+    },
+    {
+      "chineseName": "胡氏树蛙",
+      "scientificName": "Zhangixalus hui",
+      "note": "原名昭觉泛树蛙Polypedates zhaojuensis"
+    },
+    {
+      "chineseName": "白线树蛙",
+      "scientificName": "Zhangixalus leucofasciatus"
+    },
+    {
+      "chineseName": "丽水树蛙",
+      "scientificName": "Zhangixalus lishuiensis"
+    },
+    {
+      "chineseName": "侏树蛙",
+      "scientificName": "Zhangixalus minimus"
+    },
+    {
+      "chineseName": "台湾树蛙",
+      "scientificName": "Zhangixalus moltrechti",
+      "note": "原名莫氏树蛙Rhacophorus moltrechti"
+    },
+    {
+      "chineseName": "黑点树蛙",
+      "scientificName": "Zhangixalus nigropunctatus",
+      "note": "原名黑点泛树蛙Polypedates nigropunctatus"
+    },
+    {
+      "chineseName": "峨眉树蛙",
+      "scientificName": "Zhangixalus omeimontis",
+      "note": "原名峨眉泛树蛙Polypedates omeimontis"
+    },
+    {
+      "chineseName": "突肛树蛙",
+      "scientificName": "Zhangixalus pachyproctus"
+    },
+    {
+      "chineseName": "平龙树蛙",
+      "scientificName": "Zhangixalus pinglongensis"
+    },
+    {
+      "chineseName": "翡翠树蛙",
+      "scientificName": "Zhangixalus prasinatus",
+      "note": "原拉丁学名Rhacophorus prasinatus"
+    },
+    {
+      "chineseName": "普洱树蛙",
+      "scientificName": "Zhangixalus puerensis",
+      "note": "原名普洱泛树蛙Polypedates puerensis"
+    },
+    {
+      "chineseName": "白颌大树蛙",
+      "scientificName": "Zhangixalus smaragdinus",
+      "note": "原名白颌树蛙Rhacophorus maximus"
+    },
+    {
+      "chineseName": "台北树蛙",
+      "scientificName": "Zhangixalus taipeianus",
+      "note": "原拉丁学名Rhacophorus taipeianus"
+    },
+    {
+      "chineseName": "利川树蛙",
+      "scientificName": "Zhangixalus wui"
+    },
+    {
+      "chineseName": "瑶山树蛙",
+      "scientificName": "Zhangixalus yaoshanensis",
+      "note": "原拉丁学名Rhacophorus yaoshanensis"
+    },
+    {
+      "chineseName": "鹦哥岭树蛙",
+      "scientificName": "Zhangixalus yinggelingensis"
+    },
+    {
+      "chineseName": "安徽树蛙",
+      "scientificName": "Zhangixalus zhoukaiyae"
+    },
+    {
+      "chineseName": "白冠带鹀",
+      "scientificName": "Zonotrichia leucophrys"
+    },
+    {
+      "chineseName": "白氏地鸫",
+      "scientificName": "Zoothera aurea"
+    },
+    {
+      "chineseName": "小虎斑地鸫",
+      "scientificName": "Zoothera dauma"
+    },
+    {
+      "chineseName": "长尾地鸫",
+      "scientificName": "Zoothera dixoni"
+    },
+    {
+      "chineseName": "四川淡背地鸫",
+      "scientificName": "Zoothera griseiceps"
+    },
+    {
+      "chineseName": "长嘴地鸫",
+      "scientificName": "Zoothera marginata"
+    },
+    {
+      "chineseName": "淡背地鸫",
+      "scientificName": "Zoothera mollissima"
+    },
+    {
+      "chineseName": "大长嘴地鸫",
+      "scientificName": "Zoothera monticola"
+    },
+    {
+      "chineseName": "喜山淡背地鸫",
+      "scientificName": "Zoothera salimalii"
+    },
+    {
+      "chineseName": "胎生蜥",
+      "scientificName": "Zootoca vivipara",
+      "note": "原名胎生蜥蜴Lacerta vivipara"
+    },
+    {
+      "chineseName": "暗绿绣眼鸟",
+      "scientificName": "Zosterops japonicus"
+    },
+    {
+      "chineseName": "低地绣眼鸟",
+      "scientificName": "Zosterops meyeni"
+    },
+    {
+      "chineseName": "灰腹绣眼鸟",
+      "scientificName": "Zosterops palpebrosus"
+    }
+  ]
+}

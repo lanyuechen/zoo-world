@@ -121,6 +121,18 @@ export default function SpeciesPage() {
             )}
           </dd>
         </div>
+        {species.kingdom.latin === 'Animalia' && (
+          <div>
+            <dt>三有名录</dt>
+            <dd>
+              {species.sanyou ? (
+                <span className="status-badge status-sanyou">是 · 三有</span>
+              ) : (
+                '否'
+              )}
+            </dd>
+          </div>
+        )}
         <div>
           <dt>国内分布</dt>
           <dd>
