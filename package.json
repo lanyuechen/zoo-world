@@ -24,6 +24,7 @@
     "apply:gbif": "tsx scripts/apply-gbif-distribution.ts",
     "enrich:fauna": "tsx scripts/enrich-fauna-sinica.ts",
     "normalize:fauna": "tsx scripts/normalize-fauna-md.ts",
+    "cleanup:fauna": "tsx scripts/cleanup-fauna-mismatches.ts",
     "sync:content": "tsx scripts/sync-content.ts"
   },
   "dependencies": {

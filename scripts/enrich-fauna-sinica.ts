@@ -129,10 +129,11 @@ async function fetchJson<T>(url: string): Promise<T> {
   return JSON.parse(text) as T
 }
 
-/** 在检索页中找《中国动物志数据库》且学名精确匹配的 taxonId */
+/** 在检索页中找《中国动物志数据库》且属+种加词完全一致的 taxonId（禁止仅种加词撞车） */
 async function findFaunaTaxonId(scientificName: string): Promise<string | null> {
   const q = encodeURIComponent(scientificName)
   const want = binomialKey(scientificName)
+  if (!want.includes(' ')) return null
   for (let offset = 0; offset <= 30; offset += 10) {
     const html = await fetchText(`${BASE}/search/wordall?offset=${offset}&search=${q}`)
     const linkRe = /href="(\/taxon\/\{[^"]+\})"/g
@@ -146,8 +147,8 @@ async function findFaunaTaxonId(scientificName: string): Promise<string | null> 
       const nameHtml = before.match(/<i><font size="3">([\s\S]*?)<\/font><\/i>/)?.[1] || ''
       const name = stripHtml(nameHtml)
       const nameKey = binomialKey(name)
-      const ctxKey = binomialKey(stripHtml(before + after.slice(0, 400)))
-      if (nameKey === want || ctxKey.includes(want) || (!nameKey && after.includes(scientificName.split(' ')[0]))) {
+      // 必须学名二项式一致；不再用上下文模糊包含 / 仅属名兜底
+      if (nameKey && nameKey === want) {
         return href.replace('/taxon/', '')
       }
     }
