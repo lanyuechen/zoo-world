@@ -19,12 +19,10 @@ npm run dev
 
 ```bash
 npm run enrich:fauna -- --name="Aix galericulata"
-npm run enrich:fauna -- --phylum=Chordata --limit=50
-npm run enrich:fauna -- --resume
-# 发布前提交 public/data 与有正文的 public/species
+npm run enrich:fauna -- --limit=50 --resume
 ```
 
-说明：`public/data`（分片索引）与**有介绍的** `public/species/**/*.md` 均入库；空壳 Markdown 不保留。
+说明：`public/data` 与有介绍的 `public/species/**/*.md` 入库；空壳 Markdown 不保留。匹配须属名+种加词一致，可用 `npm run cleanup:fauna` 清理误匹配。
 
 ## 数据约定
 
