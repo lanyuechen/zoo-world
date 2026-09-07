@@ -1,0 +1,42 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Excel 源文件较大，可本地放置；需要版本管理时移除此行
+# data/raw/*.xlsx
+data/raw/redlist-cache/
+data/gbif/raw/
+data/gbif/china-species-summary.json
+data/gbif/last-download-request.json
+public/data/gbif-points/
+data/fauna/progress.json
+data/fauna/progress-shard-*.json
+data/fauna/tax-tree-leaves.json
+data/fauna/tax-tree-checkpoint.json
+data/fauna/tax-tree-crawl-progress.json
+data/fauna/tax-tree-leaves.json.tmp
+data/fauna/tax-tree-checkpoint.json.tmp
+data/fauna/cache/
+data/fauna/*.log
+data/fauna/logs/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

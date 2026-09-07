@@ -1,0 +1,55 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - run: npm ci
+
+      # 运行时索引 + 有介绍的 Markdown 已入库，勿再 import 覆盖
+      - name: Check public data
+        run: |
+          test -f public/data/meta.json
+          test -f public/data/taxonomy.json
+          test -d public/data/species
+          test "$(find public/data/species -name '*.json' | wc -l)" -gt 0
+          test -d public/species
+
+      - run: npm run build
+        env:
+          BASE_PATH: /zoo-world/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

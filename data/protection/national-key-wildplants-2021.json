@@ -1,0 +1,3570 @@
+{
+  "title": "国家重点保护野生植物名录",
+  "version": "2021",
+  "source": "国家林业和草原局、农业农村部公告（2021年第15号）",
+  "sourceUrl": "https://www.gov.cn/zhengce/zhengceku/2021-09/09/content_5636409.htm",
+  "compiledFrom": "https://zh.wikipedia.org/wiki/国家重点保护野生植物名录",
+  "compiledAt": "2026-09-04T04:54:34.532Z",
+  "notes": [
+    "现行有效版本为2021年9月公布施行（国务院2021年8月7日批准）",
+    "等级：一级/Ⅰ、二级/Ⅱ",
+    "“类”条目按属/科所有种扩及；组（sect.）规则因库内无组级数据暂不自动扩及全属",
+    "除外 / 未列入物种在匹配时跳过对应阶元规则"
+  ],
+  "species": [
+    {
+      "chineseName": "百山祖冷杉",
+      "scientificName": "Abies beshanzuensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "资源冷杉",
+      "scientificName": "Abies beshanzuensis var.ziyuanensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "秦岭冷杉",
+      "scientificName": "Abies chensiensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "梵净山冷杉",
+      "scientificName": "Abies fanjingshanensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "元宝山冷杉",
+      "scientificName": "Abies yuanbaoshanensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "芒苞草",
+      "scientificName": "Acanthochlamys bracteata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "梓叶槭",
+      "scientificName": "Acer amplum subsp.catalpifolium",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "庙台槭",
+      "scientificName": "Acer miaotaiense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "五小叶槭",
+      "scientificName": "Acer pentaphyllum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "漾濞槭",
+      "scientificName": "Acer yangbiense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "短芒芨芨草",
+      "scientificName": "Achnatherum breviaristatum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "软枣猕猴桃",
+      "scientificName": "Actinidia arguta",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "中华猕猴桃",
+      "scientificName": "Actinidia chinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "金花猕猴桃",
+      "scientificName": "Actinidia chrysantha",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "条叶猕猴桃",
+      "scientificName": "Actinidia fortunatii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "大籽猕猴桃",
+      "scientificName": "Actinidia macrosperma",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "荷叶铁线蕨",
+      "scientificName": "Adiantum nelumboides",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "香花指甲兰",
+      "scientificName": "Aerides odorata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "望谟崖摩",
+      "scientificName": "Aglaia lawii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "沙芦草",
+      "scientificName": "Agropyron mongolicum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "长蕊木兰",
+      "scientificName": "Alcimandra cathcartii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "貉藻",
+      "scientificName": "Aldrovanda vesiculosa",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "油丹",
+      "scientificName": "Alseodaphne hainanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "皱皮油丹",
+      "scientificName": "Alseodaphne rugosa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "赤水蕈树",
+      "scientificName": "Altingia multinervis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "沙冬青",
+      "scientificName": "Ammopiptanthus mongolicus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "海南豆蔻",
+      "scientificName": "Amomum hainanense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "宽丝豆蔻",
+      "scientificName": "Amomum petaloideum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "喙核桃",
+      "scientificName": "Annamocarya sinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "圆籽荷",
+      "scientificName": "Apterosperma oblata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "土沉香",
+      "scientificName": "Aquilaria sinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "云南沉香",
+      "scientificName": "Aquilaria yunnanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "古山龙",
+      "scientificName": "Arcangelisia gusanlung",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "棋子豆",
+      "scientificName": "Archidendron robinsonii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "三刺草",
+      "scientificName": "Aristida triseta",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "囊花马兜铃",
+      "scientificName": "Aristolochia utriformis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "新疆紫草",
+      "scientificName": "Arnebia euchroma",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "南川木波罗",
+      "scientificName": "Artocarpus nanchuanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "金耳环",
+      "scientificName": "Asarum insigne",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "对开蕨",
+      "scientificName": "Asplenium komarovii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "苞藜",
+      "scientificName": "Baolia bracteata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "北京水毛茛",
+      "scientificName": "Batrachium pekinense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "紫荆叶羊蹄甲",
+      "scientificName": "Bauhinia cercidifolia",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蛛网脉秋海棠",
+      "scientificName": "Begonia arachnoidea",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "阳春秋海棠",
+      "scientificName": "Begonia coptidifolia",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "黑峰秋海棠",
+      "scientificName": "Begonia ferox",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "古林箐秋海棠",
+      "scientificName": "Begonia gulinqingensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "古龙山秋海棠",
+      "scientificName": "Begonia gulongshanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "海南秋海棠",
+      "scientificName": "Begonia hainanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "香港秋海棠",
+      "scientificName": "Begonia hongkongensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "小勾儿茶",
+      "scientificName": "Berchemiella wilsonii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "膝柄木",
+      "scientificName": "Bhesa robusta",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白及",
+      "scientificName": "Bletilla striata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "光叶苎麻",
+      "scientificName": "Boehmeria leiophylla",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "长圆苎麻",
+      "scientificName": "Boehmeria oblongifolia",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "草苁蓉",
+      "scientificName": "Boschniakia rossica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "苏铁蕨",
+      "scientificName": "Brainea insignis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "莼菜",
+      "scientificName": "Brasenia schreberi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "伯乐树",
+      "scientificName": "Bretschneidera sinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物"
+    },
+    {
+      "chineseName": "美花卷瓣兰",
+      "scientificName": "Bulbophyllum rothschildianum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "柄翅果",
+      "scientificName": "Burretiodendron esquirolii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "拟花蔺",
+      "scientificName": "Butomopsis latifolia",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "独龙虾脊兰",
+      "scientificName": "Calanthe dulongensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大黄花虾脊兰",
+      "scientificName": "Calanthe striata var.sieboldii",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "翠柏",
+      "scientificName": "Calocedrus macrolepis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "岩生翠柏",
+      "scientificName": "Calocedrus rupestris",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "丽豆",
+      "scientificName": "Calophaca sinica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "夏蜡梅",
+      "scientificName": "Calycanthus chinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "杜鹃红山茶",
+      "scientificName": "Camellia azalea",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大叶茶",
+      "scientificName": "Camellia sinensis var.assamica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大理茶",
+      "scientificName": "Camellia taliensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "荞麦叶大百合",
+      "scientificName": "Cardiocrinum cathayanum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "山茴香",
+      "scientificName": "Carlesia sinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "普陀鹅耳枥",
+      "scientificName": "Carpinus putoensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "天台鹅耳枥",
+      "scientificName": "Carpinus tientaiensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "贵州山核桃",
+      "scientificName": "Carya kweichowensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "董棕",
+      "scientificName": "Caryota obtusa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "华南锥",
+      "scientificName": "Castanopsis concinna",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "银杉",
+      "scientificName": "Cathaya argyrophylla",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "海南粗榧",
+      "scientificName": "Cephalotaxus hainanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "贡山三尖杉",
+      "scientificName": "Cephalotaxus lanceolata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "篦子三尖杉",
+      "scientificName": "Cephalotaxus oliveri",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "连香树",
+      "scientificName": "Cercidiphyllum japonicum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红桧",
+      "scientificName": "Chamaecyparis formosensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "明党参",
+      "scientificName": "Changium smyrnioides",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "独花兰",
+      "scientificName": "Changnienia amoena",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蕉木",
+      "scientificName": "Chieniodendron hainanense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "山涧草",
+      "scientificName": "Chikusichloa aquatica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "流苏香竹",
+      "scientificName": "Chimonocalamus fimbriatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "天星蕨",
+      "scientificName": "Christensenia assamica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "川明参",
+      "scientificName": "Chuanminshen violaceum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "山铜材",
+      "scientificName": "Chunia bucklandioides",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "琼棕",
+      "scientificName": "Chuniophoenix hainanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "矮琼棕",
+      "scientificName": "Chuniophoenix humilis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "茶果樟",
+      "scientificName": "Cinnamomum chago",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "天竺桂",
+      "scientificName": "Cinnamomum japonicum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "油樟",
+      "scientificName": "Cinnamomum longepaniculatum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "卵叶桂",
+      "scientificName": "Cinnamomum rigidissimum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "肉苁蓉",
+      "scientificName": "Cistanche deserticola",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "管花肉苁蓉",
+      "scientificName": "Cistanche mongolica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "宜昌橙",
+      "scientificName": "Citrus cavaleriei",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "道县野桔",
+      "scientificName": "Citrus daoxianensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "红河橙",
+      "scientificName": "Citrus hongheensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "莽山野桔",
+      "scientificName": "Citrus mangshanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "槭叶铁线莲",
+      "scientificName": "Clematis acerifolia",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（含种下等级）",
+      "note": "含种下等级",
+      "aquatic": true
+    },
+    {
+      "chineseName": "莎禾",
+      "scientificName": "Coleanthus subtilis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "橙花破布木",
+      "scientificName": "Cordia subcordata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "阿拉善单刺蓬",
+      "scientificName": "Cornulaca alaschanica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "大理铠兰",
+      "scientificName": "Corybas taliensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "石生黄堇",
+      "scientificName": "Corydalis saxicola",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "滇桐",
+      "scientificName": "Craigia yunnanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "杜鹃兰",
+      "scientificName": "Cremastra appendiculata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "野黄瓜",
+      "scientificName": "Cucumis sativus var.xishuangbannanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "岷江柏木",
+      "scientificName": "Cupressus chengiana",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "巨柏",
+      "scientificName": "Cupressus gigantea",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "西藏柏木",
+      "scientificName": "Cupressus torulosa",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "细莪术",
+      "scientificName": "Curcuma exigua",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "西畴青冈",
+      "scientificName": "Cyclobalanopsis sichourensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "美花兰",
+      "scientificName": "Cymbidium insigne",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "文山红柱兰",
+      "scientificName": "Cymbidium wenshanense",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "锁阳",
+      "scientificName": "Cynomorium songaricum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "暖地杓兰",
+      "scientificName": "Cypripedium subtropicum",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物（包括''Cypripedium singchii''）",
+      "note": "包括''Cypripedium singchii''",
+      "aquatic": false
+    },
+    {
+      "chineseName": "光叶蕨",
+      "scientificName": "Cystopteris chinensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黑黄檀",
+      "scientificName": "Dalbergia cultrata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "海南黄檀",
+      "scientificName": "Dalbergia hainanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "降香",
+      "scientificName": "Dalbergia odorifera",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "卵叶黄檀",
+      "scientificName": "Dalbergia ovata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "珙桐",
+      "scientificName": "Davidia involucrata",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物（含种下等级）",
+      "note": "含种下等级",
+      "aquatic": false
+    },
+    {
+      "chineseName": "瑶山苣苔",
+      "scientificName": "Dayaoshania cotinifolia",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "曲茎石斛",
+      "scientificName": "Dendrobium flexicaule",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "霍山石斛",
+      "scientificName": "Dendrobium huoshanense",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "东京桐",
+      "scientificName": "Deutzianthus tonkinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "龙眼",
+      "scientificName": "Dimocarpus longan",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "小萼柿",
+      "scientificName": "Diospyros minutisepala",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "川柿",
+      "scientificName": "Diospyros sutchuensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "海南椴",
+      "scientificName": "Diplodiscus trichospermus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "滇藏榄",
+      "scientificName": "Diploknema yunnanensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "东京龙脑香",
+      "scientificName": "Dipterocarpus retusus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "云南金钱槭",
+      "scientificName": "Dipteronia dyeriana",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "长柄双花木",
+      "scientificName": "Disanthus cercidifolius subsp. longipes",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "海南龙血树",
+      "scientificName": "Dracaena cambodiana",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "剑叶龙血树",
+      "scientificName": "Dracaena cochinchinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "绣球茜",
+      "scientificName": "Dunnia sinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "刺萼参",
+      "scientificName": "Echinocodon draco",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "翅果油树",
+      "scientificName": "Elaeagnus mollis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "藤枣",
+      "scientificName": "Eleutharrhena macrocarpa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "阿拉善披碱草",
+      "scientificName": "Elymus alashanicus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "黑紫披碱草",
+      "scientificName": "Elymus atratus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "短柄披碱草",
+      "scientificName": "Elymus brevipes",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "内蒙披碱草",
+      "scientificName": "Elymus intramongolicus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "紫芒披碱草",
+      "scientificName": "Elymus purpuraristatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "新疆披碱草",
+      "scientificName": "Elymus sinkiangensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "无芒披碱草",
+      "scientificName": "Elymus sinosubmuticus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "毛披碱草",
+      "scientificName": "Elymus villifer",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "香果树",
+      "scientificName": "Emmenopterys henryi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "斑子麻黄",
+      "scientificName": "Ephedra rhytidosperma",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "格木",
+      "scientificName": "Erythrophleum fordii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "广西火桐",
+      "scientificName": "Erythropsis kwangsiensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "茴香砂仁",
+      "scientificName": "Etlingera yunnanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "珍珠麒麟菜",
+      "scientificName": "Eucheuma okamurai",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "山豆根",
+      "scientificName": "Euchresta japonica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "伞花木",
+      "scientificName": "Eurycorymbus cavaleriei",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "猪血木",
+      "scientificName": "Euryodendron excelsum",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蚬木",
+      "scientificName": "Excentrodendron tonkinense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "金荞麦",
+      "scientificName": "Fagopyrum dibotrys",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "台湾水青冈",
+      "scientificName": "Fagus hayatae",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "铁竹",
+      "scientificName": "Ferrocalamus strictus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "阜康阿魏",
+      "scientificName": "Ferula fukanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "麝香阿魏",
+      "scientificName": "Ferula moschata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "新疆阿魏",
+      "scientificName": "Ferula sinkiangensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "福建柏",
+      "scientificName": "Fokienia hodginsii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "三棱栎",
+      "scientificName": "Formanodendron doichangensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "山橘",
+      "scientificName": "Fortunella hindsii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "金豆",
+      "scientificName": "Fortunella venosa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "瓣鳞花",
+      "scientificName": "Frankenia pulverulenta",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "水曲柳",
+      "scientificName": "Fraxinus mandschurica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "天山梣",
+      "scientificName": "Fraxinus sogdiana",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "贡山竹",
+      "scientificName": "Gaoligongshania megalothyrsa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "金丝李",
+      "scientificName": "Garcinia paucinervis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "双籽藤黄",
+      "scientificName": "Garcinia tetralata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "原天麻",
+      "scientificName": "Gastrodia angusta",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "天麻",
+      "scientificName": "Gastrodia elata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "萼翅藤",
+      "scientificName": "Getonia floribunda",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "太行花",
+      "scientificName": "Geum rupestre",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "银杏",
+      "scientificName": "Ginkgo biloba",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "绒毛皂荚",
+      "scientificName": "Gleditsia japonica var. velutina",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "珊瑚菜",
+      "scientificName": "Glehnia littoralis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物"
+    },
+    {
+      "chineseName": "野大豆",
+      "scientificName": "Glycine soja",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "烟豆",
+      "scientificName": "Glycine tabacina",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "短绒野大豆",
+      "scientificName": "Glycine tomentella",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "胀果甘草",
+      "scientificName": "Glycyrrhiza inflata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "甘草",
+      "scientificName": "Glycyrrhiza uralensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "水松",
+      "scientificName": "Glyptostrobus pensilis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "苦梓",
+      "scientificName": "Gmelina hainanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "手参",
+      "scientificName": "Gymnadenia conopsea",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "西南手参",
+      "scientificName": "Gymnadenia orchidis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "掌叶木",
+      "scientificName": "Handeliodendron bodinieri",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "半日花",
+      "scientificName": "Helianthemum songaricum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "七指蕨",
+      "scientificName": "Helminthostachys zeylanica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "七子花",
+      "scientificName": "Heptacodium miconioides",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蝴蝶树",
+      "scientificName": "Heritiera parvifolia",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "莲叶桐",
+      "scientificName": "Hernandia nymphaeifolia",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "狭叶坡垒",
+      "scientificName": "Hopea chinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "坡垒",
+      "scientificName": "Hopea hainanensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "翼坡垒",
+      "scientificName": "Hopea reticulata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物"
+    },
+    {
+      "chineseName": "西藏坡垒",
+      "scientificName": "Hopea shingkeng",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "内蒙古大麦",
+      "scientificName": "Hordeum innermongolicum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "厚朴",
+      "scientificName": "Houpoea officinalis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（包括种下等级，[[凹叶厚朴]]并入本种。）",
+      "note": "包括种下等级，[[凹叶厚朴]]并入本种。",
+      "aquatic": false
+    },
+    {
+      "chineseName": "长喙厚朴",
+      "scientificName": "Houpoea rostrata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "纪如竹",
+      "scientificName": "Hsuehochloa calcarea",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "海南大风子",
+      "scientificName": "Hydnocarpus hainanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "水石衣",
+      "scientificName": "Hydrobryum griffithii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "水禾",
+      "scientificName": "Hygroryza aristata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "扣树",
+      "scientificName": "Ilex kaushue",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "地枫皮",
+      "scientificName": "Illicium difengpi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（属的系统学位置发生变动）",
+      "note": "属的系统学位置发生变动",
+      "aquatic": false
+    },
+    {
+      "chineseName": "水仙花鸢尾",
+      "scientificName": "Iris narcissiflora",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "耳突卡帕藻",
+      "scientificName": "Kappaphycus cottonii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "青海以礼草",
+      "scientificName": "Kengyilia kokonorica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "独叶草",
+      "scientificName": "Kingdonia uniflora",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黄山梅",
+      "scientificName": "Kirengeshoma palmata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "小果紫薇",
+      "scientificName": "Lagerstroemia minuticarpa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "毛紫薇",
+      "scientificName": "Lagerstroemia villosa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "爪耳木",
+      "scientificName": "Lepisanthes unilocularis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "桧叶白发藓",
+      "scientificName": "Leucobryum juniperoideum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蒙古口蘑",
+      "scientificName": "Leucocalocybe mongolica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "白菊木",
+      "scientificName": "Leucomeris decora",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "秀丽百合",
+      "scientificName": "Lilium amabile",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "绿花百合",
+      "scientificName": "Lilium fargesii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "乳头百合",
+      "scientificName": "Lilium papilliferum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "天山百合",
+      "scientificName": "Lilium tianschanicum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "青岛百合",
+      "scientificName": "Lilium tsingtauense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "大叶木兰",
+      "scientificName": "Lirianthe henryi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "馨香玉兰",
+      "scientificName": "Lirianthe odoratissima",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物"
+    },
+    {
+      "chineseName": "鹅掌楸",
+      "scientificName": "Liriodendron chinense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物"
+    },
+    {
+      "chineseName": "野生荔枝",
+      "scientificName": "Litchi chinensis var.euspontanea",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "辐花",
+      "scientificName": "Lomatogoniopsis alpina",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "丁香叶忍冬",
+      "scientificName": "Lonicera oblata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "四药门花",
+      "scientificName": "Loropetalum subcordatum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "血叶兰",
+      "scientificName": "Ludisia discolor",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红榄李",
+      "scientificName": "Lumnitzera littorea",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "黑果枸杞",
+      "scientificName": "Lycium ruthenicum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "云南枸杞",
+      "scientificName": "Lycium yunnanense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "浙江马鞍树",
+      "scientificName": "Maackia chekiangensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "润楠",
+      "scientificName": "Machilus nanmu",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "海南紫荆木",
+      "scientificName": "Madhuca hainanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "紫荆木",
+      "scientificName": "Madhuca pasquieri",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "小叶十大功劳",
+      "scientificName": "Mahonia microphylla",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "靖西十大功劳",
+      "scientificName": "Mahonia subimbricata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蒜头果",
+      "scientificName": "Malania oleifera",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "山楂海棠",
+      "scientificName": "Malus komarovii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "丽江山荆子",
+      "scientificName": "Malus rockii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "新疆野苹果",
+      "scientificName": "Malus sieversii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "锡金海棠",
+      "scientificName": "Malus sikkimensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "林生杧果",
+      "scientificName": "Mangifera sylvatica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "香木莲",
+      "scientificName": "Manglietia aromatica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大叶木莲",
+      "scientificName": "Manglietia dandyi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "落叶木莲",
+      "scientificName": "Manglietia decidua",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大果木莲",
+      "scientificName": "Manglietia grandis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "厚叶木莲",
+      "scientificName": "Manglietia pachyphylla",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "毛果木莲",
+      "scientificName": "Manglietia ventii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "久治绿绒蒿",
+      "scientificName": "Meconopsis barbiseta",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红花绿绒蒿",
+      "scientificName": "Meconopsis punicea",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "毛瓣绿绒蒿",
+      "scientificName": "Meconopsis torquata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "驼峰藤",
+      "scientificName": "Merrillanthus hainanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "水杉",
+      "scientificName": "Metasequoia glyptostroboides",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "广东含笑",
+      "scientificName": "Michelia guangdongensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "香子含笑",
+      "scientificName": "Michelia hypolampra",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物"
+    },
+    {
+      "chineseName": "石碌含笑",
+      "scientificName": "Michelia shiluensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "峨眉含笑",
+      "scientificName": "Michelia wilsonii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "永瓣藤",
+      "scientificName": "Monimopetalum chinense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "巴戟天",
+      "scientificName": "Morinda officinalis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "奶桑",
+      "scientificName": "Morus macroura",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "川桑",
+      "scientificName": "Morus notabilis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "长穗桑",
+      "scientificName": "Morus wittiorum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "疏花水柏枝",
+      "scientificName": "Myricaria laxiflora",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "乌苏里狐尾藻",
+      "scientificName": "Myriophyllum ussuriense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "云南肉豆蔻",
+      "scientificName": "Myristica yunnanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "高雄茨藻",
+      "scientificName": "Najas browniana",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "匙叶甘松",
+      "scientificName": "Nardostachys jatamansi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "莲",
+      "scientificName": "Nelumbo nucifera",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "舟山新木姜子",
+      "scientificName": "Neolitsea sericea",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "滇南新乌檀",
+      "scientificName": "Neonauclea tsaiana",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "胡黄连",
+      "scientificName": "Neopicrorhiza scrophulariiflora",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "韶子",
+      "scientificName": "Nephelium chryseum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "发菜",
+      "scientificName": "Nostoc flagelliforme",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "雪白睡莲",
+      "scientificName": "Nymphaea candida",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "水椰",
+      "scientificName": "Nypa fruticans",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "云南蓝果树",
+      "scientificName": "Nyssa yunnanensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "虫草",
+      "scientificName": "Ophiocordyceps sinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物"
+    },
+    {
+      "chineseName": "带状瓶尔小草",
+      "scientificName": "Ophioglossum pendulum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "海南兰花蕉",
+      "scientificName": "Orchidantha insularis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "云南兰花蕉",
+      "scientificName": "Orchidantha yunnanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "青海固沙草",
+      "scientificName": "Orinus kokonorica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "小叶红豆",
+      "scientificName": "Ormosia microphylla",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "毛柄木犀",
+      "scientificName": "Osmanthus pubipedicellatus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "毛木犀",
+      "scientificName": "Osmanthus venosus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "天目铁木",
+      "scientificName": "Ostrya rehderiana",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "圆叶天女花",
+      "scientificName": "Oyama sinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物"
+    },
+    {
+      "chineseName": "西康天女花",
+      "scientificName": "Oyama wilsonii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物"
+    },
+    {
+      "chineseName": "华盖木",
+      "scientificName": "Pachylarnax sinica",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "卵叶牡丹",
+      "scientificName": "Paeonia qiui",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "紫斑牡丹",
+      "scientificName": "Paeonia rockii",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "白花芍药",
+      "scientificName": "Paeonia sterniana",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "带叶兜兰",
+      "scientificName": "Paphiopedilum hirsutissimum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "硬叶兜兰",
+      "scientificName": "Paphiopedilum micranthum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "平当树",
+      "scientificName": "Paradombeya sinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "峨眉拟单性木兰",
+      "scientificName": "Parakmeria omeiensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "云南拟单性木兰",
+      "scientificName": "Parakmeria yunnanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "合果木",
+      "scientificName": "Paramichelia baillonii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "海南假韶子",
+      "scientificName": "Paranephelium hainanense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "望天树",
+      "scientificName": "Parashorea chinensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "富宁藤",
+      "scientificName": "Parepigynum funingense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "银缕梅",
+      "scientificName": "Parrotia subaequalis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "水芫花",
+      "scientificName": "Pemphis acidula",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "秦岭石蝴蝶",
+      "scientificName": "Petrocosmea qinlingensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "海南鹤顶兰",
+      "scientificName": "Phaius hainanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "文山鹤顶兰",
+      "scientificName": "Phaius wenshanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "罗氏蝴蝶兰",
+      "scientificName": "Phalaenopsis lobbii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "麻栗坡蝴蝶兰",
+      "scientificName": "Phalaenopsis malipoensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "华西蝴蝶兰",
+      "scientificName": "Phalaenopsis wilsonii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "象鼻兰",
+      "scientificName": "Phalaenopsis zhejiangensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "黄檗",
+      "scientificName": "Phellodendron amurense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "川黄檗",
+      "scientificName": "Phellodendron chinense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "闽楠",
+      "scientificName": "Phoebe bournei",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "浙江楠",
+      "scientificName": "Phoebe chekiangensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "细叶楠",
+      "scientificName": "Phoebe hui",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "楠木",
+      "scientificName": "Phoebe zhennan",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大果青扦",
+      "scientificName": "Picea neoveitchii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大别山五针松",
+      "scientificName": "Pinus dabeshanensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "兴凯赤松",
+      "scientificName": "Pinus densiflora var. ussuriensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红松",
+      "scientificName": "Pinus koraiensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "华南五针松",
+      "scientificName": "Pinus kwangtungensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "雅加松",
+      "scientificName": "Pinus massoniana var.hainanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "巧家五针松",
+      "scientificName": "Pinus squamata",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "长白松",
+      "scientificName": "Pinus sylvestris var.sylvestriformis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "毛枝五针松",
+      "scientificName": "Pinus wangii",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "斜翼",
+      "scientificName": "Plagiopteron suaveolens",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "丰都车前",
+      "scientificName": "Plantago fengdouensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "鹿角蕨",
+      "scientificName": "Platycerium wallichii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "蛛网萼",
+      "scientificName": "Platycrater arguta",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "小钩叶藤",
+      "scientificName": "Plectocomia microstachys",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "羽叶点地梅",
+      "scientificName": "Pomatosace filicula",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "富民枳",
+      "scientificName": "Poncirus×polyandra",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "额河杨",
+      "scientificName": "Populus×irtyschensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "绵刺",
+      "scientificName": "Potaninia mongolica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "报春苣苔",
+      "scientificName": "Primulina tabacum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "新疆野杏",
+      "scientificName": "Prunus armeniaca",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "新疆樱桃李",
+      "scientificName": "Prunus cerasifera",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "甘肃桃",
+      "scientificName": "Prunus kansuensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "光核桃",
+      "scientificName": "Prunus mira",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "蒙古扁桃",
+      "scientificName": "Prunus mongolica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "矮扁桃",
+      "scientificName": "Prunus nana",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物"
+    },
+    {
+      "chineseName": "政和杏",
+      "scientificName": "Prunus zhengheensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "金铁锁",
+      "scientificName": "Psammosilene tunicoides",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "华山新麦草",
+      "scientificName": "Psathyrostachys huashanica",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "金钱松",
+      "scientificName": "Pseudolarix amabilis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "白豆杉",
+      "scientificName": "Pseudotaxus chienii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "景东翅子树",
+      "scientificName": "Pterospermum kingtungense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "勐仑翅子树",
+      "scientificName": "Pterospermum menglunense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "霸王栎",
+      "scientificName": "Quercus bawanglingensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "尖叶栎",
+      "scientificName": "Quercus oxyphylla",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "长喙毛茛泽泻",
+      "scientificName": "Ranalisma rostrata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "粗齿梭罗",
+      "scientificName": "Reevesia rotundifolia",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "长白红景天",
+      "scientificName": "Rhodiola angusta",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大花红景天",
+      "scientificName": "Rhodiola crenulata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "长鞭红景天",
+      "scientificName": "Rhodiola fastigiata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "喜马红景天",
+      "scientificName": "Rhodiola himalensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "四裂红景天",
+      "scientificName": "Rhodiola quadrifida",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红景天",
+      "scientificName": "Rhodiola rosea",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "库页红景天",
+      "scientificName": "Rhodiola sachalinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "圣地红景天",
+      "scientificName": "Rhodiola sacra",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "唐古红景天",
+      "scientificName": "Rhodiola tangutica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "粗茎红景天",
+      "scientificName": "Rhodiola wallichiana",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "云南红景天",
+      "scientificName": "Rhodiola yunnanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "兴安杜鹃",
+      "scientificName": "Rhododendron dauricum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "朱红大杜鹃",
+      "scientificName": "Rhododendron griersonianum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "华顶杜鹃",
+      "scientificName": "Rhododendron huadingense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "井冈山杜鹃",
+      "scientificName": "Rhododendron jingangshanicum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "江西杜鹃",
+      "scientificName": "Rhododendron kiangsiense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "尾叶杜鹃",
+      "scientificName": "Rhododendron urophyllum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "圆叶杜鹃",
+      "scientificName": "Rhododendron williamsianum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "钻喙兰",
+      "scientificName": "Rhynchostylis retusa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "银粉蔷薇",
+      "scientificName": "Rosa anemoniflora",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "小檗叶蔷薇",
+      "scientificName": "Rosa berberifolia",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "单瓣月季花",
+      "scientificName": "Rosa chinensis var. spontanea",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "广东蔷薇",
+      "scientificName": "Rosa kwangtungensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "亮叶月季",
+      "scientificName": "Rosa lucidissima",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大花香水月季",
+      "scientificName": "Rosa odorata var. gigantea",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "中甸刺玫",
+      "scientificName": "Rosa praelucens",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "玫瑰",
+      "scientificName": "Rosa rugosa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "浮叶慈菇",
+      "scientificName": "Sagittaria natans",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "寄生花",
+      "scientificName": "Sapria himalayana",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "硇洲马尾藻",
+      "scientificName": "Sargassum naozhouense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "黑叶马尾藻",
+      "scientificName": "Sargassum nigrifolioides",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "马蹄香",
+      "scientificName": "Saruma henryi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "巴朗山雪莲",
+      "scientificName": "Saussurea balangshanensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "雪兔子",
+      "scientificName": "Saussurea gossipiphora",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "雪莲",
+      "scientificName": "Saussurea involucrata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "绵头雪兔子",
+      "scientificName": "Saussurea laniceps",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "水母雪兔子",
+      "scientificName": "Saussurea medusa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "阿尔泰雪莲",
+      "scientificName": "Saussurea orgaadayi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "合柱金莲木",
+      "scientificName": "Sauvagesia rhodoleuca",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "冰沼草",
+      "scientificName": "Scheuchzeria palustris",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "大果五味子",
+      "scientificName": "Schisandra macrocarpa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "长柱玄参",
+      "scientificName": "Scrophularia stylosa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "云南娑罗双",
+      "scientificName": "Shorea assamica",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "长果姜",
+      "scientificName": "Siliquamomum tonkinense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "鹿角菜",
+      "scientificName": "Silvetia siliquosa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "油楠",
+      "scientificName": "Sindora glabra",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "三蕊草",
+      "scientificName": "Sinochasea trigyna",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "华参",
+      "scientificName": "Sinopanax formosanus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "桃儿七",
+      "scientificName": "Sinopodophyllum hexandrum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "孔药楠",
+      "scientificName": "Sinopora hongkongensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "越南槐",
+      "scientificName": "Sophora tonkinensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "拟高梁",
+      "scientificName": "Sorghum propinquum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "无柱黑三棱",
+      "scientificName": "Sparganium hyperboreum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "多纹泥炭藓",
+      "scientificName": "Sphagnum multifibrosum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "粗叶泥炭藓",
+      "scientificName": "Sphagnum squarrosum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "箭叶大油芒",
+      "scientificName": "Spodiopogon sagittifolius",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "海人树",
+      "scientificName": "Suriana maritima",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "台湾杉",
+      "scientificName": "Taiwania cryptomerioides",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（包括 ''Taiwania flousiana''）",
+      "note": "包括 ''Taiwania flousiana''"
+    },
+    {
+      "chineseName": "台湾杉",
+      "scientificName": "Taiwania flousiana",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（包括 ''Taiwania flousiana''）",
+      "note": "异名，见 Taiwania cryptomerioides"
+    },
+    {
+      "chineseName": "角叶藻苔",
+      "scientificName": "Takakia ceratophylla",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "藻苔",
+      "scientificName": "Takakia lepidozioides",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "千果榄仁",
+      "scientificName": "Terminalia myriocarpa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "水青树",
+      "scientificName": "Tetracentron sinense",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "四合木",
+      "scientificName": "Tetraena mongolica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "四数木",
+      "scientificName": "Tetrameles nudiflora",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "辐花苣苔",
+      "scientificName": "Thamnocharis esquirolii",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "朝鲜崖柏",
+      "scientificName": "Thuja koraiensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "崖柏",
+      "scientificName": "Thuja sutchuenensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "虎颜花",
+      "scientificName": "Tigridiopalma magnifica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "紫椴",
+      "scientificName": "Tilia amurensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "红椿",
+      "scientificName": "Toona ciliata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "龙棕",
+      "scientificName": "Trachycarpus nanus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "细果野菱",
+      "scientificName": "Trapa incisa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物"
+    },
+    {
+      "chineseName": "崖白菜",
+      "scientificName": "Triaenophora rupestris",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "松口蘑",
+      "scientificName": "Tricholoma matsutake",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物"
+    },
+    {
+      "chineseName": "中华夏块菌",
+      "scientificName": "Tuber sinoaestivum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "革苞菊",
+      "scientificName": "Tugarinovia mongolica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "长序榆",
+      "scientificName": "Ulmus elongata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "盾鳞狸藻",
+      "scientificName": "Utricularia punctata",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    },
+    {
+      "chineseName": "大花万代兰",
+      "scientificName": "Vanda coerulea",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "深圳香荚兰",
+      "scientificName": "Vanilla shenzhenica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "广西青梅",
+      "scientificName": "Vatica guangxiensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "青梅",
+      "scientificName": "Vatica mangachapoi",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "百花山葡萄",
+      "scientificName": "Vitis baihuashanensis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "浙江蘡薁",
+      "scientificName": "Vitis zhejiang-adstricta",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "文采木",
+      "scientificName": "Wangia saccopetaloides",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "保亭花",
+      "scientificName": "Wenchengia alternifolia",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "焕镛木",
+      "scientificName": "Woonyoungia septentrionalis",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物"
+    },
+    {
+      "chineseName": "越南黄金柏",
+      "scientificName": "Xanthocyparis vietnamensis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "木果楝",
+      "scientificName": "Xylocarpus granatum",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "宝华玉兰",
+      "scientificName": "Yulania zenii",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "大叶榉树",
+      "scientificName": "Zelkova schneideriana",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": false
+    },
+    {
+      "chineseName": "中华结缕草",
+      "scientificName": "Zoysia sinica",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物",
+      "aquatic": true
+    }
+  ],
+  "taxonRules": [
+    {
+      "chineseName": "石杉属",
+      "genus": "Huperzia",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "马尾杉属",
+      "genus": "Phlegmariurus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "水韭属",
+      "genus": "Isoetes",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "观音座莲属",
+      "genus": "Angiopteris",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "金毛狗属",
+      "genus": "Cibotium",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "桫椤科",
+      "taxon": "Cyatheaceae",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种，小黑桫椤和粗齿桫椤除外）",
+      "match": "family",
+      "excludeChinese": [
+        "小黑桫椤",
+        "粗齿桫椤"
+      ],
+      "note": "所有种，小黑桫椤和粗齿桫椤除外"
+    },
+    {
+      "chineseName": "水蕨属",
+      "genus": "Ceratopteris",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "苏铁属",
+      "genus": "Cycas",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "罗汉松属",
+      "genus": "Podocarpus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "穗花杉属",
+      "genus": "Amentotaxus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "红豆杉属",
+      "genus": "Taxus",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "榧树属",
+      "genus": "Torreya",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "油杉属",
+      "genus": "Keteleeria",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种，铁坚油杉、云南油杉、油杉除外）",
+      "match": "genus",
+      "excludeChinese": [
+        "铁坚油杉",
+        "云南油杉",
+        "油杉"
+      ],
+      "note": "所有种，铁坚油杉、云南油杉、油杉除外"
+    },
+    {
+      "chineseName": "黄杉属",
+      "genus": "Pseudotsuga",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "风吹楠属",
+      "genus": "Horsfieldia",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "海菜花属",
+      "genus": "Ottelia",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "重楼属",
+      "genus": "Paris",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种，北重楼除外）",
+      "match": "genus",
+      "excludeChinese": [
+        "北重楼"
+      ],
+      "note": "所有种，北重楼除外"
+    },
+    {
+      "chineseName": "贝母属",
+      "genus": "Fritillaria",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "郁金香属",
+      "genus": "Tulipa",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "金线兰属",
+      "genus": "Anoectochilus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "兰属",
+      "genus": "Cymbidium",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种，被列入一级保护的美花兰和文山红柱兰除外。兔耳兰未列入名录）",
+      "match": "genus",
+      "excludeChinese": [
+        "美花兰",
+        "文山红柱兰",
+        "兔耳兰"
+      ],
+      "note": "所有种，被列入一级保护的美花兰和文山红柱兰除外。兔耳兰未列入名录"
+    },
+    {
+      "chineseName": "杓兰属",
+      "genus": "Cypripedium",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种，被列入一级保护的暖地杓兰除外。离萼杓兰未列入名录）",
+      "match": "genus",
+      "excludeChinese": [
+        "暖地杓兰",
+        "离萼杓兰"
+      ],
+      "note": "所有种，被列入一级保护的暖地杓兰除外。离萼杓兰未列入名录"
+    },
+    {
+      "chineseName": "丹霞兰属",
+      "genus": "Danxiaorchis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "石斛属",
+      "genus": "Dendrobium",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种，被列入一级保护的曲茎石斛和霍山石斛除外）",
+      "match": "genus",
+      "excludeChinese": [
+        "曲茎石斛",
+        "霍山石斛"
+      ],
+      "note": "所有种，被列入一级保护的曲茎石斛和霍山石斛除外"
+    },
+    {
+      "chineseName": "兜兰属",
+      "genus": "Paphiopedilum",
+      "level": "Ⅰ",
+      "status": "国家一级重点保护野生植物（所有种，被列入二级保护的带叶兜兰和硬叶兜兰除外）",
+      "match": "genus",
+      "excludeChinese": [
+        "带叶兜兰",
+        "硬叶兜兰"
+      ],
+      "note": "所有种，被列入二级保护的带叶兜兰和硬叶兜兰除外"
+    },
+    {
+      "chineseName": "独蒜兰属",
+      "genus": "Pleione",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "火焰兰属",
+      "genus": "Renanthera",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "稻属",
+      "genus": "Oryza",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "八角莲属",
+      "genus": "Dysosma",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "黄连属",
+      "genus": "Coptis",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "芍药属牡丹组",
+      "genus": "Paeonia",
+      "section": "Moutan",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种，被列入一级保护的卵叶牡丹和紫斑牡丹除外，牡丹为栽培种，不列入保护植物）",
+      "match": "section",
+      "excludeChinese": [
+        "卵叶牡丹",
+        "紫斑牡丹",
+        "牡丹",
+        "栽培种"
+      ],
+      "note": "所有种，被列入一级保护的卵叶牡丹和紫斑牡丹除外，牡丹为栽培种，不列入保护植物"
+    },
+    {
+      "chineseName": "红豆属",
+      "genus": "Ormosia",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种，被列入一级保护的小叶红豆除外。）",
+      "match": "genus",
+      "excludeChinese": [
+        "小叶红豆"
+      ],
+      "note": "所有种，被列入一级保护的小叶红豆除外。"
+    },
+    {
+      "chineseName": "冬麻豆属",
+      "genus": "Salweenia",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "川苔草属",
+      "genus": "Cladopus",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "川藻属",
+      "genus": "Dalzellia",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "梧桐属",
+      "genus": "Firmiana",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种，梧桐除外）",
+      "match": "genus",
+      "excludeChinese": [
+        "梧桐"
+      ],
+      "note": "所有种，梧桐除外"
+    },
+    {
+      "chineseName": "山茶属金花茶组",
+      "genus": "Camellia",
+      "section": "Chrysantha",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "section",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "山茶属茶组",
+      "genus": "Camellia",
+      "section": "Thea",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种, 大叶茶、大理茶除外）",
+      "match": "section",
+      "excludeChinese": [
+        "大叶茶",
+        "大理茶"
+      ],
+      "note": "所有种, 大叶茶、大理茶除外"
+    },
+    {
+      "chineseName": "秤锤树属",
+      "genus": "Sinojackia",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    },
+    {
+      "chineseName": "人参属",
+      "genus": "Panax",
+      "level": "Ⅱ",
+      "status": "国家二级重点保护野生植物（所有种）",
+      "match": "genus",
+      "note": "所有种"
+    }
+  ]
+}

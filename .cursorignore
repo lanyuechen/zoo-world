@@ -1,0 +1,6 @@
+content/species/
+public/data/catalogue.json
+public/data/search-index.json
+data/raw/*.xlsx
+node_modules/
+dist/
