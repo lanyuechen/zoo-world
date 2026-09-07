@@ -1,0 +1,48 @@
+{
+  "name": "zoo-world",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "build:pages": "BASE_PATH=/zoo-world/ npm run build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "preview:pages": "BASE_PATH=/zoo-world/ vite preview",
+    "import:excel": "tsx scripts/import-excel.ts",
+    "build:protection-list": "tsx scripts/build-protection-list.ts",
+    "build:sanyou-list": "tsx scripts/build-sanyou-list.ts",
+    "build:redlist": "python3 scripts/build-redlist.py",
+    "apply:protection": "tsx scripts/apply-animal-protection.ts && tsx scripts/apply-plant-protection.ts && tsx scripts/apply-sanyou.ts && tsx scripts/apply-redlist.ts",
+    "apply:sanyou": "tsx scripts/apply-sanyou.ts",
+    "apply:redlist": "tsx scripts/apply-redlist.ts",
+    "gbif:request": "tsx scripts/gbif-request-cn-download.ts",
+    "gbif:process": "tsx scripts/gbif-process-cn.ts",
+    "apply:gbif": "tsx scripts/apply-gbif-distribution.ts",
+    "enrich:fauna:tree": "tsx scripts/crawl-fauna-tax-tree.ts",
+    "enrich:fauna": "tsx scripts/enrich-fauna-sinica.ts",
+    "species:pack": "bash scripts/species-release.sh pack",
+    "species:fetch": "bash scripts/species-release.sh fetch",
+    "species:publish": "bash scripts/species-release.sh publish"
+  },
+  "dependencies": {
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
+    "@vitejs/plugin-react": "^6.1.0",
+    "opencc-js": "^1.4.2",
+    "oxlint": "^1.79.0",
+    "tsx": "^4.23.13",
+    "typescript": "~6.0.2",
+    "vite": "^8.2.2",
+    "vite-plugin-pwa": "^1.3.0",
+    "workbox-window": "^7.4.1",
+    "xlsx": "^0.18.5"
+  }
+}

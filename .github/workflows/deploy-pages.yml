@@ -1,0 +1,64 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+  # 物种数据包更新后可手动再跑；Release 发布不自动触发 push
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - run: npm ci
+
+      - name: Check public data indexes
+        run: |
+          test -f public/data/meta.json
+          test -f public/data/taxonomy.json
+          test -d public/data/species
+          test "$(find public/data/species -name '*.json' | wc -l)" -gt 0
+
+      - name: Fetch species detail archive from Release
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: npm run species:fetch
+
+      - name: Verify species details
+        run: |
+          test -d public/species
+          test "$(find public/species -name '*.json' | wc -l)" -gt 0
+
+      - run: npm run build
+        env:
+          BASE_PATH: /zoo-world/
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
