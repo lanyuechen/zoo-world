@@ -33,7 +33,7 @@ export default function App() {
             <p>{error}</p>
             <p>
               将名录 Excel 放入 <code>data/raw/</code> 后执行{' '}
-              <code>npm run import:excel</code>
+              <code>npm run import:sp2000</code>
             </p>
           </div>
         )}
@@ -120,11 +120,11 @@ export default function App() {
           </li>
           <li>
             <a
-              href={data?.meta.gbif?.sourceUrl || 'https://www.gbif.org'}
+              href="https://www.gbif.org/occurrence/search?occurrenceStatus=PRESENT&country=CN"
               target="_blank"
               rel="noreferrer"
             >
-              GBIF 中国分布记录（occurrence，辅助地图）
+              GBIF 中国分布记录（2026）
             </a>
           </li>
           <li>

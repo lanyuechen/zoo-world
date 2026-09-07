@@ -142,7 +142,7 @@ export function forEachSkeleton(
   fn: (s: SkeletonSpecies, index: number, totalHint: number) => void,
 ): number {
   if (!fs.existsSync(SPECIES_SHARD_DIR)) {
-    throw new Error(`缺少物种分片：请先 npm run import:excel（${SPECIES_SHARD_DIR}）`)
+    throw new Error(`缺少物种分片：请先 npm run import:sp2000（${SPECIES_SHARD_DIR}）`)
   }
   const files = fs.readdirSync(SPECIES_SHARD_DIR).filter((f) => f.endsWith('.json'))
   let n = 0

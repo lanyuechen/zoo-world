@@ -12,7 +12,7 @@ export default function HomePage() {
           <p className="hero-kicker">非商业 · 本土物种名录</p>
           <h1 className="hero-brand">中国生物大百科</h1>
           <p className="hero-lead">
-            以《中国生物物种名录》为唯一分类主干，收录在中国有自然分布记录的动物界、植物界与真菌界物种。拉丁学名做主键，中文名与分类阶元与名录对齐。
+            专注记录中国本土野生动物的科普查阅工具。整合《中国动物志》、中国生物物种名录、权威物种数据库公开资料，收录兽类、鸟类、两栖爬行、鱼类、昆虫等本土物种信息。完整保存拉丁学名、异名、亚种、指名亚种、保护等级、形态特征、分布与生境、文献来源。支持中文名、拉丁名检索，本地离线数据库，无需网络即可查阅物种档案，面向自然爱好者、学生与科普研究者，助力认识我国丰富的生物多样性。
           </p>
           <div className="hero-actions">
             <Link className="btn btn-primary" to="/browse">
@@ -30,8 +30,6 @@ export default function HomePage() {
       </section>
 
       <section className="section phylum-section">
-        <h2>界</h2>
-        <p className="section-desc">按名录界级概览，点击进入门 → 纲 → 目 → 科 → 属 → 种。</p>
         <ul className="phylum-list">
           {kingdoms.map((k) => (
             <li key={k.latin}>

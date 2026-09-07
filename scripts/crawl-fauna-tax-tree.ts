@@ -1,8 +1,9 @@
 /**
- * 爬取《中国动物志数据库》左侧分类树叶节点，边爬边落盘（可断点续跑）。
+ * 爬取《中国动物志数据库》左侧分类树中的种/亚种节点，边爬边落盘（可断点续跑）。
+ * 种下有亚种时：种与亚种均入库。
  *
  *   npm run enrich:fauna:tree
- *   npm run enrich:fauna:tree -- --force          # 清空断点重来
+ *   npm run enrich:fauna:tree -- --force          # 清空断点重来（schema 变更后必须）
  *   npm run enrich:fauna:tree -- --delay=60
  *
  * 文件：
@@ -17,6 +18,7 @@ import {
   crawlFaunaLeaves,
   defaultCheckpointPath,
   defaultLeafIndexPath,
+  FAUNA_LEAF_INDEX_VERSION,
   loadCheckpoint,
   loadLeafIndex,
   saveCheckpoint,
@@ -68,8 +70,21 @@ async function main() {
   }
 
   const existingDone = loadLeafIndex(OUT)
+  const existingCp = !FORCE ? loadCheckpoint(CHECKPOINT) : null
+  const staleSchema =
+    (existingDone && (existingDone.schemaVersion ?? 1) < FAUNA_LEAF_INDEX_VERSION) ||
+    (existingCp && (existingCp.schemaVersion ?? 1) < FAUNA_LEAF_INDEX_VERSION)
+
+  if (!FORCE && staleSchema) {
+    console.error(
+      `索引/断点为旧语义（schemaVersion < ${FAUNA_LEAF_INDEX_VERSION}：种有亚种时未入库）。` +
+        `请加 --force 重建：npm run enrich:fauna:tree -- --force`,
+    )
+    process.exit(1)
+  }
+
   if (!FORCE && existingDone?.leafCount && !existingDone.partial) {
-    const cp = loadCheckpoint(CHECKPOINT)
+    const cp = existingCp
     if (!cp || cp.done) {
       console.log(`已有完整索引 ${OUT}（${existingDone.leafCount} 叶，${existingDone.builtAt}）。加 --force 重建。`)
       return
@@ -78,7 +93,7 @@ async function main() {
 
   let start: FaunaTreeCheckpoint | null = null
   if (!FORCE) {
-    start = loadCheckpoint(CHECKPOINT)
+    start = existingCp
     if (start?.done) {
       console.log(`断点已标记完成（${start.leaves.length} 叶）。加 --force 重建。`)
       persist(start, true)
@@ -129,7 +144,10 @@ async function main() {
     process.exit(0)
   }
 
-  console.log(`完成：${leaves.length} 个叶节点，唯一二项式 ${Object.keys(buildLeafIndex(leaves).byBinomial).length}`)
+  const index = buildLeafIndex(leaves)
+  console.log(
+    `完成：${leaves.length} 个种/亚种节点，唯一学名 ${Object.keys(index.byBinomial).length}（schema v${FAUNA_LEAF_INDEX_VERSION}）`,
+  )
   console.log(`写入 ${OUT}`)
 }
 

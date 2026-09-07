@@ -83,8 +83,8 @@ export default function SpeciesDistributionMap({ scientificName, detail }: Props
   const loading = detail === undefined
   const data: GbifChinaOccurrences | null = useMemo(() => {
     if (loading) return null
-    return occurrencesFromDetail(scientificName, detail)
-  }, [scientificName, detail, loading])
+    return occurrencesFromDetail(detail)
+  }, [detail, loading])
   const provinces = sortProvinces(data?.provinces || [])
   const provinceSet = useMemo(() => new Set(provinces), [provinces.join('|')])
 
@@ -142,15 +142,6 @@ export default function SpeciesDistributionMap({ scientificName, detail }: Props
           <p className="empty map-status map-status-overlay">暂无中国境内坐标记录。</p>
         )}
       </div>
-
-      {data && data.points.length > 0 && (
-        <p className="distribution-map-meta">
-          展示 {data.points.length.toLocaleString()} 个中国境内坐标点 ·{' '}
-          <a href={data.sourceUrl} target="_blank" rel="noreferrer">
-            在 GBIF 查看
-          </a>
-        </p>
-      )}
     </section>
   )
 }

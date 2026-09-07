@@ -1,17 +1,21 @@
 /**
- * 动物主题库 enrich 完整包（v2）：描述 + 异名 + 俗名 + 图片，带来源标记。
- * 旧版仅有 <!-- fauna-sinica --> 描述块；v2 用 <!-- zoo-pack:v2 --> 便于区分与补全。
+ * 动物主题库 enrich 完整包（v4）：描述 HTML→Markdown（保留加粗/换行）+ 异名 + 俗名 + 图片。
+ * intro 再处理见 scripts/lib/intro（INTRO_PIPELINE_VERSION）。
+ * 旧版仅有 <!-- fauna-sinica --> 描述块；HTML 注释块名仍用 zoo-pack:v2 历史兼容。
  * 异名写入 public/data/species 骨架，不进 Markdown 正文。
  */
 import fs from 'node:fs'
 import path from 'node:path'
-import { FAUNA_BASE, stripHtml } from './fauna-tax-tree'
-import { normalizeFaunaInner } from './normalize-fauna-md'
+import { FAUNA_BASE, htmlToMarkdown, stripHtml } from './fauna-tax-tree'
+import { processIntro } from './intro'
 
 export const PACK_START = '<!-- zoo-pack:v2:start -->'
 export const PACK_END = '<!-- zoo-pack:v2:end -->'
 export const LEGACY_FAUNA_START = '<!-- fauna-sinica:start -->'
 export const LEGACY_FAUNA_END = '<!-- fauna-sinica:end -->'
+
+/** 抓取写入物种详情的包版本（HTML→Markdown 等抓取侧变更时递增） */
+export const FAUNA_ENRICH_PACK = 'v4'
 
 /** 来源键：后期可增 cn-birds 等 */
 export const SOURCE_FAUNA_SINICA = 'fauna-sinica' as const
@@ -52,6 +56,10 @@ export interface FaunaEnrichPack {
   acceptedNames: FaunaCitationName[]
   commonNames: string[]
   media: FaunaMediaItem[]
+  /** multimedia 接口：ok 成功；degraded 失败已降级（描述等仍可用） */
+  mediaStatus: 'ok' | 'degraded'
+  /** mediaStatus=degraded 时的原因，便于后续单独补媒体 */
+  mediaError?: string
 }
 
 interface DescItem {
@@ -83,38 +91,100 @@ interface MultimediaItem {
   mediatype?: string
 }
 
-async function fetchJson<T>(url: string): Promise<T> {
-  const res = await fetch(url, {
-    headers: {
-      'User-Agent': 'zoo-world-noncommercial-research/0.1 (local enrich script)',
-      Accept: 'application/json,*/*',
-    },
-  })
-  if (!res.ok) throw new Error(`HTTP ${res.status} ${url}`)
-  return (await res.json()) as T
+function sleep(ms: number) {
+  return new Promise((r) => setTimeout(r, ms))
+}
+
+async function fetchJson<T>(url: string, retries = 2): Promise<T> {
+  let last: unknown
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      const res = await fetch(url, {
+        headers: {
+          'User-Agent': 'zoo-world-noncommercial-research/0.1 (local enrich script)',
+          Accept: 'application/json,*/*',
+        },
+      })
+      if (!res.ok) throw new Error(`HTTP ${res.status} ${url}`)
+      const text = await res.text()
+      if (!text.trim()) throw new Error(`empty body ${url}`)
+      return JSON.parse(text) as T
+    } catch (e) {
+      last = e
+      if (attempt < retries) await sleep(250 * (attempt + 1))
+    }
+  }
+  throw last instanceof Error ? last : new Error(String(last))
 }
 
 function isFaunaSource(name: string): boolean {
   return name.includes('中国动物志') || name.includes('动物志')
 }
 
+function parseMediaList(mediaWrap: { list?: MultimediaItem[] } | null | undefined): FaunaMediaItem[] {
+  const media: FaunaMediaItem[] = []
+  const seenUrl = new Set<string>()
+  for (const m of mediaWrap?.list || []) {
+    const url = (m.path || '').trim()
+    if (!url || !/^https?:\/\//i.test(url) || seenUrl.has(url)) continue
+    // 跳过 embed 页等非直链图
+    if (/macaulaylibrary\.org\/asset\/.*\/embed/i.test(url)) continue
+    seenUrl.add(url)
+    const srcName = (m.sourcesName || '').trim()
+    const sourceKey = isFaunaSource(srcName)
+      ? SOURCE_FAUNA_SINICA
+      : srcName
+        ? 'other'
+        : 'unspecified'
+    media.push({
+      url,
+      source: srcName || (sourceKey === SOURCE_FAUNA_SINICA ? SOURCE_LABELS[SOURCE_FAUNA_SINICA] : '未标注来源'),
+      sourceKey,
+      label: stripHtml((m.medialabel || m.title || '').replace(/\t+/g, ' ')).slice(0, 200),
+      rightsHolder: (m.rightsholder || '').trim(),
+      license: (m.licenseImageurl || '').trim() || undefined,
+    })
+  }
+  // 动物志图优先
+  media.sort((a, b) => {
+    const rank = (k: string) => (k === SOURCE_FAUNA_SINICA ? 0 : k === 'unspecified' ? 2 : 1)
+    return rank(a.sourceKey) - rank(b.sourceKey)
+  })
+  return media
+}
+
 export async function fetchFaunaEnrichPack(taxonId: string): Promise<FaunaEnrichPack> {
   const enc = encodeURIComponent(taxonId)
   const q = 'datasourceinfo=All'
+  const descUrl = `${FAUNA_BASE}/search/description/view/${enc}?${q}`
+  const citationUrl = `${FAUNA_BASE}/search/citation/view/${enc}?${q}`
+  const commonUrl = `${FAUNA_BASE}/search/commonname/view/${enc}?${q}`
+  const mediaUrl = `${FAUNA_BASE}/search/multimedia/view/${enc}?${q}`
 
-  const [descList, citationWrap, commonWrap, mediaWrap] = await Promise.all([
-    fetchJson<DescItem[]>(`${FAUNA_BASE}/search/description/view/${enc}?${q}`),
-    fetchJson<{ list?: CitationItem[] }>(`${FAUNA_BASE}/search/citation/view/${enc}?${q}`),
-    fetchJson<{ list?: CommonNameItem[] }>(`${FAUNA_BASE}/search/commonname/view/${enc}?${q}`),
-    fetchJson<{ list?: MultimediaItem[] }>(`${FAUNA_BASE}/search/multimedia/view/${enc}?${q}`),
+  // 描述 / 异名 / 俗名：失败则整包失败；多媒体单独拉取，失败可降级
+  const [descList, citationWrap, commonWrap] = await Promise.all([
+    fetchJson<DescItem[]>(descUrl),
+    fetchJson<{ list?: CitationItem[] }>(citationUrl),
+    fetchJson<{ list?: CommonNameItem[] }>(commonUrl),
   ])
+
+  let media: FaunaMediaItem[] = []
+  let mediaStatus: 'ok' | 'degraded' = 'ok'
+  let mediaError: string | undefined
+  try {
+    const mediaWrap = await fetchJson<{ list?: MultimediaItem[] }>(mediaUrl)
+    media = parseMediaList(mediaWrap)
+  } catch (e) {
+    mediaStatus = 'degraded'
+    mediaError = e instanceof Error ? e.message : String(e)
+  }
 
   const sections: FaunaDescSection[] = []
   for (const item of descList || []) {
     const src = item.sourcesName || ''
     if (!isFaunaSource(src)) continue
     const title = item.descriptiontype?.descterm?.trim() || '描述'
-    const body = stripHtml(item.description?.descontent || '')
+    const body = htmlToMarkdown(item.description?.descontent || '')
     if (!body) continue
     sections.push({
       title,
@@ -151,35 +221,6 @@ export async function fetchFaunaEnrichPack(taxonId: string): Promise<FaunaEnrich
     commonNames.push(name)
   }
 
-  const media: FaunaMediaItem[] = []
-  const seenUrl = new Set<string>()
-  for (const m of mediaWrap?.list || []) {
-    const url = (m.path || '').trim()
-    if (!url || !/^https?:\/\//i.test(url) || seenUrl.has(url)) continue
-    // 跳过 embed 页等非直链图
-    if (/macaulaylibrary\.org\/asset\/.*\/embed/i.test(url)) continue
-    seenUrl.add(url)
-    const srcName = (m.sourcesName || '').trim()
-    const sourceKey = isFaunaSource(srcName)
-      ? SOURCE_FAUNA_SINICA
-      : srcName
-        ? 'other'
-        : 'unspecified'
-    media.push({
-      url,
-      source: srcName || (sourceKey === SOURCE_FAUNA_SINICA ? SOURCE_LABELS[SOURCE_FAUNA_SINICA] : '未标注来源'),
-      sourceKey,
-      label: stripHtml((m.medialabel || m.title || '').replace(/\t+/g, ' ')).slice(0, 200),
-      rightsHolder: (m.rightsholder || '').trim(),
-      license: (m.licenseImageurl || '').trim() || undefined,
-    })
-  }
-  // 动物志图优先
-  media.sort((a, b) => {
-    const rank = (k: string) => (k === SOURCE_FAUNA_SINICA ? 0 : k === 'unspecified' ? 2 : 1)
-    return rank(a.sourceKey) - rank(b.sourceKey)
-  })
-
   return {
     taxonId,
     sourceKey: SOURCE_FAUNA_SINICA,
@@ -189,6 +230,8 @@ export async function fetchFaunaEnrichPack(taxonId: string): Promise<FaunaEnrich
     acceptedNames,
     commonNames,
     media,
+    mediaStatus,
+    ...(mediaError ? { mediaError } : {}),
   }
 }
 
@@ -206,20 +249,14 @@ export function buildZooPackIntro(
     '',
   ]
 
-  const seenRefs = new Set<string>()
   const descParts: string[] = []
   for (const s of pack.sections) {
+    if (s.title === '参考文献') continue
     descParts.push(`### ${s.title}`, '', s.body, '')
-    if (s.refs) seenRefs.add(s.refs)
   }
-  const normalizedDesc = normalizeFaunaInner(descParts.join('\n')).trim()
+  const normalizedDesc = processIntro(descParts.join('\n')).trim()
   if (normalizedDesc) lines.push(normalizedDesc, '')
 
-  if (seenRefs.size) {
-    lines.push('### 参考文献', '')
-    for (const r of seenRefs) lines.push(`- ${r}`)
-    lines.push('')
-  }
   return lines.join('\n').trim() + '\n'
 }
 

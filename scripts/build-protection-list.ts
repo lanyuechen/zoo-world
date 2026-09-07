@@ -3,7 +3,7 @@
  * - data/protection/national-key-wildlife-2021.json
  * - data/protection/national-key-wildplants-2021.json
  *
- *   npm run build:protection-list
+ *   npm run enrich:protection
  */
 import fs from 'node:fs'
 import path from 'node:path'

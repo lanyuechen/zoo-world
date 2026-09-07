@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link, useOutletContext, useParams } from 'react-router-dom'
 import SpeciesDistributionMap from '../components/SpeciesDistributionMap'
 import IntroMarkdown from '../components/IntroMarkdown'
+import SpeciesMediaWall from '../components/SpeciesMediaWall'
 import TaxonCrumbs from '../components/TaxonCrumbs'
 import { findSpeciesBySlug, type AppCatalogue } from '../lib/catalogue'
 import { fetchSpeciesDetail } from '../lib/species-detail'
@@ -204,20 +205,7 @@ export default function SpeciesPage() {
         ) : media.length === 0 ? (
           <p className="empty">图片资源待补充。</p>
         ) : (
-          <ul className="species-media-list">
-            {media.map((m) => (
-              <li key={m.url} className="species-media-item">
-                <img src={m.url} alt={m.label || species.scientificName} loading="lazy" />
-                {(m.label || m.source || m.rightsHolder) && (
-                  <p className="species-media-caption">
-                    {[m.label, m.source && `来源：${m.source}`, m.rightsHolder && `权利人：${m.rightsHolder}`]
-                      .filter(Boolean)
-                      .join(' · ')}
-                  </p>
-                )}
-              </li>
-            ))}
-          </ul>
+          <SpeciesMediaWall media={media} altFallback={species.scientificName} />
         )}
       </section>
     </div>

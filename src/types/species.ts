@@ -90,6 +90,12 @@ export interface SpeciesDetail {
   enrichPack?: string
   enrichFetchedAt?: string
   enrichSources?: SpeciesEnrichSource[]
+  /** intro 处理流水线版本（scripts/lib/intro）；可对已抓数据重跑 process:intro */
+  introPipeline?: string
+  introProcessedAt?: string
+  /** multimedia 拉取失败已降级；后续可单独补媒体 */
+  mediaPending?: boolean
+  mediaFetchError?: string
 }
 
 export interface TaxonomyNode {

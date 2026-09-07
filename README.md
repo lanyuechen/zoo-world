@@ -7,7 +7,7 @@
 ```bash
 # 1. 将名录 Excel 放入 data/raw/
 # 2. 导入 sp2000 骨架索引（taxonomy / species 分片 / search）
-npm run import:excel
+npm run import:sp2000
 
 # 3. 拉取物种详情（GitHub Release：species-data / species.tar.gz）
 npm run species:fetch
@@ -26,7 +26,7 @@ npm run species:pack       # 本地打包 → dist-assets/species.tar.gz
 npm run species:publish    # 打包并上传/更新 Release（需 gh）
 ```
 
-enrich / apply:protection 写本地 `public/species` 后，记得 `npm run species:publish`，再触发 Pages 构建。
+enrich / `enrich:protection` 等写本地 `public/species` 后，记得 `npm run species:publish`，再触发 Pages 构建。
 
 ### 《中国动物志》正文补充（中国动物主题数据库）
 
@@ -74,17 +74,21 @@ public/species/{门}/{纲}/{目}/{科}/{属}/{拉丁学名slug}.json
 
 ### GBIF 中国区域子集（辅助，非主分类）
 
-- **用途**：辅助学名校验、补充省级分布、物种详情页地图点位；**不要当主分类**。
+- **用途**：直接写入物种详情 `locations` / `provinces`；**不要当主分类**。
 - **过滤**：`country=CN` + 有坐标 + 无地理问题。
-- **详情页**：默认实时请求 GBIF Occurrence API 画点；若已跑过离线处理，则优先读 `public/data/gbif-points/`。
 
 ```bash
-# 1) 申请下载（需 GBIF 账号）
-GBIF_USER=... GBIF_PASSWORD=... GBIF_EMAIL=... npm run gbif:request
-# 2) 下载完成后将 SIMPLE_CSV 解压到 data/gbif/raw/
-npm run gbif:process
-# 3) 合并省级分布到物种索引
-npm run apply:gbif
+npm run species:fetch
+
+# 全量：申请下载 → 解压 CSV 到 data/gbif/raw/ → 回填
+GBIF_USER=... GBIF_PASSWORD=... GBIF_EMAIL=... npm run enrich:gbif -- --request
+# （邮件就绪后下载 zip，解压到 data/gbif/raw/）
+npm run enrich:gbif
+
+# 单种：走 Occurrence API，无需 CSV
+npm run enrich:gbif -- --name="Chrysolophus pictus"
+
+npm run species:publish
 ```
 
 **保护等级 / 标签 / 红色名录**：
@@ -94,15 +98,14 @@ npm run apply:gbif
 - 红色名录：《[中国生物多样性红色名录](https://www.mee.gov.cn/xxgk2018/xxgk/xxgk01/202305/t20230522_1030745.html)》（2020 脊椎动物卷 + 高等植物卷）→ `china-redlist-vertebrates-2020.json` / `china-redlist-plants-2020.json`（字段 `redList` / `redListCategory`）
 
 ```bash
-# 从维基百科 / 官方 PDF 重建名录 JSON（需网络；红色名录需 Python: pypdf、rdata）
-npm run build:protection-list   # 动物 + 植物重点保护名录
-npm run build:sanyou-list
-npm run build:redlist
-# 写入物种详情 JSON 的 status / 三有 / 红色名录
-npm run apply:protection
+# 重建名录中间文件（data/protection/）并回填物种详情（需网络；红色名录需 Python: pypdf、rdata）
+npm run enrich:protection   # 国家重点保护动植物
+npm run enrich:sanyou       # 三有名录
+npm run enrich:redlist      # 中国生物多样性红色名录
+npm run species:publish
 ```
 
-导入 Excel（`import:excel`）只写骨架；保护/三有/红名录用 `npm run apply:protection` / `apply:sanyou` / `apply:redlist` 写入 `public/species/**/*.json` 详情。组（sect.）级植物保护规则因库内无组级字段暂不自动扩及全属。红色名录动物卷仅覆盖脊椎动物。
+导入 Excel（`import:sp2000`）只写骨架；保护/三有/红名录用上面的 `enrich:*` 写入 `public/species/**/*.json`。组（sect.）级植物保护规则因库内无组级字段暂不自动扩及全属。红色名录动物卷仅覆盖脊椎动物。
 
 `data/raw/` 应包含动物界、植物界、真菌界名录表。
 

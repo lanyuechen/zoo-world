@@ -1,6 +1,8 @@
 /**
  * 从维基百科重建 data/protection/sanyou-wildlife-2023.json
  * 依据《有重要生态、科学、社会价值的陆生野生动物名录》（2023）
+ *
+ *   npm run enrich:sanyou
  */
 import fs from 'node:fs'
 import path from 'node:path'

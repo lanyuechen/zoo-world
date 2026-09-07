@@ -99,7 +99,7 @@ export function loadRedListLookups() {
 function main() {
   for (const p of [ANIMAL_LIST, PLANT_LIST]) {
     if (!fs.existsSync(p)) {
-      console.error(`缺少名录：${p}（先运行 npm run build:redlist）`)
+      console.error(`缺少名录：${p}（先运行 npm run enrich:redlist）`)
       process.exit(1)
     }
   }

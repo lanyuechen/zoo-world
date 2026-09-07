@@ -30,8 +30,3 @@ export function speciesJsonRelPath(s: SpeciesPathParts): string {
 export function speciesJsonUrl(s: SpeciesPathParts): string {
   return `${import.meta.env.BASE_URL}${speciesJsonRelPath(s)}`
 }
-
-/** @deprecated 旧 Markdown 路径，迁移期兼容 */
-export function speciesMdRelPath(s: SpeciesPathParts): string {
-  return speciesJsonRelPath(s).replace(/\.json$/, '.md')
-}

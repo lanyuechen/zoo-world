@@ -4,7 +4,7 @@
  * 写入：public/data/species/{门}.json（精简字段）+ taxonomy / search / slug / meta
  * 不写 Markdown、不写 public/species 详情 JSON；保护/三有/红名录由 apply:* 写入详情。
  *
- *   npm run import:excel
+ *   npm run import:sp2000
  */
 import fs from 'node:fs'
 import path from 'node:path'
@@ -301,7 +301,7 @@ function main() {
       '主干分类索引唯一来源：《中国生物物种名录》',
       '收录动物界、植物界、真菌界本土物种；拉丁学名为主键',
       '本命令只写骨架分片与运行时索引，不写物种详情 JSON',
-      '富数据见 public/species/**/*.json；保护/三有/红名录用 npm run apply:protection 等',
+      '富数据见 public/species/**/*.json；保护/三有/红名录用 npm run enrich:protection 等',
     ],
   })
 

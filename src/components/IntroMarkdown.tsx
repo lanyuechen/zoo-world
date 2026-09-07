@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react'
+import { Fragment, type ReactNode } from 'react'
 
 /** 轻量 Markdown 渲染（介绍：标题 / 段落 / 表 / 列表 / 引用 / 图片 / 加粗） */
 export default function IntroMarkdown({ source }: { source: string }) {
@@ -162,12 +162,28 @@ function renderBlock(b: Block, i: number): ReactNode {
           {b.alt ? <figcaption className="intro-figcaption">{b.alt}</figcaption> : null}
         </figure>
       )
-    case 'p':
+    case 'p': {
+      const paras = b.text
+        .split(/\n+/)
+        .map((s) => s.trim())
+        .filter(Boolean)
+      if (paras.length <= 1) {
+        return (
+          <p key={i} className="intro-p">
+            {inline(b.text.trim())}
+          </p>
+        )
+      }
       return (
-        <p key={i} className="intro-p">
-          {inline(b.text)}
-        </p>
+        <Fragment key={i}>
+          {paras.map((para, j) => (
+            <p key={j} className="intro-p">
+              {inline(para)}
+            </p>
+          ))}
+        </Fragment>
       )
+    }
     case 'quote':
       return (
         <blockquote key={i} className="intro-quote">

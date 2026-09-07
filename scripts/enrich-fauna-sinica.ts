@@ -8,6 +8,10 @@
  *   - 保护字段若骨架侧已无，保留详情中已有值
  *
  *   npm run enrich:fauna -- --name="Chrysolophus pictus" --force
+ *   npm run enrich:fauna -- --resume --retry-missed --concurrency=2
+ *
+ * 队列优先级：未抓取 → miss → 报错
+ * multimedia 失败可降级写入描述，详情标 mediaPending 便于后续补图
  */
 import fs from 'node:fs'
 import path from 'node:path'
@@ -15,13 +19,17 @@ import { fileURLToPath } from 'node:url'
 import {
   binomialKey,
   defaultLeafIndexPath,
+  faunaScientificKey,
   loadLeafIndex,
+  normName,
   type FaunaLeafIndex,
 } from './lib/fauna-tax-tree'
 import {
   buildZooPackIntro,
+  FAUNA_ENRICH_PACK,
   fetchFaunaEnrichPack,
 } from './lib/fauna-pack'
+import { INTRO_PIPELINE_VERSION } from './lib/intro'
 import { speciesJsonRelPath } from './lib/species-json-path'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
@@ -64,9 +72,14 @@ const STATE_PATH = SHARD
   : path.join(STATE_DIR, 'progress.json')
 
 interface Progress {
-  done: Record<string, { taxonId: string; at: string; sections: number; pack: string }>
+  done: Record<
+    string,
+    { taxonId: string; at: string; sections: number; pack: string; mediaPending?: boolean }
+  >
   missed: Record<string, string>
   errors: Record<string, string>
+  /** multimedia 降级待补图的学名 → 原因 */
+  mediaPending?: Record<string, string>
 }
 
 interface SkeletonRecord {
@@ -116,6 +129,11 @@ interface SpeciesDetailFile {
   enrichPack?: string
   enrichFetchedAt?: string
   enrichSources?: { key: string; label: string; taxonId?: string }[]
+  introPipeline?: string
+  introProcessedAt?: string
+  /** multimedia 接口失败已降级；后续可单独补媒体 */
+  mediaPending?: boolean
+  mediaFetchError?: string
 }
 
 function sleep(ms: number) {
@@ -131,10 +149,17 @@ function hashMod(s: string, n: number): number {
   return (h >>> 0) % n
 }
 
+/** 去掉 subsp./ssp. 等阶元标记，便于与树叶学名对齐 */
 function findFaunaTaxonId(scientificName: string, leafIndex: FaunaLeafIndex): string | null {
-  const want = binomialKey(scientificName)
-  if (!want.includes(' ')) return null
-  return leafIndex.byBinomial[want] || null
+  const candidates = [normName(scientificName), faunaScientificKey(scientificName)]
+  for (const key of candidates) {
+    if (key.includes(' ') && leafIndex.byBinomial[key]) return leafIndex.byBinomial[key]
+  }
+  // 仅种级名（属+种加词）回退；亚种未入树时不要误用种条目
+  const species = binomialKey(scientificName)
+  if (!species.includes(' ')) return null
+  if (faunaScientificKey(scientificName) === species) return leafIndex.byBinomial[species] || null
+  return null
 }
 
 function loadTargets(): { record: SkeletonRecord; file: string; phylum: string }[] {
@@ -167,7 +192,7 @@ function loadTargets(): { record: SkeletonRecord; file: string; phylum: string }
 }
 
 function loadProgress(): Progress {
-  const empty: Progress = { done: {}, missed: {}, errors: {} }
+  const empty: Progress = { done: {}, missed: {}, errors: {}, mediaPending: {} }
   if (!RESUME || !fs.existsSync(STATE_PATH)) return empty
   try {
     return { ...empty, ...JSON.parse(fs.readFileSync(STATE_PATH, 'utf8')) }
@@ -188,6 +213,9 @@ function saveProgress(p: Progress) {
         ),
         errors: Object.fromEntries(
           Object.entries(p.errors).filter(([name]) => hashMod(name, SHARD.n) === SHARD.i),
+        ),
+        mediaPending: Object.fromEntries(
+          Object.entries(p.mediaPending || {}).filter(([name]) => hashMod(name, SHARD.n) === SHARD.i),
         ),
       }
     : p
@@ -227,7 +255,7 @@ async function processOne(
   const label = `${indexLabel} ${s.scientificName}`
   try {
     const existing = readDetail(target.file)
-    if (!FORCE && existing?.enrichPack === 'v2' && existing.intro) {
+    if (!FORCE && existing?.enrichPack === FAUNA_ENRICH_PACK && existing.intro) {
       console.log(`· skip ${label}`)
       return 'skip'
     }
@@ -247,6 +275,7 @@ async function processOne(
       return 'miss'
     }
 
+    const mediaPending = pack.mediaStatus === 'degraded'
     const intro = buildZooPackIntro(s.chineseName, s.scientificName, pack)
     const detail: SpeciesDetailFile = {
       scientificName: s.scientificName,
@@ -255,7 +284,8 @@ async function processOne(
       synonyms: mergeUnique(existing?.synonyms || s.synonyms || [], pack.synonyms.map((x) => x.scientificName)),
       commonNames: mergeUnique(existing?.commonNames || [], pack.commonNames),
       intro,
-      media: pack.media,
+      // 媒体降级时保留已有图片，避免被清空
+      media: mediaPending ? existing?.media || [] : pack.media,
       status: existing?.status ?? s.status ?? null,
       sanyou: existing?.sanyou ?? s.sanyou ?? null,
       tags: existing?.tags?.length ? existing.tags : s.tags || [],
@@ -263,9 +293,18 @@ async function processOne(
       redList: existing?.redList ?? s.redList ?? null,
       locations: existing?.locations || [],
       provinces: existing?.provinces || [],
-      enrichPack: 'v2',
+      enrichPack: FAUNA_ENRICH_PACK,
       enrichFetchedAt: new Date().toISOString(),
       enrichSources: [{ key: pack.sourceKey, label: pack.sourceLabel, taxonId: pack.taxonId }],
+      introPipeline: INTRO_PIPELINE_VERSION,
+      introProcessedAt: new Date().toISOString(),
+    }
+    if (mediaPending) {
+      detail.mediaPending = true
+      detail.mediaFetchError = pack.mediaError || 'multimedia_fetch_failed'
+    } else {
+      delete detail.mediaPending
+      delete detail.mediaFetchError
     }
 
     fs.mkdirSync(path.dirname(target.file), { recursive: true })
@@ -276,12 +315,20 @@ async function processOne(
       taxonId,
       at: new Date().toISOString(),
       sections: pack.sections.length,
-      pack: 'v2',
+      pack: FAUNA_ENRICH_PACK,
+      ...(mediaPending ? { mediaPending: true } : {}),
+    }
+    if (!progress.mediaPending) progress.mediaPending = {}
+    if (mediaPending) {
+      progress.mediaPending[s.scientificName] = pack.mediaError || 'multimedia_fetch_failed'
+    } else {
+      delete progress.mediaPending[s.scientificName]
     }
     delete progress.missed[s.scientificName]
     delete progress.errors[s.scientificName]
     console.log(
-      `✓ ${label} → json desc=${pack.sections.length} syn=${detail.synonyms.length} cn=${detail.commonNames.length} img=${detail.media.length}`,
+      `✓ ${label} → json desc=${pack.sections.length} syn=${detail.synonyms.length} cn=${detail.commonNames.length} img=${detail.media.length}` +
+        (mediaPending ? ' mediaPending' : ''),
     )
     return 'ok'
   } catch (e) {
@@ -309,11 +356,19 @@ async function main() {
   )
 
   const progress = loadProgress()
+
+  function queuePriority(scientificName: string): number {
+    // 0 未抓取 → 1 miss → 2 报错
+    if (progress.errors[scientificName]) return 2
+    if (progress.missed[scientificName]) return 1
+    return 0
+  }
+
   let targets = targetsAll.filter((t) => {
     if (PHYLUM && t.phylum !== PHYLUM) return false
     if (ONLY_NAME && binomialKey(t.record.scientificName) !== binomialKey(ONLY_NAME)) return false
     if (SHARD && hashMod(t.record.scientificName, SHARD.n) !== SHARD.i) return false
-    if (RESUME && progress.done[t.record.scientificName]?.pack === 'v2' && !FORCE) return false
+    if (RESUME && progress.done[t.record.scientificName]?.pack === FAUNA_ENRICH_PACK && !FORCE) return false
     if (
       RESUME &&
       progress.missed[t.record.scientificName] &&
@@ -323,14 +378,31 @@ async function main() {
       return false
     if (!FORCE && fs.existsSync(t.file)) {
       const d = readDetail(t.file)
-      if (d?.enrichPack === 'v2' && d.intro) return false
+      if (d?.enrichPack === FAUNA_ENRICH_PACK && d.intro) return false
     }
     return true
   })
 
+  targets.sort((a, b) => {
+    const pa = queuePriority(a.record.scientificName)
+    const pb = queuePriority(b.record.scientificName)
+    if (pa !== pb) return pa - pb
+    return a.record.scientificName.localeCompare(b.record.scientificName)
+  })
+
   if (LIMIT > 0) targets = targets.slice(0, LIMIT)
+
+  const priCount = { fresh: 0, missed: 0, errors: 0 }
+  for (const t of targets) {
+    const p = queuePriority(t.record.scientificName)
+    if (p === 0) priCount.fresh += 1
+    else if (p === 1) priCount.missed += 1
+    else priCount.errors += 1
+  }
+
   console.log(
-    `待处理 ${targets.length}（物种 JSON；delay=${DELAY_MS}ms, concurrency=${CONCURRENCY}` +
+    `待处理 ${targets.length}（未抓取 ${priCount.fresh} → miss ${priCount.missed} → 报错 ${priCount.errors}；` +
+      `delay=${DELAY_MS}ms, concurrency=${CONCURRENCY}` +
       `${SHARD ? `, shard=${SHARD.i}/${SHARD.n}` : ''}` +
       `${PHYLUM ? `, phylum=${PHYLUM}` : ''}` +
       `${ONLY_NAME ? `, name=${ONLY_NAME}` : ''}）`,
