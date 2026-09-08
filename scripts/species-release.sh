@@ -106,17 +106,41 @@ cmd_publish() {
     fi
     echo "经 API 发布 Release $RELEASE_TAG …"
     local resp upload id
+    # 读 stdin JSON 字段的小助手（避免 bash 引号把 node -e 截断）
+    node_json_field() {
+      local field="$1"
+      node --input-type=module -e "
+import { readFileSync } from 'node:fs';
+const s = readFileSync(0, 'utf8');
+try {
+  const j = JSON.parse(s);
+  const v = j['${field}'];
+  if (v != null && v !== '') process.stdout.write(String(v));
+} catch { /* ignore */ }
+"
+    }
     resp="$(curl -fsS -u "$user:$pass" -H "Accept: application/vnd.github+json" \
       "https://api.github.com/repos/${repo}/releases/tags/${RELEASE_TAG}" 2>/dev/null || true)"
-    id="$(echo "$resp" | node -e "let s='';process.stdin.on('data',d=>s+=d);process.stdin.on('end',()=>{try{const j=JSON.parse(s);console.log(j.id||'')}catch{}}")"
+    id="$(printf '%s' "$resp" | node_json_field id)"
     if [[ -z "$id" ]]; then
       resp="$(curl -fsS -u "$user:$pass" -H "Accept: application/vnd.github+json" \
         "https://api.github.com/repos/${repo}/releases" \
         -d "{\"tag_name\":\"${RELEASE_TAG}\",\"name\":\"Species detail JSON\",\"body\":\"物种详情 public/species 压缩包。npm run species:fetch\"}")"
-      id="$(echo "$resp" | node -e "let s='';process.stdin.on('data',d=>s+=d);process.stdin.on('end',()=>{const j=JSON.parse(s);if(!j.id){console.error(s);process.exit(1)};console.log(j.id)}")"
+      id="$(printf '%s' "$resp" | node_json_field id)"
+      if [[ -z "$id" ]]; then
+        echo "$resp" >&2
+        echo "创建 Release 失败" >&2
+        exit 1
+      fi
     else
       # 删除旧同名 asset
-      echo "$resp" | node -e "let s='';process.stdin.on('data',d=>s+=d);process.stdin.on('end',()=>{const j=JSON.parse(s);for(const a of j.assets||[]){if(a.name==='${ASSET_NAME}') console.log(a.id)}})" | while read -r aid; do
+      printf '%s' "$resp" | node --input-type=module -e '
+import { readFileSync } from "node:fs";
+const j = JSON.parse(readFileSync(0, "utf8"));
+for (const a of j.assets || []) {
+  if (a.name === "'"$ASSET_NAME"'") console.log(a.id);
+}
+' | while read -r aid; do
         [[ -n "$aid" ]] || continue
         curl -fsS -u "$user:$pass" -X DELETE -H "Accept: application/vnd.github+json" \
           "https://api.github.com/repos/${repo}/releases/assets/${aid}" >/dev/null
@@ -127,7 +151,15 @@ cmd_publish() {
       -H "Accept: application/vnd.github+json" \
       --data-binary @"$ARCHIVE" \
       "https://uploads.github.com/repos/${repo}/releases/${id}/assets?name=${ASSET_NAME}" \
-      | node -e "let s='';process.stdin.on('data',d=>s+=d);process.stdin.on('end',()=>{const j=JSON.parse(s);if(j.state!=='uploaded'){console.error(s);process.exit(1)};console.log(j.browser_download_url)})"
+      | node --input-type=module -e '
+import { readFileSync } from "node:fs";
+const j = JSON.parse(readFileSync(0, "utf8"));
+if (j.state !== "uploaded") {
+  console.error(JSON.stringify(j, null, 2));
+  process.exit(1);
+}
+console.log(j.browser_download_url);
+'
   fi
   echo "已发布：https://github.com/${repo}/releases/tag/${RELEASE_TAG}"
 }
